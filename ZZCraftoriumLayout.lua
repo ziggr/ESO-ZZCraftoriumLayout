@@ -197,7 +197,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441395843 Woodworking Station (Assassin's Guile)"
 , "4620697946441395842 Clothing Station (Assassin's Guile)"
 , "4620697946441395840 Blacksmithing Station (Assassin's Guile)"
-, "4620697946441605987 Rough Box, Boarded"
+, "4620697946441605987 Rough Box, Boarded"  -- index 16
 
 , "4620697946441606000 Rough Box, Boarded"
 , "4620697946441335509 Blacksmithing Station (Clever Alchemist)"
@@ -207,7 +207,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441395831 Woodworking Station (Daedric Trickery)"
 , "4620697946441395829 Clothing Station (Daedric Trickery)"
 , "4620697946441395827 Blacksmithing Station (Daedric Trickery)"
-, "4620697946441605999 Rough Box, Boarded"
+, "4620697946441605999 Rough Box, Boarded"  -- index 24
 
 -- Run #4, from stable to stairs, 2 sets
 , "4620697946441606002 Rough Box, Boarded"
@@ -218,7 +218,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441335162 Woodworking Station (Eternal Hunt)"
 , "4620697946441335160 Clothing Station (Eternal Hunt)"
 , "4620697946441335158 Blacksmithing Station (Eternal Hunt)"
-, "4620697946441606001 Rough Box, Boarded"
+, "4620697946441606001 Rough Box, Boarded"  -- index 32
 
 -- Run #5, upstairs to tree
 , "4620697946441606004 Rough Box, Boarded"
@@ -230,7 +230,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441420111 Woodworking Station (Fortified Brass)"
 , "4620697946441420110 Clothing Station (Fortified Brass)"
 , "4620697946441420109 Blacksmithing Station (Fortified Brass)"
-, "4620697946441606003 Rough Box, Boarded"
+, "4620697946441606003 Rough Box, Boarded" -- index 40
 
 -- Run #7, along back wall, 4 sets
 , "4620697946441606016 Rough Box, Boarded"
@@ -241,7 +241,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441292182 Woodworking Station (Hunding's Rage)"
 , "4620697946441292180 Clothing Station (Hunding's Rage)"
 , "4620697946441292178 Blacksmithing Station (Hunding's Rage)"
-, "4620697946441606005 Rough Box, Boarded"
+, "4620697946441606005 Rough Box, Boarded"  -- index 48
 
 , "4620697946441606018 Rough Box, Boarded"
 , "4620697946441420073 Blacksmithing Station (Innate Axiom)"
@@ -251,7 +251,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441291501 Woodworking Station (Kagrenac's Hope)"
 , "4620697946441291500 Clothing Station (Kagrenac's Hope)"
 , "4620697946441291499 Blacksmithing Station (Kagrenac's Hope)"
-, "4620697946441606017 Rough Box, Boarded"
+, "4620697946441606017 Rough Box, Boarded"  -- index 56
 
 -- Run #8, across from wall, mirror run 7, 4 sets
 , "4620697946441606022 Rough Box, Boarded"
@@ -262,7 +262,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441292194 Woodworking Station (Law of Julianos)"
 , "4620697946441292192 Clothing Station (Law of Julianos)"
 , "4620697946441292190 Blacksmithing Station (Law of Julianos)"
-, "4620697946441606021 Rough Box, Boarded"
+, "4620697946441606021 Rough Box, Boarded"  -- index 64
 
 , "4620697946441606019 Rough Box, Boarded"
 , "4620697946441292200 Blacksmithing Station (Magnus' Gift)"
@@ -272,7 +272,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441420071 Woodworking Station (Mechanical Acuity)"
 , "4620697946441420069 Clothing Station (Mechanical Acuity)"
 , "4620697946441420067 Blacksmithing Station (Mechanical Acuity)"
-, "4620697946441606020 Rough Box, Boarded"
+, "4620697946441606020 Rough Box, Boarded"  -- index 72
 
 -- Run #9, in front of stairs, 2 sets
 , "4620697946441606024 Rough Box, Boarded"
@@ -283,7 +283,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441423499 Woodworking Station (Night's Silence)"
 , "4620697946441423497 Clothing Station (Night's Silence)"
 , "4620697946441423495 Blacksmithing Station (Night's Silence)"
-, "4620697946441606023 Rough Box, Boarded"
+, "4620697946441606023 Rough Box, Boarded"  -- index 80
 
 -- Run #10, facing Azura
 , "4620697946441607242 Rough Box, Boarded"
@@ -295,7 +295,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441291113 Woodworking Station (Noble's Conquest)"
 , "4620697946441291112 Clothing Station (Noble's Conquest)"
 , "4620697946441291111 Blacksmithing Station (Noble's Conquest)"
-, "4620697946441607241 Rough Box, Boarded"
+, "4620697946441607241 Rough Box, Boarded"  -- index 88
 
 -- Run #12, downstairs, partway to pool path. Mirror run 4. 2 sets
 -- Run stops 1 set short to allow this 2-set run to properly mirror
@@ -308,7 +308,7 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441291496 Woodworking Station (Orgnum's Scales)"
 , "4620697946441291494 Clothing Station (Orgnum's Scales)"
 , "4620697946441291492 Blacksmithing Station (Orgnum's Scales)"
-, "4620697946441607243 Rough Box, Boarded"
+, "4620697946441607243 Rough Box, Boarded" -- index 96
 
 -- Run #13, finish run to pool path
 , "4620697946441608214 Rough Box, Boarded"
@@ -405,7 +405,6 @@ local SEQUENCE_TODO = {
 
 -- Copy-and-paste positions from a spreadsheet.
 ZZCraftoriumLayout.SET = {
-
   [009] = "53900 99753 19544"
 , [010] = "53900 99556 19544"
 , [011] = "53900 99330 19544"
@@ -422,7 +421,26 @@ ZZCraftoriumLayout.SET = {
 , [022] = "53900 96388 19544"
 , [023] = "53900 96191 19544"
 , [024] = "53900 95965 19544"
-
+, [025] = "53900 94285 19540"
+, [026] = "53900 94090 19540"
+, [027] = "53900 93866 19540"
+, [028] = "53900 93664 19540"
+, [029] = "53900 93266 19540"
+, [030] = "53900 93027 19540"
+, [031] = "53900 92832 19540"
+, [032] = "53900 92608 19540"
+, [089] = "54275 92621 19540"
+, [090] = "54275 92819 19540"
+, [091] = "54275 93040 19540"
+, [092] = "54275 93261 19540"
+, [093] = "54275 93658 19540"
+, [094] = "54275 93879 19540"
+, [095] = "54275 94078 19540"
+, [096] = "54275 94298 19540"
+, [097] = "54275 94725 19540"
+, [098] = "54275 94982 19540"
+, [099] = "54275 95277 19540"
+, [100] = "54275 95542 19540"
 }
 
 function ZZCraftoriumLayout.MoveAll()
