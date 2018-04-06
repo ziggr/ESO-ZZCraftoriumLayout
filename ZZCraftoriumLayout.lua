@@ -177,7 +177,7 @@ local WW = "WW"
 
 ZZCraftoriumLayout.SEQUENCE = {
 -- Run #1, lumpy manual by banker
-  "4620697946441605998 Rough Box, Boarded"
+  "4620697946441608255 Rough Box, Boarded"
 , "4620697946441423477 Blacksmithing Station (Alessia's Bulwark)"
 , "4620697946441423479 Clothing Station (Alessia's Bulwark)"
 , "4620697946441423481 Woodworking Station (Alessia's Bulwark)"
@@ -314,27 +314,29 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441608214 Rough Box, Boarded"
 , "4620697946441335515 Blacksmithing Station (Pelinal's Aptitude)"
 , "4620697946441335517 Clothing Station (Pelinal's Aptitude)"
-, "4620697946441335519 Woodworking Station (Pelinal's Aptitude)"
+, "4620697946441335519 Woodworking Station (Pelinal's Aptitude)" -- index 100
 
-} -- END OF SEQUENCE FOR NOW
-local SEQUENCE_TODO = {
 -- Run #14, from pool path to corner. 2 sets.
 -- MIGHT break this up later to properly mirror middle 2-of-4 sets
 -- from run 3.
 -- Begin the stuff not yet dragged over
-  "4620697946441291120 Woodworking Station (Redistributor)"
+, "4620697946441291120 Woodworking Station (Redistributor)"
 , "4620697946441291119 Clothing Station (Redistributor)"
 , "4620697946441291118 Blacksmithing Station (Redistributor)"
+, "4620697946441608215 Rough Box, Boarded"
 
+, "4620697946441608216 Rough Box, Boarded"
 , "4620697946441335525 Blacksmithing Station (Seducer)"
 , "4620697946441335527 Clothing Station (Seducer)"
-, "4620697946441335529 Woodworking Station (Seducer)"
+, "4620697946441335529 Woodworking Station (Seducer)" -- index 108
 
 -- Run #15, lumpy manual towards main entrance. 2 sets
 , "4620697946441395838 Woodworking Station (Shacklebreaker)"
 , "4620697946441395836 Clothing Station (Shacklebreaker)"
 , "4620697946441395834 Blacksmithing Station (Shacklebreaker)"
+, "4620697946441608217 Rough Box, Boarded"
 
+, "4620697946441608218 Rough Box, Boarded"
 , "4620697946441395852 Blacksmithing Station (Shalidor's Curse)"
 , "4620697946441395851 Clothing Station (Shalidor's Curse)"
 , "4620697946441395853 Woodworking Station (Shalidor's Curse)"
@@ -343,7 +345,9 @@ local SEQUENCE_TODO = {
 , "4620697946441423475 Woodworking Station (Song of Lamae)"
 , "4620697946441423473 Clothing Station (Song of Lamae)"
 , "4620697946441423471 Blacksmithing Station (Song of Lamae)"
+, "4620697946441608219 Rough Box, Boarded"
 
+, "4620697946441608220 Rough Box, Boarded"
 , "4620697946441422504 Blacksmithing Station (Spectre's Eye)"
 , "4620697946441422506 Clothing Station (Spectre's Eye)"
 , "4620697946441422508 Woodworking Station (Spectre's Eye)"
@@ -352,7 +356,9 @@ local SEQUENCE_TODO = {
 , "4620697946441395806 Woodworking Station (Tava's Favor)"
 , "4620697946441395804 Clothing Station (Tava's Favor)"
 , "4620697946441395802 Blacksmithing Station (Tava's Favor)"
+, "4620697946441608221 Rough Box, Boarded"
 
+, "4620697946441608222 Rough Box, Boarded"
 , "4620697946441335533 Blacksmithing Station (Torug's Pact)"
 , "4620697946441335534 Clothing Station (Torug's Pact)"
 , "4620697946441335535 Woodworking Station (Torug's Pact)"
@@ -362,7 +368,9 @@ local SEQUENCE_TODO = {
 , "4620697946441395822 Woodworking Station (Trial by Fire)"
 , "4620697946441395820 Clothing Station (Trial by Fire)"
 , "4620697946441395818 Blacksmithing Station (Trial by Fire)"
+, "4620697946441608223 Rough Box, Boarded"
 
+, "4620697946441608224 Rough Box, Boarded"
 , "4620697946441335168 Blacksmithing Station (Twice-Born Star)"
 , "4620697946441335169 Clothing Station (Twice-Born Star)"
 , "4620697946441335170 Woodworking Station (Twice-Born Star)"
@@ -370,8 +378,10 @@ local SEQUENCE_TODO = {
 , "4620697946441422484 Woodworking Station (Twilight's Embrace)"
 , "4620697946441422482 Clothing Station (Twilight's Embrace)"
 , "4620697946441422480 Blacksmithing Station (Twilight's Embrace)"
+, "4620697946441608225 Rough Box, Boarded"
 
 -- Run #19, stairs to grove path. 2 sets
+, "4620697946441608226 Rough Box, Boarded"
 , "4620697946441423459 Blacksmithing Station (Vampire's Kiss)"
 , "4620697946441423461 Clothing Station (Vampire's Kiss)"
 , "4620697946441423463 Woodworking Station (Vampire's Kiss)"
@@ -379,8 +389,10 @@ local SEQUENCE_TODO = {
 , "4620697946441395800 Woodworking Station (Varen's Legacy)"
 , "4620697946441395798 Clothing Station (Varen's Legacy)"
 , "4620697946441395796 Blacksmithing Station (Varen's Legacy)"
+, "4620697946441608227 Rough Box, Boarded"
 
 -- Run #20, grove path to Pirharri's corner. 4 sets
+, "4620697946441608228 Rough Box, Boarded"
 , "4620697946441422498 Blacksmithing Station (Way of the Arena)"
 , "4620697946441422500 Clothing Station (Way of the Arena)"
 , "4620697946441422502 Woodworking Station (Way of the Arena)"
@@ -388,18 +400,32 @@ local SEQUENCE_TODO = {
 , "4620697946441423493 Woodworking Station (Whitestrake's Retribution)"
 , "4620697946441423491 Clothing Station (Whitestrake's Retribution)"
 , "4620697946441423489 Blacksmithing Station (Whitestrake's Retribution)"
+, "4620697946441608229 Rough Box, Boarded"
 
+, "4620697946441608230 Rough Box, Boarded"
 , "4620697946441422516 Blacksmithing Station (Willow's Path)"
 , "4620697946441422517 Clothing Station (Willow's Path)"
 , "4620697946441422518 Woodworking Station (Willow's Path)"
 
 -- Summerset #1
+, "4620697946441608231 Rough Box, Boarded"
+, "4620697946441608244 Rough Box, Boarded"
+, "4620697946441608245 Rough Box, Boarded"
+, "4620697946441608246 Rough Box, Boarded"
 
 -- Run #21, outfitter stairs
 -- summerset #2
+, "4620697946441608247 Rough Box, Boarded"
+, "4620697946441608248 Rough Box, Boarded"
+, "4620697946441608249 Rough Box, Boarded"
+, "4620697946441608250 Rough Box, Boarded"
 
 -- Run #22, banker stairs
 -- Summerset #3
+, "4620697946441608251 Rough Box, Boarded"
+, "4620697946441608252 Rough Box, Boarded"
+, "4620697946441608253 Rough Box, Boarded"
+, "4620697946441608254 Rough Box, Boarded"
 
 }
 
@@ -534,8 +560,6 @@ end
 -- Copy-and-paste positions from a spreadsheet.
 ZZCraftoriumLayout.SET = {
 
-
-
   [009] = "53900 99753 19544"
 , [010] = "53900 99556 19544"
 , [011] = "53900 99330 19544"
@@ -628,6 +652,14 @@ ZZCraftoriumLayout.SET = {
 , [098] = "54275 94982 19540"
 , [099] = "54275 95277 19540"
 , [100] = "54275 95542 19540"
+, [101] = "54275 97020 19540"
+, [102] = "54275 97262 19540"
+, [103] = "54275 97437 19540"
+, [104] = "54275 97685 19540"
+, [105] = "54275 98086 19540"
+, [106] = "54275 98261 19540"
+, [107] = "54275 98510 19540"
+, [108] = "54275 98714 19540"
 }
 
 -- Postamble -----------------------------------------------------------------
