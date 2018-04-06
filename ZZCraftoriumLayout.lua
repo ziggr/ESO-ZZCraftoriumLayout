@@ -119,6 +119,7 @@ function ZZCraftoriumLayout.ScanNow()
     local save_furniture = {}
     local flat_furniture = {}
     local sequenced      = {}
+    local unsequenced    = {}
 
     local seen_ct        = 0
 
@@ -131,7 +132,11 @@ function ZZCraftoriumLayout.ScanNow()
             table.insert(save_furniture, store)
             table.insert(flat_furniture, item:ToTextLine())
             local i = ZZCraftoriumLayout.ToSequenceIndex(item)
-            if i then sequenced[i] = item:ToTextLine() end
+            if i then
+                sequenced[i] = item:ToTextLine()
+            else
+                table.insert(unsequenced, item:ToTextLine())
+            end
         end
         seen_ct = seen_ct + 1
 
@@ -139,9 +144,10 @@ function ZZCraftoriumLayout.ScanNow()
         loop_limit = loop_limit - 1
     end
 
-    ZZCraftoriumLayout.savedVariables.get           = save_furniture
-    ZZCraftoriumLayout.savedVariables.get_flat      = flat_furniture
-    ZZCraftoriumLayout.savedVariables.get_sequenced = sequenced
+    ZZCraftoriumLayout.savedVariables.get             = save_furniture
+    ZZCraftoriumLayout.savedVariables.get_flat        = flat_furniture
+    ZZCraftoriumLayout.savedVariables.get_sequenced   = sequenced
+    ZZCraftoriumLayout.savedVariables.get_unsequenced = unsequenced
 
     d("ZZCraftoriumLayout seen:"..tostring(seen_ct)
             .."  saved:"..tostring(#save_furniture))
@@ -186,10 +192,10 @@ ZZCraftoriumLayout.SEQUENCE = {
 , "4620697946441152019 Woodworking Station (Armor Master)"
 , "4620697946441152018 Clothing Station (Armor Master)"
 , "4620697946441146870 Blacksmithing Station (Armor Master)"
-, "4620697946441606006 Rough Box, Boarded"
+, "4620697946441605997 Rough Box, Boarded"
 
 -- Run #3, from corner to stable, 4 sets
-, "4620697946441605997 Rough Box, Boarded"
+, "4620697946441606025 Rough Box, Boarded"
 , "4620697946441423509 Blacksmithing Station (Ashen Grip)"
 , "4620697946441423510 Clothing Station (Ashen Grip)"
 , "4620697946441423511 Woodworking Station (Ashen Grip)"
@@ -560,7 +566,15 @@ end
 -- Copy-and-paste positions from a spreadsheet.
 ZZCraftoriumLayout.SET = {
 
-  [009] = "53900 99753 19544"
+  [001] = "57530 99893 19465"
+, [002] = "56386 99852 19473"
+, [003] = "56168 99784 19484"
+, [004] = "56018 99778 19497"
+, [005] = "55150 99820 19527"
+, [006] = "54919 99820 19535"
+, [007] = "54754 99805 19533"
+, [008] = "54527 99772 19528"
+, [009] = "53900 99753 19544"
 , [010] = "53900 99556 19544"
 , [011] = "53900 99330 19544"
 , [012] = "53900 99126 19544"
@@ -712,14 +726,6 @@ ZZCraftoriumLayout.SET = {
 , [158] = "60500 97217 19544"
 , [159] = "60500 97414 19544"
 , [160] = "60500 97641 19544"
-, [161] = "60500 98042 19544"
-, [162] = "60500 98239 19544"
-, [163] = "60500 98465 19544"
-, [164] = "60495 98669 19544"
-, [165] = "60500 99070 19544"
-, [166] = "60500 99312 19544"
-, [167] = "60500 99509 19544"
-, [168] = "60500 99736 19544"
 
 }
 
