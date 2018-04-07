@@ -65,7 +65,6 @@ for ( ; ; )
 
 sub clear_screen()
 {
-return
     my $clear      = "\e[2J";
     my $cursorhome = "\e[H";
 

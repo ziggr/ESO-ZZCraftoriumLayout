@@ -23,7 +23,6 @@ Z17	95,100	grove path south
 north			# X wall, stations + of wall, rotate face west
 
 				X3 	Z14 	Y19,999
-jw
 station
 					Z13
 2 stations
@@ -99,5 +98,4 @@ station
 east
 
 							# manually place all 4 sets along front garden
-jw  X1234 Z2345 Y1948
 
