@@ -1,0 +1,84 @@
+Python script to parse input.txt and spit out ZZCraftoriumLayout_data.lua
+add to .txt manifest
+use as data file
+
+can always direct-address X/Z/Y coords, so no fudging commands necessary.
+if you need to fudge, just type the absolute coord in directly
+
+ignore ,
+ignore all after #
+
+directions: define which coord is the "wall", and whether to + or - from that wall
+--
+north 	X wall, stations + from wall, rotate stations to face east
+south   X wall, stations - from wall, rotate stations to face west
+west  	Z wall, stations - from wall, rotate stations to face north
+east   	Z wall, stations + from wall, rotate stations to face south
+
+Coordinates
+--
+X nn
+Y nn
+Z nn
+if nn < 100, then use a predefined value from before, error if not defined
+else use direct value
+ignore spaces after X Y Z
+X Z Y all okay on same line, in this order
+
+Stations
+--
+station
+n stations
+
+hide lamp
+- before a station hides first lamp
+- after a station hides last lamp
+
+sconce	 	replaces lamp with wall sconce
+
+jw 		next station starts with a jewelry station
+ww		next station starts with a woodworking station
+
+jw  Xnnnnn Znnnnn Ynnnnn  manualy place a single station
+bs  "
+cl  "
+ww  "
+
+====
+Processing loop
+
+current x z y coord register
+station count
+first lamp: hide? sconce?
+last lamp: hide? sconce?
+current direction
+
+upon new coordinates:
+- if we have 1+ stations in memory
+	write them, using current coords as start and new coords as end
+	honor lamp adjustments
+	clear station, lamp buffer
+
+====
+Output
+
+ZZCraftoriumLayout.SET = {
+
+-- idx     x     z     y      rot  type    set idx
+  [001] = "57530 99893 19465   90  lamp      "
+, [002] = "56386 99852 19473   90  jw       1"
+, [003] = "56168 99784 19484   90  bs       1"
+, [004] = "56018 99778 19497   90  cl       1"
+, [005] = "55150 99820 19527   90  ww       1"
+, [006] = "54919 99820 19535   90  lamp      "
+...
+, [021] = "57530 99893 19465   90  sconce    "
+, [022] = "56386 99852 19473   90  jw       8"
+, [023] = "56168 99784 19484   90  bs       8"
+, [024] = "56018 99778 19497   90  cl       8"
+, [025] = "55150 99820 19527   90  ww       8"
+, [026] = "54919 99820 19535   90  scone     "
+...
+}
+
+Then the add-on rolls through
