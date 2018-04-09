@@ -5,8 +5,7 @@ put:
 	cp -f ./ZZCraftoriumLayout_Data.lua /Volumes/Elder\ Scrolls\ Online/live/AddOns/ZZCraftoriumLayout/
 
 get:
-	cp -f /Volumes/Elder\ Scrolls\ Online/live/SavedVariables/ZZCraftoriumLayout.lua ../../SavedVariables/
-	cp -f ../../SavedVariables/ZZCraftoriumLayout.lua data/
+	cp -f /Volumes/Elder\ Scrolls\ Online/live/SavedVariables/ZZCraftoriumLayout.lua data/
 
 
 data: ZZCraftoriumLayout_Data.lua

@@ -159,6 +159,9 @@ function ZZCraftoriumLayout.IsInteresting(item)
                  , "Blacksmithing Station"
                  , "Clothing Station"
                  , "Woodworking Station"
+                 , "Breton Sconce, Torch"
+                 , "Common Lantern, Hanging"
+                 , "Dark Elf Streetpost, Banner"
                  }
     for _, s in ipairs(want) do
         if string.find(item.item_name, s) then return true end
