@@ -73,7 +73,7 @@ def parse_direction(line):
 
 # lamp control
 def parse_lamp(line):
-    for cmd in ['hide lamp', 'omit lamp', 'sconce']:
+    for cmd in ['lamp', 'hide lamp', 'omit lamp', 'sconce']:
         if cmd in line:
             return cmd
     return None
@@ -89,18 +89,22 @@ def parse_station(line, parsed_line):
 
 # Read a line and return its commands
 #
-#   .comment    = "# patio front"
-#   .assign     = { var="z1", val=86000 }
-#   .x          = 3
-#   .z          = 14
-#   .y          = 19999
-#   .station_ct = 4
-#   .direction  = 'east'
-#   .lamp       = 'hide lamp'
-#   .station    = 'jw'
+#   .line_number = 123
+#   .line        = ""
+#   .comment     = "# patio front"
+#   .assign      = { var="z1", val=86000 }
+#   .x           = 3
+#   .z           = 14
+#   .y           = 19999
+#   .station_ct  = 4
+#   .direction   = 'east'
+#   .lamp        = 'hide lamp'
+#   .station     = 'jw'
 #
-def parse_one_line(line):
-    parsed_line = {}
+def parse_one_line(line, line_number):
+    parsed_line = { 'line_number' : line_number
+                  , 'line'        : line
+                  }
 
                         # Strip, but remember, comments
     l = line.strip()
@@ -159,13 +163,122 @@ def parse_one_line(line):
         return parsed_line
 
 
+def ParserState():
+    parser_state = {
+          'x' = 0
+        , 'y' = 0
+        , 'z' = 0
+        , 'prev_station' = 'jw'
+        , 'direction'    = 'north'
+        , 'item_queue'   = []
+        , 'constant'     = {}
+        , 'output_lines' = []
+    }
+    return parser_state
+
+def apply_line(parsed_line, parser_state):
+                        # variable assignment
+    assign = parsed_line.get('assign')
+    if assign:
+        parser_state['constant'][assign.var] = assign.val
+        return
+
+                        # single-station manual location
+    has_coord = parsed_line.get('x') or
+             or parsed_line.get('z')
+             or parsed_line.get('y')
+    station   = parsed_line.get('station')
+    if station and has_coord:
+        error_if_queue_not_empty(parsed_line, parser_state)
+        emit_station(parsed_line, parser_state)
+        parser_state['prev_station'] = station
+        return
+
+                        # Specifying what the first
+                        # station of the next emit run
+                        # should be.
+    if station:
+        parser_state['item_queue'].append(station)
+        parser_state['prev_station'] = station
+        return
+
+                        # XZY coords end any current
+                        # run, and start a new run.
+    if has_coord:
+                        # If we have any stations in our item_queue, we just
+                        # got the ending coordinate for the queue's run.
+                        # Time to spit them out.
+        if 0 < len(parser_state['item_queue']):
+            append_end_lamp(parser_state)
+            emit_queue(parsed_line, parser_state)
+            parser_state['item_queue'] = []
+                        # Copy these coordinates as the starting point
+                        # of any next run of lamps or stations.
+        for axis in ['x','z','y']:
+            parser_state[axis] = parsed_line.get(axis) or parser_state[axis]
+        return
+
+                        # Enqueue 1 or more sets of 4 stations,
+    station_ct = parsed_line.get('station_ct')
+    if station_ct:
+        station_order = { 'jw' : ['jw', 'bs', 'cl', 'ww']
+                        , 'ww' : ['ww', 'cl', 'bs', 'jw']
+                        }
+        for i in range(station_ct):
+            append_end_lamp(parser_state)
+            so = station_order[ parser_state['prev_station'] ]
+            parser_state['item_queue'].extend(so)
+            parser_state['prev_station'] = so[-1]
+        return
+
+                        # Turn a corner.
+    direction = parsed_line.get('direction')
+    if direction:
+        error_if_queue_not_empty(parsed_line, parser_state)
+        parser_state['direction'] = direction
+        return
+
+                        # Append lamp.
+    lamp = parsed_line.get('lamp')
+    if lamp:
+        parser_state['item_queue'].append(lamp)
+
+
+def error_if_queue_not_empty(parsed_line, parser_state):
+    if len(parser_state['item_queue']) <= 0:
+        sys.stderr.write("### Error line {}: item queue not empty"
+                         .format(parsed_line['line_number']))
+        sys.exit(1)
+
+def emit_station(parsed_line, parser_state):
+    # write the single station specified by parsed_line, with
+    # any missing info (usually rotation, maybey Y coord) from parser state
+    WRITE_ME()
+
+def emit_queue(parsed_line, parser_state):
+    # Evenly distribute the distance between parsed_line's coordinates (the end)
+    # and parser_state's coordinates (the beginning) across all of the
+    # lamps and stations in the item_queue.
+    WRITE_ME()
+
+def append_end_lamp(parser_state):
+    # If the item queue does not already end in a lamp.
+    # append one now.
+    q = parser_state['item_queue']      # for less typing
+    if 0 == len(q) or is_lamp(q[-1]):
+        return
+    q.append('lamp')
+
+def is_lamp(item):
+    return item in ['lamp', 'hide lamp', 'omit lamp', 'sconce']
+
 def parse_lines(input_lines):
-    parser_state = {}
+    parser_state = ParserState()
     output_lines = []
-
+    line_number  = 1
     for line in input_lines:
-        parsed_line = parse_one_line(line)
-
+        parsed_line = parse_one_line(line, line_number)
+        apply_line(parsed_line, parser_state)
     return output_lines
 
 
