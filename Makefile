@@ -12,5 +12,5 @@ data: ZZCraftoriumLayout_Data.lua
 
 poll: data
 
-ZZCraftoriumLayout_Data.lua: ZZCraftoriumLayout_Parser.py ZZCraftoriumLayout_Script.txt
+ZZCraftoriumLayout_Data.lua: ZZCraftoriumLayout_Parser.py furn.txt ZZCraftoriumLayout_Script.txt
 	python3 ZZCraftoriumLayout_Parser.py ZZCraftoriumLayout_Script.txt ZZCraftoriumLayout_Data.lua

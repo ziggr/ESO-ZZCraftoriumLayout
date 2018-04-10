@@ -82,3 +82,31 @@ ZZCraftoriumLayout.SET = {
 }
 
 Then the add-on rolls through
+
+====
+Put furniture sequence/assignments in the script.txt file!
+The order in which they appear in the script.txt file
+is the order of their ordinal numbers.
+
+furn kind id                  comments
+furn jw   4620697946441608255 Rough Box, Boarded
+furn bs   4620697946441423477 Blacksmithing Station (Alessia's Bulwark)
+furn cl   4620697946441423479 Clothing Station (Alessia's Bulwark)
+furn ww   4620697946441423481 Woodworking Station (Alessia's Bulwark)
+furn lamp 4620697946441423617 Dark Elf Streetpost, Banner
+furn lamp 4620697946441423627 Dark Elf Streetpost, Banner
+furn lamp 4620697946441423630 Dark Elf Streetpost, Banner
+furn hang 4620697946441423622 Common Lantern, Hanging
+furn hang 4620697946441423631 Common Lantern, Hanging
+furn hang 4620697946441423634 Common Lantern, Hanging
+
+BAD : suffers from "the renum problem" where a human has to assign numbers.
+
+This removes all positional control from the Lua script, lets the script.txt + Python interpreter completely control all layout.
+
+Further, this makes the Lua add-on code GENERIC: it would now work for ANY list of furnishings and positions, supplied by the script.txt + Python interpreter.
+
+It does mean that the script will have an unfortunate 300+ line list of assignments.
+Maybe we could split that out to a separate file and allow the interpreter to
+run MULTIPLE input scripts, in command-line order.
+

@@ -4,6 +4,7 @@
 #
 import sys
 import re
+import collections
 
 # Write a message to log, or stdout, or whatever.
 # Or don't.
@@ -14,6 +15,19 @@ import re
 #
 def LOG(msg, *args, **kwargs):
     print(msg.format(*args, **kwargs))
+
+# furn bs 4620697946441423477 Blacksmithing Station (Alessia's Bulwark)
+def parse_furn_assignment(line, parsed_line):
+    r = r'^furn\s+([\S+]+)\s+(\d+)'
+    m = re.match(r, line)
+    if not m:
+        return None
+    station = m.group(1).lower()
+    furn_id = int(m.group(2))
+    parsed_line['furn'] = { station : station
+                          , id      : furn_id
+                          }
+    return parsed_line
 
 # Z1  86,000   comments-ignored
 def parse_constant_assignment(line, parsed_line):
@@ -91,7 +105,9 @@ def parse_station(line, parsed_line):
 #
 #   .line_number = 123
 #   .line        = ""
+#   .file        = "input.txt"
 #   .comment     = "# patio front"
+#   .furn        = { station = 'bs', id = 4620697946441423477 }
 #   .assign      = { var="z1", val=86000 }
 #   .x           = 3
 #   .z           = 14
@@ -101,9 +117,10 @@ def parse_station(line, parsed_line):
 #   .lamp        = 'hide lamp'
 #   .station     = 'jw'
 #
-def parse_one_line(line, line_number):
+def parse_one_line(line, line_number, input_filepath):
     parsed_line = { 'line_number' : line_number
                   , 'line'        : line
+                  , 'file'        : input_filepath
                   }
 
                         # Strip, but remember, comments
@@ -116,6 +133,10 @@ def parse_one_line(line, line_number):
 
                         # Skip blank lines (or blank after comments removed)
     if not l:
+        return parsed_line
+
+                        # Furnishing assignments
+    if parse_furn_assignment(l, parsed_line):
         return parsed_line
 
                         # Constant assignments get their own line.
@@ -165,18 +186,26 @@ def parse_one_line(line, line_number):
 
 def ParserState():
     parser_state = {
-          'x' = 0
-        , 'y' = 0
-        , 'z' = 0
-        , 'prev_station' = 'jw'
-        , 'direction'    = 'north'
-        , 'item_queue'   = []
-        , 'constant'     = {}
-        , 'output_lines' = []
+          'x'               : 0
+        , 'y'               : 0
+        , 'z'               : 0
+        , 'prev_station'    : 'jw'
+        , 'direction'       : 'north'
+        , 'item_queue'      : []
+        , 'furn'            : collections.defaultdict(list)
+        , 'furn_index_prev' : {}
+        , 'constant'        : {}
+        , 'output_lines'    : []
     }
     return parser_state
 
 def apply_line(parsed_line, parser_state):
+
+                        # furnishing assignment
+    furn = parsed_line.get('furn')
+    if furn:
+        parser_state['furn'][furn.station].append(furn.id)
+        return
                         # variable assignment
     assign = parsed_line.get('assign')
     if assign:
@@ -184,9 +213,7 @@ def apply_line(parsed_line, parser_state):
         return
 
                         # single-station manual location
-    has_coord = parsed_line.get('x') or
-             or parsed_line.get('z')
-             or parsed_line.get('y')
+    has_coord = parsed_line.get('x') or parsed_line.get('z') or parsed_line.get('y')
     station   = parsed_line.get('station')
     if station and has_coord:
         error_if_queue_not_empty(parsed_line, parser_state)
@@ -246,20 +273,106 @@ def apply_line(parsed_line, parser_state):
 
 def error_if_queue_not_empty(parsed_line, parser_state):
     if len(parser_state['item_queue']) <= 0:
-        sys.stderr.write("### Error line {}: item queue not empty"
-                         .format(parsed_line['line_number']))
+        sys.stderr.write("### Error {} line {}: item queue not empty"
+                         .format( parsed_line['file']
+                                , parsed_line['line_number']
+                                ))
         sys.exit(1)
 
+# Rotation, in degrees, for a station when running along
+# the given direction.
+ROTATION = {
+      'north' :  90
+    , 'east'  : 180
+    , 'south' : 270
+    , 'west'  :   0
+}
+
+# width in pixels along the wall
+WIDTH = {
+      'skip lamp' : 160
+    , 'lamp'      : 160
+    , 'sconce'    : 160
+    , 'jw'        : 200
+    , 'bs'        : 160
+    , 'cl'        : 200
+    , 'ww'        : 200
+}
 def emit_station(parsed_line, parser_state):
     # write the single station specified by parsed_line, with
     # any missing info (usually rotation, maybey Y coord) from parser state
-    WRITE_ME()
+    station  = parsed_line['station']
+    index    = next_station_index(stations)
+    rotation = ROTATION.parser_state['direction']
+    args = { "station"       : station
+           , "station_index" : index
+           , "x"             : parsed_line.get('x') or parser_state.get('x')
+           , "z"             : parsed_line.get('z') or parser_state.get('z')
+           , "y"             : parsed_line.get('y') or parser_state.get('y')
+           , "rotation"      : ROTATION[   parsed_line.get('rotation')
+                                        or parser_state.get('rotation')]
+           }
+    emit_line(args, parser_state)
 
 def emit_queue(parsed_line, parser_state):
     # Evenly distribute the distance between parsed_line's coordinates (the end)
     # and parser_state's coordinates (the beginning) across all of the
     # lamps and stations in the item_queue.
-    WRITE_ME()
+    start_coord = { "x" : parser_state.get("x")
+                  , "z" : parser_state.get("z")
+                  , "y" : parser_state.get("y")
+                  }
+    end_coord   = { "x" : parsed_line.get("x") or parser_state.get("x")
+                  , "z" : parsed_line.get("z") or parser_state.get("z")
+                  , "y" : parsed_line.get("y") or parser_state.get("y")
+                  }
+    delta_total = { "x" : end_coord.get("x") - start_coord.get("x")
+                  , "z" : end_coord.get("z") - start_coord.get("z")
+                  , "y" : end_coord.get("y") - start_coord.get("y")
+                  }
+                        # How long in pixels is our queued list of items?
+                        # Don't include the width of the terminal lamp or
+                        # station, since we want it at the end coord
+                        # on the current parser_line.
+    total_item_width = 0
+    for item in parser_state['queue'][1:-1]:
+        total_item_width += WIDTH[item]
+
+                        # How much wall space must we stretch across?
+    total_wall_width = math.sqrt( delta_total.get("x")**2 + delta_total.get("z") )
+
+    curr_coord = { "x" : start_coord.get("x")
+                 , "z" : start_coord.get("z")
+                 , "y" : start_coord.get("y")
+                 }
+    cume_width = 0
+    for item in parser_state['queue']:
+                        # Emit this station.
+        args = { "station"       : item
+               , "station_index" : next_station_index(item, parser_state)
+               , "x"             : curr_coord.get("x")
+               , "z"             : curr_coord.get("z")
+               , "y"             : curr_coord.get("y")
+               , "rotation"      : ROTATION[parser_state.get("rotation")] }
+        emit_line(args, parser_state)
+
+                        # Move to next position.
+        cume_width += WIDTH[item]
+        ratio      = cume_width / total_item_width * total_wall_width
+        for axis in ["x","z","y"]:
+            cuur_coord[axis] = ratio * delta_total[axis]
+
+def emit_line(args, parser_state):
+    quoted_station = '"{station} {station_index}"'.format(*args)
+    args["quoted_station"] = quoted_station
+    template = '[{quoted_station:<10}] = "{x:>5.0f}\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3}"'
+    line     = template.format(*args)
+    parser_state.output_lines.append(line)
+
+def next_station_index(station, parser_state):
+    index   = 1 + (parser_state['furn_index_prev'].get(station) or 1)
+    parser_state['furn_index_prev'][station] = index
+    return index
 
 def append_end_lamp(parser_state):
     # If the item queue does not already end in a lamp.
@@ -272,12 +385,11 @@ def append_end_lamp(parser_state):
 def is_lamp(item):
     return item in ['lamp', 'hide lamp', 'omit lamp', 'sconce']
 
-def parse_lines(input_lines):
-    parser_state = ParserState()
+def parse_lines(input_lines, input_filepath, parser_state):
     output_lines = []
     line_number  = 1
     for line in input_lines:
-        parsed_line = parse_one_line(line, line_number)
+        parsed_line = parse_one_line(line, line_number, input_filepath)
         apply_line(parsed_line, parser_state)
     return output_lines
 
@@ -290,17 +402,18 @@ def main():
         sys.stderr.write("Usage: python3 Parser.py <inputfile> <outputfile>")
         sys.exit(1)
 
-    input_filepath = sys.argv[1]
-    output_filepath = sys.argv[2]
 
-    print("in:{}  out:{}".format(input_filepath, output_filepath))
+    input_filepath  = sys.argv[1]
+    output_filepath = sys.argv[-1]
+    parser_state    = ParserState()
 
-    with open(input_filepath) as f:
-        input_lines = f.readlines()
+    output_lines = []
+    for input_filepath in sys.argv[1:-2]:
+        with open(input_filepath) as f:
+            input_lines = f.readlines()
 
-    print("Read line ct: " + str(len(input_lines)))
-
-    output_lines = parse_lines(input_lines)
+        ol = parse_lines(input_lines, input_filepath, parser_state)
+        output_lines.extend(ol)
 
     with open(output_filepath, "w") as f:
         f.write("\n".join(output_lines))
