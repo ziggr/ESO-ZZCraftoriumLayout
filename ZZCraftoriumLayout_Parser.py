@@ -17,6 +17,10 @@ import sys
 def LOG(msg, *args, **kwargs):
     print(msg.format(*args, **kwargs))
 
+def LOGPARSE(msg, *args, **kwargs):
+    # LOG(msg, args, kwargs)
+    pass
+
 def parse_end(line, parsed_line):
     if "__END__" in line:
         parsed_line["end"] = True
@@ -49,7 +53,7 @@ def parse_constant_assignment(line, parsed_line):
     parsed_line["assign"] = { "var": var
                             , "val": val
                             }
-    LOG("parse assign: {} = {}", var, val)
+    LOGPARSE("parse assign: {} = {}", var, val)
     return parsed_line
 
 # X3 Z14 Y19,000
@@ -103,7 +107,7 @@ def parse_station(line, parsed_line):
     for station in ['jw','bs','cl','ww']:
         if station in line:
             parsed_line['station'] = station
-            LOG("parsed station: {}",station)
+            LOGPARSE("parsed station: {}",station)
             axis_seen = parse_xzy(line, parsed_line)
             return station
     return None
@@ -130,7 +134,7 @@ def parse_one_line(line, line_number, input_filepath):
                   , 'line'        : line
                   , 'file'        : input_filepath
                   }
-    LOG("parse {}:{}  {}".format(input_filepath, line_number, line.strip()))
+    # LOGPARSE("parse  {}:{}  {}".format(input_filepath, line_number, line.strip()))
                         # Strip, but remember, comments
     l = line.strip()
     m = re.search(r'#.*', l)
@@ -159,21 +163,21 @@ def parse_one_line(line, line_number, input_filepath):
     station_ct = parse_station_ct(l)
     if station_ct:
         parsed_line["station_ct"] = station_ct
-        LOG("parse station_ct:{}",station_ct)
+        LOGPARSE("parse station_ct:{}",station_ct)
         return parsed_line
 
                         # NESW direction
     direction = parse_direction(l)
     if direction:
         parsed_line['direction'] = direction
-        LOG("parse direction: {}", direction)
+        LOGPARSE("parse direction: {}", direction)
         return parsed_line
 
                         # lamp control
     lamp = parse_lamp(l)
     if lamp:
         parsed_line['lamp'] = lamp
-        LOG("parse lamp: {}", lamp)
+        LOGPARSE("parse lamp: {}", lamp)
         return parsed_line
 
                         # individual stations with optional XZY coords
@@ -182,7 +186,7 @@ def parse_one_line(line, line_number, input_filepath):
         x = parsed_line.get('x')
         z = parsed_line.get('z')
         y = parsed_line.get('y')
-        LOG("parse station xzy:{station}  X:{x} Z:{z} Y:{y}"
+        LOGPARSE("parse station xzy:{station}  X:{x} Z:{z} Y:{y}"
              , station=station, x=x, y=y, z=z)
         return parsed_line
 
@@ -192,7 +196,7 @@ def parse_one_line(line, line_number, input_filepath):
         x = parsed_line.get('x')
         z = parsed_line.get('z')
         y = parsed_line.get('y')
-        LOG("parse xzy X:{x} Z:{z} Y:{y}", x=x, y=y, z=z)
+        LOGPARSE("parse xzy X:{x} Z:{z} Y:{y}", x=x, y=y, z=z)
         return parsed_line
 
 
@@ -210,6 +214,14 @@ def ParserState():
         , 'output_lines'    : []
     }
     return parser_state
+
+def expand_constant(axis, value, parser_state):
+    if 100 < value:
+        return value
+    key = "{}{}".format(axis.lower(), value)
+    if key in parser_state['constant']:
+        return parser_state['constant'][key]
+    error("constant {} not found".format(key))
 
 def apply_line(parsed_line, parser_state):
     LOG("apply {}:{:<3} {}".format( parsed_line["file"]
@@ -234,8 +246,16 @@ def apply_line(parsed_line, parser_state):
         parser_state['constant'][var] = val
         return
 
-                        # single-station manual location
+                        # Before using xzy coords in any way, expand constants.
     has_coord = parsed_line.get('x') or parsed_line.get('z') or parsed_line.get('y')
+    if has_coord:
+        for axis in ['x','z','y']:
+            if axis in parsed_line:
+                parsed_line[axis] = expand_constant( axis
+                                                   , parsed_line[axis]
+                                                   , parser_state )
+
+                        # single-station manual location
     station   = parsed_line.get('station')
     if station and has_coord:
         error_if_queue_not_empty(parsed_line, parser_state)
@@ -282,6 +302,11 @@ def apply_line(parsed_line, parser_state):
     station_ct = parsed_line.get('station_ct')
     if station_ct:
         LOG("station_ct:{}",station_ct)
+                        # precede with implied lamp if nothing explicitly queued.
+        if len(parser_state['item_queue']) <= 0:
+            LOG("item_queue += lamp")
+            parser_state['item_queue'].append('lamp')
+
         station_order = { 'jw' : ['jw', 'bs', 'cl', 'ww']
                         , 'ww' : ['ww', 'cl', 'bs', 'jw']
                         }
@@ -379,12 +404,20 @@ def emit_queue(parsed_line, parser_state):
                         # station, since we want it at the end coord
                         # on the current parser_line.
     total_item_width = 0
-    for item in parser_state['item_queue'][1:-1]:
+    for item in parser_state['item_queue'][0:-1]:
         total_item_width += WIDTH[item]
+        LOG("emit_queue item width {:<10} = {:5d}", item, WIDTH[item])
+    LOG("emit_queue item width {:<10}   {:5d}", "total", total_item_width)
 
                         # How much wall space must we stretch across?
     total_wall_width = math.sqrt( delta_total.get("x")**2
                                 + delta_total.get("z")**2 )
+
+    LOG("emit_queue wall width {:<10}   {:5d}", "", int(total_wall_width))
+
+    LOG("emit_queue start_coord: x:{x:6d} z:{z:6d} y:{y:6d}",**start_coord)
+    LOG("emit_queue end_coord:   x:{x:6d} z:{z:6d} y:{y:6d}",**end_coord)
+    LOG("emit_queue delta_total: x:{x:6d} z:{z:6d} y:{y:6d}",**delta_total)
 
     curr_coord = { "x" : start_coord.get("x")
                  , "z" : start_coord.get("z")
@@ -402,10 +435,24 @@ def emit_queue(parsed_line, parser_state):
         emit_line(args, parser_state)
 
                         # Move to next position.
+                        # (Calculated, then discarded, for the last item
+                        #  in the queue. Easier to calc-and-discard than to
+                        #  rearrange code to skip the wasted calculation time.)
         cume_width += WIDTH[item]
-        ratio      = cume_width / total_item_width * total_wall_width
+        ratio      = cume_width / total_item_width
         for axis in ["x","z","y"]:
-            curr_coord[axis] = ratio * delta_total[axis]
+            curr_coord[axis] = int(ratio * delta_total[axis]
+                                   + start_coord[axis])
+
+            # LOG("emit_queue {}: w:{:4d}/{:<4d}  {:4.2f} * {:<5d} + {:<5d} = {:<5d}"
+            #    , axis
+            #    , cume_width
+            #    , total_item_width
+            #    , ratio
+            #    , delta_total[axis]
+            #    , start_coord[axis]
+            #    , curr_coord[axis]
+            #    )
 
 def emit_line(args, parser_state):
     quoted_station = '"{station} {station_index}"'.format(**args)
@@ -416,7 +463,7 @@ def emit_line(args, parser_state):
     parser_state["output_lines"].append(line)
 
 def next_station_index(station, parser_state):
-    index   = 1 + (parser_state['furn_index_prev'].get(station) or 1)
+    index   = 1 + (parser_state['furn_index_prev'].get(station) or 0)
     parser_state['furn_index_prev'][station] = index
     return index
 

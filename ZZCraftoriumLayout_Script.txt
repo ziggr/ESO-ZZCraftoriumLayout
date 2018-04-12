@@ -17,6 +17,8 @@ Z15	99,100	front lumpy stations
 Z16	94,400	grove path north
 Z17	95,100	grove path south
 
+X3  55,000  placeholder
+
 # Left hall, garden level
 
 north			# X wall, stations + of wall, rotate face west
