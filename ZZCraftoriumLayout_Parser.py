@@ -17,6 +17,12 @@ import sys
 def LOG(msg, *args, **kwargs):
     print(msg.format(*args, **kwargs))
 
+def parse_end(line, parsed_line):
+    if "__END__" in line:
+        parsed_line["end"] = True
+        return True
+    return False
+
 # furn bs 4620697946441423477 Blacksmithing Station (Alessia's Bulwark)
 def parse_furn_assignment(line, parsed_line):
     r = r'^furn\s+([\S+]+)\s+(\d+)'
@@ -97,6 +103,7 @@ def parse_station(line, parsed_line):
     for station in ['jw','bs','cl','ww']:
         if station in line:
             parsed_line['station'] = station
+            LOG("parsed station: {}",station)
             axis_seen = parse_xzy(line, parsed_line)
             return station
     return None
@@ -136,6 +143,10 @@ def parse_one_line(line, line_number, input_filepath):
     if not l:
         return parsed_line
 
+                        # __END__ file terminator borrowed from perl
+    if parse_end(l, parsed_line):
+        return parsed_line
+
                         # Furnishing assignments
     if parse_furn_assignment(l, parsed_line):
         return parsed_line
@@ -145,28 +156,28 @@ def parse_one_line(line, line_number, input_filepath):
         return parsed_line
 
                         # Station count.
-    station_ct = parse_station_ct(line)
+    station_ct = parse_station_ct(l)
     if station_ct:
         parsed_line["station_ct"] = station_ct
         LOG("parse station_ct:{}",station_ct)
         return parsed_line
 
                         # NESW direction
-    direction = parse_direction(line)
+    direction = parse_direction(l)
     if direction:
         parsed_line['direction'] = direction
         LOG("parse direction: {}", direction)
         return parsed_line
 
                         # lamp control
-    lamp = parse_lamp(line)
+    lamp = parse_lamp(l)
     if lamp:
         parsed_line['lamp'] = lamp
         LOG("parse lamp: {}", lamp)
         return parsed_line
 
                         # individual stations with optional XZY coords
-    station = parse_station(line, parsed_line)
+    station = parse_station(l, parsed_line)
     if station:
         x = parsed_line.get('x')
         z = parsed_line.get('z')
@@ -176,7 +187,7 @@ def parse_one_line(line, line_number, input_filepath):
         return parsed_line
 
                         # XZY commands
-    axis_seen = parse_xzy(line, parsed_line)
+    axis_seen = parse_xzy(l, parsed_line)
     if axis_seen:
         x = parsed_line.get('x')
         z = parsed_line.get('z')
@@ -205,6 +216,10 @@ def apply_line(parsed_line, parser_state):
                                    , parsed_line["line_number"]
                                    , parsed_line["line"].strip()
                                    ))
+    if parsed_line.get("end"):
+        LOG("__END__")
+        sys.exit(0)
+
                         # furnishing assignment
     furn = parsed_line.get('furn')
     if furn:
@@ -232,7 +247,6 @@ def apply_line(parsed_line, parser_state):
                         # station of the next emit run
                         # should be.
     if station:
-        parser_state['item_queue'].append(station)
         parser_state['prev_station'] = station
         return
 
@@ -246,15 +260,28 @@ def apply_line(parsed_line, parser_state):
             append_end_lamp(parser_state)
             emit_queue(parsed_line, parser_state)
             parser_state['item_queue'] = []
+            LOG("item_queue cleared")
                         # Copy these coordinates as the starting point
                         # of any next run of lamps or stations.
         for axis in ['x','z','y']:
-            parser_state[axis] = parsed_line.get(axis) or parser_state[axis]
+            val = parsed_line.get(axis) or parser_state[axis]
+            if val < 100:
+                key = "{}{}".format(axis, val)
+                constant = parser_state["constant"].get(key)
+                LOG("expand {} -> {}".format(key, constant))
+                if not constant:
+                    error("no value for constant {}".format(key))
+                val = constant
+            if val == 0:
+                error("coord {}".format(axis,val))
+            parser_state[axis] = val
         return
+        LOG("apply xzy x:{:<5} z:{:<5} y:{:<5}".format(x,z,y))
 
                         # Enqueue 1 or more sets of 4 stations,
     station_ct = parsed_line.get('station_ct')
     if station_ct:
+        LOG("station_ct:{}",station_ct)
         station_order = { 'jw' : ['jw', 'bs', 'cl', 'ww']
                         , 'ww' : ['ww', 'cl', 'bs', 'jw']
                         }
@@ -263,6 +290,7 @@ def apply_line(parsed_line, parser_state):
             so = station_order[ parser_state['prev_station'] ]
             parser_state['item_queue'].extend(so)
             parser_state['prev_station'] = so[-1]
+            LOG("item_queue += station set: {}",so)
         return
 
                         # Turn a corner.
@@ -276,16 +304,20 @@ def apply_line(parsed_line, parser_state):
     lamp = parsed_line.get('lamp')
     if lamp:
         parser_state['item_queue'].append(lamp)
+        LOG("item_queue += lamp: {}",lamp)
 
 
 def error_if_queue_not_empty(parsed_line, parser_state):
-    if len(parser_state['item_queue']) <= 0:
+    if 0 < len(parser_state['item_queue']):
         s = ("### Error {} line {}: item queue not empty"
              .format( parsed_line['file']
                     , parsed_line['line_number']
                     ))
-        LOG(s)
-        sys.stderr.write(s)
+        error(s)
+
+def error(msg):
+        LOG(msg)
+        sys.stderr.write(msg+"\n")
         sys.exit(1)
 
 # Rotation, in degrees, for a station when running along
