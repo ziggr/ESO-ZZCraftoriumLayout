@@ -1,6 +1,7 @@
 .PHONY: put get data poll
 
 put:
+	cp -f ./ZZCraftoriumLayout.txt      /Volumes/Elder\ Scrolls\ Online/live/AddOns/ZZCraftoriumLayout/
 	cp -f ./ZZCraftoriumLayout.lua      /Volumes/Elder\ Scrolls\ Online/live/AddOns/ZZCraftoriumLayout/
 	cp -f ./ZZCraftoriumLayout_Data.lua /Volumes/Elder\ Scrolls\ Online/live/AddOns/ZZCraftoriumLayout/
 

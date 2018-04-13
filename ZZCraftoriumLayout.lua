@@ -1,12 +1,13 @@
 local LAM2 = LibStub("LibAddonMenu-2.0")
 
-local ZZCraftoriumLayout = {}
+ZZCraftoriumLayout = ZZCraftoriumLayout or {}
 ZZCraftoriumLayout.name            = "ZZCraftoriumLayout"
 ZZCraftoriumLayout.version         = "3.3.1"
 ZZCraftoriumLayout.savedVarVersion = 1
 ZZCraftoriumLayout.default = {
     house = {}
 }
+ZZCraftoriumLayout.unique_id_to_item = {}
 
 -- Item ----------------------------------------------------------------------
 --
@@ -41,6 +42,9 @@ function Item:FromFurnitureId(furniture_id)
     o.x_max = r[4]
     o.y_max = r[5]
     o.z_max = r[6]
+
+    r = { HousingEditorGetFurnitureOrientation(furniture_id) }
+    o.rotation = r[2] / math.pi * 180
 
     setmetatable(o, self)
     self.__index = self
@@ -109,17 +113,14 @@ end
 -- Fetch Inventory Data from the server ------------------------------------------
 
 function ZZCraftoriumLayout.ScanNow()
-    local HOUSE_ID_LINCHAL_MANOR      = 46
-    local house_id = GetCurrentZoneHouseId()
-    if not (house_id and HOUSE_ID_LINCHAL_MANOR == house_id) then
-        d("ZZCraftoriumLayout: not in the Craftorium. Exiting.")
-        return
-    end
+    if ZZCraftoriumLayout.ErrorIfNotHome() then return end
 
     local save_furniture = {}
     local flat_furniture = {}
     local sequenced      = {}
     local unsequenced    = {}
+    local unique_id_to_item = {}
+
 
     local seen_ct        = 0
 
@@ -131,6 +132,7 @@ function ZZCraftoriumLayout.ScanNow()
         if ZZCraftoriumLayout.IsInteresting(item) then
             table.insert(save_furniture, store)
             table.insert(flat_furniture, item:ToTextLine())
+            unique_id_to_item[Id64ToString(item.unique_id)] = item
             local i = ZZCraftoriumLayout.ToSequenceIndex(item)
             if i then
                 sequenced[i] = item:ToTextLine()
@@ -144,6 +146,7 @@ function ZZCraftoriumLayout.ScanNow()
         loop_limit = loop_limit - 1
     end
 
+    ZZCraftoriumLayout.unique_id_to_item              = unique_id_to_item
     ZZCraftoriumLayout.savedVariables.get             = save_furniture
     ZZCraftoriumLayout.savedVariables.get_flat        = flat_furniture
     ZZCraftoriumLayout.savedVariables.get_sequenced   = sequenced
@@ -734,7 +737,100 @@ ZZCraftoriumLayout.SET = {
 
 -- Use positions from script/parser ------------------------------------------
 
+local function zzerror(s)
+    d("ZZCraftoriumLayout error: "..s)
+end
+
+function ZZCraftoriumLayout.MaybeMoveOne2(args)
+    local item = ZZCraftoriumLayout.unique_id_to_item[args.unique_id]
+    if not item then
+        return zzerror(string.format("missing furniture unique_id:'%s'  %s %d"
+                    , args.unique_id, args.station, args.station_index))
+    end
+
+                        -- Already in position? Nothing to do.
+                        -- Intentionally ignoring Y here. If the station
+                        -- is already in x/z position, Zig might have manually
+                        -- futzed with y-position to touch the local surface.
+                        -- No need to un-futz here.
+    if      args.x == item.x
+        and args.z == item.z then
+        local msg = string.format("Skipping: already in position x:%d,z:%d  %s"
+            , item.x
+            , item.z
+            , item.item_name
+            )
+        d(msg)
+        return
+    end
+
+    -- lamp 1 target:  x53700 z99945 y19550 rot0
+    -- bs 1   target:  x53900 z99556 y19544 rot150
+
+    -- local r = HousingEditorRequestChangePosition(
+    --                   item.furniture_id
+    --                 , args.x
+    --                 , args.y
+    --                 , args.z
+    --                 )
+    -- local r = HousingEditorRequestChangePositionAndOrientation(
+    --                   item.furniture_id
+    --                 , args.x
+    --                 , args.y
+    --                 , args.z
+    --                 , 0        -- pitch
+    --                 , (args.rotation or 0) * math.pi / 180
+    --                 , 0        -- roll
+    --                 )
+
+    local result_text = HR[r] or tostring(r)
+    local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s  %s"
+                    , item.x
+                    , item.z
+                    , item.y
+                    , item.rotation or 0
+                    , args.x
+                    , args.z
+                    , args.y
+                    , args.rotation or 0
+                    , tostring(result_text)
+                    , item.item_name
+                    )
+    d(msg)
+end
+
 function ZZCraftoriumLayout.MoveAll2()
+    if ZZCraftoriumLayout.ErrorIfNotHome() then return end
+
+                        -- Scan first to gather each existing furniture's
+                        -- unique_id. There is no string-to-id64 conversion,
+                        -- so we have to go from i64->string and then build
+                        -- a lookup table.
+    ZZCraftoriumLayout.ScanNow()
+
+    for _,row in ipairs(ZZCraftoriumLayout.POSITION) do
+        local w = split(row,"%S+")
+        local args = {
+                     ['unique_id'    ] =          w[1]
+                   , ['x'            ] = tonumber(w[2])
+                   , ['z'            ] = tonumber(w[3])
+                   , ['y'            ] = tonumber(w[4])
+                   , ['rotation'     ] = tonumber(w[5])
+                   , ['station'      ] =          w[6]
+                   , ['station_index'] = tonumber(w[7])
+                   }
+        ZZCraftoriumLayout.MaybeMoveOne2(args)
+    end
+end
+
+function ZZCraftoriumLayout.ErrorIfNotHome()
+    local HOUSE_ID_LINCHAL_MANOR      = 46
+    local house_id = GetCurrentZoneHouseId()
+    if not (house_id and HOUSE_ID_LINCHAL_MANOR == house_id) then
+        d("ZZCraftoriumLayout: not in the Craftorium. Exiting.")
+        return true
+    end
+    return false
 end
 
 -- Postamble -----------------------------------------------------------------

@@ -489,9 +489,9 @@ ROTATION_FROM_NORTH = {
     , 'west'  : 270
 }
 OFFSETS_NORTH = {
-    'lamp'    : { 'x': -200, 'z':   0, 'y':   0, 'rotation':  0 }
-  , 'lantern' : { 'x':   50, 'z':   0, 'y':  50, 'rotation':  0 }
-  , 'bs'      : { 'x':    0, 'z':  10, 'y':   0, 'rotation': 24 }
+    'lamp'    : { 'x': -200, 'z':   0, 'y':   0, 'rotation': 270 }
+  , 'lantern' : { 'x':   50, 'z':   0, 'y':  50, 'rotation':   0 }
+  , 'bs'      : { 'x':    0, 'z':  10, 'y':   0, 'rotation':  60 }
 }
 def get_offsets(item, direction):
     offn = OFFSETS_NORTH.get(item)
@@ -577,6 +577,7 @@ def main():
     output_lines = parser_state.get('output_lines')
     LOG("writing file:{}  data line_ct:{}", output_filepath, len(output_lines))
     with open(output_filepath, "w") as f:
+        f.write("ZZCraftoriumLayout = ZZCraftoriumLayout or { }\n\n")
         f.write("-- furniture_unique_id  x       z       y       rot station index\n")
         f.write("ZZCraftoriumLayout.POSITION = {\n  ")
         f.write("\n, ".join(output_lines))
