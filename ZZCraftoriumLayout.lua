@@ -732,6 +732,11 @@ ZZCraftoriumLayout.SET = {
 
 }
 
+-- Use positions from script/parser ------------------------------------------
+
+function ZZCraftoriumLayout.MoveAll2()
+end
+
 -- Postamble -----------------------------------------------------------------
 
 EVENT_MANAGER:RegisterForEvent( ZZCraftoriumLayout.name
@@ -740,7 +745,7 @@ EVENT_MANAGER:RegisterForEvent( ZZCraftoriumLayout.name
                               )
 
 SLASH_COMMANDS["/clayget"] = ZZCraftoriumLayout.ScanNow
-SLASH_COMMANDS["/clayset"] = ZZCraftoriumLayout.MoveAll
+SLASH_COMMANDS["/clayset"] = ZZCraftoriumLayout.MoveAll2
 
 
 

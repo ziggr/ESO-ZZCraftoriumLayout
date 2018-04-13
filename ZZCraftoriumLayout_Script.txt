@@ -27,7 +27,6 @@ north			# X wall, stations + of wall, rotate face west
 jw
 station
 					Z13
-__END__
 2 stations
 					Z12
 station
@@ -38,6 +37,7 @@ station
 					Z10
 2 stations
  					Z9
+__END__
 
 # stairs up
 

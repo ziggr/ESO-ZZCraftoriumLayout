@@ -35,8 +35,8 @@ def parse_furn_assignment(line, parsed_line):
         return None
     station = m.group(1).lower()
     furn_id = int(m.group(2))
-    parsed_line['furn'] = { station : station
-                          , id      : furn_id
+    parsed_line['furn'] = { 'station' : station
+                          , 'id'      : furn_id
                           }
     return parsed_line
 
@@ -134,7 +134,7 @@ def parse_one_line(line, line_number, input_filepath):
                   , 'line'        : line
                   , 'file'        : input_filepath
                   }
-    # LOGPARSE("parse  {}:{}  {}".format(input_filepath, line_number, line.strip()))
+    # LOG("parse  {}:{}  {}".format(input_filepath, line_number, line.strip()))
                         # Strip, but remember, comments
     l = line.strip()
     m = re.search(r'#.*', l)
@@ -154,7 +154,6 @@ def parse_one_line(line, line_number, input_filepath):
                         # Furnishing assignments
     if parse_furn_assignment(l, parsed_line):
         return parsed_line
-
                         # Constant assignments get their own line.
     if parse_constant_assignment(l, parsed_line):
         return parsed_line
@@ -223,6 +222,16 @@ def expand_constant(axis, value, parser_state):
         return parser_state['constant'][key]
     error("constant {} not found".format(key))
 
+def get_furn(station, station_index, parser_state):
+    furn_list = parser_state['furn'].get(station)
+    if not furn_list:
+        error("furn {} {} not defined: no {} at all"
+              .format(station, station_index, station))
+    if len(furn_list) < station_index:
+        error("furn {} {} not defined: no index {}"
+              .format(station, station_index, station_index))
+    return furn_list[station_index - 1]
+
 def apply_line(parsed_line, parser_state):
     LOG("apply {}:{:<3} {}".format( parsed_line["file"]
                                    , parsed_line["line_number"]
@@ -230,12 +239,18 @@ def apply_line(parsed_line, parser_state):
                                    ))
     if parsed_line.get("end"):
         LOG("__END__")
-        sys.exit(0)
+        parser_state['end'] = True
+        return
 
                         # furnishing assignment
     furn = parsed_line.get('furn')
     if furn:
         parser_state['furn'][furn.get('station')].append(furn.get('id'))
+        # LOG( "apply furn:{} ct:{} id:{}"
+        #    , furn.get('station')
+        #    , len(parser_state['furn'][furn.get('station')])
+        #    , furn.get('id')
+        #    )
         return
                         # variable assignment
     assign = parsed_line.get('assign')
@@ -408,13 +423,6 @@ def emit_queue(parsed_line, parser_state):
         total_item_width += WIDTH[item]
         LOG("emit_queue item width {:<10} = {:5d}", item, WIDTH[item])
     LOG("emit_queue item width {:<10}   {:5d}", "total", total_item_width)
-
-                        # How much wall space must we stretch across?
-    total_wall_width = math.sqrt( delta_total.get("x")**2
-                                + delta_total.get("z")**2 )
-
-    LOG("emit_queue wall width {:<10}   {:5d}", "", int(total_wall_width))
-
     LOG("emit_queue start_coord: x:{x:6d} z:{z:6d} y:{y:6d}",**start_coord)
     LOG("emit_queue end_coord:   x:{x:6d} z:{z:6d} y:{y:6d}",**end_coord)
     LOG("emit_queue delta_total: x:{x:6d} z:{z:6d} y:{y:6d}",**delta_total)
@@ -457,7 +465,9 @@ def emit_queue(parsed_line, parser_state):
 def emit_line(args, parser_state):
     quoted_station = '"{station} {station_index}"'.format(**args)
     args["quoted_station"] = quoted_station
-    template = '[{quoted_station:<10}] = "{x:>5.0f}\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3}"'
+    args["furn_id"] = get_furn(args['station'], args['station_index'], parser_state)
+    template = ( '[{quoted_station:<10}] = "{furn_id}\t{x:>5.0f}'
+                +'\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3}"')
     line     = template.format(**args)
     LOG("EMIT {}".format(line))
     parser_state["output_lines"].append(line)
@@ -479,13 +489,13 @@ def is_lamp(item):
     return item in ['lamp', 'hide lamp', 'omit lamp', 'sconce']
 
 def parse_lines(input_lines, input_filepath, parser_state):
-    output_lines = []
     line_number  = 0
     for line in input_lines:
         line_number += 1
         parsed_line = parse_one_line(line, line_number, input_filepath)
         apply_line(parsed_line, parser_state)
-    return output_lines
+        if parser_state.get('end'):
+            return
 
 
 # -- main --------------------------------------------------------------------
@@ -506,9 +516,10 @@ def main():
         parse_lines(input_lines, input_filepath, parser_state)
 
     output_lines = parser_state.get('output_lines')
+    LOG("writing file:{}  data line_ct:{}", output_filepath, len(output_lines))
     with open(output_filepath, "w") as f:
-        f.write("\n".join(output_lines))
-
-    print("Write line ct: " + str(len(output_lines)))
+        f.write("ZZCraftoriumLayout.POSITION = {\n  ")
+        f.write("\n, ".join(output_lines))
+        f.write("\n}\n")
 
 main()

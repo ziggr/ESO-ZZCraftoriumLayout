@@ -5,3 +5,4 @@
 ## SavedVariables: ZZCraftoriumLayoutVars
 
 ZZCraftoriumLayout.lua
+ZZCraftoriumLayout_data.lua
