@@ -490,8 +490,8 @@ ROTATION_FROM_NORTH = {
 }
 OFFSETS_NORTH = {
     'lamp'    : { 'x': -200, 'z':   0, 'y':   0, 'rotation': 270 }
-  , 'lantern' : { 'x':   50, 'z':   0, 'y':  50, 'rotation':   0 }
-  , 'bs'      : { 'x':    0, 'z':  10, 'y':   0, 'rotation':  60 }
+  , 'lantern' : { 'x':  -38, 'z':   0, 'y': 491, 'rotation':   0 }
+  , 'bs'      : { 'x':    0, 'z':  40, 'y':   0, 'rotation':  60 }
 }
 def get_offsets(item, direction):
     offn = OFFSETS_NORTH.get(item)

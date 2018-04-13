@@ -773,15 +773,15 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     --                 , args.y
     --                 , args.z
     --                 )
-    -- local r = HousingEditorRequestChangePositionAndOrientation(
-    --                   item.furniture_id
-    --                 , args.x
-    --                 , args.y
-    --                 , args.z
-    --                 , 0        -- pitch
-    --                 , (args.rotation or 0) * math.pi / 180
-    --                 , 0        -- roll
-    --                 )
+    local r = HousingEditorRequestChangePositionAndOrientation(
+                      item.furniture_id
+                    , args.x
+                    , args.y
+                    , args.z
+                    , 0        -- pitch
+                    , (args.rotation or 0) * math.pi / 180
+                    , 0        -- roll
+                    )
 
     local result_text = HR[r] or tostring(r)
     local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s  %s"
