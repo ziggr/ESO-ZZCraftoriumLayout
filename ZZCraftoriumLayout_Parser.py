@@ -4,6 +4,7 @@
 #
 import collections
 import math
+import numpy
 import re
 import sys
 
@@ -379,6 +380,7 @@ WIDTH = {
     , 'cl'        : 200
     , 'ww'        : 200
 }
+
 def emit_station(parsed_line, parser_state):
     LOG("Emit station {}".format(parsed_line.get(station)))
     # write the single station specified by parsed_line, with
@@ -395,6 +397,7 @@ def emit_station(parsed_line, parser_state):
                                         or parser_state.get('rotation')]
            }
     emit_line(args, parser_state)
+
 
 def emit_queue(parsed_line, parser_state):
     LOG("Emit queue: {}".format(" ".join(parser_state.get('item_queue'))))
@@ -433,14 +436,16 @@ def emit_queue(parsed_line, parser_state):
                  }
     cume_width = 0
     for item in parser_state['item_queue']:
-                        # Emit this station.
-        args = { "station"       : item
-               , "station_index" : next_station_index(item, parser_state)
-               , "x"             : curr_coord.get("x")
-               , "z"             : curr_coord.get("z")
-               , "y"             : curr_coord.get("y")
-               , "rotation"      : ROTATION[parser_state.get("direction")] }
-        emit_line(args, parser_state)
+
+        if item == "omit lamp":
+            pass        # count the space, but emit nothing in the space
+        else:
+            args = calc_emit_args(item, curr_coord, parser_state)
+            emit_line(args, parser_state)
+        if item == "lamp":
+                        # emit a second line for the hanging lantern
+            args = calc_emit_args("lantern", curr_coord, parser_state)
+            emit_line(args, parser_state)
 
                         # Move to next position.
                         # (Calculated, then discarded, for the last item
@@ -462,12 +467,67 @@ def emit_queue(parsed_line, parser_state):
             #    , curr_coord[axis]
             #    )
 
+def rotate_matrix(degrees):
+    theta = degrees * numpy.pi / 180
+    cos = numpy.cos
+    sin = numpy.sin
+    r = numpy.array( [ [cos(theta), -sin(theta)]
+                     , [sin(theta),  cos(theta)] ])
+    return r
+
+def rotate(x, z, degrees):
+    v = numpy.array([ [x]
+                    , [z] ])
+    r = rotate_matrix(degrees)
+    v_rotated = r @ v
+    return int(v_rotated[0,0]), int(v_rotated[1,0])
+
+ROTATION_FROM_NORTH = {
+      'north' : 0
+    , 'east'  : 90
+    , 'south' : 180
+    , 'west'  : 270
+}
+OFFSETS_NORTH = {
+    'lamp'    : { 'x': -200, 'z':   0, 'y':   0, 'rotation':  0 }
+  , 'lantern' : { 'x':   50, 'z':   0, 'y':  50, 'rotation':  0 }
+  , 'bs'      : { 'x':    0, 'z':  10, 'y':   0, 'rotation': 24 }
+}
+def get_offsets(item, direction):
+    offn = OFFSETS_NORTH.get(item)
+    if not offn:
+        return { 'x'        : 0
+               , 'z'        : 0
+               , 'y'        : 0
+               , 'rotation' : 0
+               }
+    rotate_by = ROTATION_FROM_NORTH[direction]
+    xr, zr = rotate(offn['x'], offn['z'], rotate_by)
+    return { 'x'        : xr
+           , 'z'        : zr
+           , 'y'        : offn['y']
+           , 'rotation' : (offn['rotation'] + rotate_by) % 360
+           }
+
+def calc_emit_args(item, curr_coord, parser_state):
+    direction = parser_state['direction']
+    offsets = get_offsets(item, direction)
+    args = { "station"       : item
+           , "station_index" : next_station_index(item, parser_state)
+           , "x"             : curr_coord.get("x") + offsets.get("x")
+           , "z"             : curr_coord.get("z") + offsets.get("z")
+           , "y"             : curr_coord.get("y") + offsets.get("y")
+           , "rotation"      : (ROTATION[direction]
+                                + offsets.get("rotation")) % 360
+           }
+    return args
+
 def emit_line(args, parser_state):
-    quoted_station = '"{station} {station_index}"'.format(**args)
-    args["quoted_station"] = quoted_station
+    station_key = '{station} {station_index}'.format(**args)
+    args["station_key"] = station_key
     args["furn_id"] = get_furn(args['station'], args['station_index'], parser_state)
-    template = ( '[{quoted_station:<10}] = "{furn_id}\t{x:>5.0f}'
-                +'\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3}"')
+    template = ( '"{furn_id}\t{x:>5.0f}'
+                +'\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3} {station_key:<10}"')
     line     = template.format(**args)
     LOG("EMIT {}".format(line))
     parser_state["output_lines"].append(line)
@@ -497,7 +557,6 @@ def parse_lines(input_lines, input_filepath, parser_state):
         if parser_state.get('end'):
             return
 
-
 # -- main --------------------------------------------------------------------
 
 def main():
@@ -518,6 +577,7 @@ def main():
     output_lines = parser_state.get('output_lines')
     LOG("writing file:{}  data line_ct:{}", output_filepath, len(output_lines))
     with open(output_filepath, "w") as f:
+        f.write("-- furniture_unique_id  x       z       y       rot station index\n")
         f.write("ZZCraftoriumLayout.POSITION = {\n  ")
         f.write("\n, ".join(output_lines))
         f.write("\n}\n")

@@ -17,6 +17,14 @@ Z15	99,100	front lumpy stations
 Z16	94,400	grove path north
 Z17	95,100	grove path south
 
+X1  52,000  back patio west, outer wall
+X2  53,000  back patio west, inner hedge
+X3  53,700  long hall west, outer
+X4  54,475  long hall west, inner
+X5  59,875  long hall east, inner
+X6  60,600  long hall east, outer
+X7  61,300  back patio east, inner
+X8  62,100  back patio east, outer
 
 # Left hall, garden level
 
