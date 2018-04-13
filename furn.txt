@@ -126,11 +126,10 @@ furn	jw    	4620697946441605997	Rough Box, Boarded
 furn	jw    	4620697946441606025	Rough Box, Boarded
 furn	jw    	4620697946441605987	Rough Box, Boarded
 furn	jw    	4620697946441606000	Rough Box, Boarded
-furn	jw    	4620697946441605999	Rough Box, Boarded
+furn	jw    	4620697946441606003	Rough Box, Boarded
 furn	jw    	4620697946441606002	Rough Box, Boarded
 furn	jw    	4620697946441606001	Rough Box, Boarded
 furn	jw    	4620697946441606004	Rough Box, Boarded
-furn	jw    	4620697946441606003	Rough Box, Boarded
 furn	jw    	4620697946441606016	Rough Box, Boarded
 furn	jw    	4620697946441606005	Rough Box, Boarded
 furn	jw    	4620697946441606018	Rough Box, Boarded

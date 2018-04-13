@@ -19,8 +19,10 @@ Z17	95,100	grove path south
 
 X1  52,000  back patio west, outer wall
 X2  53,000  back patio west, inner hedge
-X3  53,900  long hall west, outer
+
+X3  53,800  long hall west, outer
 X4  54,475  long hall west, inner
+
 X5  59,875  long hall east, inner
 X6  60,600  long hall east, outer
 X7  61,300  back patio east, inner
@@ -34,7 +36,6 @@ north			# X wall, stations + of wall, rotate face west
 jw
 station
 					Z13
-__END__
 
 2 stations
 					Z12
@@ -44,8 +45,21 @@ station
 # stable
 
 					Z10
-2 stations
- 					Z9
+
+station
+				 X3 Z93437 Y19541
+
+							# manually place last set due to
+							# lumpy/non-interactable problems.
+
+ww				X53814	Z93262	Y19540
+cl 				X53800	Z93011	Y19540
+bs				X53810	Z92841	Y19539 rotation150
+jw 				X53800	Z92625	Y19539
+lamp
+ 					Z9     	Y19,539
+
+__END__
 
 # stairs up
 

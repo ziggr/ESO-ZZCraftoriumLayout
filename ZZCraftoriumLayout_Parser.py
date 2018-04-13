@@ -69,7 +69,7 @@ def parse_axis(line, axis):
 
 def parse_xzy(line, parsed_line):
     axis_seen = False
-    for axis in ['x','z','y']:
+    for axis in ['x','z','y','rotation']:
         r = parse_axis(line, axis)
         if r:
             parsed_line[axis] = r
@@ -382,19 +382,18 @@ WIDTH = {
 }
 
 def emit_station(parsed_line, parser_state):
-    LOG("Emit station {}".format(parsed_line.get(station)))
+    LOG("Emit station {}".format(parsed_line.get('station')))
     # write the single station specified by parsed_line, with
     # any missing info (usually rotation, maybey Y coord) from parser state
     station  = parsed_line['station']
-    index    = next_station_index(stations)
-    rotation = ROTATION.parser_state['direction']
+    index    = next_station_index(station, parser_state)
+    rotation = ROTATION[parser_state['direction']]
     args = { "station"       : station
            , "station_index" : index
            , "x"             : parsed_line.get('x') or parser_state.get('x')
            , "z"             : parsed_line.get('z') or parser_state.get('z')
            , "y"             : parsed_line.get('y') or parser_state.get('y')
-           , "rotation"      : ROTATION[   parsed_line.get('rotation')
-                                        or parser_state.get('rotation')]
+           , "rotation"      : parsed_line.get('rotation') or rotation
            }
     emit_line(args, parser_state)
 
@@ -425,6 +424,7 @@ def emit_queue(parsed_line, parser_state):
     for item in parser_state['item_queue'][0:-1]:
         total_item_width += WIDTH[item]
         LOG("emit_queue item width {:<10} = {:5d}", item, WIDTH[item])
+    total_item_width = max(1,total_item_width) # to avoid divide-by-zero
     LOG("emit_queue item width {:<10}   {:5d}", "total", total_item_width)
     LOG("emit_queue start_coord: x:{x:6d} z:{z:6d} y:{y:6d}",**start_coord)
     LOG("emit_queue end_coord:   x:{x:6d} z:{z:6d} y:{y:6d}",**end_coord)
@@ -492,6 +492,8 @@ OFFSETS_NORTH = {
     'lamp'    : { 'x': -200, 'z':   0, 'y':   0, 'rotation': 270 }
   , 'lantern' : { 'x':  -38, 'z':   0, 'y': 491, 'rotation':   0 }
   , 'bs'      : { 'x':    0, 'z':  40, 'y':   0, 'rotation':  60 }
+  , 'cl'      : { 'x':    0, 'z': -20, 'y':   0, 'rotation':   0 }
+
 }
 def get_offsets(item, direction):
     offn = OFFSETS_NORTH.get(item)
