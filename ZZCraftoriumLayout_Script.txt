@@ -13,8 +13,8 @@ Z11	95,755	stable path, south lamp = pool path north lamp 		# Z11 used
 Z12	96,800	pool path south lamp 								# Z12 used
 Z13	98,900	long hall 2nd southernmost lamp 					# Z13 used
 Z14	99,945	long hall southernmost lamp 						# Z14 used
-Z15	99,100	front lumpy stations, north/hedge
-Z18 99,807 	front lumpy stations, south/banker/merchant
+Z15	99,260	front lumpy stations, north/hedge
+Z18 99,807 	front lumpy stations, south/banker/merchant 		# Z18 used
 
 Z16	94,400	grove path north
 Z17	95,100	grove path south
@@ -25,10 +25,10 @@ X2  53,000  back patio west, inner hedge
 X3  53,800  long hall west, outer 								# X3 used
 X4  54,475  long hall west, inner
 
-X5  59,875  long hall east, inner
+X5  60,050  long hall east, inner
 X6  60,600  long hall east, outer
-X7  61,300  back patio east, inner
-X8  62,100  back patio east, outer
+X7  61,200  back patio east, inner
+X8  61,900  back patio east, outer
 
 #
 # lumpy in front of merchant/containers
@@ -36,13 +36,13 @@ X8  62,100  back patio east, outer
 west
 			   X55205 Z18 Y19550
 omit lamp
-stations
+station
 omit lamp
 			   X54492 Z18 Y19550
 
 
 #
-# long hall, east, outer
+# long hall, west, outer
 #
 north			# X wall, stations + of wall, rotate face west
 
@@ -74,7 +74,7 @@ lamp
 # (stairs up)
 
 #
-# front patio east, outer/wall corner
+# front patio west, outer/wall corner
 #
 west
 				X53650 Z8  Y19844
@@ -111,7 +111,7 @@ south
 				X52945 Z2 Y19858
 
 #
-# front patio east, inner/hedge corner
+# front patio west, inner/hedge corner
 #
 
 east
@@ -126,10 +126,10 @@ omit lamp
 station
 omit lamp
 				X54470 Z7 Y19843
-# (stairs down, east)
+# (stairs down, west)
 
 #
-# long hall, east, inner
+# long hall, west, inner
 #
 south
 
@@ -144,7 +144,137 @@ station 						# across from stable
 2 stations
 					Z13
 
+#
+# lumpy area, hedge
+#
+				X54608 Z99260 Y19530
+east
+omit lamp
+jw				X54608 Z99262 Y19530
+bs				X54760 Z99256 Y19542 rotation60
+cl 				X55027 Z99282 Y19550
+ww              X55229 Z99271 Y19535
+hide lamp
+ww              X55622 Z99246 Y19529
+cl 				X55875 Z99238 Y19510
+bs				X56028 Z99229 Y19502 rotation60
+jw				X56256 Z99209 Y19492
+omit lamp
+								# main entry path
+				X57639 Z99274 Y19510
+omit lamp
+jw				X57631 Z99230 Y19489
+bs				X57842 Z99226 Y19493 rotation60
+cl 				X58130 Z99260 Y19491
+ww              X58374 Z99247 Y19491
+hide lamp
+ww              X58836 Z99237 Y19497
+cl 				X59122 Z99248 Y19499
+bs				X59317 Z99222 Y19498 rotation60
+jw				X59571 Z99229 Y19509
+omit lamp
+				X59570 Z99233 Y19489
+
+#
+# long hall west, inner/hedge
+#
+north
+				X5 Z13 Y19544
+ww
+2 stations
+		 	    X5 Z12 Y19544
+ 								# pool path
+		 	    X5 Z11 Y19544
+3 stations
+		 	    X5 Z9  Y19544
+
+#
+# front patio east, inner/hedge
+#
+north
+				X59800 Z7 Y19843
+omit lamp
+station
+omit lamp
+				X59800 Z91200 Y19843  # SURPRISE, not symmetrical
+									  # this Z-wall is a bit further south
+east
+				X60130 Z90900 Y19843
+omit lamp
+station
+omit lamp
+				X60860 Z90900 Y19842
+
+#
+# back patio east
+#
+north
+				X7 Z2 Y19868
+2 stations
+				X7 Z1 Y19868
+south
+				X8 Z1 Y19871
+hide lamp
+station
+hide lamp
+station
+omit lamp
+				X8 Z2 Y19868
+
+#
+# front patio west, outer wall
+#
+south
+				X61611 Z4 Y19871
+omit lamp
+station
+omit lamp
+				X61611 Z5 Y19871
+west
+				X61300 Z91700 Y19871
+omit lamp
+ww              X61300 Z91700 Y19871 rotation
+cl              X61051 Z91700 Y19865 rotation
+bs              X60882 Z91700 Y19841 rotation240
+jw              X60660 Z91700 Y19841 rotation
+omit lamp
+				X60660 Z91700 Y19871
+#
+# long hall east, outer
+#
+south
+				X60500 Z9 Y19544
+lamp
+station
+lamp
+station
+hide lamp
+				X60500 Z94636 Y19544
+
+				X60500 Z11    Y19544
+station
+				X60510 Z12    Y19544
+station
+				X60510 Z97850 Y19544
+
+
 __END__
+
+
+west
+				X53650 Z8  Y19844
+omit lamp
+# station
+jw	X53650	Z91700	Y19841	rotation180 jw 7
+bs	X53404	Z91700	Y19844	rotation240 bs 7
+cl	X53115	Z91700	Y19844	rotation180 cl 7
+ww	X52850	Z91700	Y19859	rotation180 ww 7
+omit lamp
+				X52275 Z5 Y19860
+north
+				X52275 Z4 Y19860
+
+
 
 				X54,600	Z8
 hide lamp

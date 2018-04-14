@@ -206,24 +206,40 @@ local function zzerror(s)
     d("|cFF3333ZZCraftoriumLayout error: "..s.."|r")
 end
 
+local function id4(unique_id)
+    return unique_id:sub(#unique_id - 3)
+end
+
+local MOVED_INDEX = 0
+local function next_moved_index()
+    MOVED_INDEX = 1 + MOVED_INDEX
+    return MOVED_INDEX
+end
+
 function ZZCraftoriumLayout.MaybeMoveOne2(args)
     local item = ZZCraftoriumLayout.unique_id_to_item[args.unique_id]
     if not item then
         return zzerror(string.format("missing furniture unique_id:'%s'  %s %d"
                     , args.unique_id, args.station, args.station_index))
     end
+    if item.moved then
+        return zzerror(string.format("furniture moved twice: %s"
+                                    , Id64ToString(args.unique_id)))
+    end
 
                         -- Already in position? Nothing to do.
     if      args.x == item.x
         and args.z == item.z
         and args.y == item.y then
-        local msg = string.format("|c999999Skipping: already in position x:%d,z:%d  %s|r"
+        local msg = string.format("|c999999Skipping: already in position x:%d,z:%d  id:%s %s|r"
             , item.x
             , item.z
+            , id4(Id64ToString(item.unique_id))
             , item.item_name
             )
         d(msg)
         item.moved = "skipped"
+        item.moved_index = next_moved_index()
         return
     end
 
@@ -243,8 +259,9 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
                     , 0        -- roll
                     )
     item.moved = "moved"
+    item.moved_index = next_moved_index()
     local result_text = HR[r] or tostring(r)
-    local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s  %s"
+    local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s %s %s"
                     , item.x
                     , item.z
                     , item.y
@@ -254,6 +271,7 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
                     , args.y
                     , args.rotation or 0
                     , tostring(result_text)
+                    , id4(Id64ToString(item.unique_id))
                     , item.item_name
                     )
     d(msg)
@@ -285,17 +303,31 @@ function ZZCraftoriumLayout.MoveAll2()
                         -- Collect unmoved items into another saved_variables
                         -- bucket for later movement
     local unmoved = {}
+    local moved = {}
     for unique_id, item in pairs(ZZCraftoriumLayout.unique_id_to_item) do
         if not item.moved then
             table.insert(unmoved, item)
+        else
+            table.insert(moved, item)
         end
     end
     table.sort(unmoved, function(a,b) return a.item_name < b.item_name end )
+    table.sort(  moved, function(a,b)
+                            if a.item_name == b.item_name then
+                                return a.moved_index < b.moved_index
+                            end
+                            return a.item_name < b.item_name
+                        end )
     local unmoved_flat = {}
+    local   moved_flat = {}
     for _,item in ipairs(unmoved) do
         table.insert(unmoved_flat, item:ToTextLine())
     end
+    for _,item in ipairs(moved) do
+        table.insert(moved_flat, item:ToTextLine())
+    end
     ZZCraftoriumLayout.savedVariables.unmoved = unmoved_flat
+    ZZCraftoriumLayout.savedVariables.moved   = moved_flat
 end
 
 -- Init ----------------------------------------------------------------------

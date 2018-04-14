@@ -163,17 +163,16 @@ furn	jw    	4620697946441608252	Rough Box, Boarded
 furn	jw    	4620697946441608253	Rough Box, Boarded
 furn	jw    	4620697946441608254	Rough Box, Boarded
 
-
-furn	lamp  	4620697946441423904	Dark Elf Streetpost, Banner 1
-furn	lamp  	4620697946441423905	Dark Elf Streetpost, Banner 2
-furn	lamp  	4620697946441423906	Dark Elf Streetpost, Banner 3
-furn	lamp  	4620697946441423911	Dark Elf Streetpost, Banner 4
-furn	lamp  	4620697946441423913	Dark Elf Streetpost, Banner 6
-furn	lamp  	4620697946441423914	Dark Elf Streetpost, Banner 7
-furn	lamp  	4620697946441423617	Dark Elf Streetpost, Banner 8
-furn	lamp  	4620697946441423627	Dark Elf Streetpost, Banner 9
-furn	lamp  	4620697946441423630	Dark Elf Streetpost, Banner 10
-furn	lamp  	4620697946441423635	Dark Elf Streetpost, Banner 11
+furn	lamp  	4620697946441423904	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423905	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423906	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423911	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423913	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423914	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423617	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423627	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423630	Dark Elf Streetpost, Banner
+furn	lamp  	4620697946441423635	Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423881 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423663 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423702 Dark Elf Streetpost, Banner
@@ -185,6 +184,25 @@ furn    lamp    4620697946441423891 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423704 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423879 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423701 Dark Elf Streetpost, Banner
+furn    lamp  	4620697946441423659 Dark Elf Streetpost, Banner
+furn    lamp  	4620697946441423661 Dark Elf Streetpost, Banner
+furn    lamp  	4620697946441423660 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619098 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619093 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619105 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619102 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619103 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619101 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619092 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619097 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619095 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619094 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619091 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619099 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619104 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423888 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619096 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619100 Dark Elf Streetpost, Banner
 
 furn	lantern 	4620697946441423588	Common Lantern, Hanging
 furn	lantern 	4620697946441423590	Common Lantern, Hanging
@@ -198,18 +216,36 @@ furn	lantern 	4620697946441423683	Common Lantern, Hanging
 furn	lantern 	4620697946441423685	Common Lantern, Hanging
 furn	lantern 	4620697946441423687	Common Lantern, Hanging
 furn    lantern 	4620697946441423713 Common Lantern, Hanging
+furn    lantern 	4620697946441423715 Common Lantern, Hanging
+furn    lantern 	4620697946441423721 Common Lantern, Hanging
+furn    lantern 	4620697946441423722 Common Lantern, Hanging
+furn    lantern 	4620697946441423866 Common Lantern, Hanging
 furn    lantern 	4620697946441423899 Common Lantern, Hanging
 furn    lantern 	4620697946441423901 Common Lantern, Hanging
-furn    lantern 	4620697946441423937 Common Lantern, Hanging
-furn    lantern 	4620697946441423939 Common Lantern, Hanging
-furn    lantern 	4620697946441423715 Common Lantern, Hanging
 furn    lantern 	4620697946441423921 Common Lantern, Hanging
-furn    lantern 	4620697946441423722 Common Lantern, Hanging
-furn    lantern 	4620697946441423938 Common Lantern, Hanging
-furn    lantern 	4620697946441423940 Common Lantern, Hanging
 furn    lantern 	4620697946441423924 Common Lantern, Hanging
-furn    lantern 	4620697946441423721 Common Lantern, Hanging
-furn    lantern 	4620697946441423866 Common Lantern, Hanging
+furn    lantern 	4620697946441423937 Common Lantern, Hanging
+furn    lantern 	4620697946441423938 Common Lantern, Hanging
+furn    lantern 	4620697946441423939 Common Lantern, Hanging
+furn    lantern 	4620697946441423940 Common Lantern, Hanging
+furn    lantern     4620697946441619106 Common Lantern, Hanging
+furn    lantern     4620697946441619110 Common Lantern, Hanging
+furn    lantern     4620697946441619108 Common Lantern, Hanging
+furn    lantern     4620697946441619113 Common Lantern, Hanging
+furn    lantern     4620697946441619120 Common Lantern, Hanging
+furn    lantern     4620697946441619115 Common Lantern, Hanging
+furn    lantern     4620697946441619112 Common Lantern, Hanging
+furn    lantern     4620697946441619122 Common Lantern, Hanging
+furn    lantern     4620697946441619111 Common Lantern, Hanging
+furn    lantern     4620697946441619119 Common Lantern, Hanging
+furn    lantern     4620697946441619109 Common Lantern, Hanging
+furn    lantern     4620697946441619121 Common Lantern, Hanging
+furn    lantern     4620697946441619114 Common Lantern, Hanging
+furn    lantern     4620697946441619116 Common Lantern, Hanging
+furn    lantern     4620697946441619117 Common Lantern, Hanging
+furn    lantern     4620697946441619118 Common Lantern, Hanging
+furn    lantern     4620697946441423897 Common Lantern, Hanging
+furn    lantern     4620697946441619107 Common Lantern, Hanging
 
 
 # furn	4620697946441612551	Rough Box, Boarded
