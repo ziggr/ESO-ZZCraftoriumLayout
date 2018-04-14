@@ -214,12 +214,9 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     end
 
                         -- Already in position? Nothing to do.
-                        -- Intentionally ignoring Y here. If the station
-                        -- is already in x/z position, Zig might have manually
-                        -- futzed with y-position to touch the local surface.
-                        -- No need to un-futz here.
     if      args.x == item.x
-        and args.z == item.z then
+        and args.z == item.z
+        and args.y == item.y then
         local msg = string.format("|c999999Skipping: already in position x:%d,z:%d  %s|r"
             , item.x
             , item.z
@@ -236,15 +233,15 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     --                 , args.y
     --                 , args.z
     --                 )
-    -- local r = HousingEditorRequestChangePositionAndOrientation(
-    --                   item.furniture_id
-    --                 , args.x
-    --                 , args.y
-    --                 , args.z
-    --                 , 0        -- pitch
-    --                 , (args.rotation or 0) * math.pi / 180
-    --                 , 0        -- roll
-    --                 )
+    local r = HousingEditorRequestChangePositionAndOrientation(
+                      item.furniture_id
+                    , args.x
+                    , args.y
+                    , args.z
+                    , 0        -- pitch
+                    , (args.rotation or 0) * math.pi / 180
+                    , 0        -- roll
+                    )
     item.moved = "moved"
     local result_text = HR[r] or tostring(r)
     local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s  %s"

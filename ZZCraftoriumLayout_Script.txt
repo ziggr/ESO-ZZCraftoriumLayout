@@ -54,9 +54,11 @@ ww				X53814	Z93262	Y19540
 cl 				X53800	Z93011	Y19540
 bs				X53810	Z92841	Y19539 rotation150
 jw 				X53800	Z92625	Y19539
+ 					Z9     	Y19,539
 lamp
  					Z9     	Y19,539
 
+__END__
 # (stairs up)
 
 #
