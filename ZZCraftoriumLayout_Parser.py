@@ -99,7 +99,7 @@ def parse_direction(line):
 
 # lamp control
 def parse_lamp(line):
-    for cmd in ['lamp', 'hide lamp', 'omit lamp', 'sconce']:
+    for cmd in ['hide lamp', 'omit lamp', 'lamp', 'sconce']:
         if cmd in line:
             return cmd
     return None
@@ -372,7 +372,8 @@ ROTATION = {
 
 # width in pixels along the wall
 WIDTH = {
-      'skip lamp' : 160
+      'omit lamp' :   0   # no lamp, no space for lamp
+    , 'hide lamp' : 160   # suppress lamp, but count space as if one were there.
     , 'lamp'      : 160
     , 'sconce'    : 160
     , 'jw'        : 200
@@ -437,7 +438,7 @@ def emit_queue(parsed_line, parser_state):
     cume_width = 0
     for item in parser_state['item_queue']:
 
-        if item == "omit lamp":
+        if item in ["omit lamp", "hide lamp"]:
             pass        # count the space, but emit nothing in the space
         else:
             args = calc_emit_args(item, curr_coord, parser_state)
@@ -548,7 +549,7 @@ def append_end_lamp(parser_state):
     q.append('lamp')
 
 def is_lamp(item):
-    return item in ['lamp', 'hide lamp', 'omit lamp', 'sconce']
+    return item in ['hide lamp', 'omit lamp', 'lamp', 'sconce']
 
 def parse_lines(input_lines, input_filepath, parser_state):
     line_number  = 0

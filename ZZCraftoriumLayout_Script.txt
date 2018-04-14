@@ -6,7 +6,7 @@ Z4	90,500	front patios, outer wall rear lamp
 Z5	91,600	front patios, outer wall front lamp
 Z6	90,615	front patios, inner hedge rear lamp
 Z7	91,800	front patios, inner hedge front lamp
-Z8	91,800	front patios, front z-wall
+Z8	91,700	front patios, front z-wall
 Z9	92,400	long hall before stairs
 Z10	94,475	stable path, north lamp
 Z11	95,755	stable path, south lamp = pool path north lamp
@@ -58,7 +58,6 @@ jw 				X53800	Z92625	Y19539
 lamp
  					Z9     	Y19,539
 
-__END__
 # (stairs up)
 
 #
@@ -66,13 +65,14 @@ __END__
 #
 west
 				X53800 Z8  Y19844
+omit lamp
 station
-hide lamp
-				X52400 Z8
+omit lamp
+				X52600 Z8
 north
-hide lamp
+omit lamp
 station
-hide lamp
+omit lamp
 				X52400 Z90600
 __END__
 
