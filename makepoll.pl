@@ -1,6 +1,7 @@
 #! /usr/bin/perl
 
-$cmd = "make poll";
+#$cmd = "make poll";
+$cmd = "make poll put";
 
 # Cheesy ls wrapper. Dir MUST end in /.
 sub dirls($)
