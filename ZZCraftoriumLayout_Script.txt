@@ -28,8 +28,9 @@ X6  60,600  long hall east, outer
 X7  61,300  back patio east, inner
 X8  62,100  back patio east, outer
 
-# Left hall, garden level
-
+#
+# long hall, east, outer
+#
 north			# X wall, stations + of wall, rotate face west
 
 				X3 	Z14 	Y19,544
@@ -41,11 +42,8 @@ station
 					Z12
 station
 					Z11
-
-# stable
-
+# (stable)
 					Z10
-
 station
 				 X3 Z93437 Y19541
 
@@ -59,18 +57,23 @@ jw 				X53800	Z92625	Y19539
 lamp
  					Z9     	Y19,539
 
-__END__
+# (stairs up)
 
-# stairs up
-
-west 			# Z wall, stations - of wall, rotate face north
-
-				X3 	Z8 		Y19,999
+#
+# front patio east, outer corner
+#
+west
+				X53800 Z8  Y19844
+station
+hide lamp
+				X52400 Z8
+north
 hide lamp
 station
 hide lamp
-				X54,800
-north
+				X52400 Z90600
+__END__
+
 				X54,600	Z8
 hide lamp
 station
