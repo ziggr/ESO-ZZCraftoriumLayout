@@ -1,32 +1,45 @@
 # define constants
-Z1	88,825	back patios, rear lamps
-Z2	90,615	back patios, front lamps
-Z3	90,615	front patios, entry back wall
-Z4	90,500	front patios, outer wall rear lamp
-Z5	91,600	front patios, outer wall front lamp
-Z6	90,615	front patios, inner hedge rear lamp
-Z7	91,800	front patios, inner hedge front lamp
-Z8	91,700	front patios, front z-wall
-Z9	92,400	long hall before stairs
-Z10	94,475	stable path, north lamp
-Z11	95,755	stable path, south lamp = pool path north lamp
-Z12	96,800	pool path south lamp
-Z13	98,900	long hall 2nd southernmost lamp
-Z14	99,945	long hall southernmost lamp
-Z15	99,100	front lumpy stations
+Z1	88,515	back patios, rear lamps 							#  Z1 used
+Z2	90,440	back patios, front lamps 							#  Z2 used
+Z3	90,800	front patios, inner back wall 						#  Z3 used
+Z4	90,730	front patios, outer wall rear station				#  Z4 used
+Z5	91,384	front patios, outer wall front station				#  Z5 used
+Z6	90,950	front patios, inner hedge rear station 				#  Z6 used
+Z7	91,800	front patios, inner hedge front station 			#  Z7 used
+Z8	91,700	front patios, front z-wall 							#  Z8 used
+Z9	92,400	long hall before stairs 							#  Z9 used
+Z10	94,475	stable path, north lamp 							# Z10 used
+Z11	95,755	stable path, south lamp = pool path north lamp 		# Z11 used
+Z12	96,800	pool path south lamp 								# Z12 used
+Z13	98,900	long hall 2nd southernmost lamp 					# Z13 used
+Z14	99,945	long hall southernmost lamp 						# Z14 used
+Z15	99,100	front lumpy stations, north/hedge
+Z18 99,807 	front lumpy stations, south/banker/merchant
+
 Z16	94,400	grove path north
 Z17	95,100	grove path south
 
 X1  52,000  back patio west, outer wall
 X2  53,000  back patio west, inner hedge
 
-X3  53,800  long hall west, outer
+X3  53,800  long hall west, outer 								# X3 used
 X4  54,475  long hall west, inner
 
 X5  59,875  long hall east, inner
 X6  60,600  long hall east, outer
 X7  61,300  back patio east, inner
 X8  62,100  back patio east, outer
+
+#
+# lumpy in front of merchant/containers
+#
+west
+			   X55205 Z18 Y19550
+omit lamp
+stations
+omit lamp
+			   X54492 Z18 Y19550
+
 
 #
 # long hall, east, outer
@@ -61,7 +74,7 @@ lamp
 # (stairs up)
 
 #
-# front patio east, outer corner
+# front patio east, outer/wall corner
 #
 west
 				X53650 Z8  Y19844
@@ -72,37 +85,64 @@ bs	X53404	Z91700	Y19844	rotation240 bs 7
 cl	X53115	Z91700	Y19844	rotation180 cl 7
 ww	X52850	Z91700	Y19859	rotation180 ww 7
 omit lamp
-#				X52850 Z8  Y19860
-#
-#				# test: does the above ww7 end on the above coords?
-
-				X52275 Z91384 Y19860
+				X52275 Z5 Y19860
 north
 omit lamp
 station
 omit lamp
-				X52275 Z90730 Y19860
+				X52275 Z4 Y19860
 
 #
 # back patio west, outer wall
 #
-				X52120 Z2 19858
+				X52120 Z2 Y19858
 omit lamp
 station
 hide lamp
 station
-omit lamp
-				X52120 Z1 19858
-# inner wall
+hide lamp
+				X52120 Z1 Y19858
+#
+# back patio west, inner wall
+#
 south
-				X52945 Z1 19858
+				X52945 Z1 Y19858
+2 stations
+				X52945 Z2 Y19858
+
+#
+# front patio east, inner/hedge corner
+#
+
+east
+				X53360 Z3 Y19842
 omit lamp
 station
-lamp
+omit lamp
+				X54015 Z3 Y19843
+south
+				X54470 Z6 Y19843
+omit lamp
 station
-lamp
-				X52945 Z2 19858
+omit lamp
+				X54470 Z7 Y19843
+# (stairs down, east)
 
+#
+# long hall, east, inner
+#
+south
+
+ 				X54200	Z9	Y19540
+ 					Z9     	Y19,539
+2 stations
+ 					Z10
+station 						# across from stable
+					Z11
+								# pool path
+				    Z12
+2 stations
+					Z13
 
 __END__
 
