@@ -274,7 +274,6 @@ def apply_line(parsed_line, parser_state):
                         # single-station manual location
     station   = parsed_line.get('station')
     if station and has_coord:
-        error_if_queue_not_empty(parsed_line, parser_state)
         emit_station(parsed_line, parser_state)
         parser_state['prev_station'] = station
         return
@@ -365,9 +364,9 @@ def error(msg):
 # the given direction.
 ROTATION = {
       'north' :  90
-    , 'east'  : 180
+    , 'east'  :   0
     , 'south' : 270
-    , 'west'  :   0
+    , 'west'  : 180
 }
 
 # width in pixels along the wall
@@ -422,9 +421,17 @@ def emit_queue(parsed_line, parser_state):
                         # station, since we want it at the end coord
                         # on the current parser_line.
     total_item_width = 0
-    for item in parser_state['item_queue'][0:-1]:
+    last_item_width  = 0
+    for item in parser_state['item_queue']:
         total_item_width += WIDTH[item]
         LOG("emit_queue item width {:<10} = {:5d}", item, WIDTH[item])
+                        # Remember the width of the last (non-zero) item
+                        # because its width doesn't count: we want this
+                        # item to be plopped down on our end coords exactly,
+                        # not some item_width before the end coord.
+        if 0 < WIDTH[item]:
+            last_item_width = WIDTH[item]
+    total_item_width -= last_item_width
     total_item_width = max(1,total_item_width) # to avoid divide-by-zero
     LOG("emit_queue item width {:<10}   {:5d}", "total", total_item_width)
     LOG("emit_queue start_coord: x:{x:6d} z:{z:6d} y:{y:6d}",**start_coord)
@@ -454,6 +461,7 @@ def emit_queue(parsed_line, parser_state):
                         #  rearrange code to skip the wasted calculation time.)
         cume_width += WIDTH[item]
         ratio      = cume_width / total_item_width
+        LOG("emit_queue cume_width={}/total_item_width={} ratio={:4.2f}",cume_width,total_item_width,ratio)
         for axis in ["x","z","y"]:
             curr_coord[axis] = int(ratio * delta_total[axis]
                                    + start_coord[axis])
@@ -484,8 +492,8 @@ def rotate(x, z, degrees):
     return int(v_rotated[0,0]), int(v_rotated[1,0])
 
 ROTATION_FROM_NORTH = {
-      'north' : 0
-    , 'east'  : 90
+      'north' :   0
+    , 'east'  :  90
     , 'south' : 180
     , 'west'  : 270
 }
@@ -509,7 +517,7 @@ def get_offsets(item, direction):
     return { 'x'        : xr
            , 'z'        : zr
            , 'y'        : offn['y']
-           , 'rotation' : (offn['rotation'] + rotate_by) % 360
+           , 'rotation' : offn['rotation']
            }
 
 def calc_emit_args(item, curr_coord, parser_state):

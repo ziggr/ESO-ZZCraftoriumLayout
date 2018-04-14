@@ -64,16 +64,24 @@ lamp
 # front patio east, outer corner
 #
 west
-				X53800 Z8  Y19844
+				X53650 Z8  Y19844
 omit lamp
-station
+# station
+jw	X53650	Z91700	Y19841	rotation180 jw 7
+bs	X53404	Z91700	Y19844	rotation240 bs 7
+cl	X53115	Z91700	Y19844	rotation180 cl 7
+ww	X52850	Z91700	Y19859	rotation180 ww 7
 omit lamp
-				X52600 Z8
+				X52850 Z8  Y19860
+
+				# test: does the above ww7 end on the above coords?
+__END__
+				X52420 Z91384 Y19860
 north
 omit lamp
 station
 omit lamp
-				X52400 Z90600
+				X52400 Z90530 Y19860
 __END__
 
 				X54,600	Z8
