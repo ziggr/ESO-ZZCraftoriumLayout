@@ -231,17 +231,24 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     if      args.x == item.x
         and args.z == item.z
         and args.y == item.y then
+
+        ZZCraftoriumLayout.skip_run_ct = 1 + (ZZCraftoriumLayout.skip_run_ct or 0)
         local msg = string.format("|c999999Skipping: already in position x:%d,z:%d  id:%s %s|r"
             , item.x
             , item.z
             , id4(Id64ToString(item.unique_id))
             , item.item_name
             )
-        d(msg)
+        if ZZCraftoriumLayout.skip_run_ct < 3 then
+            d(msg)
+        elseif ZZCraftoriumLayout.skip_run_ct == 3 then
+            d("|c999999...|r")
+        end
         item.moved = "skipped"
         item.moved_index = next_moved_index()
         return
     end
+    ZZCraftoriumLayout.skip_run_ct = 0
 
     -- local r = HousingEditorRequestChangePosition(
     --                   item.furniture_id
@@ -279,6 +286,7 @@ end
 
 function ZZCraftoriumLayout.MoveAll2()
     if ZZCraftoriumLayout.ErrorIfNotHome() then return end
+    ZZCraftoriumLayout.skip_run_ct = 0
 
                         -- Scan first to gather each existing furniture's
                         -- unique_id. There is no string-to-id64 conversion,
