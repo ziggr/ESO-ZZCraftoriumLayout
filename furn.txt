@@ -39,6 +39,10 @@ furn	bs   	4620697946441395796	Blacksmithing Station (Varen's Legacy)
 furn	bs   	4620697946441422498	Blacksmithing Station (Way of the Arena)
 furn	bs   	4620697946441423489	Blacksmithing Station (Whitestrake's Retribution)
 furn	bs   	4620697946441422516	Blacksmithing Station (Willow's Path)
+furn    bs      4620697946441612556 Rough Box, Boarded
+furn    bs      4620697946441612551 Rough Box, Boarded
+furn    bs      4620697946441612557 Rough Box, Boarded
+
 furn	cl    	4620697946441423479	Clothing Station (Alessia's Bulwark)
 furn	cl    	4620697946441152018	Clothing Station (Armor Master)
 furn	cl    	4620697946441423510	Clothing Station (Ashen Grip)
@@ -80,6 +84,10 @@ furn	cl    	4620697946441395798	Clothing Station (Varen's Legacy)
 furn	cl    	4620697946441422500	Clothing Station (Way of the Arena)
 furn	cl    	4620697946441423491	Clothing Station (Whitestrake's Retribution)
 furn	cl    	4620697946441422517	Clothing Station (Willow's Path)
+furn    cl      4620697946441612558 Rough Box, Boarded
+furn    cl      4620697946441612554 Rough Box, Boarded
+furn    cl      4620697946441619130 Rough Box, Boarded
+
 furn	ww    	4620697946441423481	Woodworking Station (Alessia's Bulwark)
 furn	ww    	4620697946441152019	Woodworking Station (Armor Master)
 furn	ww    	4620697946441423511	Woodworking Station (Ashen Grip)
@@ -121,6 +129,10 @@ furn	ww    	4620697946441395800	Woodworking Station (Varen's Legacy)
 furn	ww    	4620697946441422502	Woodworking Station (Way of the Arena)
 furn	ww    	4620697946441423493	Woodworking Station (Whitestrake's Retribution)
 furn	ww    	4620697946441422518	Woodworking Station (Willow's Path)
+furn    ww      4620697946441619127 Rough Box, Boarded
+furn    ww      4620697946441619129 Rough Box, Boarded
+furn    ww      4620697946441612555 Rough Box, Boarded
+
 furn	jw    	4620697946441608255	Rough Box, Boarded
 furn	jw    	4620697946441605997	Rough Box, Boarded
 furn	jw    	4620697946441606025	Rough Box, Boarded
@@ -162,6 +174,9 @@ furn	jw    	4620697946441608251	Rough Box, Boarded
 furn	jw    	4620697946441608252	Rough Box, Boarded
 furn	jw    	4620697946441608253	Rough Box, Boarded
 furn	jw    	4620697946441608254	Rough Box, Boarded
+furn    jw      4620697946441612553 Rough Box, Boarded
+furn    jw      4620697946441612552 Rough Box, Boarded
+furn    jw      4620697946441619128 Rough Box, Boarded
 
 furn	lamp  	4620697946441423904	Dark Elf Streetpost, Banner
 furn	lamp  	4620697946441423905	Dark Elf Streetpost, Banner
@@ -203,6 +218,9 @@ furn    lamp    4620697946441619104 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441423888 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441619096 Dark Elf Streetpost, Banner
 furn    lamp    4620697946441619100 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619096 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619100 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423888 Dark Elf Streetpost, Banner
 
 furn	lantern 	4620697946441423588	Common Lantern, Hanging
 furn	lantern 	4620697946441423590	Common Lantern, Hanging
@@ -246,29 +264,6 @@ furn    lantern     4620697946441619117 Common Lantern, Hanging
 furn    lantern     4620697946441619118 Common Lantern, Hanging
 furn    lantern     4620697946441423897 Common Lantern, Hanging
 furn    lantern     4620697946441619107 Common Lantern, Hanging
-
-
-# furn	4620697946441612551	Rough Box, Boarded
-# furn	4620697946441612552	Rough Box, Boarded
-# furn	4620697946441612553	Rough Box, Boarded
-# furn	4620697946441612554	Rough Box, Boarded
-# furn	4620697946441612555	Rough Box, Boarded
-# furn	4620697946441612556	Rough Box, Boarded
-# furn	4620697946441612557	Rough Box, Boarded
-# furn	4620697946441612558	Rough Box, Boarded
-
-# furn	4620697946441292816	Breton Sconce, Torch
-# furn	4620697946441394109	Breton Sconce, Torch
-# furn	4620697946441394110	Breton Sconce, Torch
-# furn	4620697946441394112	Breton Sconce, Torch
-# furn	4620697946441394115	Breton Sconce, Torch
-# furn	4620697946441394118	Breton Sconce, Torch
-# furn	4620697946441394415	Breton Sconce, Torch
-# furn	4620697946441423525	Breton Sconce, Torch
-# furn	4620697946441423577	Breton Sconce, Torch
-# furn	4620697946441423578	Breton Sconce, Torch
-# furn	4620697946441544041	Breton Sconce, Torch
-# furn	4620697946441580061	Breton Sconce, Torch
-# furn	4620697946441580062	Breton Sconce, Torch
-# furn	4620697946441580063	Breton Sconce, Torch
-# furn	4620697946441580064	Breton Sconce, Torch
+furn    lantern     4620697946441619107 Common Lantern, Hanging
+furn    lantern     4620697946441423897 Common Lantern, Hanging
+furn    lantern     4620697946441619117 Common Lantern, Hanging
