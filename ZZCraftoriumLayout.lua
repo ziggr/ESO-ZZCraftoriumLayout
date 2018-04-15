@@ -230,7 +230,9 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
                         -- Already in position? Nothing to do.
     if      args.x == item.x
         and args.z == item.z
-        and args.y == item.y then
+        and args.y == item.y
+        -- and args.rotation == item.rotation
+        then
 
         ZZCraftoriumLayout.skip_run_ct = 1 + (ZZCraftoriumLayout.skip_run_ct or 0)
         local msg = string.format("|c999999Skipping: already in position x:%d,z:%d  id:%s %s|r"
@@ -250,14 +252,13 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     end
     ZZCraftoriumLayout.skip_run_ct = 0
 
-    -- local r = HousingEditorRequestChangePosition(
-    --                   item.furniture_id
-    --                 , args.x
-    --                 , args.y
-    --                 , args.z
-    --                 )
+    args.item = item
+    table.insert(ZZCraftoriumLayout.move_queue, args)
+end
+
+function ZZCraftoriumLayout.MoveOne(args)
     local r = HousingEditorRequestChangePositionAndOrientation(
-                      item.furniture_id
+                      args.item.furniture_id
                     , args.x
                     , args.y
                     , args.z
@@ -265,28 +266,41 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
                     , (args.rotation or 0) * math.pi / 180
                     , 0        -- roll
                     )
-    item.moved = "moved"
-    item.moved_index = next_moved_index()
+    args.item.moved = "moved"
+    args.item.moved_index = next_moved_index()
     local result_text = HR[r] or tostring(r)
     local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s %s %s"
-                    , item.x
-                    , item.z
-                    , item.y
-                    , item.rotation or 0
+                    , args.item.x
+                    , args.item.z
+                    , args.item.y
+                    , args.item.rotation or 0
                     , args.x
                     , args.z
                     , args.y
                     , args.rotation or 0
                     , tostring(result_text)
-                    , id4(Id64ToString(item.unique_id))
-                    , item.item_name
+                    , id4(Id64ToString(args.item.unique_id))
+                    , args.item.item_name
                     )
     d(msg)
+end
+
+-- Moving too many items at once gets you insta-kicked for message spam.
+-- Call this with a delay between bursts.
+function ZZCraftoriumLayout.MoveQueued()
+    if #ZZCraftoriumLayout.move_queue <= 0 then
+        ZZCraftoriumLayout.MoveDone()
+        return
+    end
+    local tail = table.remove(ZZCraftoriumLayout.move_queue, #ZZCraftoriumLayout.move_queue)
+    ZZCraftoriumLayout.MoveOne(tail)
+    zo_callLater(ZZCraftoriumLayout.MoveQueued, 200)
 end
 
 function ZZCraftoriumLayout.MoveAll2()
     if ZZCraftoriumLayout.ErrorIfNotHome() then return end
     ZZCraftoriumLayout.skip_run_ct = 0
+    ZZCraftoriumLayout.move_queue = {}
 
                         -- Scan first to gather each existing furniture's
                         -- unique_id. There is no string-to-id64 conversion,
@@ -307,7 +321,10 @@ function ZZCraftoriumLayout.MoveAll2()
                    }
         ZZCraftoriumLayout.MaybeMoveOne2(args)
     end
+    ZZCraftoriumLayout.MoveQueued()
+end
 
+function ZZCraftoriumLayout.MoveDone()
                         -- Collect unmoved items into another saved_variables
                         -- bucket for later movement
     local unmoved = {}

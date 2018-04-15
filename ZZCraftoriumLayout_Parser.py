@@ -5,6 +5,7 @@
 import collections
 import math
 import numpy
+import random
 import re
 import sys
 
@@ -453,6 +454,7 @@ def emit_queue(parsed_line, parser_state):
         if item == "lamp":
                         # emit a second line for the hanging lantern
             args = calc_emit_args("lantern", curr_coord, parser_state)
+            args['rotation'] = random.randint(0,360)        # spin the lanterns around so they're less... mechanical
             emit_line(args, parser_state)
 
                         # Move to next position.
