@@ -25,7 +25,7 @@ X2  53,000  back patio west, inner hedge
 X3  53,800  long hall west, outer 								# X3 used
 X4  54,475  long hall west, inner
 
-X5  60,050  long hall east, inner
+X5  60,050  long hall east, inner 								# X5 used
 X6  60,600  long hall east, outer
 X7  61,200  back patio east, inner
 X8  61,900  back patio east, outer
@@ -33,6 +33,7 @@ X8  61,900  back patio east, outer
 #
 # lumpy in front of merchant/containers
 #
+# hedge		   X54835 Z1000050 Y19074   		Hedge, Dense High Wall
 west
 			   X55205 Z18 Y19550
 omit lamp
@@ -40,10 +41,12 @@ station
 omit lamp
 			   X54492 Z18 Y19550
 
-
 #
 # long hall, west, outer
 #
+# hedge		   X53550 Z99488 Y19128   		Hedge, Dense High Wall   X = X-250 Y=Y-420
+# topiary 	   X53450 Z99945 Y19505 		Topiary, Strong Cypress  X = X-350
+
 north			# X wall, stations + of wall, rotate face west
 
 				X3 	Z14 	Y19,544
@@ -95,6 +98,7 @@ omit lamp
 #
 # back patio west, outer wall
 #
+
 				X52120 Z2 Y19858
 omit lamp
 station
@@ -105,6 +109,10 @@ hide lamp
 #
 # back patio west, inner wall
 #
+# hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+# sconce       X51843 Z90440 Y20243
+# sconce              Z89477
+# sconce              Z88515
 south
 				X52945 Z1 Y19858
 2 stations
@@ -113,6 +121,7 @@ south
 #
 # front patio west, inner/hedge corner
 #
+# hedge		   X54650 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
 
 east
 				X53360 Z3 Y19842
@@ -131,16 +140,18 @@ omit lamp
 #
 # long hall, west, inner
 #
+# hedge		   X54550 Z99488 Y19120   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+# topiary 	   X54650 Z99945 Y19505 		Topiary, Strong Cypress  X = X+350
 south
 
  				X54300	Z9	Y19540
  					Z9     	Y19539
-station
+station 									# Julianos
 				X54300	Z93437 Y19539
 hide lamp
-ww				X54315  Z93613
-cl  			X54300  Z93863
-bs  			X54300  Z94028
+ww				X54315  Z93613	Y19539		# Magnus, ground issues
+cl  			X54295  Z93864  Y19540
+bs  			X54300  Z94028  Y19539 rotation330
 jw  			X54300  Z94249
  					Z10
 station 						# across from stable
@@ -182,8 +193,10 @@ omit lamp
 				X59570 Z99233 Y19489
 
 #
-# long hall west, inner/hedge
+# long hall east, inner/hedge
 #
+# hedge		   X59800   	Y19124   		Hedge, Dense High Wall   X = X-250 Y=Y-420
+# topiary 	   X59700   	Y19505 			Topiary, Strong Cypress  X = X-350
 north
 				X5 Z13 Y19544
 ww
@@ -197,6 +210,7 @@ ww
 #
 # front patio east, inner/hedge
 #
+# hedge		   X59620 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
 north
 				X59800 Z7 Y19843
 omit lamp
@@ -214,6 +228,10 @@ omit lamp
 #
 # back patio east
 #
+# hedge		   X60950 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+# sconce       X62153 Z90596 Y20243
+# sconce              Z89601
+# sconce              Z88515
 north
 				X7 Z2 Y19868
 2 stations
@@ -248,6 +266,8 @@ omit lamp
 #
 # long hall east, outer
 #
+# hedge		   X60750   	Y19124   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+# topiary 	   X60850   	Y19505 			Topiary, Strong Cypress  X = X+350
 south
 				X60500 Z9 Y19544
 lamp
@@ -260,8 +280,10 @@ hide lamp
 				X60500 Z11    Y19544
 station
 				X60510 Z12    Y19544
+hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
 2 stations
 				X60510 Z13    Y19544
+hide lamp 									# AND HERE
 station
 				X60510 Z14    Y19544
 
