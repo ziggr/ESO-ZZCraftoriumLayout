@@ -133,9 +133,17 @@ omit lamp
 #
 south
 
- 				X54200	Z9	Y19540
- 					Z9     	Y19,539
+				### BROKEN X54300 is about right, leaves only one station
+				###        ww Magnus has to be manually fudged.
+				###        come back and fix later when guildies aren't all
+				###        using the Julianos and Magnus stations
+
+				# 54200 works, but is way too intrusive on path
+ 				X54300	Z9	Y19540
+ 					Z9     	Y19539
 2 stations
+#				X54300	Z95574 Y19539
+#station
  					Z10
 station 						# across from stable
 					Z11
