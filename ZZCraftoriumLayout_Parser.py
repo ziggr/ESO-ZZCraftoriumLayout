@@ -212,6 +212,7 @@ def ParserState():
         , 'furn'            : collections.defaultdict(list)
         , 'furn_index_prev' : {}
         , 'constant'        : {}
+        , 'seen_xy'         : {}
         , 'output_lines'    : []
     }
     return parser_state
@@ -542,8 +543,15 @@ def emit_line(args, parser_state):
     template = ( '"{furn_id}\t{x:>5.0f}'
                 +'\t{z:>5.0f}\t{y:>5.0f}\t{rotation:3} {station_key:<10}"')
     line     = template.format(**args)
+    xz = "{:>5.0f} {:>5.0f}".format(args["x"], args["z"])
+    if xz in parser_state['seen_xy']:
+        prev = parser_state['seen_xy'][xz]
+        LOG("warning: ignoring duplicate at x:{x:>5.0f} z:{z:5.0f}"
+            +" furn_id:{furn_id} {station} {station_index}", **args)
+        return
     LOG("EMIT {}".format(line))
     parser_state["output_lines"].append(line)
+    parser_state['seen_xy'][xz] = args['furn_id']
 
 def next_station_index(station, parser_state):
     index   = 1 + (parser_state['furn_index_prev'].get(station) or 0)
