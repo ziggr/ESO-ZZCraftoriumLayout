@@ -1,5 +1,3 @@
-local LAM2 = LibStub("LibAddonMenu-2.0")
-
 ZZCraftoriumLayout = ZZCraftoriumLayout or {}
 ZZCraftoriumLayout.name            = "ZZCraftoriumLayout"
 ZZCraftoriumLayout.version         = "3.3.1"
@@ -140,7 +138,7 @@ end
 
 
 function ZZCraftoriumLayout.IsInteresting(item)
-    local want = { "Rough Box, Boarded"
+    local want = { "Jewelry Crafting Station"
                  , "Blacksmithing Station"
                  , "Clothing Station"
                  , "Woodworking Station"

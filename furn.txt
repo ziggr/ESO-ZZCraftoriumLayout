@@ -1,4 +1,4 @@
-furn    bs      4620697946441612556 Rough Box, Boarded    (Adept Rider)
+furn    bs      4620697946441625330 Blacksmithing Station (Adept Rider)
 furn	bs   	4620697946441423477	Blacksmithing Station (Alessia's Bulwark)
 furn	bs   	4620697946441146870	Blacksmithing Station (Armor Master)
 furn	bs   	4620697946441423509	Blacksmithing Station (Ashen Grip)
@@ -21,7 +21,7 @@ furn	bs   	4620697946441335142	Blacksmithing Station (Morkuldin)
 furn	bs   	4620697946441335136	Blacksmithing Station (Night Mother's)
 furn	bs   	4620697946441423495	Blacksmithing Station (Night's Silence)
 furn	bs   	4620697946441291111	Blacksmithing Station (Noble's Conquest)
-furn    bs      4620697946441612551 Rough Box, Boarded    (Nocturnal's Favor)
+furn    bs      4620697946441625322 Blacksmithing Station (Nocturnal's Favor)
 furn	bs   	4620697946441422510	Blacksmithing Station (Oblivion's Foe)
 furn	bs   	4620697946441291492	Blacksmithing Station (Orgnum's Scales)
 furn	bs   	4620697946441335515	Blacksmithing Station (Pelinal's Aptitude)
@@ -29,7 +29,7 @@ furn	bs   	4620697946441291118	Blacksmithing Station (Redistributor)
 furn	bs   	4620697946441335525	Blacksmithing Station (Seducer)
 furn	bs   	4620697946441395834	Blacksmithing Station (Shacklebreaker)
 furn	bs   	4620697946441395852	Blacksmithing Station (Shalidor's Curse)
-furn    bs      4620697946441612557 Rough Box, Boarded    (Sload's Semblance)
+furn    bs      4620697946441625338 Blacksmithing Station (Sload's Semblance)
 furn	bs   	4620697946441423471	Blacksmithing Station (Song of Lamae)
 furn	bs   	4620697946441422504	Blacksmithing Station (Spectre's Eye)
 furn	bs   	4620697946441395802	Blacksmithing Station (Tava's Favor)
@@ -43,7 +43,7 @@ furn	bs   	4620697946441422498	Blacksmithing Station (Way of the Arena)
 furn	bs   	4620697946441423489	Blacksmithing Station (Whitestrake's Retribution)
 furn	bs   	4620697946441422516	Blacksmithing Station (Willow's Path)
 
-furn    cl      4620697946441612558 Rough Box, Boarded (Adept Rider)
+furn    cl      4620697946441625332 Clothing Station (Adept Rider)
 furn	cl    	4620697946441423479	Clothing Station (Alessia's Bulwark)
 furn	cl    	4620697946441152018	Clothing Station (Armor Master)
 furn	cl    	4620697946441423510	Clothing Station (Ashen Grip)
@@ -66,7 +66,7 @@ furn	cl    	4620697946441335144	Clothing Station (Morkuldin)
 furn	cl    	4620697946441335138	Clothing Station (Night Mother's)
 furn	cl    	4620697946441423497	Clothing Station (Night's Silence)
 furn	cl    	4620697946441291112	Clothing Station (Noble's Conquest)
-furn    cl      4620697946441612554 Rough Box, Boarded (Nocturnal's Favor)
+furn    cl      4620697946441625324 Clothing Station (Nocturnal's Favor)
 furn	cl    	4620697946441422512	Clothing Station (Oblivion's Foe)
 furn	cl    	4620697946441291494	Clothing Station (Orgnum's Scales)
 furn	cl    	4620697946441335517	Clothing Station (Pelinal's Aptitude)
@@ -74,7 +74,7 @@ furn	cl    	4620697946441291119	Clothing Station (Redistributor)
 furn	cl    	4620697946441335527	Clothing Station (Seducer)
 furn	cl    	4620697946441395836	Clothing Station (Shacklebreaker)
 furn	cl    	4620697946441395851	Clothing Station (Shalidor's Curse)
-furn    cl      4620697946441619130 Rough Box, Boarded (Sload's Semblance)
+furn    cl      4620697946441625339 Clothing Station (Sload's Semblance)
 furn	cl    	4620697946441423473	Clothing Station (Song of Lamae)
 furn	cl    	4620697946441422506	Clothing Station (Spectre's Eye)
 furn	cl    	4620697946441395804	Clothing Station (Tava's Favor)
@@ -88,7 +88,7 @@ furn	cl    	4620697946441422500	Clothing Station (Way of the Arena)
 furn	cl    	4620697946441423491	Clothing Station (Whitestrake's Retribution)
 furn	cl    	4620697946441422517	Clothing Station (Willow's Path)
 
-furn    ww      4620697946441619127 Rough Box, Boarded  (Adept Rider)
+furn    ww      4620697946441625336 Woodworking Station (Adept Rider)
 furn	ww    	4620697946441423481	Woodworking Station (Alessia's Bulwark)
 furn	ww    	4620697946441152019	Woodworking Station (Armor Master)
 furn	ww    	4620697946441423511	Woodworking Station (Ashen Grip)
@@ -111,7 +111,7 @@ furn	ww    	4620697946441335146	Woodworking Station (Morkuldin)
 furn	ww    	4620697946441335140	Woodworking Station (Night Mother's)
 furn	ww    	4620697946441423499	Woodworking Station (Night's Silence)
 furn	ww    	4620697946441291113	Woodworking Station (Noble's Conquest)
-furn    ww      4620697946441619129 Rough Box, Boarded  (Nocturnal's Favor)
+furn    ww      4620697946441625328 Woodworking Station (Nocturnal's Favor)
 furn	ww    	4620697946441422514	Woodworking Station (Oblivion's Foe)
 furn	ww    	4620697946441291496	Woodworking Station (Orgnum's Scales)
 furn	ww    	4620697946441335519	Woodworking Station (Pelinal's Aptitude)
@@ -119,7 +119,7 @@ furn	ww    	4620697946441291120	Woodworking Station (Redistributor)
 furn	ww    	4620697946441335529	Woodworking Station (Seducer)
 furn	ww    	4620697946441395838	Woodworking Station (Shacklebreaker)
 furn	ww    	4620697946441395853	Woodworking Station (Shalidor's Curse)
-furn    ww      4620697946441612555 Rough Box, Boarded  (Sload's Semblance)
+furn    ww      4620697946441625341 Woodworking Station (Sload's Semblance)
 furn	ww    	4620697946441423475	Woodworking Station (Song of Lamae)
 furn	ww    	4620697946441422508	Woodworking Station (Spectre's Eye)
 furn	ww    	4620697946441395806	Woodworking Station (Tava's Favor)
@@ -133,50 +133,50 @@ furn	ww    	4620697946441422502	Woodworking Station (Way of the Arena)
 furn	ww    	4620697946441423493	Woodworking Station (Whitestrake's Retribution)
 furn	ww    	4620697946441422518	Woodworking Station (Willow's Path)
 
-furn	jw    	4620697946441608255	Rough Box, Boarded
-furn	jw    	4620697946441605997	Rough Box, Boarded
-furn	jw    	4620697946441606025	Rough Box, Boarded
-furn	jw    	4620697946441605987	Rough Box, Boarded
-furn	jw    	4620697946441606000	Rough Box, Boarded
-furn	jw    	4620697946441606003	Rough Box, Boarded
-furn	jw    	4620697946441606016	Rough Box, Boarded
-furn	jw    	4620697946441606005	Rough Box, Boarded
-furn	jw    	4620697946441606018	Rough Box, Boarded
-furn	jw    	4620697946441607241	Rough Box, Boarded
-furn	jw    	4620697946441608213	Rough Box, Boarded
-furn	jw    	4620697946441607243	Rough Box, Boarded
-furn	jw    	4620697946441608214	Rough Box, Boarded
-furn	jw    	4620697946441608215	Rough Box, Boarded
-furn	jw    	4620697946441608216	Rough Box, Boarded
-furn	jw    	4620697946441608217	Rough Box, Boarded
-furn	jw    	4620697946441608218	Rough Box, Boarded
-furn	jw    	4620697946441608219	Rough Box, Boarded
-furn	jw    	4620697946441608220	Rough Box, Boarded
-furn	jw    	4620697946441608221	Rough Box, Boarded
-furn	jw    	4620697946441608222	Rough Box, Boarded
-furn	jw    	4620697946441608223	Rough Box, Boarded
-furn	jw    	4620697946441608224	Rough Box, Boarded
-furn	jw    	4620697946441608225	Rough Box, Boarded
-furn	jw    	4620697946441608226	Rough Box, Boarded
-furn	jw    	4620697946441608227	Rough Box, Boarded
-furn	jw    	4620697946441608228	Rough Box, Boarded
-furn	jw    	4620697946441608229	Rough Box, Boarded
-furn	jw    	4620697946441608230	Rough Box, Boarded
-furn	jw    	4620697946441608231	Rough Box, Boarded
-furn	jw    	4620697946441608244	Rough Box, Boarded
-furn	jw    	4620697946441608245	Rough Box, Boarded
-furn	jw    	4620697946441608246	Rough Box, Boarded
-furn	jw    	4620697946441608247	Rough Box, Boarded
-furn	jw    	4620697946441608248	Rough Box, Boarded
-furn	jw    	4620697946441608249	Rough Box, Boarded
-furn	jw    	4620697946441608250	Rough Box, Boarded
-furn	jw    	4620697946441608251	Rough Box, Boarded
-furn	jw    	4620697946441608252	Rough Box, Boarded
-furn	jw    	4620697946441608253	Rough Box, Boarded
-furn	jw    	4620697946441608254	Rough Box, Boarded
-furn    jw      4620697946441612553 Rough Box, Boarded
-furn    jw      4620697946441612552 Rough Box, Boarded
-furn    jw      4620697946441619128 Rough Box, Boarded
+furn	jw    	4620697946441625334 Jewelry Crafting Station (Adept Rider)
+furn	jw    	4620697946441625095 Jewelry Crafting Station (Alessia's Bulwark)
+furn	jw    	4620697946441625168 Jewelry Crafting Station (Armor Master)
+furn	jw    	4620697946441625073 Jewelry Crafting Station (Ashen Grip)
+furn	jw    	4620697946441625190 Jewelry Crafting Station (Assassin's Guile)
+furn	jw    	4620697946441625154 Jewelry Crafting Station (Clever Alchemist)
+furn	jw    	4620697946441625188 Jewelry Crafting Station (Daedric Trickery)
+furn	jw    	4620697946441625071 Jewelry Crafting Station (Death's Wind)
+furn	jw    	4620697946441625147 Jewelry Crafting Station (Eternal Hunt)
+furn	jw    	4620697946441625132 Jewelry Crafting Station (Eyes of Mara)
+furn	jw    	4620697946441625122 Jewelry Crafting Station (Fortified Brass)
+furn	jw    	4620697946441625085 Jewelry Crafting Station (Hist Bark)
+furn	jw    	4620697946441625100 Jewelry Crafting Station (Hunding's Rage)
+furn	jw    	4620697946441625120 Jewelry Crafting Station (Innate Axiom)
+furn	jw    	4620697946441625139 Jewelry Crafting Station (Kagrenac's Hope)
+furn	jw    	4620697946441625141 Jewelry Crafting Station (Kvatch Gladiator)
+furn	jw    	4620697946441625106 Jewelry Crafting Station (Law of Julianos)
+furn	jw    	4620697946441625082 Jewelry Crafting Station (Magnus' Gift)
+furn	jw    	4620697946441625118 Jewelry Crafting Station (Mechanical Acuity)
+furn	jw    	4620697946441625109 Jewelry Crafting Station (Morkuldin)
+furn	jw    	4620697946441625097 Jewelry Crafting Station (Night Mother's Gaze)
+furn	jw    	4620697946441625066 Jewelry Crafting Station (Night's Silence)
+furn	jw    	4620697946441625166 Jewelry Crafting Station (Noble's Conquest)
+furn	jw    	4620697946441625326 Jewelry Crafting Station (Nocturnal's Favor)
+furn	jw    	4620697946441625126 Jewelry Crafting Station (Oblivion's Foe)
+furn	jw    	4620697946441625137 Jewelry Crafting Station (Orgnum's Scales)
+furn	jw    	4620697946441625145 Jewelry Crafting Station (Pelinal's Aptitude)
+furn	jw    	4620697946441625170 Jewelry Crafting Station (Redistributor)
+furn	jw    	4620697946441625058 Jewelry Crafting Station (Seducer)
+furn	jw    	4620697946441625192 Jewelry Crafting Station (Shacklebreaker)
+furn	jw    	4620697946441625134 Jewelry Crafting Station (Shalidor's Curse)
+furn	jw    	4620697946441625340 Jewelry Crafting Station (Sload's Semblance)
+furn	jw    	4620697946441625087 Jewelry Crafting Station (Song of Lamae)
+furn	jw    	4620697946441625124 Jewelry Crafting Station (Spectre's Eye)
+furn	jw    	4620697946441625149 Jewelry Crafting Station (Tava's Favor)
+furn	jw    	4620697946441625056 Jewelry Crafting Station (Torug's Pact)
+furn	jw    	4620697946441625116 Jewelry Crafting Station (Trial by Fire)
+furn	jw    	4620697946441625128 Jewelry Crafting Station (Twice-Born Star)
+furn	jw    	4620697946441625060 Jewelry Crafting Station (Twilight's Embrace)
+furn	jw    	4620697946441625090 Jewelry Crafting Station (Vampire's Kiss)
+furn	jw    	4620697946441625143 Jewelry Crafting Station (Varen's Legacy)
+furn    jw      4620697946441625130 Jewelry Crafting Station (Way of the Arena)
+furn    jw      4620697946441625076 Jewelry Crafting Station (Whitestrake's)
+furn    jw      4620697946441625102 Jewelry Crafting Station (Willow's Path)
 
 furn	lamp  	4620697946441423904	Dark Elf Streetpost, Banner
 furn	lamp  	4620697946441423905	Dark Elf Streetpost, Banner

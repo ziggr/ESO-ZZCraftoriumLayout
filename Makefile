@@ -8,6 +8,9 @@ put:
 get:
 	cp -f /Volumes/Elder\ Scrolls\ Online/live/SavedVariables/ZZCraftoriumLayout.lua data/
 
+getpts:
+	cp -f /Volumes/Elder\ Scrolls\ Online/pts/SavedVariables/ZZCraftoriumLayout.lua data/
+
 
 data: ZZCraftoriumLayout_Data.lua
 
