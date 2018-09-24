@@ -1,4 +1,5 @@
 # define constants
+Z21 86,000  back patios, rear-er lamps
 Z1	88,515	back patios, rear lamps 							#  Z1 used
 Z2	90,440	back patios, front lamps 							#  Z2 used
 Z3	90,800	front patios, inner back wall 						#  Z3 used
@@ -54,9 +55,9 @@ jw
 station
 					Z13
 
-2 stations
+2 stations 							# TWEAK 1st bs armor master
 					Z12
-station
+station 							# TWEAK bs assassin's guile
 					Z11
 # (stable)
 					Z10
@@ -68,7 +69,7 @@ station
 
 ww				X53814	Z93262	Y19540
 cl 				X53800	Z93011	Y19540
-bs				X53810	Z92841	Y19539 rotation150
+bs				X53810	Z92841	Y19539 rotation150   # TWEAK daedric trickery
 jw 				X53800	Z92625	Y19539
  					Z9     	Y19,539
 lamp
@@ -91,7 +92,7 @@ omit lamp
 				X52275 Z5 Y19860
 north
 omit lamp
-station
+station 											# TWEAK bs Eternal Hunt
 omit lamp
 				X52275 Z4 Y19860
 
@@ -103,7 +104,7 @@ omit lamp
 omit lamp
 station
 hide lamp
-station
+station 											# TWEAK bs Fortified Brass
 hide lamp
 				X52120 Z1 Y19858
 #
@@ -115,7 +116,8 @@ hide lamp
 # sconce              Z88515
 south
 				X52945 Z1 Y19858
-2 stations
+2 stations 											# TWEAK js Grave-Stake
+													# TWEAK bs jw Hist Bark
 				X52945 Z2 Y19858
 
 #
@@ -146,19 +148,20 @@ south
 
  				X54300	Z9	Y19540
  					Z9     	Y19539
-station 									# Julianos
+station 									# Kagrenac's
 				X54300	Z93437 Y19539
 hide lamp
-ww				X54315  Z93613	Y19539		# Magnus, ground issues
+ww				X54315  Z93613	Y19539		# Kvatch
 cl  			X54295  Z93864  Y19540
-bs  			X54300  Z94028  Y19539 rotation330
+bs  			X54300  Z94028  Y19539 rotation330 		# TWEAK bs Kvatch
 jw  			X54300  Z94249
  					Z10
-station 						# across from stable
+station 						# across from stable, Julianos
+														# TWEAK jw Julianos
 					Z11
 								# pool path
 				    Z12
-2 stations
+2 stations												# TWEAK bs Magnus
 					Z13
 
 #
@@ -167,7 +170,7 @@ station 						# across from stable
 				X54608 Z99260 Y19530
 east
 omit lamp
-jw				X54608 Z99262 Y19530
+jw				X54608 Z99262 Y19530 					# TWEAK jw Might of the Lost Legion
 bs				X54760 Z99256 Y19542 rotation60
 cl 				X55027 Z99282 Y19550
 ww              X55229 Z99271 Y19535
@@ -175,7 +178,7 @@ hide lamp
 ww              X55622 Z99246 Y19529
 cl 				X55875 Z99238 Y19510
 bs				X56028 Z99229 Y19502 rotation60
-jw				X56256 Z99209 Y19492
+jw				X56256 Z99209 Y19492 					# TWEAK jw Morkuldin
 omit lamp
 								# main entry path
 				X57639 Z99274 Y19510
@@ -207,6 +210,8 @@ ww
 3 stations
 		 	    X5 Z9  Y19544
 
+# stairs up to patio east
+
 #
 # front patio east, inner/hedge
 #
@@ -234,9 +239,15 @@ omit lamp
 # sconce              Z88515
 north
 				X7 Z2 Y19868
-2 stations
-				X7 Z1 Y19868
+4 stations 										# Tweak 2nd bs Shacklebreaker
+				X7 Z21 Y19868
 south
+				X8 Z21 Y19871
+hide lamp
+station
+hide lamp
+station
+hide lamp
 				X8 Z1 Y19871
 hide lamp
 station
@@ -246,7 +257,7 @@ omit lamp
 				X8 Z2 Y19868
 
 #
-# front patio west, outer wall
+# front patio east, outer wall
 #
 south
 				X61611 Z4 Y19871
@@ -259,7 +270,7 @@ west
 omit lamp
 ww              X61300 Z91700 Y19871 rotation
 cl              X61051 Z91700 Y19865 rotation
-bs              X60882 Z91700 Y19841 rotation240
+bs              X60882 Z91700 Y19841 rotation240 	# TWEAK bs Twice-Born Star
 jw              X60660 Z91700 Y19841 rotation
 omit lamp
 				X60660 Z91700 Y19871
@@ -271,20 +282,25 @@ omit lamp
 south
 				X60500 Z9 Y19544
 lamp
-station
+station 								# Twilight's Embrace
 lamp
-station
+station 								# Vampire's Kiss
 hide lamp
 				X60500 Z94636 Y19544
 
+#
+# Grove Entrance
+#
+
 				X60500 Z11    Y19544
-station
+station 								# Varen's
 				X60510 Z12    Y19544
 hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
-2 stations
+2 stations 									# TWEAK 1 bs Way of the Arena
+											# TWEAK 2 bs Whitestrake's
 				X60510 Z13    Y19544
 hide lamp 									# AND HERE
-station
+station 									# TWEAK bs Willow's Path
 				X60510 Z14    Y19544
 
 #
@@ -295,5 +311,5 @@ west
 omit lamp
 station
 omit lamp
-				X58855 Z99800 Y19548
+#				X58855 Z99800 Y19548
 
