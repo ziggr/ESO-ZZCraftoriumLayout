@@ -9,42 +9,42 @@ furn	bs   	4620697946441423503	Blacksmithing Station (Death's Wind)
 furn	bs   	4620697946441335158	Blacksmithing Station (Eternal Hunt)
 furn	bs   	4620697946441395846	Blacksmithing Station (Eyes of Mara)
 furn	bs   	4620697946441420109	Blacksmithing Station (Fortified Brass)
-furn    bs      4620697946441793953 Blacksmithing Station (Grave-Stake Collector)
-furn	bs   	4620697946441423483	Blacksmithing Station (Hist Bark)
-furn	bs   	4620697946441292178	Blacksmithing Station (Hunding's Rage)
-furn	bs   	4620697946441420073	Blacksmithing Station (Innate Axiom)
-furn	bs   	4620697946441291499	Blacksmithing Station (Kagrenac's Hope)
-furn	bs   	4620697946441395790	Blacksmithing Station (Kvatch Gladiator)
-furn	bs   	4620697946441292190	Blacksmithing Station (Law of Julianos)
-furn	bs   	4620697946441292200	Blacksmithing Station (Magnus' Gift)
-furn	bs   	4620697946441420067	Blacksmithing Station (Mechanical Acuity)
-furn    bs      4620697946441793932 Blacksmithing Station (Might of the Lost Legion)
-furn	bs   	4620697946441335142	Blacksmithing Station (Morkuldin)
-furn    bs      4620697946441793943 Blacksmithing Station (Naga Shaman)
-furn	bs   	4620697946441335136	Blacksmithing Station (Night Mother's)
-furn	bs   	4620697946441423495	Blacksmithing Station (Night's Silence)
-furn	bs   	4620697946441291111	Blacksmithing Station (Noble's Conquest)
+furn    bs      4620697946441813340 Blacksmithing Station (Grave-Stake Collector)
+furn    bs      4620697946441423483 Blacksmithing Station (Hist Bark)
+furn    bs      4620697946441292178 Blacksmithing Station (Hunding's Rage)
+furn    bs      4620697946441420073 Blacksmithing Station (Innate Axiom)
+furn    bs      4620697946441291499 Blacksmithing Station (Kagrenac's Hope)
+furn    bs      4620697946441395790 Blacksmithing Station (Kvatch Gladiator)
+furn    bs      4620697946441292190 Blacksmithing Station (Law of Julianos)
+furn    bs      4620697946441292200 Blacksmithing Station (Magnus' Gift)
+furn    bs      4620697946441420067 Blacksmithing Station (Mechanical Acuity)
+furn    bs      4620697946441813356 Blacksmithing Station (Might of the Lost Legion)
+furn    bs      4620697946441335142 Blacksmithing Station (Morkuldin)
+furn    bs      4620697946441813348 Blacksmithing Station (Naga Shaman)
+furn    bs      4620697946441335136 Blacksmithing Station (Night Mother's)
+furn    bs      4620697946441423495 Blacksmithing Station (Night's Silence)
+furn    bs      4620697946441291111 Blacksmithing Station (Noble's Conquest)
 furn    bs      4620697946441647978 Blacksmithing Station (Nocturnal's Favor)
-furn	bs   	4620697946441422510	Blacksmithing Station (Oblivion's Foe)
-furn	bs   	4620697946441291492	Blacksmithing Station (Orgnum's Scales)
-furn	bs   	4620697946441335515	Blacksmithing Station (Pelinal's Aptitude)
-furn	bs   	4620697946441291118	Blacksmithing Station (Redistributor)
-furn	bs   	4620697946441335525	Blacksmithing Station (Seducer)
-furn	bs   	4620697946441395834	Blacksmithing Station (Shacklebreaker)
-furn	bs   	4620697946441395852	Blacksmithing Station (Shalidor's Curse)
+furn    bs      4620697946441422510 Blacksmithing Station (Oblivion's Foe)
+furn    bs      4620697946441291492 Blacksmithing Station (Orgnum's Scales)
+furn    bs      4620697946441335515 Blacksmithing Station (Pelinal's Aptitude)
+furn    bs      4620697946441291118 Blacksmithing Station (Redistributor)
+furn    bs      4620697946441335525 Blacksmithing Station (Seducer)
+furn    bs      4620697946441395834 Blacksmithing Station (Shacklebreaker)
+furn    bs      4620697946441395852 Blacksmithing Station (Shalidor's Curse)
 furn    bs      4620697946441647986 Blacksmithing Station (Sload's Semblance)
-furn	bs   	4620697946441423471	Blacksmithing Station (Song of Lamae)
-furn	bs   	4620697946441422504	Blacksmithing Station (Spectre's Eye)
-furn	bs   	4620697946441395802	Blacksmithing Station (Tava's Favor)
-furn	bs   	4620697946441335533	Blacksmithing Station (Torug's Pact)
-furn	bs   	4620697946441395818	Blacksmithing Station (Trial by Fire)
-furn	bs   	4620697946441335168	Blacksmithing Station (Twice-Born Star)
-furn	bs   	4620697946441422480	Blacksmithing Station (Twilight's Embrace)
-furn	bs   	4620697946441423459	Blacksmithing Station (Vampire's Kiss)
-furn	bs   	4620697946441395796	Blacksmithing Station (Varen's Legacy)
-furn	bs   	4620697946441422498	Blacksmithing Station (Way of the Arena)
-furn	bs   	4620697946441423489	Blacksmithing Station (Whitestrake's Retribution)
-furn	bs   	4620697946441422516	Blacksmithing Station (Willow's Path)
+furn    bs      4620697946441423471 Blacksmithing Station (Song of Lamae)
+furn    bs      4620697946441422504 Blacksmithing Station (Spectre's Eye)
+furn    bs      4620697946441395802 Blacksmithing Station (Tava's Favor)
+furn    bs      4620697946441335533 Blacksmithing Station (Torug's Pact)
+furn    bs      4620697946441395818 Blacksmithing Station (Trial by Fire)
+furn    bs      4620697946441335168 Blacksmithing Station (Twice-Born Star)
+furn    bs      4620697946441422480 Blacksmithing Station (Twilight's Embrace)
+furn    bs      4620697946441423459 Blacksmithing Station (Vampire's Kiss)
+furn    bs      4620697946441395796 Blacksmithing Station (Varen's Legacy)
+furn    bs      4620697946441422498 Blacksmithing Station (Way of the Arena)
+furn    bs      4620697946441423489 Blacksmithing Station (Whitestrake's Retribution)
+furn    bs      4620697946441422516 Blacksmithing Station (Willow's Path)
 
 furn    cl      4620697946441647969 Clothing Station (Adept Rider)
 furn	cl    	4620697946441423479	Clothing Station (Alessia's Bulwark)
@@ -57,7 +57,7 @@ furn	cl    	4620697946441423505	Clothing Station (Death's Wind)
 furn	cl    	4620697946441335160	Clothing Station (Eternal Hunt)
 furn	cl    	4620697946441395848	Clothing Station (Eyes of Mara)
 furn	cl    	4620697946441420110	Clothing Station (Fortified Brass)
-furn    cl      4620697946441793954 Clothing Station (Grave-Stake Collector)
+furn    cl      4620697946441813342 Clothing Station (Grave-Stake Collector)
 furn	cl    	4620697946441423485	Clothing Station (Hist Bark)
 furn	cl    	4620697946441292180	Clothing Station (Hunding's Rage)
 furn	cl    	4620697946441420075	Clothing Station (Innate Axiom)
@@ -66,9 +66,9 @@ furn	cl    	4620697946441395792	Clothing Station (Kvatch Gladiator)
 furn	cl    	4620697946441292192	Clothing Station (Law of Julianos)
 furn	cl    	4620697946441292201	Clothing Station (Magnus' Gift)
 furn	cl    	4620697946441420069	Clothing Station (Mechanical Acuity)
-furn    cl      4620697946441793934 Clothing Station (Might of the Lost Legion)
+furn    cl      4620697946441813357 Clothing Station (Might of the Lost Legion)
 furn	cl    	4620697946441335144	Clothing Station (Morkuldin)
-furn    cl      4620697946441793945 Clothing Station (Naga Shaman)
+furn    cl      4620697946441813350 Clothing Station (Naga Shaman)
 furn	cl    	4620697946441335138	Clothing Station (Night Mother's)
 furn	cl    	4620697946441423497	Clothing Station (Night's Silence)
 furn	cl    	4620697946441291112	Clothing Station (Noble's Conquest)
@@ -105,7 +105,7 @@ furn	ww    	4620697946441423507	Woodworking Station (Death's Wind)
 furn	ww    	4620697946441335162	Woodworking Station (Eternal Hunt)
 furn	ww    	4620697946441395849	Woodworking Station (Eyes of Mara)
 furn	ww    	4620697946441420111	Woodworking Station (Fortified Brass)
-furn    ww      4620697946441793956 Woodworking Station (Grave-Stake Collector)
+furn    ww      4620697946441813346 Woodworking Station (Grave-Stake Collector)
 furn	ww    	4620697946441423487	Woodworking Station (Hist Bark)
 furn	ww    	4620697946441292182	Woodworking Station (Hunding's Rage)
 furn	ww    	4620697946441420077	Woodworking Station (Innate Axiom)
@@ -114,9 +114,9 @@ furn	ww    	4620697946441395794	Woodworking Station (Kvatch Gladiator)
 furn	ww    	4620697946441292194	Woodworking Station (Law of Julianos)
 furn	ww    	4620697946441292202	Woodworking Station (Magnus' Gift)
 furn	ww    	4620697946441420071	Woodworking Station (Mechanical Acuity)
-furn    ww      4620697946441793951 Woodworking Station (Might of the Lost Legion)
+furn    ww      4620697946441813359 Woodworking Station (Might of the Lost Legion)
 furn	ww    	4620697946441335146	Woodworking Station (Morkuldin)
-furn    ww      4620697946441793949 Woodworking Station (Naga Shaman)
+furn    ww      4620697946441813354 Woodworking Station (Naga Shaman)
 furn	ww    	4620697946441335140	Woodworking Station (Night Mother's)
 furn	ww    	4620697946441423499	Woodworking Station (Night's Silence)
 furn	ww    	4620697946441291113	Woodworking Station (Noble's Conquest)
@@ -153,7 +153,7 @@ furn    jw      4620697946441648201 Jewelry Crafting Station (Death's Wind)
 furn    jw      4620697946441648160 Jewelry Crafting Station (Eternal Hunt)
 furn    jw      4620697946441648061 Jewelry Crafting Station (Eyes of Mara)
 furn    jw      4620697946441648000 Jewelry Crafting Station (Fortified Brass)
-furn    jw      4620697946441793955 Jewelry Crafting Station (Grave-Stake Collector)
+furn    jw      4620697946441813344 Jewelry Crafting Station (Grave-Stake Collector)
 furn    jw      4620697946441648128 Jewelry Crafting Station (Hist Bark)
 furn    jw      4620697946441648218 Jewelry Crafting Station (Hunding's Rage)
 furn    jw      4620697946441647996 Jewelry Crafting Station (Innate Axiom)
@@ -162,9 +162,9 @@ furn    jw      4620697946441648076 Jewelry Crafting Station (Kvatch Gladiator)
 furn    jw      4620697946441648259 Jewelry Crafting Station (Law of Julianos)
 furn    jw      4620697946441648119 Jewelry Crafting Station (Magnus' Gift)
 furn    jw      4620697946441647998 Jewelry Crafting Station (Mechanical Acuity)
-furn    jw      4620697946441793936 Jewelry Crafting Station (Might of the Lost Legion
+furn    jw      4620697946441813358 Jewelry Crafting Station (Might of the Lost Legion)
 furn    jw      4620697946441648264 Jewelry Crafting Station (Morkuldin)
-furn    jw      4620697946441793947 Jewelry Crafting Station (Naga Shaman)
+furn    jw      4620697946441813352 Jewelry Crafting Station (Naga Shaman)
 furn    jw      4620697946441648208 Jewelry Crafting Station (Night Mother's Gaze)
 furn    jw      4620697946441648132 Jewelry Crafting Station (Night's Silence)
 furn    jw      4620697946441648324 Jewelry Crafting Station (Noble's Conquest)
@@ -190,86 +190,86 @@ furn    jw      4620697946441648027 Jewelry Crafting Station (Way of the Arena)
 furn    jw      4620697946441648125 Jewelry Crafting Station (Whitestrake's)
 furn    jw      4620697946441648224 Jewelry Crafting Station (Willow's Path)
 
-furn    lamp     4620697946441423617 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423627 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423630 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423635 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423659 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423660 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423661 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423663 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423701 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423702 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423703 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423704 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423856 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423879 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423881 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423882 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423883 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423891 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423904 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423905 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423911 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441423913 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619091 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619092 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619093 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619094 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619095 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619097 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619098 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619099 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619100 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619101 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619102 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619103 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619104 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441619105 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441793984 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441793985 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441793986 Dark Elf Streetpost, Banner
-furn    lamp     4620697946441793987 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423617 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423627 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423630 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423635 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423659 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423660 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423661 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423663 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423701 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423702 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423703 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423704 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423856 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423879 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423881 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423882 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423883 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423891 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423904 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423905 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423911 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441423913 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619091 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619092 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619093 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619094 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619095 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619097 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619098 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619099 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619100 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619101 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619102 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619103 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619104 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441619105 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441813365 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441813366 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441813367 Dark Elf Streetpost, Banner
+furn    lamp    4620697946441813368 Dark Elf Streetpost, Banner
 
-furn    lantern     4620697946441423588 Common Lantern, Hanging
-furn    lantern     4620697946441423622 Common Lantern, Hanging
-furn    lantern     4620697946441423631 Common Lantern, Hanging
-furn    lantern     4620697946441423634 Common Lantern, Hanging
-furn    lantern     4620697946441423681 Common Lantern, Hanging
-furn    lantern     4620697946441423682 Common Lantern, Hanging
-furn    lantern     4620697946441423683 Common Lantern, Hanging
-furn    lantern     4620697946441423685 Common Lantern, Hanging
-furn    lantern     4620697946441423687 Common Lantern, Hanging
-furn    lantern     4620697946441423713 Common Lantern, Hanging
-furn    lantern     4620697946441423715 Common Lantern, Hanging
-furn    lantern     4620697946441423721 Common Lantern, Hanging
-furn    lantern     4620697946441423722 Common Lantern, Hanging
-furn    lantern     4620697946441423866 Common Lantern, Hanging
-furn    lantern     4620697946441423897 Common Lantern, Hanging
-furn    lantern     4620697946441423899 Common Lantern, Hanging
-furn    lantern     4620697946441423901 Common Lantern, Hanging
-furn    lantern     4620697946441423921 Common Lantern, Hanging
-furn    lantern     4620697946441423924 Common Lantern, Hanging
-furn    lantern     4620697946441423937 Common Lantern, Hanging
-furn    lantern     4620697946441423938 Common Lantern, Hanging
-furn    lantern     4620697946441423939 Common Lantern, Hanging
-furn    lantern     4620697946441423940 Common Lantern, Hanging
-furn    lantern     4620697946441619106 Common Lantern, Hanging
-furn    lantern     4620697946441619107 Common Lantern, Hanging
-furn    lantern     4620697946441619108 Common Lantern, Hanging
-furn    lantern     4620697946441619109 Common Lantern, Hanging
-furn    lantern     4620697946441619110 Common Lantern, Hanging
-furn    lantern     4620697946441619111 Common Lantern, Hanging
-furn    lantern     4620697946441619112 Common Lantern, Hanging
-furn    lantern     4620697946441619113 Common Lantern, Hanging
-furn    lantern     4620697946441619114 Common Lantern, Hanging
-furn    lantern     4620697946441619115 Common Lantern, Hanging
-furn    lantern     4620697946441619119 Common Lantern, Hanging
-furn    lantern     4620697946441619120 Common Lantern, Hanging
-furn    lantern     4620697946441619121 Common Lantern, Hanging
-furn    lantern     4620697946441619122 Common Lantern, Hanging
-furn    lantern     4620697946441793976 Common Lantern, Hanging
-furn    lantern     4620697946441793977 Common Lantern, Hanging
-furn    lantern     4620697946441793978 Common Lantern, Hanging
-furn    lantern     4620697946441793979 Common Lantern, Hanging
-furn    lantern     4620697946441793980 Common Lantern, Hanging
+furn    lantern 4620697946441423588 Common Lantern, Hanging
+furn    lantern 4620697946441423622 Common Lantern, Hanging
+furn    lantern 4620697946441423631 Common Lantern, Hanging
+furn    lantern 4620697946441423634 Common Lantern, Hanging
+furn    lantern 4620697946441423681 Common Lantern, Hanging
+furn    lantern 4620697946441423682 Common Lantern, Hanging
+furn    lantern 4620697946441423683 Common Lantern, Hanging
+furn    lantern 4620697946441423685 Common Lantern, Hanging
+furn    lantern 4620697946441423687 Common Lantern, Hanging
+furn    lantern 4620697946441423713 Common Lantern, Hanging
+furn    lantern 4620697946441423715 Common Lantern, Hanging
+furn    lantern 4620697946441423721 Common Lantern, Hanging
+furn    lantern 4620697946441423722 Common Lantern, Hanging
+furn    lantern 4620697946441423866 Common Lantern, Hanging
+furn    lantern 4620697946441423897 Common Lantern, Hanging
+furn    lantern 4620697946441423899 Common Lantern, Hanging
+furn    lantern 4620697946441423901 Common Lantern, Hanging
+furn    lantern 4620697946441423921 Common Lantern, Hanging
+furn    lantern 4620697946441423924 Common Lantern, Hanging
+furn    lantern 4620697946441423937 Common Lantern, Hanging
+furn    lantern 4620697946441423938 Common Lantern, Hanging
+furn    lantern 4620697946441423939 Common Lantern, Hanging
+furn    lantern 4620697946441423940 Common Lantern, Hanging
+furn    lantern 4620697946441619106 Common Lantern, Hanging
+furn    lantern 4620697946441619107 Common Lantern, Hanging
+furn    lantern 4620697946441619108 Common Lantern, Hanging
+furn    lantern 4620697946441619109 Common Lantern, Hanging
+furn    lantern 4620697946441619110 Common Lantern, Hanging
+furn    lantern 4620697946441619111 Common Lantern, Hanging
+furn    lantern 4620697946441619112 Common Lantern, Hanging
+furn    lantern 4620697946441619113 Common Lantern, Hanging
+furn    lantern 4620697946441619114 Common Lantern, Hanging
+furn    lantern 4620697946441619115 Common Lantern, Hanging
+furn    lantern 4620697946441619119 Common Lantern, Hanging
+furn    lantern 4620697946441619120 Common Lantern, Hanging
+furn    lantern 4620697946441619121 Common Lantern, Hanging
+furn    lantern 4620697946441619122 Common Lantern, Hanging
+furn    lantern 4620697946441813360 Common Lantern, Hanging
+furn    lantern 4620697946441813361 Common Lantern, Hanging
+furn    lantern 4620697946441813362 Common Lantern, Hanging
+furn    lantern 4620697946441813363 Common Lantern, Hanging
+furn    lantern 4620697946441813364 Common Lantern, Hanging
