@@ -1,6 +1,5 @@
 ZZCraftoriumLayout = ZZCraftoriumLayout or {}
 ZZCraftoriumLayout.name            = "ZZCraftoriumLayout"
-ZZCraftoriumLayout.version         = "3.3.1"
 ZZCraftoriumLayout.savedVarVersion = 1
 ZZCraftoriumLayout.default = {
     house = {}
@@ -91,10 +90,13 @@ end
 
 
 function ZZCraftoriumLayout.ErrorIfNotHome()
-    local HOUSE_ID_LINCHAL_MANOR      = 46
+    local okay = {
+        [HOUSE_ID_LINCHAL_MANOR               or 46] = 1
+    ,   [HOUSE_ID_COLDHARBOUR_SURREAL_ESTATE  or 47] = 1
+    }
     local house_id = GetCurrentZoneHouseId()
-    if not (house_id and HOUSE_ID_LINCHAL_MANOR == house_id) then
-        d("ZZCraftoriumLayout: not in the Craftorium. Exiting.")
+    if not okay[house_id] then
+        d("ZZCraftoriumLayout: not in one of Zig's big crafting houses. Exiting.")
         return true
     end
     return false
@@ -357,8 +359,6 @@ end
 
 function ZZCraftoriumLayout.OnAddOnLoaded(event, addonName)
     if addonName ~= ZZCraftoriumLayout.name then return end
-    if not ZZCraftoriumLayout.version then return end
-    if not ZZCraftoriumLayout.default then return end
     ZZCraftoriumLayout:Initialize()
 end
 
