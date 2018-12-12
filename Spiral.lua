@@ -25,11 +25,11 @@ local WIDTH = {
 ,   ["lamp"] = 160
 }
 local ANGLE = {
-    ["bs"  ] = 7/8 * TAU    -- 4/8 faces  2:00, want 6:00, try 7/8
-,   ["cl"  ] = 6/8 * TAU    -- 3/8 faces 10:00, want 6:00, try 6/8
-,   ["ww"  ] = 1/8 * TAU    -- 3/8 faces  3:00, want 6:00, try 1/8
-,   ["jw"  ] = 1/8 * TAU    -- 3/8 faces  9:00, want 6:00, try 1/8
-,   ["lamp"] = 160
+    ["bs"  ] = 6/8 * TAU
+,   ["cl"  ] = 6/8 * TAU
+,   ["ww"  ] = 6/8 * TAU
+,   ["jw"  ] = 6/8 * TAU
+,   ["lamp"] = 6/8 * TAU
 }
 
 --[[# width in pixels along the wall
@@ -49,6 +49,31 @@ function AddAngle(a,b)
     return (a + b) % TAU
 end
 
+--[[
+ABSOLUTE angles.. "yaw"
+WW  0 = due South
+CL  0 = due South
+BS  0 = due South
+JW  0 = due South
+
+WANT 0 or close to 0 for Willows Path
+WANT 180 or lcose to 180 for Adept Rider
+
+  "4620697946441422518  84446   87842   36930   0   ww  i Woodworking Station (Willow's Path)   270"
+, "4620697946441647973  84446   88232   36930   180 ww  o Woodworking Station (Adept Rider)"
+, "4620697946441422517  84892   87883   36930   7   cl  i Clothing Station (Willow's Path)  277"
+, "4620697946441647969  84842   88269   36930   187 cl  o Clothing Station (Adept Rider)"
+, "4620697946441422516  85330   87981   36930   14  bs  i Blacksmithing Station (Willow's Path) 284"
+
+
+want                                            0
+                                                180
+                                                353    (-7)
+                                                173
+                                                346    (-14)
+]]
+
+
 function PlaceNextStation(radius, center_on_angle, station_width, station_angle)
                         -- Station goes here.
     local offset = {
@@ -63,7 +88,7 @@ function PlaceNextStation(radius, center_on_angle, station_width, station_angle)
 
     return { x           = offset.x + CENTER.x
            , z           = offset.z + CENTER.z
-           , orient      = AddAngle(center_on_angle, TAU/2 + station_angle)
+           , orient      = AddAngle(-center_on_angle, station_angle)
            , radius_step = radius_step
            , next_angle  = AddAngle(center_on_angle, angular_width )
            }

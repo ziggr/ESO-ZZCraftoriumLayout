@@ -6,6 +6,10 @@ ZZCraftoriumLayout.default = {
 }
 ZZCraftoriumLayout.unique_id_to_item = {}
 
+                        -- Leave false most of the time to skip pointless
+                        -- rotation/roundoff fiddling, set to true when you're
+                        -- fighting rotation problems.
+ZZCraftoriumLayout.force_rotation = true
 -- Item ----------------------------------------------------------------------
 --
 -- The occupant of a placed housing slot. This is a single furnishing item.
@@ -231,7 +235,7 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     if      args.x == item.x
         and args.z == item.z
         and args.y == item.y
-        -- and args.rotation == item.rotation
+        and ((not ZZCraftoriumLayout.force_rotation) or (args.rotation == item.rotation))
         then
 
         ZZCraftoriumLayout.skip_run_ct = 1 + (ZZCraftoriumLayout.skip_run_ct or 0)
@@ -256,6 +260,16 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     table.insert(ZZCraftoriumLayout.move_queue, args)
 end
 
+local white = "|cFFFFFF"
+local grey  = "|c999999"
+
+local function numstr(a,b)
+    local color = grey
+    local diff = a-b
+    if (diff < 2) then return tostring(a) end
+    return white .. string.format("%d",a) ..grey
+end
+
 function ZZCraftoriumLayout.MoveOne(args)
     local r = HousingEditorRequestChangePositionAndOrientation(
                       args.item.furniture_id
@@ -269,17 +283,20 @@ function ZZCraftoriumLayout.MoveOne(args)
     args.item.moved = "moved"
     args.item.moved_index = next_moved_index()
     local result_text = HR[r] or tostring(r)
-    local msg = string.format("Moving from x:%d,z:%d,y:%d,rot:%d -> x:%d,z:%d,y:%d,rot:%d result:%s %s %s"
-                    , args.item.x
-                    , args.item.z
-                    , args.item.y
-                    , args.item.rotation or 0
-                    , args.x
-                    , args.z
-                    , args.y
-                    , args.rotation or 0
+
+    local fmt = grey.."Moving from x:%s,z:%s,y:%s,rot:%s ->"
+                              .." x:%s,z:%s,y:%s,rot:%s result:%s %s"
+
+    local msg = string.format(fmt
+                    , numstr(args.item.x, args.x)
+                    , numstr(args.item.z, args.z)
+                    , numstr(args.item.y, args.y)
+                    , numstr(args.item.rotation or 0, args.rotation or 0)
+                    , numstr(args.x, args.item.x)
+                    , numstr(args.z, args.item.z)
+                    , numstr(args.y, args.item.y)
+                    , numstr(args.rotation or 0, args.item.rotation or 0)
                     , tostring(result_text)
-                    , id4(Id64ToString(args.item.unique_id))
                     , args.item.item_name
                     )
     d(msg)
@@ -308,7 +325,7 @@ function ZZCraftoriumLayout.MoveAll2()
                         -- a lookup table.
     ZZCraftoriumLayout.ScanNow()
 
-local ENOUGH = 20
+local ENOUGH = 2000
     for _,row in ipairs(ZZCraftoriumLayout.POSITION) do
 ENOUGH = ENOUGH - 1
 if ENOUGH <= 0 then break end
