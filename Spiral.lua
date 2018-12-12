@@ -3,8 +3,8 @@ local m  = 100
 
 local TAU           = 2 * math.pi
 local RADIUS_START  = 33 * m
-local RADIUS_STEP   =  6 * m
-local PATH_WIDTH    =  RADIUS_STEP * 0.65
+local RADIUS_STEP   =  7 * m        -- 8m gets too close to center.
+local PATH_WIDTH    =  RADIUS_STEP * 0.5
 local STATION_WIDTH = 2 * m
 local Y             = 36930
 local ANGLE_START   = TAU*3/4

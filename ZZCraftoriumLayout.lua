@@ -264,10 +264,16 @@ local white = "|cFFFFFF"
 local grey  = "|c999999"
 
 local function numstr(a,b)
-    local color = grey
+    local color = white
     local diff = a-b
-    if (diff < 2) then return tostring(a) end
-    return white .. string.format("%d",a) ..grey
+    if (diff < 2) then color = grey end
+    return color .. string.format("%d",a) ..grey
+         , color .. string.format("%d",b) ..grey
+end
+local function numstrdeg(a,b)
+    if a < 0 then a = a + 360 end
+    if b < 0 then b = b + 360 end
+    return numstr(a,b)
 end
 
 function ZZCraftoriumLayout.MoveOne(args)
@@ -287,15 +293,13 @@ function ZZCraftoriumLayout.MoveOne(args)
     local fmt = grey.."Moving from x:%s,z:%s,y:%s,rot:%s ->"
                               .." x:%s,z:%s,y:%s,rot:%s result:%s %s"
 
+    local x1  , x2   = numstr   (args.item.x            , args.x            )
+    local z1  , z2   = numstr   (args.item.z            , args.z            )
+    local y1  , y2   = numstr   (args.item.y            , args.y            )
+    local rot1, rot2 = numstrdeg(args.item.rotation or 0, args.rotation or 0)
     local msg = string.format(fmt
-                    , numstr(args.item.x, args.x)
-                    , numstr(args.item.z, args.z)
-                    , numstr(args.item.y, args.y)
-                    , numstr(args.item.rotation or 0, args.rotation or 0)
-                    , numstr(args.x, args.item.x)
-                    , numstr(args.z, args.item.z)
-                    , numstr(args.y, args.item.y)
-                    , numstr(args.rotation or 0, args.item.rotation or 0)
+                    , x1, z1, y1, rot1
+                    , x2, z2, y2, rot2
                     , tostring(result_text)
                     , args.item.item_name
                     )
