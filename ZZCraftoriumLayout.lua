@@ -311,7 +311,7 @@ function ZZCraftoriumLayout.MoveAll2()
 local ENOUGH = 20
     for _,row in ipairs(ZZCraftoriumLayout.POSITION) do
 ENOUGH = ENOUGH - 1
-if ENOUGH <= 0 then break
+if ENOUGH <= 0 then break end
         local w = split(row,"%S+")
         local args = {
                      ['unique_id'    ] =          w[1]

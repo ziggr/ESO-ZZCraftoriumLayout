@@ -25,10 +25,10 @@ local WIDTH = {
 ,   ["lamp"] = 160
 }
 local ANGLE = {
-    ["bs"  ] = 1/2 * TAU
-,   ["cl"  ] = 3/8 * TAU
-,   ["ww"  ] = 3/8 * TAU
-,   ["jw"  ] = 3/8 * TAU
+    ["bs"  ] = 7/8 * TAU    -- 4/8 faces  2:00, want 6:00, try 7/8
+,   ["cl"  ] = 6/8 * TAU    -- 3/8 faces 10:00, want 6:00, try 6/8
+,   ["ww"  ] = 1/8 * TAU    -- 3/8 faces  3:00, want 6:00, try 1/8
+,   ["jw"  ] = 1/8 * TAU    -- 3/8 faces  9:00, want 6:00, try 1/8
 ,   ["lamp"] = 160
 }
 
