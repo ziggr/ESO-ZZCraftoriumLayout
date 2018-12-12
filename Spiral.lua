@@ -4,11 +4,13 @@ local m  = 100
 local TAU           = 2 * math.pi
 local RADIUS_START  = 33 * m
 local RADIUS_STEP   =  7 * m        -- 8m gets too close to center.
-local PATH_WIDTH    =  RADIUS_STEP * 0.5
+local PATH_WIDTH    =  RADIUS_STEP * 0.6
 local STATION_WIDTH = 2 * m
 local Y             = 36930
 local ANGLE_START   = TAU*3/4
 local CENTER        = { x = 84446 * cm, z = 91337 * cm }
+
+local INNER_STOP    = "Morkuldin" -- Let outer have this one and later.
 
 local FURNITURE = {
     ["bs"  ] = {}
@@ -139,10 +141,13 @@ end
 function main()
     LoadFurniture()
 
-    local angle  = ANGLE_START
-    local radius = RADIUS_START
+    local angle_inner   = ANGLE_START
+    local angle_outer   = ANGLE_START
+    local radius_inner  = RADIUS_START
+    local radius_outer  = RADIUS_START
+    local inner_stopped = false
 
-    local sequence   = { "ww", "cl", "bs", "jw", "jw", "bs", "cl", "ww", "lamp" }
+    local sequence   = { "ww", "cl", "bs", "jw", "jw", "bs", "cl", "ww" }
     local sequence_i = 1
     local comma      = " "
     for i = 1, 999 do
@@ -158,13 +163,22 @@ function main()
             table.remove(FURNITURE[station_type], #FURNITURE[station_type])
         end
 
-        if 0 < #FURNITURE[station_type] then
+        inner_stopped = inner_stopped
+                     or (#FURNITURE[station_type]
+                         and FURNITURE[station_type][1].name:find(INNER_STOP))
+        if (not inner_stopped) and (0 < #FURNITURE[station_type]) then
             station_inner = FURNITURE[station_type][1]
             table.remove(FURNITURE[station_type], 1)
         end
 
-        local r_inner = PlaceNextStation(radius - PATH_WIDTH / 2, angle, WIDTH[station_type], ANGLE[station_type])
-        local r_outer = PlaceNextStation(radius + PATH_WIDTH / 2, angle, WIDTH[station_type], ANGLE[station_type])
+        local r_inner = PlaceNextStation( radius_inner - PATH_WIDTH / 2
+                                        , angle_inner
+                                        , WIDTH[station_type]
+                                        , ANGLE[station_type])
+        local r_outer = PlaceNextStation( radius_outer + PATH_WIDTH / 2
+                                        , angle_outer
+                                        , WIDTH[station_type]
+                                        , ANGLE[station_type])
 
         r_inner.orient = AddAngle(r_inner.orient, TAU/2 )
 
@@ -178,9 +192,11 @@ function main()
                                , deg(r_outer.orient)
                                , station_outer.type
                                , station_outer.name
-                               , deg(angle)
+                               , deg(angle_outer)
                                ))
             comma = ","
+            angle_outer  = r_outer.next_angle
+            radius_outer = radius_outer - r_outer.radius_step
         end
 
         if station_inner then
@@ -195,10 +211,10 @@ function main()
                                , station_inner.name
                                ))
             comma = ","
+            angle_inner  = r_inner.next_angle
+            radius_inner = radius_inner - r_inner.radius_step
         end
 
-        angle  = r_inner.next_angle
-        radius = radius - r_inner.radius_step
 
         if not (station_outer or station_inner) then break end
     end

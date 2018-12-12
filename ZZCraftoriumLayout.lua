@@ -265,7 +265,7 @@ local grey  = "|c999999"
 
 local function numstr(a,b)
     local color = white
-    local diff = a-b
+    local diff = math.abs(a-b)
     if (diff < 2) then color = grey end
     return color .. string.format("%d",a) ..grey
          , color .. string.format("%d",b) ..grey
