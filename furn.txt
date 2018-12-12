@@ -1,4 +1,4 @@
-furn	bs	4620697946441647967 Blacksmithing Station (Adept Rider)
+furn	bs	4620697946441647967	Blacksmithing Station (Adept Rider)
 furn	bs	4620697946441423477	Blacksmithing Station (Alessia's Bulwark)
 furn	bs	4620697946441146870	Blacksmithing Station (Armor Master)
 furn	bs	4620697946441423509	Blacksmithing Station (Ashen Grip)

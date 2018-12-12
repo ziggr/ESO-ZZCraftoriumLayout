@@ -1,7 +1,7 @@
 #! /usr/bin/perl
 
 #$cmd = "make poll";
-$cmd = "make poll put";
+$cmd = "make put";
 
 # Cheesy ls wrapper. Dir MUST end in /.
 sub dirls($)
@@ -18,6 +18,8 @@ sub dirls($)
 
 @files = ( 'Makefile' );
 # push @files, dirls('src');
+push @files, 'ZZCraftoriumLayout.lua';
+push @files, 'ZZCraftoriumLayout_Data.lua';
 push @files, 'ZZCraftoriumLayout_Script.txt';
 push @files, 'ZZCraftoriumLayout_Parser.py';
 print join("\n", @files) . "\n";

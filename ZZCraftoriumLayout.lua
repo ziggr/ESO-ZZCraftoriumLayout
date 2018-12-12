@@ -220,7 +220,7 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     local item = ZZCraftoriumLayout.unique_id_to_item[args.unique_id]
     if not item then
         return zzerror(string.format("missing furniture unique_id:'%s'  %s %d"
-                    , args.unique_id, args.station, args.station_index))
+                    , args.unique_id, args.station, args.station_index or 0))
     end
     if item.moved then
         return zzerror(string.format("furniture moved twice: %s"
@@ -308,7 +308,10 @@ function ZZCraftoriumLayout.MoveAll2()
                         -- a lookup table.
     ZZCraftoriumLayout.ScanNow()
 
+local ENOUGH = 20
     for _,row in ipairs(ZZCraftoriumLayout.POSITION) do
+ENOUGH = ENOUGH - 1
+if ENOUGH <= 0 then break
         local w = split(row,"%S+")
         local args = {
                      ['unique_id'    ] =          w[1]
