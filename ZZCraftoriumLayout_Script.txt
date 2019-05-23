@@ -106,7 +106,13 @@ station
 hide lamp
 station 											# TWEAK bs Fortified Brass
 hide lamp
-				X52120 Z1 Y19858
+station
+hide lamp
+station
+hide lamp
+ 				X52120 Z21 Y19858
+#				X52120 Z87000 Y19858
+
 #
 # back patio west, inner wall
 #
@@ -114,9 +120,11 @@ hide lamp
 # sconce       X51843 Z90440 Y20243
 # sconce              Z89477
 # sconce              Z88515
+
 south
-				X52945 Z1 Y19858
-2 stations 											# TWEAK js Grave-Stake
+
+				X52945 Z21 Y19858
+3 stations 											# TWEAK js Grave-Stake
 													# TWEAK bs jw Hist Bark
 				X52945 Z2 Y19858
 
@@ -304,12 +312,14 @@ station 									# TWEAK bs Willow's Path
 				X60510 Z14    Y19544
 
 #
-# in front of outfitter station
+# in front of outfitter station, requires platform
 #
-west
-				X59682 Z99800 Y19548
-omit lamp
-station
-omit lamp
-#				X58855 Z99800 Y19548
+# Commented out as room for future expansion
+#
+# west
+# 				X59682 Z99800 Y19548
+# omit lamp
+# station
+# omit lamp
+# 				X58855 Z99800 Y19548
 
