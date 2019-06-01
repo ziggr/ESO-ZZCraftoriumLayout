@@ -66,6 +66,7 @@ function Item.ToStorage(self)
         , x_max        = self.x_max
         , y_max        = self.y_max
         , z_max        = self.z_max
+        , rotation     = self.rotation
     }
     return store
 end
@@ -76,12 +77,13 @@ function Item.ToTextLine(self)
                         -- unique_id survives a relog or rezone. If not,
                         -- furniture_data_id *is* sufficient, once we get
                         -- unique Attuned Jewelry Stations.
-    return string.format( "%s %6d %6d %6d %s"
+    return string.format( "%s %6d %6d %6d %5.3f %s"
                      -- , Id64ToString(self.furniture_data_id)
                         , Id64ToString(self.unique_id)
                         , self.x
                         , self.z
                         , self.y
+                        , self.rotation
                         , self.item_name
                         )
 end
