@@ -1,293 +1,303 @@
 Cheers luv!
 file: furn.txt
-apply furn.txt:1   furn    bs  4620697946441647967 Blacksmithing Station (Adept Rider)
-apply furn.txt:2   furn    bs  4620697946441423477 Blacksmithing Station (Alessia's Bulwark)
-apply furn.txt:3   furn    bs  4620697946441146870 Blacksmithing Station (Armor Master)
-apply furn.txt:4   furn    bs  4620697946441423509 Blacksmithing Station (Ashen Grip)
-apply furn.txt:5   furn    bs  4620697946441395840 Blacksmithing Station (Assassin's Guile)
-apply furn.txt:6   furn    bs  4620697946441335509 Blacksmithing Station (Clever Alchemist)
-apply furn.txt:7   furn    bs  4620697946441898647 Blacksmithing Station (Coldharbour's Favorite)
-apply furn.txt:8   furn    bs  4620697946441395827 Blacksmithing Station (Daedric Trickery)
-apply furn.txt:9   furn    bs  4620697946441423503 Blacksmithing Station (Death's Wind)
-apply furn.txt:10  furn    bs  4620697946441335158 Blacksmithing Station (Eternal Hunt)
-apply furn.txt:11  furn    bs  4620697946441395846 Blacksmithing Station (Eyes of Mara)
-apply furn.txt:12  furn    bs  4620697946441420109 Blacksmithing Station (Fortified Brass)
-apply furn.txt:13  furn    bs  4620697946441813340 Blacksmithing Station (Grave-Stake Collector)
-apply furn.txt:14  furn    bs  4620697946441423483 Blacksmithing Station (Hist Bark)
-apply furn.txt:15  furn    bs  4620697946441292178 Blacksmithing Station (Hunding's Rage)
-apply furn.txt:16  furn    bs  4620697946441420073 Blacksmithing Station (Innate Axiom)
-apply furn.txt:17  furn    bs  4620697946441291499 Blacksmithing Station (Kagrenac's Hope)
-apply furn.txt:18  furn    bs  4620697946441395790 Blacksmithing Station (Kvatch Gladiator)
-apply furn.txt:19  furn    bs  4620697946441292190 Blacksmithing Station (Law of Julianos)
-apply furn.txt:20  furn    bs  4620697946441292200 Blacksmithing Station (Magnus' Gift)
-apply furn.txt:21  furn    bs  4620697946441420067 Blacksmithing Station (Mechanical Acuity)
-apply furn.txt:22  furn    bs  4620697946441813356 Blacksmithing Station (Might of the Lost Legion)
-apply furn.txt:23  furn    bs  4620697946441335142 Blacksmithing Station (Morkuldin)
-apply furn.txt:24  furn    bs  4620697946441813348 Blacksmithing Station (Naga Shaman)
-apply furn.txt:25  furn    bs  4620697946441423495 Blacksmithing Station (Night's Silence)
-apply furn.txt:26  furn    bs  4620697946441335136 Blacksmithing Station (Night Mother's Gaze)
-apply furn.txt:27  furn    bs  4620697946441291111 Blacksmithing Station (Noble's Conquest)
-apply furn.txt:28  furn    bs  4620697946441647978 Blacksmithing Station (Nocturnal's Favor)
-apply furn.txt:29  furn    bs  4620697946441422510 Blacksmithing Station (Oblivion's Foe)
-apply furn.txt:30  furn    bs  4620697946441291492 Blacksmithing Station (Orgnum's Scales)
-apply furn.txt:31  furn    bs  4620697946441335515 Blacksmithing Station (Pelinal's Aptitude)
-apply furn.txt:32  furn    bs  4620697946441291118 Blacksmithing Station (Redistributor)
-apply furn.txt:33  furn    bs  4620697946441335525 Blacksmithing Station (Seducer)
-apply furn.txt:34  furn    bs  4620697946441898638 Blacksmithing Station (Senche-Raht's Grit)
-apply furn.txt:35  furn    bs  4620697946441395834 Blacksmithing Station (Shacklebreaker)
-apply furn.txt:36  furn    bs  4620697946441395852 Blacksmithing Station (Shalidor's Curse)
-apply furn.txt:37  furn    bs  4620697946441647986 Blacksmithing Station (Sload's Semblance)
-apply furn.txt:38  furn    bs  4620697946441423471 Blacksmithing Station (Song of Lamae)
-apply furn.txt:39  furn    bs  4620697946441422504 Blacksmithing Station (Spectre's Eye)
-apply furn.txt:40  furn    bs  4620697946441395802 Blacksmithing Station (Tava's Favor)
-apply furn.txt:41  furn    bs  4620697946441335533 Blacksmithing Station (Torug's Pact)
-apply furn.txt:42  furn    bs  4620697946441395818 Blacksmithing Station (Trial by Fire)
-apply furn.txt:43  furn    bs  4620697946441335168 Blacksmithing Station (Twice-Born Star)
-apply furn.txt:44  furn    bs  4620697946441422480 Blacksmithing Station (Twilight's Embrace)
-apply furn.txt:45  furn    bs  4620697946441423459 Blacksmithing Station (Vampire's Kiss)
-apply furn.txt:46  furn    bs  4620697946441395796 Blacksmithing Station (Varen's Legacy)
-apply furn.txt:47  furn    bs  4620697946441898630 Blacksmithing Station (Vastarie's Tutelage)
-apply furn.txt:48  furn    bs  4620697946441422498 Blacksmithing Station (Way of the Arena)
-apply furn.txt:49  furn    bs  4620697946441423489 Blacksmithing Station (Whitestrake's Retribution)
-apply furn.txt:50  furn    bs  4620697946441422516 Blacksmithing Station (Willow's Path)
-apply furn.txt:51  
-apply furn.txt:52  furn    cl  4620697946441647969 Clothing Station (Adept Rider)
-apply furn.txt:53  furn    cl  4620697946441423479 Clothing Station (Alessia's Bulwark)
-apply furn.txt:54  furn    cl  4620697946441152018 Clothing Station (Armor Master)
-apply furn.txt:55  furn    cl  4620697946441423510 Clothing Station (Ashen Grip)
-apply furn.txt:56  furn    cl  4620697946441395842 Clothing Station (Assassin's Guile)
-apply furn.txt:57  furn    cl  4620697946441335511 Clothing Station (Clever Alchemist)
-apply furn.txt:58  furn    cl  4620697946441898648 Clothing Station (Coldharbour's Favorite)
-apply furn.txt:59  furn    cl  4620697946441395829 Clothing Station (Daedric Trickery)
-apply furn.txt:60  furn    cl  4620697946441423505 Clothing Station (Death's Wind)
-apply furn.txt:61  furn    cl  4620697946441335160 Clothing Station (Eternal Hunt)
-apply furn.txt:62  furn    cl  4620697946441395848 Clothing Station (Eyes of Mara)
-apply furn.txt:63  furn    cl  4620697946441420110 Clothing Station (Fortified Brass)
-apply furn.txt:64  furn    cl  4620697946441813342 Clothing Station (Grave-Stake Collector)
-apply furn.txt:65  furn    cl  4620697946441423485 Clothing Station (Hist Bark)
-apply furn.txt:66  furn    cl  4620697946441292180 Clothing Station (Hunding's Rage)
-apply furn.txt:67  furn    cl  4620697946441420075 Clothing Station (Innate Axiom)
-apply furn.txt:68  furn    cl  4620697946441291500 Clothing Station (Kagrenac's Hope)
-apply furn.txt:69  furn    cl  4620697946441395792 Clothing Station (Kvatch Gladiator)
-apply furn.txt:70  furn    cl  4620697946441292192 Clothing Station (Law of Julianos)
-apply furn.txt:71  furn    cl  4620697946441292201 Clothing Station (Magnus' Gift)
-apply furn.txt:72  furn    cl  4620697946441420069 Clothing Station (Mechanical Acuity)
-apply furn.txt:73  furn    cl  4620697946441813357 Clothing Station (Might of the Lost Legion)
-apply furn.txt:74  furn    cl  4620697946441335144 Clothing Station (Morkuldin)
-apply furn.txt:75  furn    cl  4620697946441813350 Clothing Station (Naga Shaman)
-apply furn.txt:76  furn    cl  4620697946441423497 Clothing Station (Night's Silence)
-apply furn.txt:77  furn    cl  4620697946441335138 Clothing Station (Night Mother's Gaze)
-apply furn.txt:78  furn    cl  4620697946441291112 Clothing Station (Noble's Conquest)
-apply furn.txt:79  furn    cl  4620697946441647980 Clothing Station (Nocturnal's Favor)
-apply furn.txt:80  furn    cl  4620697946441422512 Clothing Station (Oblivion's Foe)
-apply furn.txt:81  furn    cl  4620697946441291494 Clothing Station (Orgnum's Scales)
-apply furn.txt:82  furn    cl  4620697946441335517 Clothing Station (Pelinal's Aptitude)
-apply furn.txt:83  furn    cl  4620697946441291119 Clothing Station (Redistributor)
-apply furn.txt:84  furn    cl  4620697946441335527 Clothing Station (Seducer)
-apply furn.txt:85  furn    cl  4620697946441898640 Clothing Station (Senche-Raht's Grit)
-apply furn.txt:86  furn    cl  4620697946441395836 Clothing Station (Shacklebreaker)
-apply furn.txt:87  furn    cl  4620697946441395851 Clothing Station (Shalidor's Curse)
-apply furn.txt:88  furn    cl  4620697946441647988 Clothing Station (Sload's Semblance)
-apply furn.txt:89  furn    cl  4620697946441423473 Clothing Station (Song of Lamae)
-apply furn.txt:90  furn    cl  4620697946441422506 Clothing Station (Spectre's Eye)
-apply furn.txt:91  furn    cl  4620697946441395804 Clothing Station (Tava's Favor)
-apply furn.txt:92  furn    cl  4620697946441335534 Clothing Station (Torug's Pact)
-apply furn.txt:93  furn    cl  4620697946441395820 Clothing Station (Trial by Fire)
-apply furn.txt:94  furn    cl  4620697946441335169 Clothing Station (Twice-Born Star)
-apply furn.txt:95  furn    cl  4620697946441422482 Clothing Station (Twilight's Embrace)
-apply furn.txt:96  furn    cl  4620697946441423461 Clothing Station (Vampire's Kiss)
-apply furn.txt:97  furn    cl  4620697946441395798 Clothing Station (Varen's Legacy)
-apply furn.txt:98  furn    cl  4620697946441898632 Clothing Station (Vastarie's Tutelage)
-apply furn.txt:99  furn    cl  4620697946441422500 Clothing Station (Way of the Arena)
-apply furn.txt:100 furn    cl  4620697946441423491 Clothing Station (Whitestrake's Retribution)
-apply furn.txt:101 furn    cl  4620697946441422517 Clothing Station (Willow's Path)
-apply furn.txt:102 
-apply furn.txt:103 furn    ww  4620697946441647973 Woodworking Station (Adept Rider)
-apply furn.txt:104 furn    ww  4620697946441423481 Woodworking Station (Alessia's Bulwark)
-apply furn.txt:105 furn    ww  4620697946441152019 Woodworking Station (Armor Master)
-apply furn.txt:106 furn    ww  4620697946441423511 Woodworking Station (Ashen Grip)
-apply furn.txt:107 furn    ww  4620697946441395843 Woodworking Station (Assassin's Guile)
-apply furn.txt:108 furn    ww  4620697946441335513 Woodworking Station (Clever Alchemist)
-apply furn.txt:109 furn    ww  4620697946441898650 Woodworking Station (Coldharbour's Favorite)
-apply furn.txt:110 furn    ww  4620697946441395831 Woodworking Station (Daedric Trickery)
-apply furn.txt:111 furn    ww  4620697946441423507 Woodworking Station (Death's Wind)
-apply furn.txt:112 furn    ww  4620697946441335162 Woodworking Station (Eternal Hunt)
-apply furn.txt:113 furn    ww  4620697946441395849 Woodworking Station (Eyes of Mara)
-apply furn.txt:114 furn    ww  4620697946441420111 Woodworking Station (Fortified Brass)
-apply furn.txt:115 furn    ww  4620697946441813346 Woodworking Station (Grave-Stake Collector)
-apply furn.txt:116 furn    ww  4620697946441423487 Woodworking Station (Hist Bark)
-apply furn.txt:117 furn    ww  4620697946441292182 Woodworking Station (Hunding's Rage)
-apply furn.txt:118 furn    ww  4620697946441420077 Woodworking Station (Innate Axiom)
-apply furn.txt:119 furn    ww  4620697946441291501 Woodworking Station (Kagrenac's Hope)
-apply furn.txt:120 furn    ww  4620697946441395794 Woodworking Station (Kvatch Gladiator)
-apply furn.txt:121 furn    ww  4620697946441292194 Woodworking Station (Law of Julianos)
-apply furn.txt:122 furn    ww  4620697946441292202 Woodworking Station (Magnus' Gift)
-apply furn.txt:123 furn    ww  4620697946441420071 Woodworking Station (Mechanical Acuity)
-apply furn.txt:124 furn    ww  4620697946441813359 Woodworking Station (Might of the Lost Legion)
-apply furn.txt:125 furn    ww  4620697946441335146 Woodworking Station (Morkuldin)
-apply furn.txt:126 furn    ww  4620697946441813354 Woodworking Station (Naga Shaman)
-apply furn.txt:127 furn    ww  4620697946441423499 Woodworking Station (Night's Silence)
-apply furn.txt:128 furn    ww  4620697946441335140 Woodworking Station (Night Mother's Gaze)
-apply furn.txt:129 furn    ww  4620697946441291113 Woodworking Station (Noble's Conquest)
-apply furn.txt:130 furn    ww  4620697946441647984 Woodworking Station (Nocturnal's Favor)
-apply furn.txt:131 furn    ww  4620697946441422514 Woodworking Station (Oblivion's Foe)
-apply furn.txt:132 furn    ww  4620697946441291496 Woodworking Station (Orgnum's Scales)
-apply furn.txt:133 furn    ww  4620697946441335519 Woodworking Station (Pelinal's Aptitude)
-apply furn.txt:134 furn    ww  4620697946441291120 Woodworking Station (Redistributor)
-apply furn.txt:135 furn    ww  4620697946441335529 Woodworking Station (Seducer)
-apply furn.txt:136 furn    ww  4620697946441898644 Woodworking Station (Senche-Raht's Grit)
-apply furn.txt:137 furn    ww  4620697946441395838 Woodworking Station (Shacklebreaker)
-apply furn.txt:138 furn    ww  4620697946441395853 Woodworking Station (Shalidor's Curse)
-apply furn.txt:139 furn    ww  4620697946441647992 Woodworking Station (Sload's Semblance)
-apply furn.txt:140 furn    ww  4620697946441423475 Woodworking Station (Song of Lamae)
-apply furn.txt:141 furn    ww  4620697946441422508 Woodworking Station (Spectre's Eye)
-apply furn.txt:142 furn    ww  4620697946441395806 Woodworking Station (Tava's Favor)
-apply furn.txt:143 furn    ww  4620697946441335535 Woodworking Station (Torug's Pact)
-apply furn.txt:144 furn    ww  4620697946441395822 Woodworking Station (Trial by Fire)
-apply furn.txt:145 furn    ww  4620697946441335170 Woodworking Station (Twice-Born Star)
-apply furn.txt:146 furn    ww  4620697946441422484 Woodworking Station (Twilight's Embrace)
-apply furn.txt:147 furn    ww  4620697946441423463 Woodworking Station (Vampire's Kiss)
-apply furn.txt:148 furn    ww  4620697946441395800 Woodworking Station (Varen's Legacy)
-apply furn.txt:149 furn    ww  4620697946441898636 Woodworking Station (Vastarie's Tutelage)
-apply furn.txt:150 furn    ww  4620697946441422502 Woodworking Station (Way of the Arena)
-apply furn.txt:151 furn    ww  4620697946441423493 Woodworking Station (Whitestrake's Retribution)
-apply furn.txt:152 furn    ww  4620697946441422518 Woodworking Station (Willow's Path)
-apply furn.txt:153 
-apply furn.txt:154 furn    jw  4620697946441647971 Jewelry Crafting Station (Adept Rider)
-apply furn.txt:155 furn    jw  4620697946441648115 Jewelry Crafting Station (Alessia's Bulwark)
-apply furn.txt:156 furn    jw  4620697946441648287 Jewelry Crafting Station (Armor Master)
-apply furn.txt:157 furn    jw  4620697946441648205 Jewelry Crafting Station (Ashen Grip)
-apply furn.txt:158 furn    jw  4620697946441648226 Jewelry Crafting Station (Assassin's Guile)
-apply furn.txt:159 furn    jw  4620697946441648199 Jewelry Crafting Station (Clever Alchemist)
-apply furn.txt:160 furn    jw  4620697946441898649 Jewelry Crafting Station (Coldharbour's Favorite)
-apply furn.txt:161 furn    jw  4620697946441648242 Jewelry Crafting Station (Daedric Trickery)
-apply furn.txt:162 furn    jw  4620697946441648201 Jewelry Crafting Station (Death's Wind)
-apply furn.txt:163 furn    jw  4620697946441648160 Jewelry Crafting Station (Eternal Hunt)
-apply furn.txt:164 furn    jw  4620697946441648061 Jewelry Crafting Station (Eyes of Mara)
-apply furn.txt:165 furn    jw  4620697946441648000 Jewelry Crafting Station (Fortified Brass)
-apply furn.txt:166 furn    jw  4620697946441813344 Jewelry Crafting Station (Grave-Stake Collector)
-apply furn.txt:167 furn    jw  4620697946441648128 Jewelry Crafting Station (Hist Bark)
-apply furn.txt:168 furn    jw  4620697946441648218 Jewelry Crafting Station (Hunding's Rage)
-apply furn.txt:169 furn    jw  4620697946441647996 Jewelry Crafting Station (Innate Axiom)
-apply furn.txt:170 furn    jw  4620697946441648070 Jewelry Crafting Station (Kagrenac's Hope)
-apply furn.txt:171 furn    jw  4620697946441648076 Jewelry Crafting Station (Kvatch Gladiator)
-apply furn.txt:172 furn    jw  4620697946441648259 Jewelry Crafting Station (Law of Julianos)
-apply furn.txt:173 furn    jw  4620697946441648119 Jewelry Crafting Station (Magnus' Gift)
-apply furn.txt:174 furn    jw  4620697946441647998 Jewelry Crafting Station (Mechanical Acuity)
-apply furn.txt:175 furn    jw  4620697946441813358 Jewelry Crafting Station (Might of the Lost Legion
-apply furn.txt:176 furn    jw  4620697946441648264 Jewelry Crafting Station (Morkuldin)
-apply furn.txt:177 furn    jw  4620697946441813352 Jewelry Crafting Station (Naga Shaman)
-apply furn.txt:178 furn    jw  4620697946441648132 Jewelry Crafting Station (Night's Silence)
-apply furn.txt:179 furn    jw  4620697946441648208 Jewelry Crafting Station (Night Mother's Gaze)
-apply furn.txt:180 furn    jw  4620697946441648324 Jewelry Crafting Station (Noble's Conquest)
-apply furn.txt:181 furn    jw  4620697946441647982 Jewelry Crafting Station (Nocturnal's Favor)
-apply furn.txt:182 furn    jw  4620697946441648008 Jewelry Crafting Station (Oblivion's Foe)
-apply furn.txt:183 furn    jw  4620697946441648065 Jewelry Crafting Station (Orgnum's Scales)
-apply furn.txt:184 furn    jw  4620697946441648100 Jewelry Crafting Station (Pelinal's Aptitude)
-apply furn.txt:185 furn    jw  4620697946441648306 Jewelry Crafting Station (Redistributor)
-apply furn.txt:186 furn    jw  4620697946441648034 Jewelry Crafting Station (Seducer)
-apply furn.txt:187 furn    jw  4620697946441898642 Jewelry Crafting Station (Senche-Raht's Grit)
-apply furn.txt:188 furn    jw  4620697946441648254 Jewelry Crafting Station (Shacklebreaker)
-apply furn.txt:189 furn    jw  4620697946441648063 Jewelry Crafting Station (Shalidor's Curse)
-apply furn.txt:190 furn    jw  4620697946441647990 Jewelry Crafting Station (Sload's Semblance)
-apply furn.txt:191 furn    jw  4620697946441648102 Jewelry Crafting Station (Song of Lamae)
-apply furn.txt:192 furn    jw  4620697946441648014 Jewelry Crafting Station (Spectre's Eye)
-apply furn.txt:193 furn    jw  4620697946441648174 Jewelry Crafting Station (Tava's Favor)
-apply furn.txt:194 furn    jw  4620697946441648031 Jewelry Crafting Station (Torug's Pact)
-apply furn.txt:195 furn    jw  4620697946441648270 Jewelry Crafting Station (Trial by Fire)
-apply furn.txt:196 furn    jw  4620697946441648016 Jewelry Crafting Station (Twice-Born Star)
-apply furn.txt:197 furn    jw  4620697946441648053 Jewelry Crafting Station (Twilight's Embrace)
-apply furn.txt:198 furn    jw  4620697946441648110 Jewelry Crafting Station (Vampire's Kiss)
-apply furn.txt:199 furn    jw  4620697946441648073 Jewelry Crafting Station (Varen's Legacy)
-apply furn.txt:200 furn    jw  4620697946441898634 Jewelry Crafting Station (Vastarie's Tutelage)
-apply furn.txt:201 furn    jw  4620697946441648027 Jewelry Crafting Station (Way of the Arena)
-apply furn.txt:202 furn    jw  4620697946441648125 Jewelry Crafting Station (Whitestrake's)
-apply furn.txt:203 furn    jw  4620697946441648224 Jewelry Crafting Station (Willow's Path)
-apply furn.txt:204 
-apply furn.txt:205 furn    lamp  4620697946441423617 Dark Elf Streetpost, Banner
-apply furn.txt:206 furn    lamp  4620697946441423627 Dark Elf Streetpost, Banner
-apply furn.txt:207 furn    lamp  4620697946441423630 Dark Elf Streetpost, Banner
-apply furn.txt:208 furn    lamp  4620697946441423635 Dark Elf Streetpost, Banner
-apply furn.txt:209 furn    lamp  4620697946441423659 Dark Elf Streetpost, Banner
-apply furn.txt:210 furn    lamp  4620697946441423660 Dark Elf Streetpost, Banner
-apply furn.txt:211 furn    lamp  4620697946441423661 Dark Elf Streetpost, Banner
-apply furn.txt:212 furn    lamp  4620697946441423663 Dark Elf Streetpost, Banner
-apply furn.txt:213 furn    lamp  4620697946441423701 Dark Elf Streetpost, Banner
-apply furn.txt:214 furn    lamp  4620697946441423702 Dark Elf Streetpost, Banner
-apply furn.txt:215 furn    lamp  4620697946441423703 Dark Elf Streetpost, Banner
-apply furn.txt:216 furn    lamp  4620697946441423704 Dark Elf Streetpost, Banner
-apply furn.txt:217 furn    lamp  4620697946441423856 Dark Elf Streetpost, Banner
-apply furn.txt:218 furn    lamp  4620697946441423879 Dark Elf Streetpost, Banner
-apply furn.txt:219 furn    lamp  4620697946441423881 Dark Elf Streetpost, Banner
-apply furn.txt:220 furn    lamp  4620697946441423882 Dark Elf Streetpost, Banner
-apply furn.txt:221 furn    lamp  4620697946441423883 Dark Elf Streetpost, Banner
-apply furn.txt:222 furn    lamp  4620697946441423891 Dark Elf Streetpost, Banner
-apply furn.txt:223 furn    lamp  4620697946441423904 Dark Elf Streetpost, Banner
-apply furn.txt:224 furn    lamp  4620697946441423905 Dark Elf Streetpost, Banner
-apply furn.txt:225 furn    lamp  4620697946441423911 Dark Elf Streetpost, Banner
-apply furn.txt:226 furn    lamp  4620697946441423913 Dark Elf Streetpost, Banner
-apply furn.txt:227 furn    lamp  4620697946441619091 Dark Elf Streetpost, Banner
-apply furn.txt:228 furn    lamp  4620697946441619092 Dark Elf Streetpost, Banner
-apply furn.txt:229 furn    lamp  4620697946441619093 Dark Elf Streetpost, Banner
-apply furn.txt:230 furn    lamp  4620697946441619094 Dark Elf Streetpost, Banner
-apply furn.txt:231 furn    lamp  4620697946441619095 Dark Elf Streetpost, Banner
-apply furn.txt:232 furn    lamp  4620697946441619097 Dark Elf Streetpost, Banner
-apply furn.txt:233 furn    lamp  4620697946441619098 Dark Elf Streetpost, Banner
-apply furn.txt:234 furn    lamp  4620697946441619099 Dark Elf Streetpost, Banner
-apply furn.txt:235 furn    lamp  4620697946441619100 Dark Elf Streetpost, Banner
-apply furn.txt:236 furn    lamp  4620697946441619101 Dark Elf Streetpost, Banner
-apply furn.txt:237 furn    lamp  4620697946441619102 Dark Elf Streetpost, Banner
-apply furn.txt:238 furn    lamp  4620697946441619103 Dark Elf Streetpost, Banner
-apply furn.txt:239 furn    lamp  4620697946441619104 Dark Elf Streetpost, Banner
-apply furn.txt:240 furn    lamp  4620697946441619105 Dark Elf Streetpost, Banner
-apply furn.txt:241 furn    lamp  4620697946441813365 Dark Elf Streetpost, Banner
-apply furn.txt:242 furn    lamp  4620697946441813366 Dark Elf Streetpost, Banner
-apply furn.txt:243 furn    lamp  4620697946441813367 Dark Elf Streetpost, Banner
-apply furn.txt:244 furn    lamp  4620697946441898691 Dark Elf Streetpost, Banner
-apply furn.txt:245 furn    lamp  4620697946441898692 Dark Elf Streetpost, Banner
-apply furn.txt:246 furn    lamp  4620697946441898693 Dark Elf Streetpost, Banner
-apply furn.txt:247 
-apply furn.txt:248 furn    lantern  4620697946441423588 Common Lantern, Hanging
-apply furn.txt:249 furn    lantern  4620697946441423622 Common Lantern, Hanging
-apply furn.txt:250 furn    lantern  4620697946441423631 Common Lantern, Hanging
-apply furn.txt:251 furn    lantern  4620697946441423681 Common Lantern, Hanging
-apply furn.txt:252 furn    lantern  4620697946441423682 Common Lantern, Hanging
-apply furn.txt:253 furn    lantern  4620697946441423683 Common Lantern, Hanging
-apply furn.txt:254 furn    lantern  4620697946441423685 Common Lantern, Hanging
-apply furn.txt:255 furn    lantern  4620697946441423687 Common Lantern, Hanging
-apply furn.txt:256 furn    lantern  4620697946441423713 Common Lantern, Hanging
-apply furn.txt:257 furn    lantern  4620697946441423715 Common Lantern, Hanging
-apply furn.txt:258 furn    lantern  4620697946441423721 Common Lantern, Hanging
-apply furn.txt:259 furn    lantern  4620697946441423722 Common Lantern, Hanging
-apply furn.txt:260 furn    lantern  4620697946441423866 Common Lantern, Hanging
-apply furn.txt:261 furn    lantern  4620697946441423897 Common Lantern, Hanging
-apply furn.txt:262 furn    lantern  4620697946441423899 Common Lantern, Hanging
-apply furn.txt:263 furn    lantern  4620697946441423901 Common Lantern, Hanging
-apply furn.txt:264 furn    lantern  4620697946441423921 Common Lantern, Hanging
-apply furn.txt:265 furn    lantern  4620697946441423924 Common Lantern, Hanging
-apply furn.txt:266 furn    lantern  4620697946441423937 Common Lantern, Hanging
-apply furn.txt:267 furn    lantern  4620697946441423938 Common Lantern, Hanging
-apply furn.txt:268 furn    lantern  4620697946441423939 Common Lantern, Hanging
-apply furn.txt:269 furn    lantern  4620697946441423940 Common Lantern, Hanging
-apply furn.txt:270 furn    lantern  4620697946441619106 Common Lantern, Hanging
-apply furn.txt:271 furn    lantern  4620697946441619107 Common Lantern, Hanging
-apply furn.txt:272 furn    lantern  4620697946441619108 Common Lantern, Hanging
-apply furn.txt:273 furn    lantern  4620697946441619109 Common Lantern, Hanging
-apply furn.txt:274 furn    lantern  4620697946441619110 Common Lantern, Hanging
-apply furn.txt:275 furn    lantern  4620697946441619111 Common Lantern, Hanging
-apply furn.txt:276 furn    lantern  4620697946441619112 Common Lantern, Hanging
-apply furn.txt:277 furn    lantern  4620697946441619113 Common Lantern, Hanging
-apply furn.txt:278 furn    lantern  4620697946441619114 Common Lantern, Hanging
-apply furn.txt:279 furn    lantern  4620697946441619115 Common Lantern, Hanging
-apply furn.txt:280 furn    lantern  4620697946441619119 Common Lantern, Hanging
-apply furn.txt:281 furn    lantern  4620697946441619120 Common Lantern, Hanging
-apply furn.txt:282 furn    lantern  4620697946441619121 Common Lantern, Hanging
-apply furn.txt:283 furn    lantern  4620697946441619122 Common Lantern, Hanging
-apply furn.txt:284 furn    lantern  4620697946441813360 Common Lantern, Hanging
-apply furn.txt:285 furn    lantern  4620697946441813361 Common Lantern, Hanging
-apply furn.txt:286 furn    lantern  4620697946441898682 Common Lantern, Hanging
-apply furn.txt:287 furn    lantern  4620697946441898683 Common Lantern, Hanging
-apply furn.txt:288 furn    lantern  4620697946441898684 Common Lantern, Hanging
+apply furn.txt:1   furn    bs       4620697946441647967 Blacksmithing Station (Adept Rider)
+apply furn.txt:2   furn    bs       4620697946441423477 Blacksmithing Station (Alessia's Bulwark)
+apply furn.txt:3   furn    bs       4620697946441937686 Blacksmithing Station (Ancient Dragonguard)
+apply furn.txt:4   furn    bs       4620697946441146870 Blacksmithing Station (Armor Master)
+apply furn.txt:5   furn    bs       4620697946441423509 Blacksmithing Station (Ashen Grip)
+apply furn.txt:6   furn    bs       4620697946441395840 Blacksmithing Station (Assassin's Guile)
+apply furn.txt:7   furn    bs       4620697946441335509 Blacksmithing Station (Clever Alchemist)
+apply furn.txt:8   furn    bs       4620697946441898647 Blacksmithing Station (Coldharbour's Favorite)
+apply furn.txt:9   furn    bs       4620697946441395827 Blacksmithing Station (Daedric Trickery)
+apply furn.txt:10  furn    bs       4620697946441931437 Blacksmithing Station (Daring Corsair)
+apply furn.txt:11  furn    bs       4620697946441423503 Blacksmithing Station (Death's Wind)
+apply furn.txt:12  furn    bs       4620697946441335158 Blacksmithing Station (Eternal Hunt)
+apply furn.txt:13  furn    bs       4620697946441395846 Blacksmithing Station (Eyes of Mara)
+apply furn.txt:14  furn    bs       4620697946441420109 Blacksmithing Station (Fortified Brass)
+apply furn.txt:15  furn    bs       4620697946441813340 Blacksmithing Station (Grave-Stake Collector)
+apply furn.txt:16  furn    bs       4620697946441423483 Blacksmithing Station (Hist Bark)
+apply furn.txt:17  furn    bs       4620697946441292178 Blacksmithing Station (Hunding's Rage)
+apply furn.txt:18  furn    bs       4620697946441420073 Blacksmithing Station (Innate Axiom)
+apply furn.txt:19  furn    bs       4620697946441291499 Blacksmithing Station (Kagrenac's Hope)
+apply furn.txt:20  furn    bs       4620697946441395790 Blacksmithing Station (Kvatch Gladiator)
+apply furn.txt:21  furn    bs       4620697946441292190 Blacksmithing Station (Law of Julianos)
+apply furn.txt:22  furn    bs       4620697946441292200 Blacksmithing Station (Magnus' Gift)
+apply furn.txt:23  furn    bs       4620697946441420067 Blacksmithing Station (Mechanical Acuity)
+apply furn.txt:24  furn    bs       4620697946441813356 Blacksmithing Station (Might of the Lost Legion)
+apply furn.txt:25  furn    bs       4620697946441335142 Blacksmithing Station (Morkuldin)
+apply furn.txt:26  furn    bs       4620697946441813348 Blacksmithing Station (Naga Shaman)
+apply furn.txt:27  furn    bs       4620697946441931442 Blacksmithing Station (New Moon Acolyte)
+apply furn.txt:28  furn    bs       4620697946441335136 Blacksmithing Station (Night Mother's Gaze)
+apply furn.txt:29  furn    bs       4620697946441423495 Blacksmithing Station (Night's Silence)
+apply furn.txt:30  furn    bs       4620697946441291111 Blacksmithing Station (Noble's Conquest)
+apply furn.txt:31  furn    bs       4620697946441647978 Blacksmithing Station (Nocturnal's Favor)
+apply furn.txt:32  furn    bs       4620697946441422510 Blacksmithing Station (Oblivion's Foe)
+apply furn.txt:33  furn    bs       4620697946441291492 Blacksmithing Station (Orgnum's Scales)
+apply furn.txt:34  furn    bs       4620697946441335515 Blacksmithing Station (Pelinal's Aptitude)
+apply furn.txt:35  furn    bs       4620697946441291118 Blacksmithing Station (Redistributor)
+apply furn.txt:36  furn    bs       4620697946441335525 Blacksmithing Station (Seducer)
+apply furn.txt:37  furn    bs       4620697946441898638 Blacksmithing Station (Senche-Raht's Grit)
+apply furn.txt:38  furn    bs       4620697946441395834 Blacksmithing Station (Shacklebreaker)
+apply furn.txt:39  furn    bs       4620697946441395852 Blacksmithing Station (Shalidor's Curse)
+apply furn.txt:40  furn    bs       4620697946441647986 Blacksmithing Station (Sload's Semblance)
+apply furn.txt:41  furn    bs       4620697946441423471 Blacksmithing Station (Song of Lamae)
+apply furn.txt:42  furn    bs       4620697946441422504 Blacksmithing Station (Spectre's Eye)
+apply furn.txt:43  furn    bs       4620697946441395802 Blacksmithing Station (Tava's Favor)
+apply furn.txt:44  furn    bs       4620697946441335533 Blacksmithing Station (Torug's Pact)
+apply furn.txt:45  furn    bs       4620697946441395818 Blacksmithing Station (Trial by Fire)
+apply furn.txt:46  furn    bs       4620697946441335168 Blacksmithing Station (Twice-Born Star)
+apply furn.txt:47  furn    bs       4620697946441422480 Blacksmithing Station (Twilight's Embrace)
+apply furn.txt:48  furn    bs       4620697946441423459 Blacksmithing Station (Vampire's Kiss)
+apply furn.txt:49  furn    bs       4620697946441395796 Blacksmithing Station (Varen's Legacy)
+apply furn.txt:50  furn    bs       4620697946441898630 Blacksmithing Station (Vastarie's Tutelage)
+apply furn.txt:51  furn    bs       4620697946441422498 Blacksmithing Station (Way of the Arena)
+apply furn.txt:52  furn    bs       4620697946441423489 Blacksmithing Station (Whitestrake's Retribution)
+apply furn.txt:53  furn    bs       4620697946441422516 Blacksmithing Station (Willow's Path)
+apply furn.txt:54  
+apply furn.txt:55  furn    cl       4620697946441647969 Clothing Station (Adept Rider)
+apply furn.txt:56  furn    cl       4620697946441423479 Clothing Station (Alessia's Bulwark)
+apply furn.txt:57  furn    cl       4620697946441937687 Clothing Station (Ancient Dragonguard)
+apply furn.txt:58  furn    cl       4620697946441152018 Clothing Station (Armor Master)
+apply furn.txt:59  furn    cl       4620697946441423510 Clothing Station (Ashen Grip)
+apply furn.txt:60  furn    cl       4620697946441395842 Clothing Station (Assassin's Guile)
+apply furn.txt:61  furn    cl       4620697946441335511 Clothing Station (Clever Alchemist)
+apply furn.txt:62  furn    cl       4620697946441898648 Clothing Station (Coldharbour's Favorite)
+apply furn.txt:63  furn    cl       4620697946441395829 Clothing Station (Daedric Trickery)
+apply furn.txt:64  furn    cl       4620697946441931435 Clothing Station (Daring Corsair)
+apply furn.txt:65  furn    cl       4620697946441423505 Clothing Station (Death's Wind)
+apply furn.txt:66  furn    cl       4620697946441335160 Clothing Station (Eternal Hunt)
+apply furn.txt:67  furn    cl       4620697946441395848 Clothing Station (Eyes of Mara)
+apply furn.txt:68  furn    cl       4620697946441420110 Clothing Station (Fortified Brass)
+apply furn.txt:69  furn    cl       4620697946441813342 Clothing Station (Grave-Stake Collector)
+apply furn.txt:70  furn    cl       4620697946441423485 Clothing Station (Hist Bark)
+apply furn.txt:71  furn    cl       4620697946441292180 Clothing Station (Hunding's Rage)
+apply furn.txt:72  furn    cl       4620697946441420075 Clothing Station (Innate Axiom)
+apply furn.txt:73  furn    cl       4620697946441291500 Clothing Station (Kagrenac's Hope)
+apply furn.txt:74  furn    cl       4620697946441395792 Clothing Station (Kvatch Gladiator)
+apply furn.txt:75  furn    cl       4620697946441292192 Clothing Station (Law of Julianos)
+apply furn.txt:76  furn    cl       4620697946441292201 Clothing Station (Magnus' Gift)
+apply furn.txt:77  furn    cl       4620697946441420069 Clothing Station (Mechanical Acuity)
+apply furn.txt:78  furn    cl       4620697946441813357 Clothing Station (Might of the Lost Legion)
+apply furn.txt:79  furn    cl       4620697946441335144 Clothing Station (Morkuldin)
+apply furn.txt:80  furn    cl       4620697946441813350 Clothing Station (Naga Shaman)
+apply furn.txt:81  furn    cl       4620697946441931444 Clothing Station (New Moon Acolyte)
+apply furn.txt:82  furn    cl       4620697946441335138 Clothing Station (Night Mother's Gaze)
+apply furn.txt:83  furn    cl       4620697946441423497 Clothing Station (Night's Silence)
+apply furn.txt:84  furn    cl       4620697946441291112 Clothing Station (Noble's Conquest)
+apply furn.txt:85  furn    cl       4620697946441647980 Clothing Station (Nocturnal's Favor)
+apply furn.txt:86  furn    cl       4620697946441422512 Clothing Station (Oblivion's Foe)
+apply furn.txt:87  furn    cl       4620697946441291494 Clothing Station (Orgnum's Scales)
+apply furn.txt:88  furn    cl       4620697946441335517 Clothing Station (Pelinal's Aptitude)
+apply furn.txt:89  furn    cl       4620697946441291119 Clothing Station (Redistributor)
+apply furn.txt:90  furn    cl       4620697946441335527 Clothing Station (Seducer)
+apply furn.txt:91  furn    cl       4620697946441898640 Clothing Station (Senche-Raht's Grit)
+apply furn.txt:92  furn    cl       4620697946441395836 Clothing Station (Shacklebreaker)
+apply furn.txt:93  furn    cl       4620697946441395851 Clothing Station (Shalidor's Curse)
+apply furn.txt:94  furn    cl       4620697946441647988 Clothing Station (Sload's Semblance)
+apply furn.txt:95  furn    cl       4620697946441423473 Clothing Station (Song of Lamae)
+apply furn.txt:96  furn    cl       4620697946441422506 Clothing Station (Spectre's Eye)
+apply furn.txt:97  furn    cl       4620697946441395804 Clothing Station (Tava's Favor)
+apply furn.txt:98  furn    cl       4620697946441335534 Clothing Station (Torug's Pact)
+apply furn.txt:99  furn    cl       4620697946441395820 Clothing Station (Trial by Fire)
+apply furn.txt:100 furn    cl       4620697946441335169 Clothing Station (Twice-Born Star)
+apply furn.txt:101 furn    cl       4620697946441422482 Clothing Station (Twilight's Embrace)
+apply furn.txt:102 furn    cl       4620697946441423461 Clothing Station (Vampire's Kiss)
+apply furn.txt:103 furn    cl       4620697946441395798 Clothing Station (Varen's Legacy)
+apply furn.txt:104 furn    cl       4620697946441898632 Clothing Station (Vastarie's Tutelage)
+apply furn.txt:105 furn    cl       4620697946441422500 Clothing Station (Way of the Arena)
+apply furn.txt:106 furn    cl       4620697946441423491 Clothing Station (Whitestrake's Retribution)
+apply furn.txt:107 furn    cl       4620697946441422517 Clothing Station (Willow's Path)
+apply furn.txt:108 
+apply furn.txt:109 furn    ww       4620697946441647973 Woodworking Station (Adept Rider)
+apply furn.txt:110 furn    ww       4620697946441423481 Woodworking Station (Alessia's Bulwark)
+apply furn.txt:111 furn    ww       4620697946441937689 Woodworking Station (Ancient Dragonguard)
+apply furn.txt:112 furn    ww       4620697946441152019 Woodworking Station (Armor Master)
+apply furn.txt:113 furn    ww       4620697946441423511 Woodworking Station (Ashen Grip)
+apply furn.txt:114 furn    ww       4620697946441395843 Woodworking Station (Assassin's Guile)
+apply furn.txt:115 furn    ww       4620697946441335513 Woodworking Station (Clever Alchemist)
+apply furn.txt:116 furn    ww       4620697946441898650 Woodworking Station (Coldharbour's Favorite)
+apply furn.txt:117 furn    ww       4620697946441395831 Woodworking Station (Daedric Trickery)
+apply furn.txt:118 furn    ww       4620697946441931433 Woodworking Station (Daring Corsair)
+apply furn.txt:119 furn    ww       4620697946441423507 Woodworking Station (Death's Wind)
+apply furn.txt:120 furn    ww       4620697946441335162 Woodworking Station (Eternal Hunt)
+apply furn.txt:121 furn    ww       4620697946441395849 Woodworking Station (Eyes of Mara)
+apply furn.txt:122 furn    ww       4620697946441420111 Woodworking Station (Fortified Brass)
+apply furn.txt:123 furn    ww       4620697946441813346 Woodworking Station (Grave-Stake Collector)
+apply furn.txt:124 furn    ww       4620697946441423487 Woodworking Station (Hist Bark)
+apply furn.txt:125 furn    ww       4620697946441292182 Woodworking Station (Hunding's Rage)
+apply furn.txt:126 furn    ww       4620697946441420077 Woodworking Station (Innate Axiom)
+apply furn.txt:127 furn    ww       4620697946441291501 Woodworking Station (Kagrenac's Hope)
+apply furn.txt:128 furn    ww       4620697946441395794 Woodworking Station (Kvatch Gladiator)
+apply furn.txt:129 furn    ww       4620697946441292194 Woodworking Station (Law of Julianos)
+apply furn.txt:130 furn    ww       4620697946441292202 Woodworking Station (Magnus' Gift)
+apply furn.txt:131 furn    ww       4620697946441420071 Woodworking Station (Mechanical Acuity)
+apply furn.txt:132 furn    ww       4620697946441813359 Woodworking Station (Might of the Lost Legion)
+apply furn.txt:133 furn    ww       4620697946441335146 Woodworking Station (Morkuldin)
+apply furn.txt:134 furn    ww       4620697946441813354 Woodworking Station (Naga Shaman)
+apply furn.txt:135 furn    ww       4620697946441931445 Woodworking Station (New Moon Acolyte)
+apply furn.txt:136 furn    ww       4620697946441335140 Woodworking Station (Night Mother's Gaze)
+apply furn.txt:137 furn    ww       4620697946441423499 Woodworking Station (Night's Silence)
+apply furn.txt:138 furn    ww       4620697946441291113 Woodworking Station (Noble's Conquest)
+apply furn.txt:139 furn    ww       4620697946441647984 Woodworking Station (Nocturnal's Favor)
+apply furn.txt:140 furn    ww       4620697946441422514 Woodworking Station (Oblivion's Foe)
+apply furn.txt:141 furn    ww       4620697946441291496 Woodworking Station (Orgnum's Scales)
+apply furn.txt:142 furn    ww       4620697946441335519 Woodworking Station (Pelinal's Aptitude)
+apply furn.txt:143 furn    ww       4620697946441291120 Woodworking Station (Redistributor)
+apply furn.txt:144 furn    ww       4620697946441335529 Woodworking Station (Seducer)
+apply furn.txt:145 furn    ww       4620697946441898644 Woodworking Station (Senche-Raht's Grit)
+apply furn.txt:146 furn    ww       4620697946441395838 Woodworking Station (Shacklebreaker)
+apply furn.txt:147 furn    ww       4620697946441395853 Woodworking Station (Shalidor's Curse)
+apply furn.txt:148 furn    ww       4620697946441647992 Woodworking Station (Sload's Semblance)
+apply furn.txt:149 furn    ww       4620697946441423475 Woodworking Station (Song of Lamae)
+apply furn.txt:150 furn    ww       4620697946441422508 Woodworking Station (Spectre's Eye)
+apply furn.txt:151 furn    ww       4620697946441395806 Woodworking Station (Tava's Favor)
+apply furn.txt:152 furn    ww       4620697946441335535 Woodworking Station (Torug's Pact)
+apply furn.txt:153 furn    ww       4620697946441395822 Woodworking Station (Trial by Fire)
+apply furn.txt:154 furn    ww       4620697946441335170 Woodworking Station (Twice-Born Star)
+apply furn.txt:155 furn    ww       4620697946441422484 Woodworking Station (Twilight's Embrace)
+apply furn.txt:156 furn    ww       4620697946441423463 Woodworking Station (Vampire's Kiss)
+apply furn.txt:157 furn    ww       4620697946441395800 Woodworking Station (Varen's Legacy)
+apply furn.txt:158 furn    ww       4620697946441898636 Woodworking Station (Vastarie's Tutelage)
+apply furn.txt:159 furn    ww       4620697946441422502 Woodworking Station (Way of the Arena)
+apply furn.txt:160 furn    ww       4620697946441423493 Woodworking Station (Whitestrake's Retribution)
+apply furn.txt:161 furn    ww       4620697946441422518 Woodworking Station (Willow's Path)
+apply furn.txt:162 
+apply furn.txt:163 furn    jw       4620697946441647971 Jewelry Crafting Station (Adept Rider)
+apply furn.txt:164 furn    jw       4620697946441648115 Jewelry Crafting Station (Alessia's Bulwark)
+apply furn.txt:165 furn    jw       4620697946441937688 Jewelry Crafting Station (Ancient Dragonguard)
+apply furn.txt:166 furn    jw       4620697946441648287 Jewelry Crafting Station (Armor Master)
+apply furn.txt:167 furn    jw       4620697946441648205 Jewelry Crafting Station (Ashen Grip)
+apply furn.txt:168 furn    jw       4620697946441648226 Jewelry Crafting Station (Assassin's Guile)
+apply furn.txt:169 furn    jw       4620697946441648199 Jewelry Crafting Station (Clever Alchemist)
+apply furn.txt:170 furn    jw       4620697946441898649 Jewelry Crafting Station (Coldharbour's Favorite)
+apply furn.txt:171 furn    jw       4620697946441648242 Jewelry Crafting Station (Daedric Trickery)
+apply furn.txt:172 furn    jw       4620697946441931431 Jewelry Crafting Station (Daring Corsair)
+apply furn.txt:173 furn    jw       4620697946441648201 Jewelry Crafting Station (Death's Wind)
+apply furn.txt:174 furn    jw       4620697946441648160 Jewelry Crafting Station (Eternal Hunt)
+apply furn.txt:175 furn    jw       4620697946441648061 Jewelry Crafting Station (Eyes of Mara)
+apply furn.txt:176 furn    jw       4620697946441648000 Jewelry Crafting Station (Fortified Brass)
+apply furn.txt:177 furn    jw       4620697946441813344 Jewelry Crafting Station (Grave-Stake Collector)
+apply furn.txt:178 furn    jw       4620697946441648128 Jewelry Crafting Station (Hist Bark)
+apply furn.txt:179 furn    jw       4620697946441648218 Jewelry Crafting Station (Hunding's Rage)
+apply furn.txt:180 furn    jw       4620697946441647996 Jewelry Crafting Station (Innate Axiom)
+apply furn.txt:181 furn    jw       4620697946441648070 Jewelry Crafting Station (Kagrenac's Hope)
+apply furn.txt:182 furn    jw       4620697946441648076 Jewelry Crafting Station (Kvatch Gladiator)
+apply furn.txt:183 furn    jw       4620697946441648259 Jewelry Crafting Station (Law of Julianos)
+apply furn.txt:184 furn    jw       4620697946441648119 Jewelry Crafting Station (Magnus' Gift)
+apply furn.txt:185 furn    jw       4620697946441647998 Jewelry Crafting Station (Mechanical Acuity)
+apply furn.txt:186 furn    jw       4620697946441813358 Jewelry Crafting Station (Might of the Lost Legion
+apply furn.txt:187 furn    jw       4620697946441648264 Jewelry Crafting Station (Morkuldin)
+apply furn.txt:188 furn    jw       4620697946441813352 Jewelry Crafting Station (Naga Shaman)
+apply furn.txt:189 furn    jw       4620697946441931446 Jewelry Crafting Station (New Moon Acolyte)
+apply furn.txt:190 furn    jw       4620697946441648208 Jewelry Crafting Station (Night Mother's Gaze)
+apply furn.txt:191 furn    jw       4620697946441648132 Jewelry Crafting Station (Night's Silence)
+apply furn.txt:192 furn    jw       4620697946441648324 Jewelry Crafting Station (Noble's Conquest)
+apply furn.txt:193 furn    jw       4620697946441647982 Jewelry Crafting Station (Nocturnal's Favor)
+apply furn.txt:194 furn    jw       4620697946441648008 Jewelry Crafting Station (Oblivion's Foe)
+apply furn.txt:195 furn    jw       4620697946441648065 Jewelry Crafting Station (Orgnum's Scales)
+apply furn.txt:196 furn    jw       4620697946441648100 Jewelry Crafting Station (Pelinal's Aptitude)
+apply furn.txt:197 furn    jw       4620697946441648306 Jewelry Crafting Station (Redistributor)
+apply furn.txt:198 furn    jw       4620697946441648034 Jewelry Crafting Station (Seducer)
+apply furn.txt:199 furn    jw       4620697946441898642 Jewelry Crafting Station (Senche-Raht's Grit)
+apply furn.txt:200 furn    jw       4620697946441648254 Jewelry Crafting Station (Shacklebreaker)
+apply furn.txt:201 furn    jw       4620697946441648063 Jewelry Crafting Station (Shalidor's Curse)
+apply furn.txt:202 furn    jw       4620697946441647990 Jewelry Crafting Station (Sload's Semblance)
+apply furn.txt:203 furn    jw       4620697946441648102 Jewelry Crafting Station (Song of Lamae)
+apply furn.txt:204 furn    jw       4620697946441648014 Jewelry Crafting Station (Spectre's Eye)
+apply furn.txt:205 furn    jw       4620697946441648174 Jewelry Crafting Station (Tava's Favor)
+apply furn.txt:206 furn    jw       4620697946441648031 Jewelry Crafting Station (Torug's Pact)
+apply furn.txt:207 furn    jw       4620697946441648270 Jewelry Crafting Station (Trial by Fire)
+apply furn.txt:208 furn    jw       4620697946441648016 Jewelry Crafting Station (Twice-Born Star)
+apply furn.txt:209 furn    jw       4620697946441648053 Jewelry Crafting Station (Twilight's Embrace)
+apply furn.txt:210 furn    jw       4620697946441648110 Jewelry Crafting Station (Vampire's Kiss)
+apply furn.txt:211 furn    jw       4620697946441648073 Jewelry Crafting Station (Varen's Legacy)
+apply furn.txt:212 furn    jw       4620697946441898634 Jewelry Crafting Station (Vastarie's Tutelage)
+apply furn.txt:213 furn    jw       4620697946441648027 Jewelry Crafting Station (Way of the Arena)
+apply furn.txt:214 furn    jw       4620697946441648125 Jewelry Crafting Station (Whitestrake's)
+apply furn.txt:215 furn    jw       4620697946441648224 Jewelry Crafting Station (Willow's Path)
+apply furn.txt:216 
+apply furn.txt:217 furn    lamp     4620697946441423617 Dark Elf Streetpost, Banner
+apply furn.txt:218 furn    lamp     4620697946441423627 Dark Elf Streetpost, Banner
+apply furn.txt:219 furn    lamp     4620697946441423630 Dark Elf Streetpost, Banner
+apply furn.txt:220 furn    lamp     4620697946441423635 Dark Elf Streetpost, Banner
+apply furn.txt:221 furn    lamp     4620697946441423659 Dark Elf Streetpost, Banner
+apply furn.txt:222 furn    lamp     4620697946441423660 Dark Elf Streetpost, Banner
+apply furn.txt:223 furn    lamp     4620697946441423661 Dark Elf Streetpost, Banner
+apply furn.txt:224 furn    lamp     4620697946441423663 Dark Elf Streetpost, Banner
+apply furn.txt:225 furn    lamp     4620697946441423701 Dark Elf Streetpost, Banner
+apply furn.txt:226 furn    lamp     4620697946441423702 Dark Elf Streetpost, Banner
+apply furn.txt:227 furn    lamp     4620697946441423703 Dark Elf Streetpost, Banner
+apply furn.txt:228 furn    lamp     4620697946441423704 Dark Elf Streetpost, Banner
+apply furn.txt:229 furn    lamp     4620697946441423856 Dark Elf Streetpost, Banner
+apply furn.txt:230 furn    lamp     4620697946441423879 Dark Elf Streetpost, Banner
+apply furn.txt:231 furn    lamp     4620697946441423881 Dark Elf Streetpost, Banner
+apply furn.txt:232 furn    lamp     4620697946441423882 Dark Elf Streetpost, Banner
+apply furn.txt:233 furn    lamp     4620697946441423883 Dark Elf Streetpost, Banner
+apply furn.txt:234 furn    lamp     4620697946441423891 Dark Elf Streetpost, Banner
+apply furn.txt:235 furn    lamp     4620697946441423904 Dark Elf Streetpost, Banner
+apply furn.txt:236 furn    lamp     4620697946441423905 Dark Elf Streetpost, Banner
+apply furn.txt:237 furn    lamp     4620697946441423911 Dark Elf Streetpost, Banner
+apply furn.txt:238 furn    lamp     4620697946441423913 Dark Elf Streetpost, Banner
+apply furn.txt:239 furn    lamp     4620697946441619091 Dark Elf Streetpost, Banner
+apply furn.txt:240 furn    lamp     4620697946441619092 Dark Elf Streetpost, Banner
+apply furn.txt:241 furn    lamp     4620697946441619093 Dark Elf Streetpost, Banner
+apply furn.txt:242 furn    lamp     4620697946441619094 Dark Elf Streetpost, Banner
+apply furn.txt:243 furn    lamp     4620697946441619095 Dark Elf Streetpost, Banner
+apply furn.txt:244 furn    lamp     4620697946441619097 Dark Elf Streetpost, Banner
+apply furn.txt:245 furn    lamp     4620697946441619098 Dark Elf Streetpost, Banner
+apply furn.txt:246 furn    lamp     4620697946441619099 Dark Elf Streetpost, Banner
+apply furn.txt:247 furn    lamp     4620697946441619100 Dark Elf Streetpost, Banner
+apply furn.txt:248 furn    lamp     4620697946441619101 Dark Elf Streetpost, Banner
+apply furn.txt:249 furn    lamp     4620697946441619102 Dark Elf Streetpost, Banner
+apply furn.txt:250 furn    lamp     4620697946441619103 Dark Elf Streetpost, Banner
+apply furn.txt:251 furn    lamp     4620697946441619104 Dark Elf Streetpost, Banner
+apply furn.txt:252 furn    lamp     4620697946441619105 Dark Elf Streetpost, Banner
+apply furn.txt:253 furn    lamp     4620697946441813365 Dark Elf Streetpost, Banner
+apply furn.txt:254 furn    lamp     4620697946441813366 Dark Elf Streetpost, Banner
+apply furn.txt:255 furn    lamp     4620697946441813367 Dark Elf Streetpost, Banner
+apply furn.txt:256 furn    lamp     4620697946441898691 Dark Elf Streetpost, Banner
+apply furn.txt:257 
+apply furn.txt:258 furn    lantern  4620697946441423588 Common Lantern, Hanging
+apply furn.txt:259 furn    lantern  4620697946441423622 Common Lantern, Hanging
+apply furn.txt:260 furn    lantern  4620697946441423631 Common Lantern, Hanging
+apply furn.txt:261 furn    lantern  4620697946441423681 Common Lantern, Hanging
+apply furn.txt:262 furn    lantern  4620697946441423682 Common Lantern, Hanging
+apply furn.txt:263 furn    lantern  4620697946441423683 Common Lantern, Hanging
+apply furn.txt:264 furn    lantern  4620697946441423687 Common Lantern, Hanging
+apply furn.txt:265 furn    lantern  4620697946441423713 Common Lantern, Hanging
+apply furn.txt:266 furn    lantern  4620697946441423715 Common Lantern, Hanging
+apply furn.txt:267 furn    lantern  4620697946441423721 Common Lantern, Hanging
+apply furn.txt:268 furn    lantern  4620697946441423722 Common Lantern, Hanging
+apply furn.txt:269 furn    lantern  4620697946441423866 Common Lantern, Hanging
+apply furn.txt:270 furn    lantern  4620697946441423897 Common Lantern, Hanging
+apply furn.txt:271 furn    lantern  4620697946441423899 Common Lantern, Hanging
+apply furn.txt:272 furn    lantern  4620697946441423901 Common Lantern, Hanging
+apply furn.txt:273 furn    lantern  4620697946441423921 Common Lantern, Hanging
+apply furn.txt:274 furn    lantern  4620697946441423924 Common Lantern, Hanging
+apply furn.txt:275 furn    lantern  4620697946441423937 Common Lantern, Hanging
+apply furn.txt:276 furn    lantern  4620697946441423938 Common Lantern, Hanging
+apply furn.txt:277 furn    lantern  4620697946441423939 Common Lantern, Hanging
+apply furn.txt:278 furn    lantern  4620697946441423940 Common Lantern, Hanging
+apply furn.txt:279 furn    lantern  4620697946441619106 Common Lantern, Hanging
+apply furn.txt:280 furn    lantern  4620697946441619107 Common Lantern, Hanging
+apply furn.txt:281 furn    lantern  4620697946441619108 Common Lantern, Hanging
+apply furn.txt:282 furn    lantern  4620697946441619109 Common Lantern, Hanging
+apply furn.txt:283 furn    lantern  4620697946441619110 Common Lantern, Hanging
+apply furn.txt:284 furn    lantern  4620697946441619111 Common Lantern, Hanging
+apply furn.txt:285 furn    lantern  4620697946441619112 Common Lantern, Hanging
+apply furn.txt:286 furn    lantern  4620697946441619113 Common Lantern, Hanging
+apply furn.txt:287 furn    lantern  4620697946441619114 Common Lantern, Hanging
+apply furn.txt:288 furn    lantern  4620697946441619115 Common Lantern, Hanging
+apply furn.txt:289 furn    lantern  4620697946441619119 Common Lantern, Hanging
+apply furn.txt:290 furn    lantern  4620697946441619120 Common Lantern, Hanging
+apply furn.txt:291 furn    lantern  4620697946441619121 Common Lantern, Hanging
+apply furn.txt:292 furn    lantern  4620697946441619122 Common Lantern, Hanging
+apply furn.txt:293 furn    lantern  4620697946441813360 Common Lantern, Hanging
+apply furn.txt:294 furn    lantern  4620697946441813361 Common Lantern, Hanging
+apply furn.txt:295 furn    lantern  4620697946441898682 Common Lantern, Hanging
+apply furn.txt:296 furn    lantern  4620697946441898683 Common Lantern, Hanging
+apply furn.txt:297 furn    lantern  4620697946441946129 Common Lantern, Hanging
+apply furn.txt:298 
 file: ZZCraftoriumLayout_Script.txt
 apply ZZCraftoriumLayout_Script.txt:1   # define constants
 apply ZZCraftoriumLayout_Script.txt:2   Z21 86,000  back patios, rear-er lamps
@@ -413,7 +423,7 @@ emit_queue start_coord: x: 53800 z: 99945 y: 19544
 emit_queue end_coord:   x: 53800 z: 98900 y: 19544
 emit_queue delta_total: x:     0 z: -1045 y:     0
 EMIT "4620697946441423617	53600	99945	19544	  0 lamp 1    "
-EMIT "4620697946441423588	53762	99945	20035	237 lantern 1 "
+EMIT "4620697946441423588	53762	99945	20035	305 lantern 1 "
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
 EMIT "4620697946441648115	53800	99763	19544	 90 jw 2      "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
@@ -424,7 +434,7 @@ emit_queue cume_width=720/total_item_width=920 ratio=0.78
 EMIT "4620697946441423481	53800	99127	19544	 90 ww 2      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423627	53600	98900	19544	  0 lamp 2    "
-EMIT "4620697946441423622	53762	98900	20035	213 lantern 2 "
+EMIT "4620697946441423622	53762	98900	20035	253 lantern 2 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:57  
@@ -453,27 +463,27 @@ emit_queue delta_total: x:     0 z: -2100 y:     0
 warning: ignoring duplicate at x:53600 z:98900 furn_id:4620697946441423630 lamp 3
 warning: ignoring duplicate at x:53762 z:98900 furn_id:4620697946441423631 lantern 3
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441152019	53800	98717	19544	 90 ww 3      "
+EMIT "4620697946441937689	53800	98717	19544	 90 ww 3      "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441152018	53800	98469	19544	 90 cl 3      "
+EMIT "4620697946441937687	53800	98469	19544	 90 cl 3      "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441146870	53800	98300	19544	150 bs 3      "
+EMIT "4620697946441937686	53800	98300	19544	150 bs 3      "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441648287	53800	98078	19544	 90 jw 3      "
+EMIT "4620697946441937688	53800	98078	19544	 90 jw 3      "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441423635	53600	97850	19544	  0 lamp 4    "
-EMIT "4620697946441423681	53762	97850	20035	275 lantern 4 "
+EMIT "4620697946441423681	53762	97850	20035	300 lantern 4 "
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648205	53800	97667	19544	 90 jw 4      "
+EMIT "4620697946441648287	53800	97667	19544	 90 jw 4      "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441423509	53800	97479	19544	150 bs 4      "
+EMIT "4620697946441146870	53800	97479	19544	150 bs 4      "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441423510	53800	97236	19544	 90 cl 4      "
+EMIT "4620697946441152018	53800	97236	19544	 90 cl 4      "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441423511	53800	97028	19544	 90 ww 4      "
+EMIT "4620697946441152019	53800	97028	19544	 90 ww 4      "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 EMIT "4620697946441423659	53600	96800	19544	  0 lamp 5    "
-EMIT "4620697946441423682	53762	96800	20035	 17 lantern 5 "
+EMIT "4620697946441423682	53762	96800	20035	130 lantern 5 "
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:60  station 							# TWEAK bs assassin's guile
@@ -495,16 +505,16 @@ emit_queue delta_total: x:     0 z: -1045 y:     0
 warning: ignoring duplicate at x:53600 z:96800 furn_id:4620697946441423660 lamp 6
 warning: ignoring duplicate at x:53762 z:96800 furn_id:4620697946441423683 lantern 6
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441395843	53800	96618	19544	 90 ww 5      "
+EMIT "4620697946441423511	53800	96618	19544	 90 ww 5      "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441395842	53800	96371	19544	 90 cl 5      "
+EMIT "4620697946441423510	53800	96371	19544	 90 cl 5      "
 emit_queue cume_width=560/total_item_width=920 ratio=0.61
-EMIT "4620697946441395840	53800	96203	19544	150 bs 5      "
+EMIT "4620697946441423509	53800	96203	19544	150 bs 5      "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441648226	53800	95982	19544	 90 jw 5      "
+EMIT "4620697946441648205	53800	95982	19544	 90 jw 5      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423661	53600	95755	19544	  0 lamp 7    "
-EMIT "4620697946441423685	53762	95755	20035	345 lantern 7 "
+EMIT "4620697946441423687	53762	95755	20035	149 lantern 7 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:62  # (stable)
@@ -526,18 +536,18 @@ emit_queue start_coord: x: 53800 z: 94475 y: 19544
 emit_queue end_coord:   x: 53800 z: 93437 y: 19541
 emit_queue delta_total: x:     0 z: -1038 y:    -3
 EMIT "4620697946441423663	53600	94475	19544	  0 lamp 8    "
-EMIT "4620697946441423687	53762	94475	20035	143 lantern 8 "
+EMIT "4620697946441423713	53762	94475	20035	187 lantern 8 "
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441648199	53800	94294	19543	 90 jw 6      "
+EMIT "4620697946441648226	53800	94294	19543	 90 jw 6      "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441335509	53800	94108	19542	150 bs 6      "
+EMIT "4620697946441395840	53800	94108	19542	150 bs 6      "
 emit_queue cume_width=520/total_item_width=920 ratio=0.57
-EMIT "4620697946441335511	53800	93868	19542	 90 cl 6      "
+EMIT "4620697946441395842	53800	93868	19542	 90 cl 6      "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441335513	53800	93662	19541	 90 ww 6      "
+EMIT "4620697946441395843	53800	93662	19541	 90 ww 6      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423701	53600	93437	19541	  0 lamp 9    "
-EMIT "4620697946441423713	53762	93437	20032	 57 lantern 9 "
+EMIT "4620697946441423715	53762	93437	20032	  6 lantern 9 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:66  
@@ -546,16 +556,16 @@ apply ZZCraftoriumLayout_Script.txt:68  # lumpy/non-interactable problems.
 apply ZZCraftoriumLayout_Script.txt:69  
 apply ZZCraftoriumLayout_Script.txt:70  ww				X53814	Z93262	Y19540
 Emit station ww
-EMIT "4620697946441898650	53814	93262	19540	 90 ww 7      "
+EMIT "4620697946441335513	53814	93262	19540	 90 ww 7      "
 apply ZZCraftoriumLayout_Script.txt:71  cl 				X53800	Z93011	Y19540
 Emit station cl
-EMIT "4620697946441898648	53800	93011	19540	 90 cl 7      "
+EMIT "4620697946441335511	53800	93011	19540	 90 cl 7      "
 apply ZZCraftoriumLayout_Script.txt:72  bs				X53810	Z92841	Y19539 rotation150   # TWEAK daedric trickery
 Emit station bs
-EMIT "4620697946441898647	53810	92841	19539	150 bs 7      "
+EMIT "4620697946441335509	53810	92841	19539	150 bs 7      "
 apply ZZCraftoriumLayout_Script.txt:73  jw 				X53800	Z92625	Y19539
 Emit station jw
-EMIT "4620697946441898649	53800	92625	19539	 90 jw 7      "
+EMIT "4620697946441648199	53800	92625	19539	 90 jw 7      "
 apply ZZCraftoriumLayout_Script.txt:74  Z9     	Y19,539
 apply ZZCraftoriumLayout_Script.txt:75  lamp
 item_queue += lamp: lamp
@@ -567,7 +577,7 @@ emit_queue start_coord: x: 53800 z: 92400 y: 19539
 emit_queue end_coord:   x: 53800 z: 92400 y: 19539
 emit_queue delta_total: x:     0 z:     0 y:     0
 EMIT "4620697946441423702	53600	92400	19539	  0 lamp 10   "
-EMIT "4620697946441423715	53762	92400	20030	153 lantern 10"
+EMIT "4620697946441423721	53762	92400	20030	193 lantern 10"
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:77  
@@ -583,16 +593,16 @@ item_queue += lamp: omit lamp
 apply ZZCraftoriumLayout_Script.txt:86  # station
 apply ZZCraftoriumLayout_Script.txt:87  jw	X53650	Z91700	Y19841	rotation180 jw 7
 Emit station jw
-EMIT "4620697946441648242	53650	91700	19841	180 jw 8      "
+EMIT "4620697946441898649	53650	91700	19841	180 jw 8      "
 apply ZZCraftoriumLayout_Script.txt:88  bs	X53404	Z91700	Y19844	rotation240 bs 7
 Emit station bs
-EMIT "4620697946441395827	53404	91700	19844	240 bs 8      "
+EMIT "4620697946441898647	53404	91700	19844	240 bs 8      "
 apply ZZCraftoriumLayout_Script.txt:89  cl	X53115	Z91700	Y19844	rotation180 cl 7
 Emit station cl
-EMIT "4620697946441395829	53115	91700	19844	180 cl 8      "
+EMIT "4620697946441898648	53115	91700	19844	180 cl 8      "
 apply ZZCraftoriumLayout_Script.txt:90  ww	X52850	Z91700	Y19859	rotation180 ww 7
 Emit station ww
-EMIT "4620697946441395831	52850	91700	19859	180 ww 8      "
+EMIT "4620697946441898650	52850	91700	19859	180 ww 8      "
 apply ZZCraftoriumLayout_Script.txt:91  omit lamp
 item_queue += lamp: omit lamp
 apply ZZCraftoriumLayout_Script.txt:92  X52275 Z5 Y19860
@@ -627,13 +637,13 @@ emit_queue start_coord: x: 52275 z: 91384 y: 19860
 emit_queue end_coord:   x: 52275 z: 90730 y: 19860
 emit_queue delta_total: x:     0 z:  -654 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441423507	52275	91384	19860	 90 ww 9      "
+EMIT "4620697946441395831	52275	91384	19860	 90 ww 9      "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441423505	52275	91130	19860	 90 cl 9      "
+EMIT "4620697946441395829	52275	91130	19860	 90 cl 9      "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441423503	52275	90956	19860	150 bs 9      "
+EMIT "4620697946441395827	52275	90956	19860	150 bs 9      "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648201	52275	90730	19860	 90 jw 9      "
+EMIT "4620697946441648242	52275	90730	19860	 90 jw 9      "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
@@ -642,189 +652,379 @@ apply ZZCraftoriumLayout_Script.txt:99  #
 apply ZZCraftoriumLayout_Script.txt:100 # back patio west, outer wall
 apply ZZCraftoriumLayout_Script.txt:101 #
 apply ZZCraftoriumLayout_Script.txt:102 
-apply ZZCraftoriumLayout_Script.txt:103 X52120 Z2 Y19858
-apply ZZCraftoriumLayout_Script.txt:104 omit lamp
+apply ZZCraftoriumLayout_Script.txt:103 ### BEGIN FACTORY FLOOR
+apply ZZCraftoriumLayout_Script.txt:104 
+apply ZZCraftoriumLayout_Script.txt:105 # X wall is  X52063
+apply ZZCraftoriumLayout_Script.txt:106 # X hall is  X52063
+apply ZZCraftoriumLayout_Script.txt:107 
+apply ZZCraftoriumLayout_Script.txt:108 X52745 Z90450 Y19860				# EHUNT
+apply ZZCraftoriumLayout_Script.txt:109 west
+apply ZZCraftoriumLayout_Script.txt:110 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:105 station
-station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:106 hide lamp
-item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:107 station 											# TWEAK bs Fortified Brass
-station_ct:1
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:108 hide lamp
-item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:109 station
-station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:110 hide lamp
-item_queue += lamp: hide lamp
 apply ZZCraftoriumLayout_Script.txt:111 station
 station_ct:1
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:112 hide lamp
-item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:113 X52120 Z21 Y19858
-Emit queue: omit lamp jw bs cl ww hide lamp ww cl bs jw hide lamp jw bs cl ww hide lamp ww cl bs jw hide lamp
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:112 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:113 X52063 Z90450 Y19860
+Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
 emit_queue item width bs         =   160
 emit_queue item width cl         =   200
 emit_queue item width ww         =   200
-emit_queue item width hide lamp  =   160
-emit_queue item width ww         =   200
-emit_queue item width cl         =   200
-emit_queue item width bs         =   160
-emit_queue item width jw         =   200
-emit_queue item width hide lamp  =   160
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
-emit_queue item width ww         =   200
-emit_queue item width hide lamp  =   160
-emit_queue item width ww         =   200
-emit_queue item width cl         =   200
-emit_queue item width bs         =   160
-emit_queue item width jw         =   200
-emit_queue item width hide lamp  =   160
-emit_queue item width total         3520
-emit_queue start_coord: x: 52120 z: 90440 y: 19858
-emit_queue end_coord:   x: 52120 z: 86000 y: 19858
-emit_queue delta_total: x:     0 z: -4440 y:     0
-emit_queue cume_width=0/total_item_width=3520 ratio=0.00
-EMIT "4620697946441648160	52120	90440	19858	 90 jw 10     "
-emit_queue cume_width=200/total_item_width=3520 ratio=0.06
-EMIT "4620697946441335158	52120	90227	19858	150 bs 10     "
-emit_queue cume_width=360/total_item_width=3520 ratio=0.10
-EMIT "4620697946441335160	52120	89965	19858	 90 cl 10     "
-emit_queue cume_width=560/total_item_width=3520 ratio=0.16
-EMIT "4620697946441335162	52120	89733	19858	 90 ww 10     "
-emit_queue cume_width=760/total_item_width=3520 ratio=0.22
-emit_queue cume_width=920/total_item_width=3520 ratio=0.26
-EMIT "4620697946441395849	52120	89279	19858	 90 ww 11     "
-emit_queue cume_width=1120/total_item_width=3520 ratio=0.32
-EMIT "4620697946441395848	52120	89007	19858	 90 cl 11     "
-emit_queue cume_width=1320/total_item_width=3520 ratio=0.38
-EMIT "4620697946441395846	52120	88815	19858	150 bs 11     "
-emit_queue cume_width=1480/total_item_width=3520 ratio=0.42
-EMIT "4620697946441648061	52120	88573	19858	 90 jw 11     "
-emit_queue cume_width=1680/total_item_width=3520 ratio=0.48
-emit_queue cume_width=1840/total_item_width=3520 ratio=0.52
-EMIT "4620697946441648000	52120	88119	19858	 90 jw 12     "
-emit_queue cume_width=2040/total_item_width=3520 ratio=0.58
-EMIT "4620697946441420109	52120	87906	19858	150 bs 12     "
-emit_queue cume_width=2200/total_item_width=3520 ratio=0.62
-EMIT "4620697946441420110	52120	87645	19858	 90 cl 12     "
-emit_queue cume_width=2400/total_item_width=3520 ratio=0.68
-EMIT "4620697946441420111	52120	87412	19858	 90 ww 12     "
-emit_queue cume_width=2600/total_item_width=3520 ratio=0.74
-emit_queue cume_width=2760/total_item_width=3520 ratio=0.78
-EMIT "4620697946441813346	52120	86958	19858	 90 ww 13     "
-emit_queue cume_width=2960/total_item_width=3520 ratio=0.84
-EMIT "4620697946441813342	52120	86686	19858	 90 cl 13     "
-emit_queue cume_width=3160/total_item_width=3520 ratio=0.90
-EMIT "4620697946441813340	52120	86494	19858	150 bs 13     "
-emit_queue cume_width=3320/total_item_width=3520 ratio=0.94
-EMIT "4620697946441813344	52120	86252	19858	 90 jw 13     "
-emit_queue cume_width=3520/total_item_width=3520 ratio=1.00
-emit_queue cume_width=3680/total_item_width=3520 ratio=1.05
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52745 z: 90450 y: 19860
+emit_queue end_coord:   x: 52063 z: 90450 y: 19860
+emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441931431	52745	90450	19860	180 jw 10     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441931437	52541	90450	19860	240 bs 10     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441931435	52286	90450	19860	180 cl 10     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441931433	52063	90450	19860	180 ww 10     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:114 #				X52120 Z87000 Y19858
-apply ZZCraftoriumLayout_Script.txt:115 
-apply ZZCraftoriumLayout_Script.txt:116 #
-apply ZZCraftoriumLayout_Script.txt:117 # back patio west, inner wall
-apply ZZCraftoriumLayout_Script.txt:118 #
-apply ZZCraftoriumLayout_Script.txt:119 # hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:120 # sconce       X51843 Z90440 Y20243
-apply ZZCraftoriumLayout_Script.txt:121 # sconce              Z89477
-apply ZZCraftoriumLayout_Script.txt:122 # sconce              Z88515
-apply ZZCraftoriumLayout_Script.txt:123 
-apply ZZCraftoriumLayout_Script.txt:124 south
-apply ZZCraftoriumLayout_Script.txt:125 
-apply ZZCraftoriumLayout_Script.txt:126 X52945 Z21 Y19858
-apply ZZCraftoriumLayout_Script.txt:127 3 stations 											# TWEAK js Grave-Stake
-station_ct:3
-item_queue += lamp
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:114 
+apply ZZCraftoriumLayout_Script.txt:115 X52063 Z90050 Y19860				# Eyes of mara
+apply ZZCraftoriumLayout_Script.txt:116 east
+apply ZZCraftoriumLayout_Script.txt:117 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:118 station
+station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:128 # TWEAK bs jw Hist Bark
-apply ZZCraftoriumLayout_Script.txt:129 X52945 Z2 Y19858
-Emit queue: lamp jw bs cl ww lamp ww cl bs jw lamp jw bs cl ww lamp
-emit_queue item width lamp       =   160
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
-emit_queue item width ww         =   200
-emit_queue item width lamp       =   160
+apply ZZCraftoriumLayout_Script.txt:119 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:120 X52745 Z90100 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
 emit_queue item width cl         =   200
 emit_queue item width bs         =   160
 emit_queue item width jw         =   200
-emit_queue item width lamp       =   160
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
-emit_queue item width ww         =   200
-emit_queue item width lamp       =   160
-emit_queue item width total         2760
-emit_queue start_coord: x: 52945 z: 86000 y: 19858
-emit_queue end_coord:   x: 52945 z: 90440 y: 19858
-emit_queue delta_total: x:     0 z:  4440 y:     0
-EMIT "4620697946441423703	53145	86000	19858	180 lamp 11   "
-EMIT "4620697946441423721	52983	86000	20349	 67 lantern 11"
-emit_queue cume_width=160/total_item_width=2760 ratio=0.06
-EMIT "4620697946441648128	52945	86257	19858	270 jw 14     "
-emit_queue cume_width=360/total_item_width=2760 ratio=0.13
-EMIT "4620697946441423483	52945	86539	19858	330 bs 14     "
-emit_queue cume_width=520/total_item_width=2760 ratio=0.19
-EMIT "4620697946441423485	52945	86856	19858	270 cl 14     "
-emit_queue cume_width=720/total_item_width=2760 ratio=0.26
-EMIT "4620697946441423487	52945	87158	19858	270 ww 14     "
-emit_queue cume_width=920/total_item_width=2760 ratio=0.33
-EMIT "4620697946441423704	53145	87480	19858	180 lamp 12   "
-EMIT "4620697946441423722	52983	87480	20349	128 lantern 12"
-emit_queue cume_width=1080/total_item_width=2760 ratio=0.39
-EMIT "4620697946441292182	52945	87737	19858	270 ww 15     "
-emit_queue cume_width=1280/total_item_width=2760 ratio=0.46
-EMIT "4620697946441292180	52945	88079	19858	270 cl 15     "
-emit_queue cume_width=1480/total_item_width=2760 ratio=0.54
-EMIT "4620697946441292178	52945	88340	19858	330 bs 15     "
-emit_queue cume_width=1640/total_item_width=2760 ratio=0.59
-EMIT "4620697946441648218	52945	88638	19858	270 jw 15     "
-emit_queue cume_width=1840/total_item_width=2760 ratio=0.67
-EMIT "4620697946441423856	53145	88960	19858	180 lamp 13   "
-EMIT "4620697946441423866	52983	88960	20349	 73 lantern 13"
-emit_queue cume_width=2000/total_item_width=2760 ratio=0.72
-EMIT "4620697946441647996	52945	89217	19858	270 jw 16     "
-emit_queue cume_width=2200/total_item_width=2760 ratio=0.80
-EMIT "4620697946441420073	52945	89499	19858	330 bs 16     "
-emit_queue cume_width=2360/total_item_width=2760 ratio=0.86
-EMIT "4620697946441420075	52945	89816	19858	270 cl 16     "
-emit_queue cume_width=2560/total_item_width=2760 ratio=0.93
-EMIT "4620697946441420077	52945	90118	19858	270 ww 16     "
-emit_queue cume_width=2760/total_item_width=2760 ratio=1.00
-EMIT "4620697946441423879	53145	90440	19858	180 lamp 14   "
-EMIT "4620697946441423897	52983	90440	20349	166 lantern 14"
-emit_queue cume_width=2920/total_item_width=2760 ratio=1.06
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52063 z: 90050 y: 19860
+emit_queue end_coord:   x: 52745 z: 90100 y: 19860
+emit_queue delta_total: x:   682 z:    50 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441423507	52063	90050	19860	  0 ww 11     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441423505	52326	90067	19860	  0 cl 11     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441423503	52510	90085	19860	 60 bs 11     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441648201	52745	90100	19860	  0 jw 11     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:130 
-apply ZZCraftoriumLayout_Script.txt:131 #
-apply ZZCraftoriumLayout_Script.txt:132 # front patio west, inner/hedge corner
-apply ZZCraftoriumLayout_Script.txt:133 #
-apply ZZCraftoriumLayout_Script.txt:134 # hedge		   X54650 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
+apply ZZCraftoriumLayout_Script.txt:121 
+apply ZZCraftoriumLayout_Script.txt:122 X52745 Z89750 Y19860 				# Fortified Brass
+apply ZZCraftoriumLayout_Script.txt:123 west
+apply ZZCraftoriumLayout_Script.txt:124 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:125 station
+station_ct:1
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:126 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:127 X52063 Z89750 Y19860
+Emit queue: omit lamp jw bs cl ww omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width jw         =   200
+emit_queue item width bs         =   160
+emit_queue item width cl         =   200
+emit_queue item width ww         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52745 z: 89750 y: 19860
+emit_queue end_coord:   x: 52063 z: 89750 y: 19860
+emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441648160	52745	89750	19860	180 jw 12     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441335158	52541	89750	19860	240 bs 12     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441335160	52286	89750	19860	180 cl 12     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441335162	52063	89750	19860	180 ww 12     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:128 
+apply ZZCraftoriumLayout_Script.txt:129 X52063 Z89350 Y19860 				# Grave-Stake Collector
+apply ZZCraftoriumLayout_Script.txt:130 east
+apply ZZCraftoriumLayout_Script.txt:131 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:132 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:133 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:134 X52745 Z89350 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52063 z: 89350 y: 19860
+emit_queue end_coord:   x: 52745 z: 89350 y: 19860
+emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441395849	52063	89350	19860	  0 ww 13     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441395848	52326	89350	19860	  0 cl 13     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441395846	52510	89350	19860	 60 bs 13     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441648061	52745	89350	19860	  0 jw 13     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:135 
-apply ZZCraftoriumLayout_Script.txt:136 east
-apply ZZCraftoriumLayout_Script.txt:137 X53360 Z3 Y19842
+apply ZZCraftoriumLayout_Script.txt:136 X52745 Z89050 Y19860 				# Hist Bark
+apply ZZCraftoriumLayout_Script.txt:137 west
 apply ZZCraftoriumLayout_Script.txt:138 omit lamp
 item_queue += lamp: omit lamp
 apply ZZCraftoriumLayout_Script.txt:139 station
 station_ct:1
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 apply ZZCraftoriumLayout_Script.txt:140 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:141 X54015 Z3 Y19843
+apply ZZCraftoriumLayout_Script.txt:141 X52063 Z89050 Y19860
+Emit queue: omit lamp jw bs cl ww omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width jw         =   200
+emit_queue item width bs         =   160
+emit_queue item width cl         =   200
+emit_queue item width ww         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52745 z: 89050 y: 19860
+emit_queue end_coord:   x: 52063 z: 89050 y: 19860
+emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441648000	52745	89050	19860	180 jw 14     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441420109	52541	89050	19860	240 bs 14     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441420110	52286	89050	19860	180 cl 14     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441420111	52063	89050	19860	180 ww 14     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:142 
+apply ZZCraftoriumLayout_Script.txt:143 X52063 Z88650 Y19860				# Hundings. Watch for bumpy!
+apply ZZCraftoriumLayout_Script.txt:144 east
+apply ZZCraftoriumLayout_Script.txt:145 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:146 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:147 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:148 X52745 Z88650 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52063 z: 88650 y: 19860
+emit_queue end_coord:   x: 52745 z: 88650 y: 19860
+emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441813346	52063	88650	19860	  0 ww 15     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441813342	52326	88650	19860	  0 cl 15     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441813340	52510	88650	19860	 60 bs 15     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441813344	52745	88650	19860	  0 jw 15     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:149 
+apply ZZCraftoriumLayout_Script.txt:150 X52745 Z88350 Y19860 				# new 1
+apply ZZCraftoriumLayout_Script.txt:151 west
+apply ZZCraftoriumLayout_Script.txt:152 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:153 station
+station_ct:1
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:154 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:155 X52063 Z88350 Y19860
+Emit queue: omit lamp jw bs cl ww omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width jw         =   200
+emit_queue item width bs         =   160
+emit_queue item width cl         =   200
+emit_queue item width ww         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52745 z: 88350 y: 19860
+emit_queue end_coord:   x: 52063 z: 88350 y: 19860
+emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441648128	52745	88350	19860	180 jw 16     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441423483	52541	88350	19860	240 bs 16     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441423485	52286	88350	19860	180 cl 16     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441423487	52063	88350	19860	180 ww 16     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:156 
+apply ZZCraftoriumLayout_Script.txt:157 
+apply ZZCraftoriumLayout_Script.txt:158 X52063 Z87950 Y19860				# new 2
+apply ZZCraftoriumLayout_Script.txt:159 east
+apply ZZCraftoriumLayout_Script.txt:160 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:161 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:162 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:163 X52745 Z87950 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52063 z: 87950 y: 19860
+emit_queue end_coord:   x: 52745 z: 87950 y: 19860
+emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441292182	52063	87950	19860	  0 ww 17     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441292180	52326	87950	19860	  0 cl 17     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441292178	52510	87950	19860	 60 bs 17     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441648218	52745	87950	19860	  0 jw 17     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:164 
+apply ZZCraftoriumLayout_Script.txt:165 X52745 Z87650 Y19860 				# new 3
+apply ZZCraftoriumLayout_Script.txt:166 west
+apply ZZCraftoriumLayout_Script.txt:167 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:168 station
+station_ct:1
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:169 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:170 X52063 Z87650 Y19860
+Emit queue: omit lamp jw bs cl ww omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width jw         =   200
+emit_queue item width bs         =   160
+emit_queue item width cl         =   200
+emit_queue item width ww         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52745 z: 87650 y: 19860
+emit_queue end_coord:   x: 52063 z: 87650 y: 19860
+emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441647996	52745	87650	19860	180 jw 18     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441420073	52541	87650	19860	240 bs 18     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441420075	52286	87650	19860	180 cl 18     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441420077	52063	87650	19860	180 ww 18     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:171 
+apply ZZCraftoriumLayout_Script.txt:172 #  				X52063 Z87250 Y19860				# new 4
+apply ZZCraftoriumLayout_Script.txt:173 # east
+apply ZZCraftoriumLayout_Script.txt:174 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:175 # station
+apply ZZCraftoriumLayout_Script.txt:176 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:177 #  				X52745 Z87250 Y19860
+apply ZZCraftoriumLayout_Script.txt:178 
+apply ZZCraftoriumLayout_Script.txt:179 #  				X52745 Z86950 Y19860 				# new 5
+apply ZZCraftoriumLayout_Script.txt:180 # west
+apply ZZCraftoriumLayout_Script.txt:181 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:182 # station
+apply ZZCraftoriumLayout_Script.txt:183 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:184 #  				X52063 Z86950 Y19860
+apply ZZCraftoriumLayout_Script.txt:185 
+apply ZZCraftoriumLayout_Script.txt:186 #  				X52063 Z86650 Y19860				# new 6
+apply ZZCraftoriumLayout_Script.txt:187 # east
+apply ZZCraftoriumLayout_Script.txt:188 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:189 # station
+apply ZZCraftoriumLayout_Script.txt:190 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:191 #  				X52745 Z86650 Y19860
+apply ZZCraftoriumLayout_Script.txt:192 
+apply ZZCraftoriumLayout_Script.txt:193 
+apply ZZCraftoriumLayout_Script.txt:194 ### END FACTORY FLOOR
+apply ZZCraftoriumLayout_Script.txt:195 
+apply ZZCraftoriumLayout_Script.txt:196 ### comment out old non-factory-floor patio west
+apply ZZCraftoriumLayout_Script.txt:197 # 				X52120 Z2 Y19858
+apply ZZCraftoriumLayout_Script.txt:198 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:199 # station
+apply ZZCraftoriumLayout_Script.txt:200 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:201 # station 											# TWEAK bs Fortified Brass
+apply ZZCraftoriumLayout_Script.txt:202 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:203 # station
+apply ZZCraftoriumLayout_Script.txt:204 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:205 # station
+apply ZZCraftoriumLayout_Script.txt:206 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:207 #  				X52120 Z21 Y19858
+apply ZZCraftoriumLayout_Script.txt:208 # #				X52120 Z87000 Y19858
+apply ZZCraftoriumLayout_Script.txt:209 #
+apply ZZCraftoriumLayout_Script.txt:210 #
+apply ZZCraftoriumLayout_Script.txt:211 # # back patio west, inner wall
+apply ZZCraftoriumLayout_Script.txt:212 #
+apply ZZCraftoriumLayout_Script.txt:213 # # hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:214 # # sconce       X51843 Z90440 Y20243
+apply ZZCraftoriumLayout_Script.txt:215 # # sconce              Z89477
+apply ZZCraftoriumLayout_Script.txt:216 # # sconce              Z88515
+apply ZZCraftoriumLayout_Script.txt:217 #
+apply ZZCraftoriumLayout_Script.txt:218 # south
+apply ZZCraftoriumLayout_Script.txt:219 #
+apply ZZCraftoriumLayout_Script.txt:220 # 				X52945 Z21 Y19858
+apply ZZCraftoriumLayout_Script.txt:221 # 3 stations 										# TWEAK js Grave-Stake
+apply ZZCraftoriumLayout_Script.txt:222 # 													# TWEAK bs jw Hist Bark
+apply ZZCraftoriumLayout_Script.txt:223 # 				X52945 Z2 Y19858
+apply ZZCraftoriumLayout_Script.txt:224 #
+apply ZZCraftoriumLayout_Script.txt:225 # ### end commment out non-factory floor
+apply ZZCraftoriumLayout_Script.txt:226 
+apply ZZCraftoriumLayout_Script.txt:227 #
+apply ZZCraftoriumLayout_Script.txt:228 # front patio west, inner/hedge corner
+apply ZZCraftoriumLayout_Script.txt:229 #
+apply ZZCraftoriumLayout_Script.txt:230 # hedge		   X54650 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
+apply ZZCraftoriumLayout_Script.txt:231 
+apply ZZCraftoriumLayout_Script.txt:232 east
+apply ZZCraftoriumLayout_Script.txt:233 X53360 Z3 Y19842
+apply ZZCraftoriumLayout_Script.txt:234 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:235 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:236 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:237 X54015 Z3 Y19843
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -837,26 +1037,26 @@ emit_queue start_coord: x: 53360 z: 90800 y: 19842
 emit_queue end_coord:   x: 54015 z: 90800 y: 19843
 emit_queue delta_total: x:   655 z:     0 y:     1
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441291501	53360	90800	19842	  0 ww 17     "
+EMIT "4620697946441291501	53360	90800	19842	  0 ww 19     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441291500	53613	90800	19842	  0 cl 17     "
+EMIT "4620697946441291500	53613	90800	19842	  0 cl 19     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441291499	53787	90800	19842	 60 bs 17     "
+EMIT "4620697946441291499	53787	90800	19842	 60 bs 19     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648070	54015	90800	19843	  0 jw 17     "
+EMIT "4620697946441648070	54015	90800	19843	  0 jw 19     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:142 south
-apply ZZCraftoriumLayout_Script.txt:143 X54470 Z6 Y19843
-apply ZZCraftoriumLayout_Script.txt:144 omit lamp
+apply ZZCraftoriumLayout_Script.txt:238 south
+apply ZZCraftoriumLayout_Script.txt:239 X54470 Z6 Y19843
+apply ZZCraftoriumLayout_Script.txt:240 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:145 station
+apply ZZCraftoriumLayout_Script.txt:241 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:146 omit lamp
+apply ZZCraftoriumLayout_Script.txt:242 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:147 X54470 Z7 Y19843
+apply ZZCraftoriumLayout_Script.txt:243 X54470 Z7 Y19843
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
@@ -869,32 +1069,32 @@ emit_queue start_coord: x: 54470 z: 90950 y: 19843
 emit_queue end_coord:   x: 54470 z: 91800 y: 19843
 emit_queue delta_total: x:     0 z:   850 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648076	54470	90950	19843	270 jw 18     "
+EMIT "4620697946441648076	54470	90950	19843	270 jw 20     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441395790	54470	91213	19843	330 bs 18     "
+EMIT "4620697946441395790	54470	91213	19843	330 bs 20     "
 emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441395792	54470	91516	19843	270 cl 18     "
+EMIT "4620697946441395792	54470	91516	19843	270 cl 20     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441395794	54470	91800	19843	270 ww 18     "
+EMIT "4620697946441395794	54470	91800	19843	270 ww 20     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:148 # (stairs down, west)
-apply ZZCraftoriumLayout_Script.txt:149 
-apply ZZCraftoriumLayout_Script.txt:150 #
-apply ZZCraftoriumLayout_Script.txt:151 # long hall, west, inner
-apply ZZCraftoriumLayout_Script.txt:152 #
-apply ZZCraftoriumLayout_Script.txt:153 # hedge		   X54550 Z99488 Y19120   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:154 # topiary 	   X54650 Z99945 Y19505 		Topiary, Strong Cypress  X = X+350
-apply ZZCraftoriumLayout_Script.txt:155 south
-apply ZZCraftoriumLayout_Script.txt:156 
-apply ZZCraftoriumLayout_Script.txt:157 X54300	Z9	Y19540
-apply ZZCraftoriumLayout_Script.txt:158 Z9     	Y19539
-apply ZZCraftoriumLayout_Script.txt:159 station 									# Kagrenac's
+apply ZZCraftoriumLayout_Script.txt:244 # (stairs down, west)
+apply ZZCraftoriumLayout_Script.txt:245 
+apply ZZCraftoriumLayout_Script.txt:246 #
+apply ZZCraftoriumLayout_Script.txt:247 # long hall, west, inner
+apply ZZCraftoriumLayout_Script.txt:248 #
+apply ZZCraftoriumLayout_Script.txt:249 # hedge		   X54550 Z99488 Y19120   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:250 # topiary 	   X54650 Z99945 Y19505 		Topiary, Strong Cypress  X = X+350
+apply ZZCraftoriumLayout_Script.txt:251 south
+apply ZZCraftoriumLayout_Script.txt:252 
+apply ZZCraftoriumLayout_Script.txt:253 X54300	Z9	Y19540
+apply ZZCraftoriumLayout_Script.txt:254 Z9     	Y19539
+apply ZZCraftoriumLayout_Script.txt:255 station 									# Kagrenac's
 station_ct:1
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:160 X54300	Z93437 Y19539
+apply ZZCraftoriumLayout_Script.txt:256 X54300	Z93437 Y19539
 Emit queue: lamp ww cl bs jw lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -906,36 +1106,36 @@ emit_queue item width total          920
 emit_queue start_coord: x: 54300 z: 92400 y: 19539
 emit_queue end_coord:   x: 54300 z: 93437 y: 19539
 emit_queue delta_total: x:     0 z:  1037 y:     0
-EMIT "4620697946441423881	54500	92400	19539	180 lamp 15   "
-EMIT "4620697946441423899	54338	92400	20030	290 lantern 15"
+EMIT "4620697946441423703	54500	92400	19539	180 lamp 11   "
+EMIT "4620697946441423722	54338	92400	20030	 69 lantern 11"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441292194	54300	92580	19539	270 ww 19     "
+EMIT "4620697946441292194	54300	92580	19539	270 ww 21     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441292192	54300	92825	19539	270 cl 19     "
+EMIT "4620697946441292192	54300	92825	19539	270 cl 21     "
 emit_queue cume_width=560/total_item_width=920 ratio=0.61
-EMIT "4620697946441292190	54300	92991	19539	330 bs 19     "
+EMIT "4620697946441292190	54300	92991	19539	330 bs 21     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441648259	54300	93211	19539	270 jw 19     "
+EMIT "4620697946441648259	54300	93211	19539	270 jw 21     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
-EMIT "4620697946441423882	54500	93437	19539	180 lamp 16   "
-EMIT "4620697946441423901	54338	93437	20030	 59 lantern 16"
+EMIT "4620697946441423704	54500	93437	19539	180 lamp 12   "
+EMIT "4620697946441423866	54338	93437	20030	 19 lantern 12"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:161 hide lamp
+apply ZZCraftoriumLayout_Script.txt:257 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:162 ww				X54315  Z93613	Y19539		# Kvatch
+apply ZZCraftoriumLayout_Script.txt:258 ww				X54315  Z93613	Y19539		# Kvatch
 Emit station ww
-EMIT "4620697946441292202	54315	93613	19539	270 ww 20     "
-apply ZZCraftoriumLayout_Script.txt:163 cl  			X54295  Z93864  Y19540
+EMIT "4620697946441292202	54315	93613	19539	270 ww 22     "
+apply ZZCraftoriumLayout_Script.txt:259 cl  			X54295  Z93864  Y19540
 Emit station cl
-EMIT "4620697946441292201	54295	93864	19540	270 cl 20     "
-apply ZZCraftoriumLayout_Script.txt:164 bs  			X54300  Z94028  Y19539 rotation330 		# TWEAK bs Kvatch
+EMIT "4620697946441292201	54295	93864	19540	270 cl 22     "
+apply ZZCraftoriumLayout_Script.txt:260 bs  			X54300  Z94028  Y19539 rotation330 		# TWEAK bs Kvatch
 Emit station bs
-EMIT "4620697946441292200	54300	94028	19539	330 bs 20     "
-apply ZZCraftoriumLayout_Script.txt:165 jw  			X54300  Z94249
+EMIT "4620697946441292200	54300	94028	19539	330 bs 22     "
+apply ZZCraftoriumLayout_Script.txt:261 jw  			X54300  Z94249
 Emit station jw
-EMIT "4620697946441648119	54300	94249	19539	270 jw 20     "
-apply ZZCraftoriumLayout_Script.txt:166 Z10
+EMIT "4620697946441648119	54300	94249	19539	270 jw 22     "
+apply ZZCraftoriumLayout_Script.txt:262 Z10
 Emit queue: hide lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width total            1
@@ -944,12 +1144,12 @@ emit_queue end_coord:   x: 54300 z: 94475 y: 19539
 emit_queue delta_total: x:     0 z:  1038 y:     0
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:167 station 						# across from stable, Julianos
+apply ZZCraftoriumLayout_Script.txt:263 station 						# across from stable, Julianos
 station_ct:1
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:168 # TWEAK jw Julianos
-apply ZZCraftoriumLayout_Script.txt:169 Z11
+apply ZZCraftoriumLayout_Script.txt:264 # TWEAK jw Julianos
+apply ZZCraftoriumLayout_Script.txt:265 Z11
 Emit queue: lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -961,29 +1161,29 @@ emit_queue item width total          920
 emit_queue start_coord: x: 54300 z: 94475 y: 19539
 emit_queue end_coord:   x: 54300 z: 95755 y: 19539
 emit_queue delta_total: x:     0 z:  1280 y:     0
-EMIT "4620697946441423883	54500	94475	19539	180 lamp 17   "
-EMIT "4620697946441423921	54338	94475	20030	249 lantern 17"
+EMIT "4620697946441423856	54500	94475	19539	180 lamp 13   "
+EMIT "4620697946441423897	54338	94475	20030	 21 lantern 13"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441647998	54300	94697	19539	270 jw 21     "
+EMIT "4620697946441647998	54300	94697	19539	270 jw 23     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441420067	54300	94935	19539	330 bs 21     "
+EMIT "4620697946441420067	54300	94935	19539	330 bs 23     "
 emit_queue cume_width=520/total_item_width=920 ratio=0.57
-EMIT "4620697946441420069	54300	95218	19539	270 cl 21     "
+EMIT "4620697946441420069	54300	95218	19539	270 cl 23     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441420071	54300	95476	19539	270 ww 21     "
+EMIT "4620697946441420071	54300	95476	19539	270 ww 23     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
-EMIT "4620697946441423891	54500	95755	19539	180 lamp 18   "
-EMIT "4620697946441423924	54338	95755	20030	307 lantern 18"
+EMIT "4620697946441423879	54500	95755	19539	180 lamp 14   "
+EMIT "4620697946441423899	54338	95755	20030	 29 lantern 14"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:170 # pool path
-apply ZZCraftoriumLayout_Script.txt:171 Z12
-apply ZZCraftoriumLayout_Script.txt:172 2 stations												# TWEAK bs Magnus
+apply ZZCraftoriumLayout_Script.txt:266 # pool path
+apply ZZCraftoriumLayout_Script.txt:267 Z12
+apply ZZCraftoriumLayout_Script.txt:268 2 stations												# TWEAK bs Magnus
 station_ct:2
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:173 Z13
+apply ZZCraftoriumLayout_Script.txt:269 Z13
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1000,70 +1200,70 @@ emit_queue item width total         1840
 emit_queue start_coord: x: 54300 z: 96800 y: 19539
 emit_queue end_coord:   x: 54300 z: 98900 y: 19539
 emit_queue delta_total: x:     0 z:  2100 y:     0
-EMIT "4620697946441423904	54500	96800	19539	180 lamp 19   "
-EMIT "4620697946441423937	54338	96800	20030	230 lantern 19"
+EMIT "4620697946441423881	54500	96800	19539	180 lamp 15   "
+EMIT "4620697946441423901	54338	96800	20030	120 lantern 15"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441813359	54300	96982	19539	270 ww 22     "
+EMIT "4620697946441813359	54300	96982	19539	270 ww 24     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441813357	54300	97230	19539	270 cl 22     "
+EMIT "4620697946441813357	54300	97230	19539	270 cl 24     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441813356	54300	97399	19539	330 bs 22     "
+EMIT "4620697946441813356	54300	97399	19539	330 bs 24     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441813358	54300	97621	19539	270 jw 22     "
+EMIT "4620697946441813358	54300	97621	19539	270 jw 24     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
-EMIT "4620697946441423905	54500	97850	19539	180 lamp 20   "
-EMIT "4620697946441423938	54338	97850	20030	 49 lantern 20"
+EMIT "4620697946441423882	54500	97850	19539	180 lamp 16   "
+EMIT "4620697946441423921	54338	97850	20030	277 lantern 16"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648264	54300	98032	19539	270 jw 23     "
+EMIT "4620697946441648264	54300	98032	19539	270 jw 25     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441335142	54300	98220	19539	330 bs 23     "
+EMIT "4620697946441335142	54300	98220	19539	330 bs 25     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441335144	54300	98463	19539	270 cl 23     "
+EMIT "4620697946441335144	54300	98463	19539	270 cl 25     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441335146	54300	98671	19539	270 ww 23     "
+EMIT "4620697946441335146	54300	98671	19539	270 ww 25     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
-EMIT "4620697946441423911	54500	98900	19539	180 lamp 21   "
-EMIT "4620697946441423939	54338	98900	20030	 85 lantern 21"
+EMIT "4620697946441423883	54500	98900	19539	180 lamp 17   "
+EMIT "4620697946441423924	54338	98900	20030	204 lantern 17"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:174 
-apply ZZCraftoriumLayout_Script.txt:175 #
-apply ZZCraftoriumLayout_Script.txt:176 # lumpy area, hedge
-apply ZZCraftoriumLayout_Script.txt:177 #
-apply ZZCraftoriumLayout_Script.txt:178 X54608 Z99260 Y19530
-apply ZZCraftoriumLayout_Script.txt:179 east
-apply ZZCraftoriumLayout_Script.txt:180 omit lamp
+apply ZZCraftoriumLayout_Script.txt:270 
+apply ZZCraftoriumLayout_Script.txt:271 #
+apply ZZCraftoriumLayout_Script.txt:272 # lumpy area, hedge
+apply ZZCraftoriumLayout_Script.txt:273 #
+apply ZZCraftoriumLayout_Script.txt:274 X54608 Z99260 Y19530
+apply ZZCraftoriumLayout_Script.txt:275 east
+apply ZZCraftoriumLayout_Script.txt:276 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:181 jw				X54608 Z99262 Y19530 					# TWEAK jw Might of the Lost Legion
+apply ZZCraftoriumLayout_Script.txt:277 jw				X54608 Z99262 Y19530 					# TWEAK jw Might of the Lost Legion
 Emit station jw
-EMIT "4620697946441813352	54608	99262	19530	  0 jw 24     "
-apply ZZCraftoriumLayout_Script.txt:182 bs				X54760 Z99256 Y19542 rotation60
+EMIT "4620697946441813352	54608	99262	19530	  0 jw 26     "
+apply ZZCraftoriumLayout_Script.txt:278 bs				X54760 Z99256 Y19542 rotation60
 Emit station bs
-EMIT "4620697946441813348	54760	99256	19542	 60 bs 24     "
-apply ZZCraftoriumLayout_Script.txt:183 cl 				X55027 Z99282 Y19550
+EMIT "4620697946441813348	54760	99256	19542	 60 bs 26     "
+apply ZZCraftoriumLayout_Script.txt:279 cl 				X55027 Z99282 Y19550
 Emit station cl
-EMIT "4620697946441813350	55027	99282	19550	  0 cl 24     "
-apply ZZCraftoriumLayout_Script.txt:184 ww              X55229 Z99271 Y19535
+EMIT "4620697946441813350	55027	99282	19550	  0 cl 26     "
+apply ZZCraftoriumLayout_Script.txt:280 ww              X55229 Z99271 Y19535
 Emit station ww
-EMIT "4620697946441813354	55229	99271	19535	  0 ww 24     "
-apply ZZCraftoriumLayout_Script.txt:185 hide lamp
+EMIT "4620697946441813354	55229	99271	19535	  0 ww 26     "
+apply ZZCraftoriumLayout_Script.txt:281 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:186 ww              X55622 Z99246 Y19529
+apply ZZCraftoriumLayout_Script.txt:282 ww              X55622 Z99246 Y19529
 Emit station ww
-EMIT "4620697946441423499	55622	99246	19529	  0 ww 25     "
-apply ZZCraftoriumLayout_Script.txt:187 cl 				X55875 Z99238 Y19510
+EMIT "4620697946441931445	55622	99246	19529	  0 ww 27     "
+apply ZZCraftoriumLayout_Script.txt:283 cl 				X55875 Z99238 Y19510
 Emit station cl
-EMIT "4620697946441423497	55875	99238	19510	  0 cl 25     "
-apply ZZCraftoriumLayout_Script.txt:188 bs				X56028 Z99229 Y19502 rotation60
+EMIT "4620697946441931444	55875	99238	19510	  0 cl 27     "
+apply ZZCraftoriumLayout_Script.txt:284 bs				X56028 Z99229 Y19502 rotation60
 Emit station bs
-EMIT "4620697946441423495	56028	99229	19502	 60 bs 25     "
-apply ZZCraftoriumLayout_Script.txt:189 jw				X56256 Z99209 Y19492 					# TWEAK jw Morkuldin
+EMIT "4620697946441931442	56028	99229	19502	 60 bs 27     "
+apply ZZCraftoriumLayout_Script.txt:285 jw				X56256 Z99209 Y19492 					# TWEAK jw Morkuldin
 Emit station jw
-EMIT "4620697946441648132	56256	99209	19492	  0 jw 25     "
-apply ZZCraftoriumLayout_Script.txt:190 omit lamp
+EMIT "4620697946441931446	56256	99209	19492	  0 jw 27     "
+apply ZZCraftoriumLayout_Script.txt:286 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:191 # main entry path
-apply ZZCraftoriumLayout_Script.txt:192 X57639 Z99274 Y19510
+apply ZZCraftoriumLayout_Script.txt:287 # main entry path
+apply ZZCraftoriumLayout_Script.txt:288 X57639 Z99274 Y19510
 Emit queue: omit lamp hide lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width hide lamp  =   160
@@ -1076,37 +1276,37 @@ emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:193 omit lamp
+apply ZZCraftoriumLayout_Script.txt:289 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:194 jw				X57631 Z99230 Y19489
+apply ZZCraftoriumLayout_Script.txt:290 jw				X57631 Z99230 Y19489
 Emit station jw
-EMIT "4620697946441648208	57631	99230	19489	  0 jw 26     "
-apply ZZCraftoriumLayout_Script.txt:195 bs				X57842 Z99226 Y19493 rotation60
+EMIT "4620697946441648208	57631	99230	19489	  0 jw 28     "
+apply ZZCraftoriumLayout_Script.txt:291 bs				X57842 Z99226 Y19493 rotation60
 Emit station bs
-EMIT "4620697946441335136	57842	99226	19493	 60 bs 26     "
-apply ZZCraftoriumLayout_Script.txt:196 cl 				X58130 Z99260 Y19491
+EMIT "4620697946441335136	57842	99226	19493	 60 bs 28     "
+apply ZZCraftoriumLayout_Script.txt:292 cl 				X58130 Z99260 Y19491
 Emit station cl
-EMIT "4620697946441335138	58130	99260	19491	  0 cl 26     "
-apply ZZCraftoriumLayout_Script.txt:197 ww              X58374 Z99247 Y19491
+EMIT "4620697946441335138	58130	99260	19491	  0 cl 28     "
+apply ZZCraftoriumLayout_Script.txt:293 ww              X58374 Z99247 Y19491
 Emit station ww
-EMIT "4620697946441335140	58374	99247	19491	  0 ww 26     "
-apply ZZCraftoriumLayout_Script.txt:198 hide lamp
+EMIT "4620697946441335140	58374	99247	19491	  0 ww 28     "
+apply ZZCraftoriumLayout_Script.txt:294 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:199 ww              X58836 Z99237 Y19497
+apply ZZCraftoriumLayout_Script.txt:295 ww              X58836 Z99237 Y19497
 Emit station ww
-EMIT "4620697946441291113	58836	99237	19497	  0 ww 27     "
-apply ZZCraftoriumLayout_Script.txt:200 cl 				X59122 Z99248 Y19499
+EMIT "4620697946441423499	58836	99237	19497	  0 ww 29     "
+apply ZZCraftoriumLayout_Script.txt:296 cl 				X59122 Z99248 Y19499
 Emit station cl
-EMIT "4620697946441291112	59122	99248	19499	  0 cl 27     "
-apply ZZCraftoriumLayout_Script.txt:201 bs				X59317 Z99222 Y19498 rotation60
+EMIT "4620697946441423497	59122	99248	19499	  0 cl 29     "
+apply ZZCraftoriumLayout_Script.txt:297 bs				X59317 Z99222 Y19498 rotation60
 Emit station bs
-EMIT "4620697946441291111	59317	99222	19498	 60 bs 27     "
-apply ZZCraftoriumLayout_Script.txt:202 jw				X59571 Z99229 Y19509
+EMIT "4620697946441423495	59317	99222	19498	 60 bs 29     "
+apply ZZCraftoriumLayout_Script.txt:298 jw				X59571 Z99229 Y19509
 Emit station jw
-EMIT "4620697946441648324	59571	99229	19509	  0 jw 27     "
-apply ZZCraftoriumLayout_Script.txt:203 omit lamp
+EMIT "4620697946441648132	59571	99229	19509	  0 jw 29     "
+apply ZZCraftoriumLayout_Script.txt:299 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:204 X59570 Z99233 Y19489
+apply ZZCraftoriumLayout_Script.txt:300 X59570 Z99233 Y19489
 Emit queue: omit lamp hide lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width hide lamp  =   160
@@ -1119,21 +1319,21 @@ emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:205 
-apply ZZCraftoriumLayout_Script.txt:206 #
-apply ZZCraftoriumLayout_Script.txt:207 # long hall east, inner/hedge
-apply ZZCraftoriumLayout_Script.txt:208 #
-apply ZZCraftoriumLayout_Script.txt:209 # hedge		   X59800   	Y19124   		Hedge, Dense High Wall   X = X-250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:210 # topiary 	   X59700   	Y19505 			Topiary, Strong Cypress  X = X-350
-apply ZZCraftoriumLayout_Script.txt:211 north
-apply ZZCraftoriumLayout_Script.txt:212 X5 Z13 Y19544
-apply ZZCraftoriumLayout_Script.txt:213 ww
-apply ZZCraftoriumLayout_Script.txt:214 2 stations
+apply ZZCraftoriumLayout_Script.txt:301 
+apply ZZCraftoriumLayout_Script.txt:302 #
+apply ZZCraftoriumLayout_Script.txt:303 # long hall east, inner/hedge
+apply ZZCraftoriumLayout_Script.txt:304 #
+apply ZZCraftoriumLayout_Script.txt:305 # hedge		   X59800   	Y19124   		Hedge, Dense High Wall   X = X-250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:306 # topiary 	   X59700   	Y19505 			Topiary, Strong Cypress  X = X-350
+apply ZZCraftoriumLayout_Script.txt:307 north
+apply ZZCraftoriumLayout_Script.txt:308 X5 Z13 Y19544
+apply ZZCraftoriumLayout_Script.txt:309 ww
+apply ZZCraftoriumLayout_Script.txt:310 2 stations
 station_ct:2
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:215 X5 Z12 Y19544
+apply ZZCraftoriumLayout_Script.txt:311 X5 Z12 Y19544
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1150,41 +1350,41 @@ emit_queue item width total         1840
 emit_queue start_coord: x: 60050 z: 98900 y: 19544
 emit_queue end_coord:   x: 60050 z: 96800 y: 19544
 emit_queue delta_total: x:     0 z: -2100 y:     0
-EMIT "4620697946441423913	59850	98900	19544	  0 lamp 22   "
-EMIT "4620697946441423940	60012	98900	20035	 60 lantern 22"
+EMIT "4620697946441423891	59850	98900	19544	  0 lamp 18   "
+EMIT "4620697946441423937	60012	98900	20035	327 lantern 18"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441647984	60050	98717	19544	 90 ww 28     "
+EMIT "4620697946441291113	60050	98717	19544	 90 ww 30     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441647980	60050	98469	19544	 90 cl 28     "
+EMIT "4620697946441291112	60050	98469	19544	 90 cl 30     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441647978	60050	98300	19544	150 bs 28     "
+EMIT "4620697946441291111	60050	98300	19544	150 bs 30     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441647982	60050	98078	19544	 90 jw 28     "
+EMIT "4620697946441648324	60050	98078	19544	 90 jw 30     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
-EMIT "4620697946441619091	59850	97850	19544	  0 lamp 23   "
-EMIT "4620697946441619106	60012	97850	20035	231 lantern 23"
+EMIT "4620697946441423904	59850	97850	19544	  0 lamp 19   "
+EMIT "4620697946441423938	60012	97850	20035	171 lantern 19"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648008	60050	97667	19544	 90 jw 29     "
+EMIT "4620697946441647982	60050	97667	19544	 90 jw 31     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441422510	60050	97479	19544	150 bs 29     "
+EMIT "4620697946441647978	60050	97479	19544	150 bs 31     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441422512	60050	97236	19544	 90 cl 29     "
+EMIT "4620697946441647980	60050	97236	19544	 90 cl 31     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441422514	60050	97028	19544	 90 ww 29     "
+EMIT "4620697946441647984	60050	97028	19544	 90 ww 31     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
-EMIT "4620697946441619092	59850	96800	19544	  0 lamp 24   "
-EMIT "4620697946441619107	60012	96800	20035	  3 lantern 24"
+EMIT "4620697946441423905	59850	96800	19544	  0 lamp 20   "
+EMIT "4620697946441423939	60012	96800	20035	209 lantern 20"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:216 # pool path
-apply ZZCraftoriumLayout_Script.txt:217 X5 Z11 Y19544
-apply ZZCraftoriumLayout_Script.txt:218 3 stations
+apply ZZCraftoriumLayout_Script.txt:312 # pool path
+apply ZZCraftoriumLayout_Script.txt:313 X5 Z11 Y19544
+apply ZZCraftoriumLayout_Script.txt:314 3 stations
 station_ct:3
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:219 X5 Z9  Y19544
+apply ZZCraftoriumLayout_Script.txt:315 X5 Z9  Y19544
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp ww cl bs jw lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1206,60 +1406,60 @@ emit_queue item width total         2760
 emit_queue start_coord: x: 60050 z: 95755 y: 19544
 emit_queue end_coord:   x: 60050 z: 92400 y: 19544
 emit_queue delta_total: x:     0 z: -3355 y:     0
-EMIT "4620697946441619093	59850	95755	19544	  0 lamp 25   "
-EMIT "4620697946441619108	60012	95755	20035	 29 lantern 25"
+EMIT "4620697946441423911	59850	95755	19544	  0 lamp 21   "
+EMIT "4620697946441423940	60012	95755	20035	337 lantern 21"
 emit_queue cume_width=160/total_item_width=2760 ratio=0.06
-EMIT "4620697946441291496	60050	95560	19544	 90 ww 30     "
+EMIT "4620697946441422514	60050	95560	19544	 90 ww 32     "
 emit_queue cume_width=360/total_item_width=2760 ratio=0.13
-EMIT "4620697946441291494	60050	95297	19544	 90 cl 30     "
+EMIT "4620697946441422512	60050	95297	19544	 90 cl 32     "
 emit_queue cume_width=560/total_item_width=2760 ratio=0.20
-EMIT "4620697946441291492	60050	95114	19544	150 bs 30     "
+EMIT "4620697946441422510	60050	95114	19544	150 bs 32     "
 emit_queue cume_width=720/total_item_width=2760 ratio=0.26
-EMIT "4620697946441648065	60050	94879	19544	 90 jw 30     "
+EMIT "4620697946441648008	60050	94879	19544	 90 jw 32     "
 emit_queue cume_width=920/total_item_width=2760 ratio=0.33
-EMIT "4620697946441619094	59850	94636	19544	  0 lamp 26   "
-EMIT "4620697946441619109	60012	94636	20035	255 lantern 26"
+EMIT "4620697946441423913	59850	94636	19544	  0 lamp 22   "
+EMIT "4620697946441619106	60012	94636	20035	 60 lantern 22"
 emit_queue cume_width=1080/total_item_width=2760 ratio=0.39
-EMIT "4620697946441648100	60050	94442	19544	 90 jw 31     "
+EMIT "4620697946441648065	60050	94442	19544	 90 jw 33     "
 emit_queue cume_width=1280/total_item_width=2760 ratio=0.46
-EMIT "4620697946441335515	60050	94239	19544	150 bs 31     "
+EMIT "4620697946441291492	60050	94239	19544	150 bs 33     "
 emit_queue cume_width=1440/total_item_width=2760 ratio=0.52
-EMIT "4620697946441335517	60050	93984	19544	 90 cl 31     "
+EMIT "4620697946441291494	60050	93984	19544	 90 cl 33     "
 emit_queue cume_width=1640/total_item_width=2760 ratio=0.59
-EMIT "4620697946441335519	60050	93761	19544	 90 ww 31     "
+EMIT "4620697946441291496	60050	93761	19544	 90 ww 33     "
 emit_queue cume_width=1840/total_item_width=2760 ratio=0.67
-EMIT "4620697946441619095	59850	93518	19544	  0 lamp 27   "
-EMIT "4620697946441619110	60012	93518	20035	 95 lantern 27"
+EMIT "4620697946441619091	59850	93518	19544	  0 lamp 23   "
+EMIT "4620697946441619107	60012	93518	20035	313 lantern 23"
 emit_queue cume_width=2000/total_item_width=2760 ratio=0.72
-EMIT "4620697946441291120	60050	93323	19544	 90 ww 32     "
+EMIT "4620697946441335519	60050	93323	19544	 90 ww 34     "
 emit_queue cume_width=2200/total_item_width=2760 ratio=0.80
-EMIT "4620697946441291119	60050	93060	19544	 90 cl 32     "
+EMIT "4620697946441335517	60050	93060	19544	 90 cl 34     "
 emit_queue cume_width=2400/total_item_width=2760 ratio=0.87
-EMIT "4620697946441291118	60050	92877	19544	150 bs 32     "
+EMIT "4620697946441335515	60050	92877	19544	150 bs 34     "
 emit_queue cume_width=2560/total_item_width=2760 ratio=0.93
-EMIT "4620697946441648306	60050	92643	19544	 90 jw 32     "
+EMIT "4620697946441648100	60050	92643	19544	 90 jw 34     "
 emit_queue cume_width=2760/total_item_width=2760 ratio=1.00
-EMIT "4620697946441619097	59850	92400	19544	  0 lamp 28   "
-EMIT "4620697946441619111	60012	92400	20035	135 lantern 28"
+EMIT "4620697946441619092	59850	92400	19544	  0 lamp 24   "
+EMIT "4620697946441619108	60012	92400	20035	302 lantern 24"
 emit_queue cume_width=2920/total_item_width=2760 ratio=1.06
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:220 
-apply ZZCraftoriumLayout_Script.txt:221 # stairs up to patio east
-apply ZZCraftoriumLayout_Script.txt:222 
-apply ZZCraftoriumLayout_Script.txt:223 #
-apply ZZCraftoriumLayout_Script.txt:224 # front patio east, inner/hedge
-apply ZZCraftoriumLayout_Script.txt:225 #
-apply ZZCraftoriumLayout_Script.txt:226 # hedge		   X59620 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
-apply ZZCraftoriumLayout_Script.txt:227 north
-apply ZZCraftoriumLayout_Script.txt:228 X59800 Z7 Y19843
-apply ZZCraftoriumLayout_Script.txt:229 omit lamp
+apply ZZCraftoriumLayout_Script.txt:316 
+apply ZZCraftoriumLayout_Script.txt:317 # stairs up to patio east
+apply ZZCraftoriumLayout_Script.txt:318 
+apply ZZCraftoriumLayout_Script.txt:319 #
+apply ZZCraftoriumLayout_Script.txt:320 # front patio east, inner/hedge
+apply ZZCraftoriumLayout_Script.txt:321 #
+apply ZZCraftoriumLayout_Script.txt:322 # hedge		   X59620 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
+apply ZZCraftoriumLayout_Script.txt:323 north
+apply ZZCraftoriumLayout_Script.txt:324 X59800 Z7 Y19843
+apply ZZCraftoriumLayout_Script.txt:325 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:230 station
+apply ZZCraftoriumLayout_Script.txt:326 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:231 omit lamp
+apply ZZCraftoriumLayout_Script.txt:327 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:232 X59800 Z91200 Y19843  # SURPRISE, not symmetrical
+apply ZZCraftoriumLayout_Script.txt:328 X59800 Z91200 Y19843  # SURPRISE, not symmetrical
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
@@ -1272,27 +1472,27 @@ emit_queue start_coord: x: 59800 z: 91800 y: 19843
 emit_queue end_coord:   x: 59800 z: 91200 y: 19843
 emit_queue delta_total: x:     0 z:  -600 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648034	59800	91800	19843	 90 jw 33     "
+EMIT "4620697946441648306	59800	91800	19843	 90 jw 35     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441335525	59800	91625	19843	150 bs 33     "
+EMIT "4620697946441291118	59800	91625	19843	150 bs 35     "
 emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441335527	59800	91394	19843	 90 cl 33     "
+EMIT "4620697946441291119	59800	91394	19843	 90 cl 35     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441335529	59800	91200	19843	 90 ww 33     "
+EMIT "4620697946441291120	59800	91200	19843	 90 ww 35     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:233 # this Z-wall is a bit further south
-apply ZZCraftoriumLayout_Script.txt:234 east
-apply ZZCraftoriumLayout_Script.txt:235 X60130 Z90900 Y19843
-apply ZZCraftoriumLayout_Script.txt:236 omit lamp
+apply ZZCraftoriumLayout_Script.txt:329 # this Z-wall is a bit further south
+apply ZZCraftoriumLayout_Script.txt:330 east
+apply ZZCraftoriumLayout_Script.txt:331 X60130 Z90900 Y19843
+apply ZZCraftoriumLayout_Script.txt:332 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:237 station
+apply ZZCraftoriumLayout_Script.txt:333 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:238 omit lamp
+apply ZZCraftoriumLayout_Script.txt:334 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:239 X60860 Z90900 Y19842
+apply ZZCraftoriumLayout_Script.txt:335 X60860 Z90900 Y19842
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -1305,34 +1505,34 @@ emit_queue start_coord: x: 60130 z: 90900 y: 19843
 emit_queue end_coord:   x: 60860 z: 90900 y: 19842
 emit_queue delta_total: x:   730 z:     0 y:    -1
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441898644	60130	90900	19843	  0 ww 34     "
+EMIT "4620697946441335529	60130	90900	19843	  0 ww 36     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441898640	60410	90900	19842	  0 cl 34     "
+EMIT "4620697946441335527	60410	90900	19842	  0 cl 36     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441898638	60611	90900	19842	 60 bs 34     "
+EMIT "4620697946441335525	60611	90900	19842	 60 bs 36     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441898642	60860	90900	19842	  0 jw 34     "
+EMIT "4620697946441648034	60860	90900	19842	  0 jw 36     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:240 
-apply ZZCraftoriumLayout_Script.txt:241 #
-apply ZZCraftoriumLayout_Script.txt:242 # back patio east
-apply ZZCraftoriumLayout_Script.txt:243 #
-apply ZZCraftoriumLayout_Script.txt:244 # hedge		   X60950 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:245 # sconce       X62153 Z90596 Y20243
-apply ZZCraftoriumLayout_Script.txt:246 # sconce              Z89601
-apply ZZCraftoriumLayout_Script.txt:247 # sconce              Z88515
-apply ZZCraftoriumLayout_Script.txt:248 north
-apply ZZCraftoriumLayout_Script.txt:249 X7 Z2 Y19868
-apply ZZCraftoriumLayout_Script.txt:250 4 stations 										# Tweak 2nd bs Shacklebreaker
+apply ZZCraftoriumLayout_Script.txt:336 
+apply ZZCraftoriumLayout_Script.txt:337 #
+apply ZZCraftoriumLayout_Script.txt:338 # back patio east
+apply ZZCraftoriumLayout_Script.txt:339 #
+apply ZZCraftoriumLayout_Script.txt:340 # hedge		   X60950 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:341 # sconce       X62153 Z90596 Y20243
+apply ZZCraftoriumLayout_Script.txt:342 # sconce              Z89601
+apply ZZCraftoriumLayout_Script.txt:343 # sconce              Z88515
+apply ZZCraftoriumLayout_Script.txt:344 north
+apply ZZCraftoriumLayout_Script.txt:345 X7 Z2 Y19868
+apply ZZCraftoriumLayout_Script.txt:346 4 stations 										# Tweak 2nd bs Shacklebreaker
 station_ct:4
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:251 X7 Z21 Y19868
+apply ZZCraftoriumLayout_Script.txt:347 X7 Z21 Y19868
 Emit queue: lamp jw bs cl ww lamp ww cl bs jw lamp jw bs cl ww lamp ww cl bs jw lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1359,69 +1559,69 @@ emit_queue item width total         3680
 emit_queue start_coord: x: 61200 z: 90440 y: 19868
 emit_queue end_coord:   x: 61200 z: 86000 y: 19868
 emit_queue delta_total: x:     0 z: -4440 y:     0
-EMIT "4620697946441619098	61000	90440	19868	  0 lamp 29   "
-EMIT "4620697946441619112	61162	90440	20359	289 lantern 29"
+EMIT "4620697946441619093	61000	90440	19868	  0 lamp 25   "
+EMIT "4620697946441619109	61162	90440	20359	193 lantern 25"
 emit_queue cume_width=160/total_item_width=3680 ratio=0.04
-EMIT "4620697946441648254	61200	90246	19868	 90 jw 35     "
+EMIT "4620697946441898642	61200	90246	19868	 90 jw 37     "
 emit_queue cume_width=360/total_item_width=3680 ratio=0.10
-EMIT "4620697946441395834	61200	90045	19868	150 bs 35     "
+EMIT "4620697946441898638	61200	90045	19868	150 bs 37     "
 emit_queue cume_width=520/total_item_width=3680 ratio=0.14
-EMIT "4620697946441395836	61200	89792	19868	 90 cl 35     "
+EMIT "4620697946441898640	61200	89792	19868	 90 cl 37     "
 emit_queue cume_width=720/total_item_width=3680 ratio=0.20
-EMIT "4620697946441395838	61200	89571	19868	 90 ww 35     "
+EMIT "4620697946441898644	61200	89571	19868	 90 ww 37     "
 emit_queue cume_width=920/total_item_width=3680 ratio=0.25
-EMIT "4620697946441619099	61000	89330	19868	  0 lamp 30   "
-EMIT "4620697946441619113	61162	89330	20359	170 lantern 30"
+EMIT "4620697946441619094	61000	89330	19868	  0 lamp 26   "
+EMIT "4620697946441619110	61162	89330	20359	181 lantern 26"
 emit_queue cume_width=1080/total_item_width=3680 ratio=0.29
-EMIT "4620697946441395853	61200	89136	19868	 90 ww 36     "
+EMIT "4620697946441395838	61200	89136	19868	 90 ww 38     "
 emit_queue cume_width=1280/total_item_width=3680 ratio=0.35
-EMIT "4620697946441395851	61200	88875	19868	 90 cl 36     "
+EMIT "4620697946441395836	61200	88875	19868	 90 cl 38     "
 emit_queue cume_width=1480/total_item_width=3680 ratio=0.40
-EMIT "4620697946441395852	61200	88694	19868	150 bs 36     "
+EMIT "4620697946441395834	61200	88694	19868	150 bs 38     "
 emit_queue cume_width=1640/total_item_width=3680 ratio=0.45
-EMIT "4620697946441648063	61200	88461	19868	 90 jw 36     "
+EMIT "4620697946441648254	61200	88461	19868	 90 jw 38     "
 emit_queue cume_width=1840/total_item_width=3680 ratio=0.50
-EMIT "4620697946441619100	61000	88220	19868	  0 lamp 31   "
-EMIT "4620697946441619114	61162	88220	20359	 72 lantern 31"
+EMIT "4620697946441619095	61000	88220	19868	  0 lamp 27   "
+EMIT "4620697946441619111	61162	88220	20359	319 lantern 27"
 emit_queue cume_width=2000/total_item_width=3680 ratio=0.54
-EMIT "4620697946441647990	61200	88026	19868	 90 jw 37     "
+EMIT "4620697946441648063	61200	88026	19868	 90 jw 39     "
 emit_queue cume_width=2200/total_item_width=3680 ratio=0.60
-EMIT "4620697946441647986	61200	87825	19868	150 bs 37     "
+EMIT "4620697946441395852	61200	87825	19868	150 bs 39     "
 emit_queue cume_width=2360/total_item_width=3680 ratio=0.64
-EMIT "4620697946441647988	61200	87572	19868	 90 cl 37     "
+EMIT "4620697946441395851	61200	87572	19868	 90 cl 39     "
 emit_queue cume_width=2560/total_item_width=3680 ratio=0.70
-EMIT "4620697946441647992	61200	87351	19868	 90 ww 37     "
+EMIT "4620697946441395853	61200	87351	19868	 90 ww 39     "
 emit_queue cume_width=2760/total_item_width=3680 ratio=0.75
-EMIT "4620697946441619101	61000	87110	19868	  0 lamp 32   "
-EMIT "4620697946441619115	61162	87110	20359	213 lantern 32"
+EMIT "4620697946441619097	61000	87110	19868	  0 lamp 28   "
+EMIT "4620697946441619112	61162	87110	20359	243 lantern 28"
 emit_queue cume_width=2920/total_item_width=3680 ratio=0.79
-EMIT "4620697946441423475	61200	86916	19868	 90 ww 38     "
+EMIT "4620697946441647992	61200	86916	19868	 90 ww 40     "
 emit_queue cume_width=3120/total_item_width=3680 ratio=0.85
-EMIT "4620697946441423473	61200	86655	19868	 90 cl 38     "
+EMIT "4620697946441647988	61200	86655	19868	 90 cl 40     "
 emit_queue cume_width=3320/total_item_width=3680 ratio=0.90
-EMIT "4620697946441423471	61200	86474	19868	150 bs 38     "
+EMIT "4620697946441647986	61200	86474	19868	150 bs 40     "
 emit_queue cume_width=3480/total_item_width=3680 ratio=0.95
-EMIT "4620697946441648102	61200	86241	19868	 90 jw 38     "
+EMIT "4620697946441647990	61200	86241	19868	 90 jw 40     "
 emit_queue cume_width=3680/total_item_width=3680 ratio=1.00
-EMIT "4620697946441619102	61000	86000	19868	  0 lamp 33   "
-EMIT "4620697946441619119	61162	86000	20359	296 lantern 33"
+EMIT "4620697946441619098	61000	86000	19868	  0 lamp 29   "
+EMIT "4620697946441619113	61162	86000	20359	128 lantern 29"
 emit_queue cume_width=3840/total_item_width=3680 ratio=1.04
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:252 south
-apply ZZCraftoriumLayout_Script.txt:253 X8 Z21 Y19871
-apply ZZCraftoriumLayout_Script.txt:254 hide lamp
+apply ZZCraftoriumLayout_Script.txt:348 south
+apply ZZCraftoriumLayout_Script.txt:349 X8 Z21 Y19871
+apply ZZCraftoriumLayout_Script.txt:350 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:255 station
+apply ZZCraftoriumLayout_Script.txt:351 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:256 hide lamp
+apply ZZCraftoriumLayout_Script.txt:352 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:257 station
+apply ZZCraftoriumLayout_Script.txt:353 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:258 hide lamp
+apply ZZCraftoriumLayout_Script.txt:354 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:259 X8 Z1 Y19871
+apply ZZCraftoriumLayout_Script.txt:355 X8 Z1 Y19871
 Emit queue: hide lamp jw bs cl ww hide lamp ww cl bs jw hide lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width jw         =   200
@@ -1439,38 +1639,38 @@ emit_queue start_coord: x: 61900 z: 86000 y: 19871
 emit_queue end_coord:   x: 61900 z: 88515 y: 19871
 emit_queue delta_total: x:     0 z:  2515 y:     0
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441648014	61900	86218	19871	270 jw 39     "
+EMIT "4620697946441648102	61900	86218	19871	270 jw 41     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441422504	61900	86452	19871	330 bs 39     "
+EMIT "4620697946441423471	61900	86452	19871	330 bs 41     "
 emit_queue cume_width=520/total_item_width=1840 ratio=0.28
-EMIT "4620697946441422506	61900	86730	19871	270 cl 39     "
+EMIT "4620697946441423473	61900	86730	19871	270 cl 41     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441422508	61900	86984	19871	270 ww 39     "
+EMIT "4620697946441423475	61900	86984	19871	270 ww 41     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441395806	61900	87476	19871	270 ww 40     "
+EMIT "4620697946441422508	61900	87476	19871	270 ww 42     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441395804	61900	87769	19871	270 cl 40     "
+EMIT "4620697946441422506	61900	87769	19871	270 cl 42     "
 emit_queue cume_width=1480/total_item_width=1840 ratio=0.80
-EMIT "4620697946441395802	61900	87982	19871	330 bs 40     "
+EMIT "4620697946441422504	61900	87982	19871	330 bs 42     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441648174	61900	88241	19871	270 jw 40     "
+EMIT "4620697946441648014	61900	88241	19871	270 jw 42     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:260 hide lamp
+apply ZZCraftoriumLayout_Script.txt:356 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:261 station
+apply ZZCraftoriumLayout_Script.txt:357 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:262 hide lamp
+apply ZZCraftoriumLayout_Script.txt:358 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:263 station
+apply ZZCraftoriumLayout_Script.txt:359 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:264 omit lamp
+apply ZZCraftoriumLayout_Script.txt:360 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:265 X8 Z2 Y19868
+apply ZZCraftoriumLayout_Script.txt:361 X8 Z2 Y19868
 Emit queue: hide lamp jw bs cl ww hide lamp ww cl bs jw omit lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width jw         =   200
@@ -1488,39 +1688,39 @@ emit_queue start_coord: x: 61900 z: 88515 y: 19871
 emit_queue end_coord:   x: 61900 z: 90440 y: 19868
 emit_queue delta_total: x:     0 z:  1925 y:    -3
 emit_queue cume_width=160/total_item_width=1640 ratio=0.10
-EMIT "4620697946441648031	61900	88702	19870	270 jw 41     "
+EMIT "4620697946441648174	61900	88702	19870	270 jw 43     "
 emit_queue cume_width=360/total_item_width=1640 ratio=0.22
-EMIT "4620697946441335533	61900	88897	19870	330 bs 41     "
+EMIT "4620697946441395802	61900	88897	19870	330 bs 43     "
 emit_queue cume_width=520/total_item_width=1640 ratio=0.32
-EMIT "4620697946441335534	61900	89145	19870	270 cl 41     "
+EMIT "4620697946441395804	61900	89145	19870	270 cl 43     "
 emit_queue cume_width=720/total_item_width=1640 ratio=0.44
-EMIT "4620697946441335535	61900	89360	19869	270 ww 41     "
+EMIT "4620697946441395806	61900	89360	19869	270 ww 43     "
 emit_queue cume_width=920/total_item_width=1640 ratio=0.56
 emit_queue cume_width=1080/total_item_width=1640 ratio=0.66
-EMIT "4620697946441395822	61900	89782	19869	270 ww 42     "
+EMIT "4620697946441335535	61900	89782	19869	270 ww 44     "
 emit_queue cume_width=1280/total_item_width=1640 ratio=0.78
-EMIT "4620697946441395820	61900	90037	19868	270 cl 42     "
+EMIT "4620697946441335534	61900	90037	19868	270 cl 44     "
 emit_queue cume_width=1480/total_item_width=1640 ratio=0.90
-EMIT "4620697946441395818	61900	90212	19868	330 bs 42     "
+EMIT "4620697946441335533	61900	90212	19868	330 bs 44     "
 emit_queue cume_width=1640/total_item_width=1640 ratio=1.00
-EMIT "4620697946441648270	61900	90440	19868	270 jw 42     "
+EMIT "4620697946441648031	61900	90440	19868	270 jw 44     "
 emit_queue cume_width=1840/total_item_width=1640 ratio=1.12
 emit_queue cume_width=1840/total_item_width=1640 ratio=1.12
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:266 
-apply ZZCraftoriumLayout_Script.txt:267 #
-apply ZZCraftoriumLayout_Script.txt:268 # front patio east, outer wall
-apply ZZCraftoriumLayout_Script.txt:269 #
-apply ZZCraftoriumLayout_Script.txt:270 south
-apply ZZCraftoriumLayout_Script.txt:271 X61611 Z4 Y19871
-apply ZZCraftoriumLayout_Script.txt:272 omit lamp
+apply ZZCraftoriumLayout_Script.txt:362 
+apply ZZCraftoriumLayout_Script.txt:363 #
+apply ZZCraftoriumLayout_Script.txt:364 # front patio east, outer wall
+apply ZZCraftoriumLayout_Script.txt:365 #
+apply ZZCraftoriumLayout_Script.txt:366 south
+apply ZZCraftoriumLayout_Script.txt:367 X61611 Z4 Y19871
+apply ZZCraftoriumLayout_Script.txt:368 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:273 station
+apply ZZCraftoriumLayout_Script.txt:369 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:274 omit lamp
+apply ZZCraftoriumLayout_Script.txt:370 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:275 X61611 Z5 Y19871
+apply ZZCraftoriumLayout_Script.txt:371 X61611 Z5 Y19871
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
@@ -1533,35 +1733,35 @@ emit_queue start_coord: x: 61611 z: 90730 y: 19871
 emit_queue end_coord:   x: 61611 z: 91384 y: 19871
 emit_queue delta_total: x:     0 z:   654 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648016	61611	90730	19871	270 jw 43     "
+EMIT "4620697946441648270	61611	90730	19871	270 jw 45     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441335168	61611	90923	19871	330 bs 43     "
+EMIT "4620697946441395818	61611	90923	19871	330 bs 45     "
 emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441335169	61611	91170	19871	270 cl 43     "
+EMIT "4620697946441395820	61611	91170	19871	270 cl 45     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441335170	61611	91384	19871	270 ww 43     "
+EMIT "4620697946441395822	61611	91384	19871	270 ww 45     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:276 west
-apply ZZCraftoriumLayout_Script.txt:277 X61300 Z91700 Y19871
-apply ZZCraftoriumLayout_Script.txt:278 omit lamp
+apply ZZCraftoriumLayout_Script.txt:372 west
+apply ZZCraftoriumLayout_Script.txt:373 X61300 Z91700 Y19871
+apply ZZCraftoriumLayout_Script.txt:374 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:279 ww              X61300 Z91700 Y19871 rotation
+apply ZZCraftoriumLayout_Script.txt:375 ww              X61300 Z91700 Y19871 rotation
 Emit station ww
-EMIT "4620697946441422484	61300	91700	19871	180 ww 44     "
-apply ZZCraftoriumLayout_Script.txt:280 cl              X61051 Z91700 Y19865 rotation
+EMIT "4620697946441335170	61300	91700	19871	180 ww 46     "
+apply ZZCraftoriumLayout_Script.txt:376 cl              X61051 Z91700 Y19865 rotation
 Emit station cl
-EMIT "4620697946441422482	61051	91700	19865	180 cl 44     "
-apply ZZCraftoriumLayout_Script.txt:281 bs              X60882 Z91700 Y19841 rotation240 	# TWEAK bs Twice-Born Star
+EMIT "4620697946441335169	61051	91700	19865	180 cl 46     "
+apply ZZCraftoriumLayout_Script.txt:377 bs              X60882 Z91700 Y19841 rotation240 	# TWEAK bs Twice-Born Star
 Emit station bs
-EMIT "4620697946441422480	60882	91700	19841	240 bs 44     "
-apply ZZCraftoriumLayout_Script.txt:282 jw              X60660 Z91700 Y19841 rotation
+EMIT "4620697946441335168	60882	91700	19841	240 bs 46     "
+apply ZZCraftoriumLayout_Script.txt:378 jw              X60660 Z91700 Y19841 rotation
 Emit station jw
-EMIT "4620697946441648053	60660	91700	19841	180 jw 44     "
-apply ZZCraftoriumLayout_Script.txt:283 omit lamp
+EMIT "4620697946441648016	60660	91700	19841	180 jw 46     "
+apply ZZCraftoriumLayout_Script.txt:379 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:284 X60660 Z91700 Y19871
+apply ZZCraftoriumLayout_Script.txt:380 X60660 Z91700 Y19871
 Emit queue: omit lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width omit lamp  =     0
@@ -1572,26 +1772,26 @@ emit_queue delta_total: x:  -640 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=0/total_item_width=1 ratio=0.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:285 #
-apply ZZCraftoriumLayout_Script.txt:286 # long hall east, outer
-apply ZZCraftoriumLayout_Script.txt:287 #
-apply ZZCraftoriumLayout_Script.txt:288 # hedge		   X60750   	Y19124   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:289 # topiary 	   X60850   	Y19505 			Topiary, Strong Cypress  X = X+350
-apply ZZCraftoriumLayout_Script.txt:290 south
-apply ZZCraftoriumLayout_Script.txt:291 X60500 Z9 Y19544
-apply ZZCraftoriumLayout_Script.txt:292 lamp
+apply ZZCraftoriumLayout_Script.txt:381 #
+apply ZZCraftoriumLayout_Script.txt:382 # long hall east, outer
+apply ZZCraftoriumLayout_Script.txt:383 #
+apply ZZCraftoriumLayout_Script.txt:384 # hedge		   X60750   	Y19124   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:385 # topiary 	   X60850   	Y19505 			Topiary, Strong Cypress  X = X+350
+apply ZZCraftoriumLayout_Script.txt:386 south
+apply ZZCraftoriumLayout_Script.txt:387 X60500 Z9 Y19544
+apply ZZCraftoriumLayout_Script.txt:388 lamp
 item_queue += lamp: lamp
-apply ZZCraftoriumLayout_Script.txt:293 station 								# Twilight's Embrace
+apply ZZCraftoriumLayout_Script.txt:389 station 								# Twilight's Embrace
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:294 lamp
+apply ZZCraftoriumLayout_Script.txt:390 lamp
 item_queue += lamp: lamp
-apply ZZCraftoriumLayout_Script.txt:295 station 								# Vampire's Kiss
+apply ZZCraftoriumLayout_Script.txt:391 station 								# Vampire's Kiss
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:296 hide lamp
+apply ZZCraftoriumLayout_Script.txt:392 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:297 X60500 Z94636 Y19544
+apply ZZCraftoriumLayout_Script.txt:393 X60500 Z94636 Y19544
 Emit queue: lamp jw bs cl ww lamp ww cl bs jw hide lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1608,41 +1808,41 @@ emit_queue item width total         1840
 emit_queue start_coord: x: 60500 z: 92400 y: 19544
 emit_queue end_coord:   x: 60500 z: 94636 y: 19544
 emit_queue delta_total: x:     0 z:  2236 y:     0
-EMIT "4620697946441619103	60700	92400	19544	180 lamp 34   "
-EMIT "4620697946441619120	60538	92400	20035	344 lantern 34"
+EMIT "4620697946441619099	60700	92400	19544	180 lamp 30   "
+EMIT "4620697946441619114	60538	92400	20035	205 lantern 30"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441648110	60500	92594	19544	270 jw 45     "
+EMIT "4620697946441648053	60500	92594	19544	270 jw 47     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441423459	60500	92797	19544	330 bs 45     "
+EMIT "4620697946441422480	60500	92797	19544	330 bs 47     "
 emit_queue cume_width=520/total_item_width=1840 ratio=0.28
-EMIT "4620697946441423461	60500	93051	19544	270 cl 45     "
+EMIT "4620697946441422482	60500	93051	19544	270 cl 47     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441423463	60500	93274	19544	270 ww 45     "
+EMIT "4620697946441422484	60500	93274	19544	270 ww 47     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
-EMIT "4620697946441619104	60700	93518	19544	180 lamp 35   "
-EMIT "4620697946441619121	60538	93518	20035	310 lantern 35"
+EMIT "4620697946441619100	60700	93518	19544	180 lamp 31   "
+EMIT "4620697946441619115	60538	93518	20035	235 lantern 31"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441395800	60500	93712	19544	270 ww 46     "
+EMIT "4620697946441423463	60500	93712	19544	270 ww 48     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441395798	60500	93975	19544	270 cl 46     "
+EMIT "4620697946441423461	60500	93975	19544	270 cl 48     "
 emit_queue cume_width=1480/total_item_width=1840 ratio=0.80
-EMIT "4620697946441395796	60500	94158	19544	330 bs 46     "
+EMIT "4620697946441423459	60500	94158	19544	330 bs 48     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441648073	60500	94392	19544	270 jw 46     "
+EMIT "4620697946441648110	60500	94392	19544	270 jw 48     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:298 
-apply ZZCraftoriumLayout_Script.txt:299 #
-apply ZZCraftoriumLayout_Script.txt:300 # Grove Entrance
-apply ZZCraftoriumLayout_Script.txt:301 #
-apply ZZCraftoriumLayout_Script.txt:302 
-apply ZZCraftoriumLayout_Script.txt:303 X60500 Z11    Y19544
-apply ZZCraftoriumLayout_Script.txt:304 station 								# Varen's
+apply ZZCraftoriumLayout_Script.txt:394 
+apply ZZCraftoriumLayout_Script.txt:395 #
+apply ZZCraftoriumLayout_Script.txt:396 # Grove Entrance
+apply ZZCraftoriumLayout_Script.txt:397 #
+apply ZZCraftoriumLayout_Script.txt:398 
+apply ZZCraftoriumLayout_Script.txt:399 X60500 Z11    Y19544
+apply ZZCraftoriumLayout_Script.txt:400 station 								# Varen's
 station_ct:1
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:305 X60510 Z12    Y19544
+apply ZZCraftoriumLayout_Script.txt:401 X60510 Z12    Y19544
 Emit queue: lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1654,29 +1854,29 @@ emit_queue item width total          920
 emit_queue start_coord: x: 60500 z: 95755 y: 19544
 emit_queue end_coord:   x: 60510 z: 96800 y: 19544
 emit_queue delta_total: x:    10 z:  1045 y:     0
-EMIT "4620697946441619105	60700	95755	19544	180 lamp 36   "
-EMIT "4620697946441619122	60538	95755	20035	 24 lantern 36"
+EMIT "4620697946441619101	60700	95755	19544	180 lamp 32   "
+EMIT "4620697946441619119	60538	95755	20035	333 lantern 32"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441898634	60501	95936	19544	270 jw 47     "
+EMIT "4620697946441648073	60501	95936	19544	270 jw 49     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441898630	60503	96123	19544	330 bs 47     "
+EMIT "4620697946441395796	60503	96123	19544	330 bs 49     "
 emit_queue cume_width=520/total_item_width=920 ratio=0.57
-EMIT "4620697946441898632	60505	96365	19544	270 cl 47     "
+EMIT "4620697946441395798	60505	96365	19544	270 cl 49     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441898636	60507	96572	19544	270 ww 47     "
+EMIT "4620697946441395800	60507	96572	19544	270 ww 49     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
-EMIT "4620697946441813365	60710	96800	19544	180 lamp 37   "
-EMIT "4620697946441813360	60548	96800	20035	312 lantern 37"
+EMIT "4620697946441619102	60710	96800	19544	180 lamp 33   "
+EMIT "4620697946441619120	60548	96800	20035	116 lantern 33"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:306 hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
+apply ZZCraftoriumLayout_Script.txt:402 hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:307 2 stations 									# TWEAK 1 bs Way of the Arena
+apply ZZCraftoriumLayout_Script.txt:403 2 stations 									# TWEAK 1 bs Way of the Arena
 station_ct:2
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:308 # TWEAK 2 bs Whitestrake's
-apply ZZCraftoriumLayout_Script.txt:309 X60510 Z13    Y19544
+apply ZZCraftoriumLayout_Script.txt:404 # TWEAK 2 bs Whitestrake's
+apply ZZCraftoriumLayout_Script.txt:405 X60510 Z13    Y19544
 Emit queue: hide lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width ww         =   200
@@ -1694,35 +1894,35 @@ emit_queue start_coord: x: 60510 z: 96800 y: 19544
 emit_queue end_coord:   x: 60510 z: 98900 y: 19544
 emit_queue delta_total: x:     0 z:  2100 y:     0
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441422502	60510	96982	19544	270 ww 48     "
+EMIT "4620697946441898636	60510	96982	19544	270 ww 50     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441422500	60510	97230	19544	270 cl 48     "
+EMIT "4620697946441898632	60510	97230	19544	270 cl 50     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441422498	60510	97399	19544	330 bs 48     "
+EMIT "4620697946441898630	60510	97399	19544	330 bs 50     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441648027	60510	97621	19544	270 jw 48     "
+EMIT "4620697946441898634	60510	97621	19544	270 jw 50     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
-EMIT "4620697946441813366	60710	97850	19544	180 lamp 38   "
-EMIT "4620697946441813361	60548	97850	20035	312 lantern 38"
+EMIT "4620697946441619103	60710	97850	19544	180 lamp 34   "
+EMIT "4620697946441619121	60548	97850	20035	 34 lantern 34"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648125	60510	98032	19544	270 jw 49     "
+EMIT "4620697946441648027	60510	98032	19544	270 jw 51     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441423489	60510	98220	19544	330 bs 49     "
+EMIT "4620697946441422498	60510	98220	19544	330 bs 51     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441423491	60510	98463	19544	270 cl 49     "
+EMIT "4620697946441422500	60510	98463	19544	270 cl 51     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441423493	60510	98671	19544	270 ww 49     "
+EMIT "4620697946441422502	60510	98671	19544	270 ww 51     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
-EMIT "4620697946441813367	60710	98900	19544	180 lamp 39   "
-EMIT "4620697946441898682	60548	98900	20035	 33 lantern 39"
+EMIT "4620697946441619104	60710	98900	19544	180 lamp 35   "
+EMIT "4620697946441619122	60548	98900	20035	328 lantern 35"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:310 hide lamp 									# AND HERE
+apply ZZCraftoriumLayout_Script.txt:406 hide lamp 									# AND HERE
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:311 station 									# TWEAK bs Willow's Path
+apply ZZCraftoriumLayout_Script.txt:407 station 									# TWEAK bs Willow's Path
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:312 X60510 Z14    Y19544
+apply ZZCraftoriumLayout_Script.txt:408 X60510 Z14    Y19544
 Emit queue: hide lamp ww cl bs jw lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width ww         =   200
@@ -1735,29 +1935,29 @@ emit_queue start_coord: x: 60510 z: 98900 y: 19544
 emit_queue end_coord:   x: 60510 z: 99945 y: 19544
 emit_queue delta_total: x:     0 z:  1045 y:     0
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441422518	60510	99081	19544	270 ww 50     "
+EMIT "4620697946441423493	60510	99081	19544	270 ww 52     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441422517	60510	99328	19544	270 cl 50     "
+EMIT "4620697946441423491	60510	99328	19544	270 cl 52     "
 emit_queue cume_width=560/total_item_width=920 ratio=0.61
-EMIT "4620697946441422516	60510	99496	19544	330 bs 50     "
+EMIT "4620697946441423489	60510	99496	19544	330 bs 52     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441648224	60510	99717	19544	270 jw 50     "
+EMIT "4620697946441648125	60510	99717	19544	270 jw 52     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
-EMIT "4620697946441898691	60710	99945	19544	180 lamp 40   "
-EMIT "4620697946441898683	60548	99945	20035	133 lantern 40"
+EMIT "4620697946441619105	60710	99945	19544	180 lamp 36   "
+EMIT "4620697946441813360	60548	99945	20035	 12 lantern 36"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:313 
-apply ZZCraftoriumLayout_Script.txt:314 #
-apply ZZCraftoriumLayout_Script.txt:315 # in front of outfitter station, requires platform
-apply ZZCraftoriumLayout_Script.txt:316 #
-apply ZZCraftoriumLayout_Script.txt:317 # Commented out as room for future expansion
-apply ZZCraftoriumLayout_Script.txt:318 #
-apply ZZCraftoriumLayout_Script.txt:319 # west
-apply ZZCraftoriumLayout_Script.txt:320 # 				X59682 Z99800 Y19548
-apply ZZCraftoriumLayout_Script.txt:321 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:322 # station
-apply ZZCraftoriumLayout_Script.txt:323 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:324 # 				X58855 Z99800 Y19548
-apply ZZCraftoriumLayout_Script.txt:325 
+apply ZZCraftoriumLayout_Script.txt:409 
+apply ZZCraftoriumLayout_Script.txt:410 #
+apply ZZCraftoriumLayout_Script.txt:411 # in front of outfitter station, requires platform
+apply ZZCraftoriumLayout_Script.txt:412 #
+apply ZZCraftoriumLayout_Script.txt:413 # Commented out as room for future expansion
+apply ZZCraftoriumLayout_Script.txt:414 #
+apply ZZCraftoriumLayout_Script.txt:415 # west
+apply ZZCraftoriumLayout_Script.txt:416 # 				X59682 Z99800 Y19548
+apply ZZCraftoriumLayout_Script.txt:417 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:418 # station
+apply ZZCraftoriumLayout_Script.txt:419 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:420 # 				X58855 Z99800 Y19548
+apply ZZCraftoriumLayout_Script.txt:421 
 writing file:ZZCraftoriumLayout_Data.lua  data line_ct:276

@@ -100,33 +100,129 @@ omit lamp
 # back patio west, outer wall
 #
 
-				X52120 Z2 Y19858
+### BEGIN FACTORY FLOOR
+
+# X wall is  X52063
+# X hall is  X52063
+
+ 				X52745 Z90450 Y19860				# EHUNT
+west
 omit lamp
 station
-hide lamp
-station 											# TWEAK bs Fortified Brass
-hide lamp
+omit lamp
+ 				X52063 Z90450 Y19860
+
+ 				X52063 Z90050 Y19860				# Eyes of mara
+east
+omit lamp
 station
-hide lamp
+omit lamp
+ 				X52745 Z90100 Y19860
+
+ 				X52745 Z89750 Y19860 				# Fortified Brass
+west
+omit lamp
 station
-hide lamp
- 				X52120 Z21 Y19858
-#				X52120 Z87000 Y19858
+omit lamp
+ 				X52063 Z89750 Y19860
 
+ 				X52063 Z89350 Y19860 				# Grave-Stake Collector
+east
+omit lamp
+station
+omit lamp
+ 				X52745 Z89350 Y19860
+
+ 				X52745 Z89050 Y19860 				# Hist Bark
+west
+omit lamp
+station
+omit lamp
+ 				X52063 Z89050 Y19860
+
+ 				X52063 Z88650 Y19860				# Hundings. Watch for bumpy!
+east
+omit lamp
+station
+omit lamp
+ 				X52745 Z88650 Y19860
+
+ 				X52745 Z88350 Y19860 				# new 1
+west
+omit lamp
+station
+omit lamp
+ 				X52063 Z88350 Y19860
+
+
+ 				X52063 Z87950 Y19860				# new 2
+east
+omit lamp
+station
+omit lamp
+ 				X52745 Z87950 Y19860
+
+ 				X52745 Z87650 Y19860 				# new 3
+west
+omit lamp
+station
+omit lamp
+ 				X52063 Z87650 Y19860
+
+#  				X52063 Z87250 Y19860				# new 4
+# east
+# omit lamp
+# station
+# omit lamp
+#  				X52745 Z87250 Y19860
+
+#  				X52745 Z86950 Y19860 				# new 5
+# west
+# omit lamp
+# station
+# omit lamp
+#  				X52063 Z86950 Y19860
+
+#  				X52063 Z86650 Y19860				# new 6
+# east
+# omit lamp
+# station
+# omit lamp
+#  				X52745 Z86650 Y19860
+
+
+### END FACTORY FLOOR
+
+### comment out old non-factory-floor patio west
+# 				X52120 Z2 Y19858
+# omit lamp
+# station
+# hide lamp
+# station 											# TWEAK bs Fortified Brass
+# hide lamp
+# station
+# hide lamp
+# station
+# hide lamp
+#  				X52120 Z21 Y19858
+# #				X52120 Z87000 Y19858
 #
-# back patio west, inner wall
 #
-# hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-# sconce       X51843 Z90440 Y20243
-# sconce              Z89477
-# sconce              Z88515
-
-south
-
-				X52945 Z21 Y19858
-3 stations 											# TWEAK js Grave-Stake
-													# TWEAK bs jw Hist Bark
-				X52945 Z2 Y19858
+# # back patio west, inner wall
+#
+# # hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+# # sconce       X51843 Z90440 Y20243
+# # sconce              Z89477
+# # sconce              Z88515
+#
+# south
+#
+# 				X52945 Z21 Y19858
+# 3 stations 										# TWEAK js Grave-Stake
+# 													# TWEAK bs jw Hist Bark
+# 				X52945 Z2 Y19858
+#
+# ### end commment out non-factory floor
 
 #
 # front patio west, inner/hedge corner
