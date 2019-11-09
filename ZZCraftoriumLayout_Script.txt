@@ -102,93 +102,94 @@ omit lamp
 
 ### BEGIN FACTORY FLOOR
 
-# X wall is  X52063
-# X hall is  X52063
+# X wall is  X52065
+# X hall is  X52650
 
- 				X52745 Z90450 Y19860				# EHUNT
-west
-omit lamp
-station
-omit lamp
- 				X52063 Z90450 Y19860
-
- 				X52063 Z90050 Y19860				# Eyes of mara
+ 				X52650 Z90450 Y19860				# EHUNT
 east
 omit lamp
+ww
 station
 omit lamp
- 				X52745 Z90100 Y19860
+ 				X52065 Z90450 Y19860
 
- 				X52745 Z89750 Y19860 				# Fortified Brass
-west
+ 				X52650 Z90100 Y19860				# Eyes of mara
 omit lamp
+ww
 station
 omit lamp
- 				X52063 Z89750 Y19860
+ 				X52065 Z90100 Y19860
 
- 				X52063 Z89350 Y19860 				# Grave-Stake Collector
-east
+ 				X52650 Z89750 Y19860 				# Fortified Brass
 omit lamp
+ww
 station
 omit lamp
- 				X52745 Z89350 Y19860
+ 				X52065 Z89750 Y19860
 
- 				X52745 Z89050 Y19860 				# Hist Bark
-west
+ 				X52650 Z89400 Y19860 				# Grave-Stake Collector
 omit lamp
+ww
 station
 omit lamp
- 				X52063 Z89050 Y19860
+ 				X52065 Z89400 Y19860
 
- 				X52063 Z88650 Y19860				# Hundings. Watch for bumpy!
-east
+ 				X52650 Z89050 Y19860 				# Hist Bark
 omit lamp
+ww
 station
 omit lamp
- 				X52745 Z88650 Y19860
+ 				X52065 Z89050 Y19860
 
- 				X52745 Z88350 Y19860 				# new 1
-west
+ 				X52650 Z88700 Y19860				# Hundings. Watch for bumpy!
 omit lamp
+ww
 station
 omit lamp
- 				X52063 Z88350 Y19860
+ 				X52065 Z88700 Y19860
 
-
- 				X52063 Z87950 Y19860				# new 2
-east
+ 				X52650 Z88350 Y19860 				# new 1
 omit lamp
+ww
 station
 omit lamp
- 				X52745 Z87950 Y19860
+ 				X52065 Z88350 Y19860
 
- 				X52745 Z87650 Y19860 				# new 3
-west
+
+ 				X52650 Z88000 Y19860				# new 2
 omit lamp
+ww
 station
 omit lamp
- 				X52063 Z87650 Y19860
+ 				X52065 Z88000 Y19860
 
-#  				X52063 Z87250 Y19860				# new 4
-# east
-# omit lamp
-# station
-# omit lamp
-#  				X52745 Z87250 Y19860
+ 				X52650 Z87650 Y19860 				# new 3
+omit lamp
+ww
+station
+omit lamp
+ 				X52065 Z87650 Y19860
 
-#  				X52745 Z86950 Y19860 				# new 5
+  				X52650 Z87300 Y19860				# new 4
+omit lamp
+ww
+station
+omit lamp
+ 				X52065 Z87300 Y19860
+
+#  				X52650 Z86950 Y19860 				# new 5
 # west
 # omit lamp
 # station
 # omit lamp
-#  				X52063 Z86950 Y19860
+#  				X52065 Z86950 Y19860
 
-#  				X52063 Z86650 Y19860				# new 6
+#  				X52650 Z86600 Y19860				# new 6
 # east
 # omit lamp
 # station
 # omit lamp
-#  				X52745 Z86650 Y19860
+#  				X52065 Z86600 Y19860
 
 
 ### END FACTORY FLOOR
@@ -403,9 +404,6 @@ hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
 2 stations 									# TWEAK 1 bs Way of the Arena
 											# TWEAK 2 bs Whitestrake's
 				X60510 Z13    Y19544
-hide lamp 									# AND HERE
-station 									# TWEAK bs Willow's Path
-				X60510 Z14    Y19544
 
 #
 # in front of outfitter station, requires platform

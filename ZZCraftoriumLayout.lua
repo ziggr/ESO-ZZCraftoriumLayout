@@ -9,7 +9,7 @@ ZZCraftoriumLayout.unique_id_to_item = {}
                         -- Leave false most of the time to skip pointless
                         -- rotation/roundoff fiddling, set to true when you're
                         -- fighting rotation problems.
-ZZCraftoriumLayout.force_rotation = true
+ZZCraftoriumLayout.force_rotation = false
 -- Item ----------------------------------------------------------------------
 --
 -- The occupant of a placed housing slot. This is a single furnishing item.
@@ -222,6 +222,11 @@ local function next_moved_index()
     return MOVED_INDEX
 end
 
+-- close enough, don't waste time moving.
+local function equ(a,b)
+    return math.abs(a-b) < 2
+end
+
 function ZZCraftoriumLayout.MaybeMoveOne2(args)
     local item = ZZCraftoriumLayout.unique_id_to_item[args.unique_id]
     if not item then
@@ -237,7 +242,7 @@ function ZZCraftoriumLayout.MaybeMoveOne2(args)
     if      args.x == item.x
         and args.z == item.z
         and args.y == item.y
-        and ((not ZZCraftoriumLayout.force_rotation) or (args.rotation == item.rotation))
+        and ((not ZZCraftoriumLayout.force_rotation) or equ(args.rotation, item.rotation))
         then
 
         ZZCraftoriumLayout.skip_run_ct = 1 + (ZZCraftoriumLayout.skip_run_ct or 0)

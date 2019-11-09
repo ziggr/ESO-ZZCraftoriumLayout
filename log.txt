@@ -423,7 +423,7 @@ emit_queue start_coord: x: 53800 z: 99945 y: 19544
 emit_queue end_coord:   x: 53800 z: 98900 y: 19544
 emit_queue delta_total: x:     0 z: -1045 y:     0
 EMIT "4620697946441423617	53600	99945	19544	  0 lamp 1    "
-EMIT "4620697946441423588	53762	99945	20035	305 lantern 1 "
+EMIT "4620697946441423588	53762	99945	20035	169 lantern 1 "
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
 EMIT "4620697946441648115	53800	99763	19544	 90 jw 2      "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
@@ -434,7 +434,7 @@ emit_queue cume_width=720/total_item_width=920 ratio=0.78
 EMIT "4620697946441423481	53800	99127	19544	 90 ww 2      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423627	53600	98900	19544	  0 lamp 2    "
-EMIT "4620697946441423622	53762	98900	20035	253 lantern 2 "
+EMIT "4620697946441423622	53762	98900	20035	346 lantern 2 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:57  
@@ -472,7 +472,7 @@ emit_queue cume_width=720/total_item_width=1840 ratio=0.39
 EMIT "4620697946441937688	53800	98078	19544	 90 jw 3      "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441423635	53600	97850	19544	  0 lamp 4    "
-EMIT "4620697946441423681	53762	97850	20035	300 lantern 4 "
+EMIT "4620697946441423681	53762	97850	20035	287 lantern 4 "
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
 EMIT "4620697946441648287	53800	97667	19544	 90 jw 4      "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
@@ -483,7 +483,7 @@ emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
 EMIT "4620697946441152019	53800	97028	19544	 90 ww 4      "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 EMIT "4620697946441423659	53600	96800	19544	  0 lamp 5    "
-EMIT "4620697946441423682	53762	96800	20035	130 lantern 5 "
+EMIT "4620697946441423682	53762	96800	20035	 99 lantern 5 "
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:60  station 							# TWEAK bs assassin's guile
@@ -514,7 +514,7 @@ emit_queue cume_width=720/total_item_width=920 ratio=0.78
 EMIT "4620697946441648205	53800	95982	19544	 90 jw 5      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423661	53600	95755	19544	  0 lamp 7    "
-EMIT "4620697946441423687	53762	95755	20035	149 lantern 7 "
+EMIT "4620697946441423687	53762	95755	20035	291 lantern 7 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:62  # (stable)
@@ -536,7 +536,7 @@ emit_queue start_coord: x: 53800 z: 94475 y: 19544
 emit_queue end_coord:   x: 53800 z: 93437 y: 19541
 emit_queue delta_total: x:     0 z: -1038 y:    -3
 EMIT "4620697946441423663	53600	94475	19544	  0 lamp 8    "
-EMIT "4620697946441423713	53762	94475	20035	187 lantern 8 "
+EMIT "4620697946441423713	53762	94475	20035	319 lantern 8 "
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
 EMIT "4620697946441648226	53800	94294	19543	 90 jw 6      "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
@@ -547,7 +547,7 @@ emit_queue cume_width=720/total_item_width=920 ratio=0.78
 EMIT "4620697946441395843	53800	93662	19541	 90 ww 6      "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423701	53600	93437	19541	  0 lamp 9    "
-EMIT "4620697946441423715	53762	93437	20032	  6 lantern 9 "
+EMIT "4620697946441423715	53762	93437	20032	291 lantern 9 "
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:66  
@@ -577,7 +577,7 @@ emit_queue start_coord: x: 53800 z: 92400 y: 19539
 emit_queue end_coord:   x: 53800 z: 92400 y: 19539
 emit_queue delta_total: x:     0 z:     0 y:     0
 EMIT "4620697946441423702	53600	92400	19539	  0 lamp 10   "
-EMIT "4620697946441423721	53762	92400	20030	193 lantern 10"
+EMIT "4620697946441423721	53762	92400	20030	139 lantern 10"
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
 apply ZZCraftoriumLayout_Script.txt:77  
@@ -654,52 +654,53 @@ apply ZZCraftoriumLayout_Script.txt:101 #
 apply ZZCraftoriumLayout_Script.txt:102 
 apply ZZCraftoriumLayout_Script.txt:103 ### BEGIN FACTORY FLOOR
 apply ZZCraftoriumLayout_Script.txt:104 
-apply ZZCraftoriumLayout_Script.txt:105 # X wall is  X52063
-apply ZZCraftoriumLayout_Script.txt:106 # X hall is  X52063
+apply ZZCraftoriumLayout_Script.txt:105 # X wall is  X52065
+apply ZZCraftoriumLayout_Script.txt:106 # X hall is  X52650
 apply ZZCraftoriumLayout_Script.txt:107 
-apply ZZCraftoriumLayout_Script.txt:108 X52745 Z90450 Y19860				# EHUNT
-apply ZZCraftoriumLayout_Script.txt:109 west
+apply ZZCraftoriumLayout_Script.txt:108 X52650 Z90450 Y19860				# EHUNT
+apply ZZCraftoriumLayout_Script.txt:109 east
 apply ZZCraftoriumLayout_Script.txt:110 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:111 station
+apply ZZCraftoriumLayout_Script.txt:111 ww
+apply ZZCraftoriumLayout_Script.txt:112 station
 station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:112 omit lamp
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:113 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:113 X52063 Z90450 Y19860
-Emit queue: omit lamp jw bs cl ww omit lamp
+apply ZZCraftoriumLayout_Script.txt:114 X52065 Z90450 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
 emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52745 z: 90450 y: 19860
-emit_queue end_coord:   x: 52063 z: 90450 y: 19860
-emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 90450 y: 19860
+emit_queue end_coord:   x: 52065 z: 90450 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441931431	52745	90450	19860	180 jw 10     "
+EMIT "4620697946441931433	52650	90450	19860	  0 ww 10     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441931437	52541	90450	19860	240 bs 10     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441931435	52286	90450	19860	180 cl 10     "
+EMIT "4620697946441931435	52461	90450	19860	  0 cl 10     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441931437	52192	90450	19860	 60 bs 10     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441931433	52063	90450	19860	180 ww 10     "
+EMIT "4620697946441931431	52065	90450	19860	  0 jw 10     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:114 
-apply ZZCraftoriumLayout_Script.txt:115 X52063 Z90050 Y19860				# Eyes of mara
-apply ZZCraftoriumLayout_Script.txt:116 east
+apply ZZCraftoriumLayout_Script.txt:115 
+apply ZZCraftoriumLayout_Script.txt:116 X52650 Z90100 Y19860				# Eyes of mara
 apply ZZCraftoriumLayout_Script.txt:117 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:118 station
+apply ZZCraftoriumLayout_Script.txt:118 ww
+apply ZZCraftoriumLayout_Script.txt:119 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:119 omit lamp
+apply ZZCraftoriumLayout_Script.txt:120 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:120 X52745 Z90100 Y19860
+apply ZZCraftoriumLayout_Script.txt:121 X52065 Z90100 Y19860
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -708,64 +709,64 @@ emit_queue item width bs         =   160
 emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52063 z: 90050 y: 19860
-emit_queue end_coord:   x: 52745 z: 90100 y: 19860
-emit_queue delta_total: x:   682 z:    50 y:     0
+emit_queue start_coord: x: 52650 z: 90100 y: 19860
+emit_queue end_coord:   x: 52065 z: 90100 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441423507	52063	90050	19860	  0 ww 11     "
+EMIT "4620697946441423507	52650	90100	19860	  0 ww 11     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441423505	52326	90067	19860	  0 cl 11     "
+EMIT "4620697946441423505	52461	90100	19860	  0 cl 11     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441423503	52510	90085	19860	 60 bs 11     "
+EMIT "4620697946441423503	52192	90100	19860	 60 bs 11     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648201	52745	90100	19860	  0 jw 11     "
+EMIT "4620697946441648201	52065	90100	19860	  0 jw 11     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:121 
-apply ZZCraftoriumLayout_Script.txt:122 X52745 Z89750 Y19860 				# Fortified Brass
-apply ZZCraftoriumLayout_Script.txt:123 west
+apply ZZCraftoriumLayout_Script.txt:122 
+apply ZZCraftoriumLayout_Script.txt:123 X52650 Z89750 Y19860 				# Fortified Brass
 apply ZZCraftoriumLayout_Script.txt:124 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:125 station
+apply ZZCraftoriumLayout_Script.txt:125 ww
+apply ZZCraftoriumLayout_Script.txt:126 station
 station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:126 omit lamp
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:127 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:127 X52063 Z89750 Y19860
-Emit queue: omit lamp jw bs cl ww omit lamp
+apply ZZCraftoriumLayout_Script.txt:128 X52065 Z89750 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
 emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52745 z: 89750 y: 19860
-emit_queue end_coord:   x: 52063 z: 89750 y: 19860
-emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 89750 y: 19860
+emit_queue end_coord:   x: 52065 z: 89750 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648160	52745	89750	19860	180 jw 12     "
+EMIT "4620697946441335162	52650	89750	19860	  0 ww 12     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441335158	52541	89750	19860	240 bs 12     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441335160	52286	89750	19860	180 cl 12     "
+EMIT "4620697946441335160	52461	89750	19860	  0 cl 12     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441335158	52192	89750	19860	 60 bs 12     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441335162	52063	89750	19860	180 ww 12     "
+EMIT "4620697946441648160	52065	89750	19860	  0 jw 12     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:128 
-apply ZZCraftoriumLayout_Script.txt:129 X52063 Z89350 Y19860 				# Grave-Stake Collector
-apply ZZCraftoriumLayout_Script.txt:130 east
+apply ZZCraftoriumLayout_Script.txt:129 
+apply ZZCraftoriumLayout_Script.txt:130 X52650 Z89400 Y19860 				# Grave-Stake Collector
 apply ZZCraftoriumLayout_Script.txt:131 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:132 station
+apply ZZCraftoriumLayout_Script.txt:132 ww
+apply ZZCraftoriumLayout_Script.txt:133 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:133 omit lamp
+apply ZZCraftoriumLayout_Script.txt:134 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:134 X52745 Z89350 Y19860
+apply ZZCraftoriumLayout_Script.txt:135 X52065 Z89400 Y19860
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -774,64 +775,64 @@ emit_queue item width bs         =   160
 emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52063 z: 89350 y: 19860
-emit_queue end_coord:   x: 52745 z: 89350 y: 19860
-emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 89400 y: 19860
+emit_queue end_coord:   x: 52065 z: 89400 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441395849	52063	89350	19860	  0 ww 13     "
+EMIT "4620697946441395849	52650	89400	19860	  0 ww 13     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441395848	52326	89350	19860	  0 cl 13     "
+EMIT "4620697946441395848	52461	89400	19860	  0 cl 13     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441395846	52510	89350	19860	 60 bs 13     "
+EMIT "4620697946441395846	52192	89400	19860	 60 bs 13     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648061	52745	89350	19860	  0 jw 13     "
+EMIT "4620697946441648061	52065	89400	19860	  0 jw 13     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:135 
-apply ZZCraftoriumLayout_Script.txt:136 X52745 Z89050 Y19860 				# Hist Bark
-apply ZZCraftoriumLayout_Script.txt:137 west
+apply ZZCraftoriumLayout_Script.txt:136 
+apply ZZCraftoriumLayout_Script.txt:137 X52650 Z89050 Y19860 				# Hist Bark
 apply ZZCraftoriumLayout_Script.txt:138 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:139 station
+apply ZZCraftoriumLayout_Script.txt:139 ww
+apply ZZCraftoriumLayout_Script.txt:140 station
 station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:140 omit lamp
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:141 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:141 X52063 Z89050 Y19860
-Emit queue: omit lamp jw bs cl ww omit lamp
+apply ZZCraftoriumLayout_Script.txt:142 X52065 Z89050 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
 emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52745 z: 89050 y: 19860
-emit_queue end_coord:   x: 52063 z: 89050 y: 19860
-emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 89050 y: 19860
+emit_queue end_coord:   x: 52065 z: 89050 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648000	52745	89050	19860	180 jw 14     "
+EMIT "4620697946441420111	52650	89050	19860	  0 ww 14     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441420109	52541	89050	19860	240 bs 14     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441420110	52286	89050	19860	180 cl 14     "
+EMIT "4620697946441420110	52461	89050	19860	  0 cl 14     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441420109	52192	89050	19860	 60 bs 14     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441420111	52063	89050	19860	180 ww 14     "
+EMIT "4620697946441648000	52065	89050	19860	  0 jw 14     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:142 
-apply ZZCraftoriumLayout_Script.txt:143 X52063 Z88650 Y19860				# Hundings. Watch for bumpy!
-apply ZZCraftoriumLayout_Script.txt:144 east
+apply ZZCraftoriumLayout_Script.txt:143 
+apply ZZCraftoriumLayout_Script.txt:144 X52650 Z88700 Y19860				# Hundings. Watch for bumpy!
 apply ZZCraftoriumLayout_Script.txt:145 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:146 station
+apply ZZCraftoriumLayout_Script.txt:146 ww
+apply ZZCraftoriumLayout_Script.txt:147 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:147 omit lamp
+apply ZZCraftoriumLayout_Script.txt:148 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:148 X52745 Z88650 Y19860
+apply ZZCraftoriumLayout_Script.txt:149 X52065 Z88700 Y19860
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -840,65 +841,65 @@ emit_queue item width bs         =   160
 emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52063 z: 88650 y: 19860
-emit_queue end_coord:   x: 52745 z: 88650 y: 19860
-emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 88700 y: 19860
+emit_queue end_coord:   x: 52065 z: 88700 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441813346	52063	88650	19860	  0 ww 15     "
+EMIT "4620697946441813346	52650	88700	19860	  0 ww 15     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441813342	52326	88650	19860	  0 cl 15     "
+EMIT "4620697946441813342	52461	88700	19860	  0 cl 15     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441813340	52510	88650	19860	 60 bs 15     "
+EMIT "4620697946441813340	52192	88700	19860	 60 bs 15     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441813344	52745	88650	19860	  0 jw 15     "
+EMIT "4620697946441813344	52065	88700	19860	  0 jw 15     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:149 
-apply ZZCraftoriumLayout_Script.txt:150 X52745 Z88350 Y19860 				# new 1
-apply ZZCraftoriumLayout_Script.txt:151 west
+apply ZZCraftoriumLayout_Script.txt:150 
+apply ZZCraftoriumLayout_Script.txt:151 X52650 Z88350 Y19860 				# new 1
 apply ZZCraftoriumLayout_Script.txt:152 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:153 station
+apply ZZCraftoriumLayout_Script.txt:153 ww
+apply ZZCraftoriumLayout_Script.txt:154 station
 station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:154 omit lamp
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:155 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:155 X52063 Z88350 Y19860
-Emit queue: omit lamp jw bs cl ww omit lamp
+apply ZZCraftoriumLayout_Script.txt:156 X52065 Z88350 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
 emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52745 z: 88350 y: 19860
-emit_queue end_coord:   x: 52063 z: 88350 y: 19860
-emit_queue delta_total: x:  -682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 88350 y: 19860
+emit_queue end_coord:   x: 52065 z: 88350 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648128	52745	88350	19860	180 jw 16     "
+EMIT "4620697946441423487	52650	88350	19860	  0 ww 16     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441423483	52541	88350	19860	240 bs 16     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441423485	52286	88350	19860	180 cl 16     "
+EMIT "4620697946441423485	52461	88350	19860	  0 cl 16     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441423483	52192	88350	19860	 60 bs 16     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441423487	52063	88350	19860	180 ww 16     "
+EMIT "4620697946441648128	52065	88350	19860	  0 jw 16     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:156 
 apply ZZCraftoriumLayout_Script.txt:157 
-apply ZZCraftoriumLayout_Script.txt:158 X52063 Z87950 Y19860				# new 2
-apply ZZCraftoriumLayout_Script.txt:159 east
+apply ZZCraftoriumLayout_Script.txt:158 
+apply ZZCraftoriumLayout_Script.txt:159 X52650 Z88000 Y19860				# new 2
 apply ZZCraftoriumLayout_Script.txt:160 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:161 station
+apply ZZCraftoriumLayout_Script.txt:161 ww
+apply ZZCraftoriumLayout_Script.txt:162 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:162 omit lamp
+apply ZZCraftoriumLayout_Script.txt:163 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:163 X52745 Z87950 Y19860
+apply ZZCraftoriumLayout_Script.txt:164 X52065 Z88000 Y19860
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -907,235 +908,261 @@ emit_queue item width bs         =   160
 emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
-emit_queue start_coord: x: 52063 z: 87950 y: 19860
-emit_queue end_coord:   x: 52745 z: 87950 y: 19860
-emit_queue delta_total: x:   682 z:     0 y:     0
+emit_queue start_coord: x: 52650 z: 88000 y: 19860
+emit_queue end_coord:   x: 52065 z: 88000 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441292182	52063	87950	19860	  0 ww 17     "
+EMIT "4620697946441292182	52650	88000	19860	  0 ww 17     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441292180	52326	87950	19860	  0 cl 17     "
+EMIT "4620697946441292180	52461	88000	19860	  0 cl 17     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441292178	52510	87950	19860	 60 bs 17     "
+EMIT "4620697946441292178	52192	88000	19860	 60 bs 17     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648218	52745	87950	19860	  0 jw 17     "
+EMIT "4620697946441648218	52065	88000	19860	  0 jw 17     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:164 
-apply ZZCraftoriumLayout_Script.txt:165 X52745 Z87650 Y19860 				# new 3
-apply ZZCraftoriumLayout_Script.txt:166 west
+apply ZZCraftoriumLayout_Script.txt:165 
+apply ZZCraftoriumLayout_Script.txt:166 X52650 Z87650 Y19860 				# new 3
 apply ZZCraftoriumLayout_Script.txt:167 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:168 station
+apply ZZCraftoriumLayout_Script.txt:168 ww
+apply ZZCraftoriumLayout_Script.txt:169 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:170 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:171 X52065 Z87650 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52650 z: 87650 y: 19860
+emit_queue end_coord:   x: 52065 z: 87650 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441420077	52650	87650	19860	  0 ww 18     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441420075	52461	87650	19860	  0 cl 18     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441420073	52192	87650	19860	 60 bs 18     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441647996	52065	87650	19860	  0 jw 18     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:172 
+apply ZZCraftoriumLayout_Script.txt:173 X52650 Z87300 Y19860				# new 4
+apply ZZCraftoriumLayout_Script.txt:174 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:175 ww
+apply ZZCraftoriumLayout_Script.txt:176 station
+station_ct:1
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:177 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:178 X52065 Z87300 Y19860
+Emit queue: omit lamp ww cl bs jw omit lamp
+emit_queue item width omit lamp  =     0
+emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
+emit_queue item width omit lamp  =     0
+emit_queue item width total          560
+emit_queue start_coord: x: 52650 z: 87300 y: 19860
+emit_queue end_coord:   x: 52065 z: 87300 y: 19860
+emit_queue delta_total: x:  -585 z:     0 y:     0
+emit_queue cume_width=0/total_item_width=560 ratio=0.00
+EMIT "4620697946441291501	52650	87300	19860	  0 ww 19     "
+emit_queue cume_width=200/total_item_width=560 ratio=0.36
+EMIT "4620697946441291500	52461	87300	19860	  0 cl 19     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441291499	52192	87300	19860	 60 bs 19     "
+emit_queue cume_width=560/total_item_width=560 ratio=1.00
+EMIT "4620697946441648070	52065	87300	19860	  0 jw 19     "
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+emit_queue cume_width=760/total_item_width=560 ratio=1.36
+item_queue cleared
+apply ZZCraftoriumLayout_Script.txt:179 
+apply ZZCraftoriumLayout_Script.txt:180 #  				X52650 Z86950 Y19860 				# new 5
+apply ZZCraftoriumLayout_Script.txt:181 # west
+apply ZZCraftoriumLayout_Script.txt:182 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:183 # station
+apply ZZCraftoriumLayout_Script.txt:184 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:185 #  				X52065 Z86950 Y19860
+apply ZZCraftoriumLayout_Script.txt:186 
+apply ZZCraftoriumLayout_Script.txt:187 #  				X52650 Z86600 Y19860				# new 6
+apply ZZCraftoriumLayout_Script.txt:188 # east
+apply ZZCraftoriumLayout_Script.txt:189 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:190 # station
+apply ZZCraftoriumLayout_Script.txt:191 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:192 #  				X52065 Z86600 Y19860
+apply ZZCraftoriumLayout_Script.txt:193 
+apply ZZCraftoriumLayout_Script.txt:194 
+apply ZZCraftoriumLayout_Script.txt:195 ### END FACTORY FLOOR
+apply ZZCraftoriumLayout_Script.txt:196 
+apply ZZCraftoriumLayout_Script.txt:197 ### comment out old non-factory-floor patio west
+apply ZZCraftoriumLayout_Script.txt:198 # 				X52120 Z2 Y19858
+apply ZZCraftoriumLayout_Script.txt:199 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:200 # station
+apply ZZCraftoriumLayout_Script.txt:201 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:202 # station 											# TWEAK bs Fortified Brass
+apply ZZCraftoriumLayout_Script.txt:203 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:204 # station
+apply ZZCraftoriumLayout_Script.txt:205 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:206 # station
+apply ZZCraftoriumLayout_Script.txt:207 # hide lamp
+apply ZZCraftoriumLayout_Script.txt:208 #  				X52120 Z21 Y19858
+apply ZZCraftoriumLayout_Script.txt:209 # #				X52120 Z87000 Y19858
+apply ZZCraftoriumLayout_Script.txt:210 #
+apply ZZCraftoriumLayout_Script.txt:211 #
+apply ZZCraftoriumLayout_Script.txt:212 # # back patio west, inner wall
+apply ZZCraftoriumLayout_Script.txt:213 #
+apply ZZCraftoriumLayout_Script.txt:214 # # hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:215 # # sconce       X51843 Z90440 Y20243
+apply ZZCraftoriumLayout_Script.txt:216 # # sconce              Z89477
+apply ZZCraftoriumLayout_Script.txt:217 # # sconce              Z88515
+apply ZZCraftoriumLayout_Script.txt:218 #
+apply ZZCraftoriumLayout_Script.txt:219 # south
+apply ZZCraftoriumLayout_Script.txt:220 #
+apply ZZCraftoriumLayout_Script.txt:221 # 				X52945 Z21 Y19858
+apply ZZCraftoriumLayout_Script.txt:222 # 3 stations 										# TWEAK js Grave-Stake
+apply ZZCraftoriumLayout_Script.txt:223 # 													# TWEAK bs jw Hist Bark
+apply ZZCraftoriumLayout_Script.txt:224 # 				X52945 Z2 Y19858
+apply ZZCraftoriumLayout_Script.txt:225 #
+apply ZZCraftoriumLayout_Script.txt:226 # ### end commment out non-factory floor
+apply ZZCraftoriumLayout_Script.txt:227 
+apply ZZCraftoriumLayout_Script.txt:228 #
+apply ZZCraftoriumLayout_Script.txt:229 # front patio west, inner/hedge corner
+apply ZZCraftoriumLayout_Script.txt:230 #
+apply ZZCraftoriumLayout_Script.txt:231 # hedge		   X54650 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
+apply ZZCraftoriumLayout_Script.txt:232 
+apply ZZCraftoriumLayout_Script.txt:233 east
+apply ZZCraftoriumLayout_Script.txt:234 X53360 Z3 Y19842
+apply ZZCraftoriumLayout_Script.txt:235 omit lamp
+item_queue += lamp: omit lamp
+apply ZZCraftoriumLayout_Script.txt:236 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:169 omit lamp
+apply ZZCraftoriumLayout_Script.txt:237 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:170 X52063 Z87650 Y19860
+apply ZZCraftoriumLayout_Script.txt:238 X54015 Z3 Y19843
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
 emit_queue item width bs         =   160
 emit_queue item width cl         =   200
 emit_queue item width ww         =   200
-emit_queue item width omit lamp  =     0
-emit_queue item width total          560
-emit_queue start_coord: x: 52745 z: 87650 y: 19860
-emit_queue end_coord:   x: 52063 z: 87650 y: 19860
-emit_queue delta_total: x:  -682 z:     0 y:     0
-emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441647996	52745	87650	19860	180 jw 18     "
-emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441420073	52541	87650	19860	240 bs 18     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441420075	52286	87650	19860	180 cl 18     "
-emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441420077	52063	87650	19860	180 ww 18     "
-emit_queue cume_width=760/total_item_width=560 ratio=1.36
-emit_queue cume_width=760/total_item_width=560 ratio=1.36
-item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:171 
-apply ZZCraftoriumLayout_Script.txt:172 #  				X52063 Z87250 Y19860				# new 4
-apply ZZCraftoriumLayout_Script.txt:173 # east
-apply ZZCraftoriumLayout_Script.txt:174 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:175 # station
-apply ZZCraftoriumLayout_Script.txt:176 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:177 #  				X52745 Z87250 Y19860
-apply ZZCraftoriumLayout_Script.txt:178 
-apply ZZCraftoriumLayout_Script.txt:179 #  				X52745 Z86950 Y19860 				# new 5
-apply ZZCraftoriumLayout_Script.txt:180 # west
-apply ZZCraftoriumLayout_Script.txt:181 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:182 # station
-apply ZZCraftoriumLayout_Script.txt:183 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:184 #  				X52063 Z86950 Y19860
-apply ZZCraftoriumLayout_Script.txt:185 
-apply ZZCraftoriumLayout_Script.txt:186 #  				X52063 Z86650 Y19860				# new 6
-apply ZZCraftoriumLayout_Script.txt:187 # east
-apply ZZCraftoriumLayout_Script.txt:188 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:189 # station
-apply ZZCraftoriumLayout_Script.txt:190 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:191 #  				X52745 Z86650 Y19860
-apply ZZCraftoriumLayout_Script.txt:192 
-apply ZZCraftoriumLayout_Script.txt:193 
-apply ZZCraftoriumLayout_Script.txt:194 ### END FACTORY FLOOR
-apply ZZCraftoriumLayout_Script.txt:195 
-apply ZZCraftoriumLayout_Script.txt:196 ### comment out old non-factory-floor patio west
-apply ZZCraftoriumLayout_Script.txt:197 # 				X52120 Z2 Y19858
-apply ZZCraftoriumLayout_Script.txt:198 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:199 # station
-apply ZZCraftoriumLayout_Script.txt:200 # hide lamp
-apply ZZCraftoriumLayout_Script.txt:201 # station 											# TWEAK bs Fortified Brass
-apply ZZCraftoriumLayout_Script.txt:202 # hide lamp
-apply ZZCraftoriumLayout_Script.txt:203 # station
-apply ZZCraftoriumLayout_Script.txt:204 # hide lamp
-apply ZZCraftoriumLayout_Script.txt:205 # station
-apply ZZCraftoriumLayout_Script.txt:206 # hide lamp
-apply ZZCraftoriumLayout_Script.txt:207 #  				X52120 Z21 Y19858
-apply ZZCraftoriumLayout_Script.txt:208 # #				X52120 Z87000 Y19858
-apply ZZCraftoriumLayout_Script.txt:209 #
-apply ZZCraftoriumLayout_Script.txt:210 #
-apply ZZCraftoriumLayout_Script.txt:211 # # back patio west, inner wall
-apply ZZCraftoriumLayout_Script.txt:212 #
-apply ZZCraftoriumLayout_Script.txt:213 # # hedge		   X53195 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:214 # # sconce       X51843 Z90440 Y20243
-apply ZZCraftoriumLayout_Script.txt:215 # # sconce              Z89477
-apply ZZCraftoriumLayout_Script.txt:216 # # sconce              Z88515
-apply ZZCraftoriumLayout_Script.txt:217 #
-apply ZZCraftoriumLayout_Script.txt:218 # south
-apply ZZCraftoriumLayout_Script.txt:219 #
-apply ZZCraftoriumLayout_Script.txt:220 # 				X52945 Z21 Y19858
-apply ZZCraftoriumLayout_Script.txt:221 # 3 stations 										# TWEAK js Grave-Stake
-apply ZZCraftoriumLayout_Script.txt:222 # 													# TWEAK bs jw Hist Bark
-apply ZZCraftoriumLayout_Script.txt:223 # 				X52945 Z2 Y19858
-apply ZZCraftoriumLayout_Script.txt:224 #
-apply ZZCraftoriumLayout_Script.txt:225 # ### end commment out non-factory floor
-apply ZZCraftoriumLayout_Script.txt:226 
-apply ZZCraftoriumLayout_Script.txt:227 #
-apply ZZCraftoriumLayout_Script.txt:228 # front patio west, inner/hedge corner
-apply ZZCraftoriumLayout_Script.txt:229 #
-apply ZZCraftoriumLayout_Script.txt:230 # hedge		   X54650 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
-apply ZZCraftoriumLayout_Script.txt:231 
-apply ZZCraftoriumLayout_Script.txt:232 east
-apply ZZCraftoriumLayout_Script.txt:233 X53360 Z3 Y19842
-apply ZZCraftoriumLayout_Script.txt:234 omit lamp
-item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:235 station
-station_ct:1
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:236 omit lamp
-item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:237 X54015 Z3 Y19843
-Emit queue: omit lamp ww cl bs jw omit lamp
-emit_queue item width omit lamp  =     0
-emit_queue item width ww         =   200
-emit_queue item width cl         =   200
-emit_queue item width bs         =   160
-emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
 emit_queue start_coord: x: 53360 z: 90800 y: 19842
 emit_queue end_coord:   x: 54015 z: 90800 y: 19843
 emit_queue delta_total: x:   655 z:     0 y:     1
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441291501	53360	90800	19842	  0 ww 19     "
+EMIT "4620697946441648076	53360	90800	19842	  0 jw 20     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441291500	53613	90800	19842	  0 cl 19     "
-emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441291499	53787	90800	19842	 60 bs 19     "
+EMIT "4620697946441395790	53553	90800	19842	 60 bs 20     "
+emit_queue cume_width=360/total_item_width=560 ratio=0.64
+EMIT "4620697946441395792	53801	90800	19842	  0 cl 20     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648070	54015	90800	19843	  0 jw 19     "
+EMIT "4620697946441395794	54015	90800	19843	  0 ww 20     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:238 south
-apply ZZCraftoriumLayout_Script.txt:239 X54470 Z6 Y19843
-apply ZZCraftoriumLayout_Script.txt:240 omit lamp
+apply ZZCraftoriumLayout_Script.txt:239 south
+apply ZZCraftoriumLayout_Script.txt:240 X54470 Z6 Y19843
+apply ZZCraftoriumLayout_Script.txt:241 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:241 station
+apply ZZCraftoriumLayout_Script.txt:242 station
 station_ct:1
-item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:242 omit lamp
+item_queue += station set: ['ww', 'cl', 'bs', 'jw']
+apply ZZCraftoriumLayout_Script.txt:243 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:243 X54470 Z7 Y19843
-Emit queue: omit lamp jw bs cl ww omit lamp
+apply ZZCraftoriumLayout_Script.txt:244 X54470 Z7 Y19843
+Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
-emit_queue item width jw         =   200
-emit_queue item width bs         =   160
-emit_queue item width cl         =   200
 emit_queue item width ww         =   200
+emit_queue item width cl         =   200
+emit_queue item width bs         =   160
+emit_queue item width jw         =   200
 emit_queue item width omit lamp  =     0
 emit_queue item width total          560
 emit_queue start_coord: x: 54470 z: 90950 y: 19843
 emit_queue end_coord:   x: 54470 z: 91800 y: 19843
 emit_queue delta_total: x:     0 z:   850 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648076	54470	90950	19843	270 jw 20     "
+EMIT "4620697946441292194	54470	90950	19843	270 ww 21     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441395790	54470	91213	19843	330 bs 20     "
-emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441395792	54470	91516	19843	270 cl 20     "
+EMIT "4620697946441292192	54470	91273	19843	270 cl 21     "
+emit_queue cume_width=400/total_item_width=560 ratio=0.71
+EMIT "4620697946441292190	54470	91517	19843	330 bs 21     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441395794	54470	91800	19843	270 ww 20     "
+EMIT "4620697946441648259	54470	91800	19843	270 jw 21     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:244 # (stairs down, west)
-apply ZZCraftoriumLayout_Script.txt:245 
-apply ZZCraftoriumLayout_Script.txt:246 #
-apply ZZCraftoriumLayout_Script.txt:247 # long hall, west, inner
-apply ZZCraftoriumLayout_Script.txt:248 #
-apply ZZCraftoriumLayout_Script.txt:249 # hedge		   X54550 Z99488 Y19120   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:250 # topiary 	   X54650 Z99945 Y19505 		Topiary, Strong Cypress  X = X+350
-apply ZZCraftoriumLayout_Script.txt:251 south
-apply ZZCraftoriumLayout_Script.txt:252 
-apply ZZCraftoriumLayout_Script.txt:253 X54300	Z9	Y19540
-apply ZZCraftoriumLayout_Script.txt:254 Z9     	Y19539
-apply ZZCraftoriumLayout_Script.txt:255 station 									# Kagrenac's
+apply ZZCraftoriumLayout_Script.txt:245 # (stairs down, west)
+apply ZZCraftoriumLayout_Script.txt:246 
+apply ZZCraftoriumLayout_Script.txt:247 #
+apply ZZCraftoriumLayout_Script.txt:248 # long hall, west, inner
+apply ZZCraftoriumLayout_Script.txt:249 #
+apply ZZCraftoriumLayout_Script.txt:250 # hedge		   X54550 Z99488 Y19120   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:251 # topiary 	   X54650 Z99945 Y19505 		Topiary, Strong Cypress  X = X+350
+apply ZZCraftoriumLayout_Script.txt:252 south
+apply ZZCraftoriumLayout_Script.txt:253 
+apply ZZCraftoriumLayout_Script.txt:254 X54300	Z9	Y19540
+apply ZZCraftoriumLayout_Script.txt:255 Z9     	Y19539
+apply ZZCraftoriumLayout_Script.txt:256 station 									# Kagrenac's
 station_ct:1
 item_queue += lamp
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:256 X54300	Z93437 Y19539
-Emit queue: lamp ww cl bs jw lamp
+item_queue += station set: ['jw', 'bs', 'cl', 'ww']
+apply ZZCraftoriumLayout_Script.txt:257 X54300	Z93437 Y19539
+Emit queue: lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
-emit_queue item width ww         =   200
-emit_queue item width cl         =   200
-emit_queue item width bs         =   160
 emit_queue item width jw         =   200
+emit_queue item width bs         =   160
+emit_queue item width cl         =   200
+emit_queue item width ww         =   200
 emit_queue item width lamp       =   160
 emit_queue item width total          920
 emit_queue start_coord: x: 54300 z: 92400 y: 19539
 emit_queue end_coord:   x: 54300 z: 93437 y: 19539
 emit_queue delta_total: x:     0 z:  1037 y:     0
 EMIT "4620697946441423703	54500	92400	19539	180 lamp 11   "
-EMIT "4620697946441423722	54338	92400	20030	 69 lantern 11"
+EMIT "4620697946441423722	54338	92400	20030	202 lantern 11"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441292194	54300	92580	19539	270 ww 21     "
+EMIT "4620697946441648119	54300	92580	19539	270 jw 22     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441292192	54300	92825	19539	270 cl 21     "
-emit_queue cume_width=560/total_item_width=920 ratio=0.61
-EMIT "4620697946441292190	54300	92991	19539	330 bs 21     "
+EMIT "4620697946441292200	54300	92765	19539	330 bs 22     "
+emit_queue cume_width=520/total_item_width=920 ratio=0.57
+EMIT "4620697946441292201	54300	93006	19539	270 cl 22     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441648259	54300	93211	19539	270 jw 21     "
+EMIT "4620697946441292202	54300	93211	19539	270 ww 22     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423704	54500	93437	19539	180 lamp 12   "
-EMIT "4620697946441423866	54338	93437	20030	 19 lantern 12"
+EMIT "4620697946441423866	54338	93437	20030	 42 lantern 12"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:257 hide lamp
+apply ZZCraftoriumLayout_Script.txt:258 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:258 ww				X54315  Z93613	Y19539		# Kvatch
+apply ZZCraftoriumLayout_Script.txt:259 ww				X54315  Z93613	Y19539		# Kvatch
 Emit station ww
-EMIT "4620697946441292202	54315	93613	19539	270 ww 22     "
-apply ZZCraftoriumLayout_Script.txt:259 cl  			X54295  Z93864  Y19540
+EMIT "4620697946441420071	54315	93613	19539	270 ww 23     "
+apply ZZCraftoriumLayout_Script.txt:260 cl  			X54295  Z93864  Y19540
 Emit station cl
-EMIT "4620697946441292201	54295	93864	19540	270 cl 22     "
-apply ZZCraftoriumLayout_Script.txt:260 bs  			X54300  Z94028  Y19539 rotation330 		# TWEAK bs Kvatch
+EMIT "4620697946441420069	54295	93864	19540	270 cl 23     "
+apply ZZCraftoriumLayout_Script.txt:261 bs  			X54300  Z94028  Y19539 rotation330 		# TWEAK bs Kvatch
 Emit station bs
-EMIT "4620697946441292200	54300	94028	19539	330 bs 22     "
-apply ZZCraftoriumLayout_Script.txt:261 jw  			X54300  Z94249
+EMIT "4620697946441420067	54300	94028	19539	330 bs 23     "
+apply ZZCraftoriumLayout_Script.txt:262 jw  			X54300  Z94249
 Emit station jw
-EMIT "4620697946441648119	54300	94249	19539	270 jw 22     "
-apply ZZCraftoriumLayout_Script.txt:262 Z10
+EMIT "4620697946441647998	54300	94249	19539	270 jw 23     "
+apply ZZCraftoriumLayout_Script.txt:263 Z10
 Emit queue: hide lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width total            1
@@ -1144,12 +1171,12 @@ emit_queue end_coord:   x: 54300 z: 94475 y: 19539
 emit_queue delta_total: x:     0 z:  1038 y:     0
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:263 station 						# across from stable, Julianos
+apply ZZCraftoriumLayout_Script.txt:264 station 						# across from stable, Julianos
 station_ct:1
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:264 # TWEAK jw Julianos
-apply ZZCraftoriumLayout_Script.txt:265 Z11
+apply ZZCraftoriumLayout_Script.txt:265 # TWEAK jw Julianos
+apply ZZCraftoriumLayout_Script.txt:266 Z11
 Emit queue: lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1162,28 +1189,28 @@ emit_queue start_coord: x: 54300 z: 94475 y: 19539
 emit_queue end_coord:   x: 54300 z: 95755 y: 19539
 emit_queue delta_total: x:     0 z:  1280 y:     0
 EMIT "4620697946441423856	54500	94475	19539	180 lamp 13   "
-EMIT "4620697946441423897	54338	94475	20030	 21 lantern 13"
+EMIT "4620697946441423897	54338	94475	20030	 89 lantern 13"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441647998	54300	94697	19539	270 jw 23     "
+EMIT "4620697946441813358	54300	94697	19539	270 jw 24     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441420067	54300	94935	19539	330 bs 23     "
+EMIT "4620697946441813356	54300	94935	19539	330 bs 24     "
 emit_queue cume_width=520/total_item_width=920 ratio=0.57
-EMIT "4620697946441420069	54300	95218	19539	270 cl 23     "
+EMIT "4620697946441813357	54300	95218	19539	270 cl 24     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441420071	54300	95476	19539	270 ww 23     "
+EMIT "4620697946441813359	54300	95476	19539	270 ww 24     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441423879	54500	95755	19539	180 lamp 14   "
-EMIT "4620697946441423899	54338	95755	20030	 29 lantern 14"
+EMIT "4620697946441423899	54338	95755	20030	 91 lantern 14"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:266 # pool path
-apply ZZCraftoriumLayout_Script.txt:267 Z12
-apply ZZCraftoriumLayout_Script.txt:268 2 stations												# TWEAK bs Magnus
+apply ZZCraftoriumLayout_Script.txt:267 # pool path
+apply ZZCraftoriumLayout_Script.txt:268 Z12
+apply ZZCraftoriumLayout_Script.txt:269 2 stations												# TWEAK bs Magnus
 station_ct:2
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:269 Z13
+apply ZZCraftoriumLayout_Script.txt:270 Z13
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1201,69 +1228,69 @@ emit_queue start_coord: x: 54300 z: 96800 y: 19539
 emit_queue end_coord:   x: 54300 z: 98900 y: 19539
 emit_queue delta_total: x:     0 z:  2100 y:     0
 EMIT "4620697946441423881	54500	96800	19539	180 lamp 15   "
-EMIT "4620697946441423901	54338	96800	20030	120 lantern 15"
+EMIT "4620697946441423901	54338	96800	20030	 24 lantern 15"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441813359	54300	96982	19539	270 ww 24     "
+EMIT "4620697946441335146	54300	96982	19539	270 ww 25     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441813357	54300	97230	19539	270 cl 24     "
+EMIT "4620697946441335144	54300	97230	19539	270 cl 25     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441813356	54300	97399	19539	330 bs 24     "
+EMIT "4620697946441335142	54300	97399	19539	330 bs 25     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441813358	54300	97621	19539	270 jw 24     "
+EMIT "4620697946441648264	54300	97621	19539	270 jw 25     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441423882	54500	97850	19539	180 lamp 16   "
-EMIT "4620697946441423921	54338	97850	20030	277 lantern 16"
+EMIT "4620697946441423921	54338	97850	20030	351 lantern 16"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648264	54300	98032	19539	270 jw 25     "
+EMIT "4620697946441813352	54300	98032	19539	270 jw 26     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441335142	54300	98220	19539	330 bs 25     "
+EMIT "4620697946441813348	54300	98220	19539	330 bs 26     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441335144	54300	98463	19539	270 cl 25     "
+EMIT "4620697946441813350	54300	98463	19539	270 cl 26     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441335146	54300	98671	19539	270 ww 25     "
+EMIT "4620697946441813354	54300	98671	19539	270 ww 26     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 EMIT "4620697946441423883	54500	98900	19539	180 lamp 17   "
-EMIT "4620697946441423924	54338	98900	20030	204 lantern 17"
+EMIT "4620697946441423924	54338	98900	20030	358 lantern 17"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:270 
-apply ZZCraftoriumLayout_Script.txt:271 #
-apply ZZCraftoriumLayout_Script.txt:272 # lumpy area, hedge
-apply ZZCraftoriumLayout_Script.txt:273 #
-apply ZZCraftoriumLayout_Script.txt:274 X54608 Z99260 Y19530
-apply ZZCraftoriumLayout_Script.txt:275 east
-apply ZZCraftoriumLayout_Script.txt:276 omit lamp
+apply ZZCraftoriumLayout_Script.txt:271 
+apply ZZCraftoriumLayout_Script.txt:272 #
+apply ZZCraftoriumLayout_Script.txt:273 # lumpy area, hedge
+apply ZZCraftoriumLayout_Script.txt:274 #
+apply ZZCraftoriumLayout_Script.txt:275 X54608 Z99260 Y19530
+apply ZZCraftoriumLayout_Script.txt:276 east
+apply ZZCraftoriumLayout_Script.txt:277 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:277 jw				X54608 Z99262 Y19530 					# TWEAK jw Might of the Lost Legion
+apply ZZCraftoriumLayout_Script.txt:278 jw				X54608 Z99262 Y19530 					# TWEAK jw Might of the Lost Legion
 Emit station jw
-EMIT "4620697946441813352	54608	99262	19530	  0 jw 26     "
-apply ZZCraftoriumLayout_Script.txt:278 bs				X54760 Z99256 Y19542 rotation60
+EMIT "4620697946441931446	54608	99262	19530	  0 jw 27     "
+apply ZZCraftoriumLayout_Script.txt:279 bs				X54760 Z99256 Y19542 rotation60
 Emit station bs
-EMIT "4620697946441813348	54760	99256	19542	 60 bs 26     "
-apply ZZCraftoriumLayout_Script.txt:279 cl 				X55027 Z99282 Y19550
+EMIT "4620697946441931442	54760	99256	19542	 60 bs 27     "
+apply ZZCraftoriumLayout_Script.txt:280 cl 				X55027 Z99282 Y19550
 Emit station cl
-EMIT "4620697946441813350	55027	99282	19550	  0 cl 26     "
-apply ZZCraftoriumLayout_Script.txt:280 ww              X55229 Z99271 Y19535
+EMIT "4620697946441931444	55027	99282	19550	  0 cl 27     "
+apply ZZCraftoriumLayout_Script.txt:281 ww              X55229 Z99271 Y19535
 Emit station ww
-EMIT "4620697946441813354	55229	99271	19535	  0 ww 26     "
-apply ZZCraftoriumLayout_Script.txt:281 hide lamp
+EMIT "4620697946441931445	55229	99271	19535	  0 ww 27     "
+apply ZZCraftoriumLayout_Script.txt:282 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:282 ww              X55622 Z99246 Y19529
+apply ZZCraftoriumLayout_Script.txt:283 ww              X55622 Z99246 Y19529
 Emit station ww
-EMIT "4620697946441931445	55622	99246	19529	  0 ww 27     "
-apply ZZCraftoriumLayout_Script.txt:283 cl 				X55875 Z99238 Y19510
+EMIT "4620697946441335140	55622	99246	19529	  0 ww 28     "
+apply ZZCraftoriumLayout_Script.txt:284 cl 				X55875 Z99238 Y19510
 Emit station cl
-EMIT "4620697946441931444	55875	99238	19510	  0 cl 27     "
-apply ZZCraftoriumLayout_Script.txt:284 bs				X56028 Z99229 Y19502 rotation60
+EMIT "4620697946441335138	55875	99238	19510	  0 cl 28     "
+apply ZZCraftoriumLayout_Script.txt:285 bs				X56028 Z99229 Y19502 rotation60
 Emit station bs
-EMIT "4620697946441931442	56028	99229	19502	 60 bs 27     "
-apply ZZCraftoriumLayout_Script.txt:285 jw				X56256 Z99209 Y19492 					# TWEAK jw Morkuldin
+EMIT "4620697946441335136	56028	99229	19502	 60 bs 28     "
+apply ZZCraftoriumLayout_Script.txt:286 jw				X56256 Z99209 Y19492 					# TWEAK jw Morkuldin
 Emit station jw
-EMIT "4620697946441931446	56256	99209	19492	  0 jw 27     "
-apply ZZCraftoriumLayout_Script.txt:286 omit lamp
+EMIT "4620697946441648208	56256	99209	19492	  0 jw 28     "
+apply ZZCraftoriumLayout_Script.txt:287 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:287 # main entry path
-apply ZZCraftoriumLayout_Script.txt:288 X57639 Z99274 Y19510
+apply ZZCraftoriumLayout_Script.txt:288 # main entry path
+apply ZZCraftoriumLayout_Script.txt:289 X57639 Z99274 Y19510
 Emit queue: omit lamp hide lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width hide lamp  =   160
@@ -1276,37 +1303,37 @@ emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:289 omit lamp
+apply ZZCraftoriumLayout_Script.txt:290 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:290 jw				X57631 Z99230 Y19489
+apply ZZCraftoriumLayout_Script.txt:291 jw				X57631 Z99230 Y19489
 Emit station jw
-EMIT "4620697946441648208	57631	99230	19489	  0 jw 28     "
-apply ZZCraftoriumLayout_Script.txt:291 bs				X57842 Z99226 Y19493 rotation60
+EMIT "4620697946441648132	57631	99230	19489	  0 jw 29     "
+apply ZZCraftoriumLayout_Script.txt:292 bs				X57842 Z99226 Y19493 rotation60
 Emit station bs
-EMIT "4620697946441335136	57842	99226	19493	 60 bs 28     "
-apply ZZCraftoriumLayout_Script.txt:292 cl 				X58130 Z99260 Y19491
+EMIT "4620697946441423495	57842	99226	19493	 60 bs 29     "
+apply ZZCraftoriumLayout_Script.txt:293 cl 				X58130 Z99260 Y19491
 Emit station cl
-EMIT "4620697946441335138	58130	99260	19491	  0 cl 28     "
-apply ZZCraftoriumLayout_Script.txt:293 ww              X58374 Z99247 Y19491
+EMIT "4620697946441423497	58130	99260	19491	  0 cl 29     "
+apply ZZCraftoriumLayout_Script.txt:294 ww              X58374 Z99247 Y19491
 Emit station ww
-EMIT "4620697946441335140	58374	99247	19491	  0 ww 28     "
-apply ZZCraftoriumLayout_Script.txt:294 hide lamp
+EMIT "4620697946441423499	58374	99247	19491	  0 ww 29     "
+apply ZZCraftoriumLayout_Script.txt:295 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:295 ww              X58836 Z99237 Y19497
+apply ZZCraftoriumLayout_Script.txt:296 ww              X58836 Z99237 Y19497
 Emit station ww
-EMIT "4620697946441423499	58836	99237	19497	  0 ww 29     "
-apply ZZCraftoriumLayout_Script.txt:296 cl 				X59122 Z99248 Y19499
+EMIT "4620697946441291113	58836	99237	19497	  0 ww 30     "
+apply ZZCraftoriumLayout_Script.txt:297 cl 				X59122 Z99248 Y19499
 Emit station cl
-EMIT "4620697946441423497	59122	99248	19499	  0 cl 29     "
-apply ZZCraftoriumLayout_Script.txt:297 bs				X59317 Z99222 Y19498 rotation60
+EMIT "4620697946441291112	59122	99248	19499	  0 cl 30     "
+apply ZZCraftoriumLayout_Script.txt:298 bs				X59317 Z99222 Y19498 rotation60
 Emit station bs
-EMIT "4620697946441423495	59317	99222	19498	 60 bs 29     "
-apply ZZCraftoriumLayout_Script.txt:298 jw				X59571 Z99229 Y19509
+EMIT "4620697946441291111	59317	99222	19498	 60 bs 30     "
+apply ZZCraftoriumLayout_Script.txt:299 jw				X59571 Z99229 Y19509
 Emit station jw
-EMIT "4620697946441648132	59571	99229	19509	  0 jw 29     "
-apply ZZCraftoriumLayout_Script.txt:299 omit lamp
+EMIT "4620697946441648324	59571	99229	19509	  0 jw 30     "
+apply ZZCraftoriumLayout_Script.txt:300 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:300 X59570 Z99233 Y19489
+apply ZZCraftoriumLayout_Script.txt:301 X59570 Z99233 Y19489
 Emit queue: omit lamp hide lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width hide lamp  =   160
@@ -1319,21 +1346,21 @@ emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 emit_queue cume_width=160/total_item_width=1 ratio=160.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:301 
-apply ZZCraftoriumLayout_Script.txt:302 #
-apply ZZCraftoriumLayout_Script.txt:303 # long hall east, inner/hedge
-apply ZZCraftoriumLayout_Script.txt:304 #
-apply ZZCraftoriumLayout_Script.txt:305 # hedge		   X59800   	Y19124   		Hedge, Dense High Wall   X = X-250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:306 # topiary 	   X59700   	Y19505 			Topiary, Strong Cypress  X = X-350
-apply ZZCraftoriumLayout_Script.txt:307 north
-apply ZZCraftoriumLayout_Script.txt:308 X5 Z13 Y19544
-apply ZZCraftoriumLayout_Script.txt:309 ww
-apply ZZCraftoriumLayout_Script.txt:310 2 stations
+apply ZZCraftoriumLayout_Script.txt:302 
+apply ZZCraftoriumLayout_Script.txt:303 #
+apply ZZCraftoriumLayout_Script.txt:304 # long hall east, inner/hedge
+apply ZZCraftoriumLayout_Script.txt:305 #
+apply ZZCraftoriumLayout_Script.txt:306 # hedge		   X59800   	Y19124   		Hedge, Dense High Wall   X = X-250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:307 # topiary 	   X59700   	Y19505 			Topiary, Strong Cypress  X = X-350
+apply ZZCraftoriumLayout_Script.txt:308 north
+apply ZZCraftoriumLayout_Script.txt:309 X5 Z13 Y19544
+apply ZZCraftoriumLayout_Script.txt:310 ww
+apply ZZCraftoriumLayout_Script.txt:311 2 stations
 station_ct:2
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:311 X5 Z12 Y19544
+apply ZZCraftoriumLayout_Script.txt:312 X5 Z12 Y19544
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1351,40 +1378,40 @@ emit_queue start_coord: x: 60050 z: 98900 y: 19544
 emit_queue end_coord:   x: 60050 z: 96800 y: 19544
 emit_queue delta_total: x:     0 z: -2100 y:     0
 EMIT "4620697946441423891	59850	98900	19544	  0 lamp 18   "
-EMIT "4620697946441423937	60012	98900	20035	327 lantern 18"
+EMIT "4620697946441423937	60012	98900	20035	122 lantern 18"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441291113	60050	98717	19544	 90 ww 30     "
+EMIT "4620697946441647984	60050	98717	19544	 90 ww 31     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441291112	60050	98469	19544	 90 cl 30     "
+EMIT "4620697946441647980	60050	98469	19544	 90 cl 31     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441291111	60050	98300	19544	150 bs 30     "
+EMIT "4620697946441647978	60050	98300	19544	150 bs 31     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441648324	60050	98078	19544	 90 jw 30     "
+EMIT "4620697946441647982	60050	98078	19544	 90 jw 31     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441423904	59850	97850	19544	  0 lamp 19   "
-EMIT "4620697946441423938	60012	97850	20035	171 lantern 19"
+EMIT "4620697946441423938	60012	97850	20035	155 lantern 19"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441647982	60050	97667	19544	 90 jw 31     "
+EMIT "4620697946441648008	60050	97667	19544	 90 jw 32     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441647978	60050	97479	19544	150 bs 31     "
+EMIT "4620697946441422510	60050	97479	19544	150 bs 32     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441647980	60050	97236	19544	 90 cl 31     "
+EMIT "4620697946441422512	60050	97236	19544	 90 cl 32     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441647984	60050	97028	19544	 90 ww 31     "
+EMIT "4620697946441422514	60050	97028	19544	 90 ww 32     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 EMIT "4620697946441423905	59850	96800	19544	  0 lamp 20   "
-EMIT "4620697946441423939	60012	96800	20035	209 lantern 20"
+EMIT "4620697946441423939	60012	96800	20035	323 lantern 20"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:312 # pool path
-apply ZZCraftoriumLayout_Script.txt:313 X5 Z11 Y19544
-apply ZZCraftoriumLayout_Script.txt:314 3 stations
+apply ZZCraftoriumLayout_Script.txt:313 # pool path
+apply ZZCraftoriumLayout_Script.txt:314 X5 Z11 Y19544
+apply ZZCraftoriumLayout_Script.txt:315 3 stations
 station_ct:3
 item_queue += lamp
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:315 X5 Z9  Y19544
+apply ZZCraftoriumLayout_Script.txt:316 X5 Z9  Y19544
 Emit queue: lamp ww cl bs jw lamp jw bs cl ww lamp ww cl bs jw lamp
 emit_queue item width lamp       =   160
 emit_queue item width ww         =   200
@@ -1407,59 +1434,59 @@ emit_queue start_coord: x: 60050 z: 95755 y: 19544
 emit_queue end_coord:   x: 60050 z: 92400 y: 19544
 emit_queue delta_total: x:     0 z: -3355 y:     0
 EMIT "4620697946441423911	59850	95755	19544	  0 lamp 21   "
-EMIT "4620697946441423940	60012	95755	20035	337 lantern 21"
+EMIT "4620697946441423940	60012	95755	20035	 21 lantern 21"
 emit_queue cume_width=160/total_item_width=2760 ratio=0.06
-EMIT "4620697946441422514	60050	95560	19544	 90 ww 32     "
+EMIT "4620697946441291496	60050	95560	19544	 90 ww 33     "
 emit_queue cume_width=360/total_item_width=2760 ratio=0.13
-EMIT "4620697946441422512	60050	95297	19544	 90 cl 32     "
+EMIT "4620697946441291494	60050	95297	19544	 90 cl 33     "
 emit_queue cume_width=560/total_item_width=2760 ratio=0.20
-EMIT "4620697946441422510	60050	95114	19544	150 bs 32     "
+EMIT "4620697946441291492	60050	95114	19544	150 bs 33     "
 emit_queue cume_width=720/total_item_width=2760 ratio=0.26
-EMIT "4620697946441648008	60050	94879	19544	 90 jw 32     "
+EMIT "4620697946441648065	60050	94879	19544	 90 jw 33     "
 emit_queue cume_width=920/total_item_width=2760 ratio=0.33
 EMIT "4620697946441423913	59850	94636	19544	  0 lamp 22   "
-EMIT "4620697946441619106	60012	94636	20035	 60 lantern 22"
+EMIT "4620697946441619106	60012	94636	20035	232 lantern 22"
 emit_queue cume_width=1080/total_item_width=2760 ratio=0.39
-EMIT "4620697946441648065	60050	94442	19544	 90 jw 33     "
+EMIT "4620697946441648100	60050	94442	19544	 90 jw 34     "
 emit_queue cume_width=1280/total_item_width=2760 ratio=0.46
-EMIT "4620697946441291492	60050	94239	19544	150 bs 33     "
+EMIT "4620697946441335515	60050	94239	19544	150 bs 34     "
 emit_queue cume_width=1440/total_item_width=2760 ratio=0.52
-EMIT "4620697946441291494	60050	93984	19544	 90 cl 33     "
+EMIT "4620697946441335517	60050	93984	19544	 90 cl 34     "
 emit_queue cume_width=1640/total_item_width=2760 ratio=0.59
-EMIT "4620697946441291496	60050	93761	19544	 90 ww 33     "
+EMIT "4620697946441335519	60050	93761	19544	 90 ww 34     "
 emit_queue cume_width=1840/total_item_width=2760 ratio=0.67
 EMIT "4620697946441619091	59850	93518	19544	  0 lamp 23   "
-EMIT "4620697946441619107	60012	93518	20035	313 lantern 23"
+EMIT "4620697946441619107	60012	93518	20035	314 lantern 23"
 emit_queue cume_width=2000/total_item_width=2760 ratio=0.72
-EMIT "4620697946441335519	60050	93323	19544	 90 ww 34     "
+EMIT "4620697946441291120	60050	93323	19544	 90 ww 35     "
 emit_queue cume_width=2200/total_item_width=2760 ratio=0.80
-EMIT "4620697946441335517	60050	93060	19544	 90 cl 34     "
+EMIT "4620697946441291119	60050	93060	19544	 90 cl 35     "
 emit_queue cume_width=2400/total_item_width=2760 ratio=0.87
-EMIT "4620697946441335515	60050	92877	19544	150 bs 34     "
+EMIT "4620697946441291118	60050	92877	19544	150 bs 35     "
 emit_queue cume_width=2560/total_item_width=2760 ratio=0.93
-EMIT "4620697946441648100	60050	92643	19544	 90 jw 34     "
+EMIT "4620697946441648306	60050	92643	19544	 90 jw 35     "
 emit_queue cume_width=2760/total_item_width=2760 ratio=1.00
 EMIT "4620697946441619092	59850	92400	19544	  0 lamp 24   "
-EMIT "4620697946441619108	60012	92400	20035	302 lantern 24"
+EMIT "4620697946441619108	60012	92400	20035	107 lantern 24"
 emit_queue cume_width=2920/total_item_width=2760 ratio=1.06
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:316 
-apply ZZCraftoriumLayout_Script.txt:317 # stairs up to patio east
-apply ZZCraftoriumLayout_Script.txt:318 
-apply ZZCraftoriumLayout_Script.txt:319 #
-apply ZZCraftoriumLayout_Script.txt:320 # front patio east, inner/hedge
-apply ZZCraftoriumLayout_Script.txt:321 #
-apply ZZCraftoriumLayout_Script.txt:322 # hedge		   X59620 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
-apply ZZCraftoriumLayout_Script.txt:323 north
-apply ZZCraftoriumLayout_Script.txt:324 X59800 Z7 Y19843
-apply ZZCraftoriumLayout_Script.txt:325 omit lamp
+apply ZZCraftoriumLayout_Script.txt:317 
+apply ZZCraftoriumLayout_Script.txt:318 # stairs up to patio east
+apply ZZCraftoriumLayout_Script.txt:319 
+apply ZZCraftoriumLayout_Script.txt:320 #
+apply ZZCraftoriumLayout_Script.txt:321 # front patio east, inner/hedge
+apply ZZCraftoriumLayout_Script.txt:322 #
+apply ZZCraftoriumLayout_Script.txt:323 # hedge		   X59620 Z91312 Y19438   		Hedge, Dense High Wall   X = X+180
+apply ZZCraftoriumLayout_Script.txt:324 north
+apply ZZCraftoriumLayout_Script.txt:325 X59800 Z7 Y19843
+apply ZZCraftoriumLayout_Script.txt:326 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:326 station
+apply ZZCraftoriumLayout_Script.txt:327 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:327 omit lamp
+apply ZZCraftoriumLayout_Script.txt:328 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:328 X59800 Z91200 Y19843  # SURPRISE, not symmetrical
+apply ZZCraftoriumLayout_Script.txt:329 X59800 Z91200 Y19843  # SURPRISE, not symmetrical
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
@@ -1472,27 +1499,27 @@ emit_queue start_coord: x: 59800 z: 91800 y: 19843
 emit_queue end_coord:   x: 59800 z: 91200 y: 19843
 emit_queue delta_total: x:     0 z:  -600 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648306	59800	91800	19843	 90 jw 35     "
+EMIT "4620697946441648034	59800	91800	19843	 90 jw 36     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441291118	59800	91625	19843	150 bs 35     "
+EMIT "4620697946441335525	59800	91625	19843	150 bs 36     "
 emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441291119	59800	91394	19843	 90 cl 35     "
+EMIT "4620697946441335527	59800	91394	19843	 90 cl 36     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441291120	59800	91200	19843	 90 ww 35     "
+EMIT "4620697946441335529	59800	91200	19843	 90 ww 36     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:329 # this Z-wall is a bit further south
-apply ZZCraftoriumLayout_Script.txt:330 east
-apply ZZCraftoriumLayout_Script.txt:331 X60130 Z90900 Y19843
-apply ZZCraftoriumLayout_Script.txt:332 omit lamp
+apply ZZCraftoriumLayout_Script.txt:330 # this Z-wall is a bit further south
+apply ZZCraftoriumLayout_Script.txt:331 east
+apply ZZCraftoriumLayout_Script.txt:332 X60130 Z90900 Y19843
+apply ZZCraftoriumLayout_Script.txt:333 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:333 station
+apply ZZCraftoriumLayout_Script.txt:334 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:334 omit lamp
+apply ZZCraftoriumLayout_Script.txt:335 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:335 X60860 Z90900 Y19842
+apply ZZCraftoriumLayout_Script.txt:336 X60860 Z90900 Y19842
 Emit queue: omit lamp ww cl bs jw omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width ww         =   200
@@ -1505,34 +1532,34 @@ emit_queue start_coord: x: 60130 z: 90900 y: 19843
 emit_queue end_coord:   x: 60860 z: 90900 y: 19842
 emit_queue delta_total: x:   730 z:     0 y:    -1
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441335529	60130	90900	19843	  0 ww 36     "
+EMIT "4620697946441898644	60130	90900	19843	  0 ww 37     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441335527	60410	90900	19842	  0 cl 36     "
+EMIT "4620697946441898640	60410	90900	19842	  0 cl 37     "
 emit_queue cume_width=400/total_item_width=560 ratio=0.71
-EMIT "4620697946441335525	60611	90900	19842	 60 bs 36     "
+EMIT "4620697946441898638	60611	90900	19842	 60 bs 37     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441648034	60860	90900	19842	  0 jw 36     "
+EMIT "4620697946441898642	60860	90900	19842	  0 jw 37     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:336 
-apply ZZCraftoriumLayout_Script.txt:337 #
-apply ZZCraftoriumLayout_Script.txt:338 # back patio east
-apply ZZCraftoriumLayout_Script.txt:339 #
-apply ZZCraftoriumLayout_Script.txt:340 # hedge		   X60950 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:341 # sconce       X62153 Z90596 Y20243
-apply ZZCraftoriumLayout_Script.txt:342 # sconce              Z89601
-apply ZZCraftoriumLayout_Script.txt:343 # sconce              Z88515
-apply ZZCraftoriumLayout_Script.txt:344 north
-apply ZZCraftoriumLayout_Script.txt:345 X7 Z2 Y19868
-apply ZZCraftoriumLayout_Script.txt:346 4 stations 										# Tweak 2nd bs Shacklebreaker
+apply ZZCraftoriumLayout_Script.txt:337 
+apply ZZCraftoriumLayout_Script.txt:338 #
+apply ZZCraftoriumLayout_Script.txt:339 # back patio east
+apply ZZCraftoriumLayout_Script.txt:340 #
+apply ZZCraftoriumLayout_Script.txt:341 # hedge		   X60950 Z99488 Y19438   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:342 # sconce       X62153 Z90596 Y20243
+apply ZZCraftoriumLayout_Script.txt:343 # sconce              Z89601
+apply ZZCraftoriumLayout_Script.txt:344 # sconce              Z88515
+apply ZZCraftoriumLayout_Script.txt:345 north
+apply ZZCraftoriumLayout_Script.txt:346 X7 Z2 Y19868
+apply ZZCraftoriumLayout_Script.txt:347 4 stations 										# Tweak 2nd bs Shacklebreaker
 station_ct:4
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:347 X7 Z21 Y19868
+apply ZZCraftoriumLayout_Script.txt:348 X7 Z21 Y19868
 Emit queue: lamp jw bs cl ww lamp ww cl bs jw lamp jw bs cl ww lamp ww cl bs jw lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1560,68 +1587,68 @@ emit_queue start_coord: x: 61200 z: 90440 y: 19868
 emit_queue end_coord:   x: 61200 z: 86000 y: 19868
 emit_queue delta_total: x:     0 z: -4440 y:     0
 EMIT "4620697946441619093	61000	90440	19868	  0 lamp 25   "
-EMIT "4620697946441619109	61162	90440	20359	193 lantern 25"
+EMIT "4620697946441619109	61162	90440	20359	 28 lantern 25"
 emit_queue cume_width=160/total_item_width=3680 ratio=0.04
-EMIT "4620697946441898642	61200	90246	19868	 90 jw 37     "
+EMIT "4620697946441648254	61200	90246	19868	 90 jw 38     "
 emit_queue cume_width=360/total_item_width=3680 ratio=0.10
-EMIT "4620697946441898638	61200	90045	19868	150 bs 37     "
+EMIT "4620697946441395834	61200	90045	19868	150 bs 38     "
 emit_queue cume_width=520/total_item_width=3680 ratio=0.14
-EMIT "4620697946441898640	61200	89792	19868	 90 cl 37     "
+EMIT "4620697946441395836	61200	89792	19868	 90 cl 38     "
 emit_queue cume_width=720/total_item_width=3680 ratio=0.20
-EMIT "4620697946441898644	61200	89571	19868	 90 ww 37     "
+EMIT "4620697946441395838	61200	89571	19868	 90 ww 38     "
 emit_queue cume_width=920/total_item_width=3680 ratio=0.25
 EMIT "4620697946441619094	61000	89330	19868	  0 lamp 26   "
-EMIT "4620697946441619110	61162	89330	20359	181 lantern 26"
+EMIT "4620697946441619110	61162	89330	20359	186 lantern 26"
 emit_queue cume_width=1080/total_item_width=3680 ratio=0.29
-EMIT "4620697946441395838	61200	89136	19868	 90 ww 38     "
+EMIT "4620697946441395853	61200	89136	19868	 90 ww 39     "
 emit_queue cume_width=1280/total_item_width=3680 ratio=0.35
-EMIT "4620697946441395836	61200	88875	19868	 90 cl 38     "
+EMIT "4620697946441395851	61200	88875	19868	 90 cl 39     "
 emit_queue cume_width=1480/total_item_width=3680 ratio=0.40
-EMIT "4620697946441395834	61200	88694	19868	150 bs 38     "
+EMIT "4620697946441395852	61200	88694	19868	150 bs 39     "
 emit_queue cume_width=1640/total_item_width=3680 ratio=0.45
-EMIT "4620697946441648254	61200	88461	19868	 90 jw 38     "
+EMIT "4620697946441648063	61200	88461	19868	 90 jw 39     "
 emit_queue cume_width=1840/total_item_width=3680 ratio=0.50
 EMIT "4620697946441619095	61000	88220	19868	  0 lamp 27   "
-EMIT "4620697946441619111	61162	88220	20359	319 lantern 27"
+EMIT "4620697946441619111	61162	88220	20359	195 lantern 27"
 emit_queue cume_width=2000/total_item_width=3680 ratio=0.54
-EMIT "4620697946441648063	61200	88026	19868	 90 jw 39     "
+EMIT "4620697946441647990	61200	88026	19868	 90 jw 40     "
 emit_queue cume_width=2200/total_item_width=3680 ratio=0.60
-EMIT "4620697946441395852	61200	87825	19868	150 bs 39     "
+EMIT "4620697946441647986	61200	87825	19868	150 bs 40     "
 emit_queue cume_width=2360/total_item_width=3680 ratio=0.64
-EMIT "4620697946441395851	61200	87572	19868	 90 cl 39     "
+EMIT "4620697946441647988	61200	87572	19868	 90 cl 40     "
 emit_queue cume_width=2560/total_item_width=3680 ratio=0.70
-EMIT "4620697946441395853	61200	87351	19868	 90 ww 39     "
+EMIT "4620697946441647992	61200	87351	19868	 90 ww 40     "
 emit_queue cume_width=2760/total_item_width=3680 ratio=0.75
 EMIT "4620697946441619097	61000	87110	19868	  0 lamp 28   "
-EMIT "4620697946441619112	61162	87110	20359	243 lantern 28"
+EMIT "4620697946441619112	61162	87110	20359	131 lantern 28"
 emit_queue cume_width=2920/total_item_width=3680 ratio=0.79
-EMIT "4620697946441647992	61200	86916	19868	 90 ww 40     "
+EMIT "4620697946441423475	61200	86916	19868	 90 ww 41     "
 emit_queue cume_width=3120/total_item_width=3680 ratio=0.85
-EMIT "4620697946441647988	61200	86655	19868	 90 cl 40     "
+EMIT "4620697946441423473	61200	86655	19868	 90 cl 41     "
 emit_queue cume_width=3320/total_item_width=3680 ratio=0.90
-EMIT "4620697946441647986	61200	86474	19868	150 bs 40     "
+EMIT "4620697946441423471	61200	86474	19868	150 bs 41     "
 emit_queue cume_width=3480/total_item_width=3680 ratio=0.95
-EMIT "4620697946441647990	61200	86241	19868	 90 jw 40     "
+EMIT "4620697946441648102	61200	86241	19868	 90 jw 41     "
 emit_queue cume_width=3680/total_item_width=3680 ratio=1.00
 EMIT "4620697946441619098	61000	86000	19868	  0 lamp 29   "
-EMIT "4620697946441619113	61162	86000	20359	128 lantern 29"
+EMIT "4620697946441619113	61162	86000	20359	265 lantern 29"
 emit_queue cume_width=3840/total_item_width=3680 ratio=1.04
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:348 south
-apply ZZCraftoriumLayout_Script.txt:349 X8 Z21 Y19871
-apply ZZCraftoriumLayout_Script.txt:350 hide lamp
+apply ZZCraftoriumLayout_Script.txt:349 south
+apply ZZCraftoriumLayout_Script.txt:350 X8 Z21 Y19871
+apply ZZCraftoriumLayout_Script.txt:351 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:351 station
+apply ZZCraftoriumLayout_Script.txt:352 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:352 hide lamp
+apply ZZCraftoriumLayout_Script.txt:353 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:353 station
+apply ZZCraftoriumLayout_Script.txt:354 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:354 hide lamp
+apply ZZCraftoriumLayout_Script.txt:355 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:355 X8 Z1 Y19871
+apply ZZCraftoriumLayout_Script.txt:356 X8 Z1 Y19871
 Emit queue: hide lamp jw bs cl ww hide lamp ww cl bs jw hide lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width jw         =   200
@@ -1639,38 +1666,38 @@ emit_queue start_coord: x: 61900 z: 86000 y: 19871
 emit_queue end_coord:   x: 61900 z: 88515 y: 19871
 emit_queue delta_total: x:     0 z:  2515 y:     0
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441648102	61900	86218	19871	270 jw 41     "
+EMIT "4620697946441648014	61900	86218	19871	270 jw 42     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441423471	61900	86452	19871	330 bs 41     "
+EMIT "4620697946441422504	61900	86452	19871	330 bs 42     "
 emit_queue cume_width=520/total_item_width=1840 ratio=0.28
-EMIT "4620697946441423473	61900	86730	19871	270 cl 41     "
+EMIT "4620697946441422506	61900	86730	19871	270 cl 42     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441423475	61900	86984	19871	270 ww 41     "
+EMIT "4620697946441422508	61900	86984	19871	270 ww 42     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441422508	61900	87476	19871	270 ww 42     "
+EMIT "4620697946441395806	61900	87476	19871	270 ww 43     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441422506	61900	87769	19871	270 cl 42     "
+EMIT "4620697946441395804	61900	87769	19871	270 cl 43     "
 emit_queue cume_width=1480/total_item_width=1840 ratio=0.80
-EMIT "4620697946441422504	61900	87982	19871	330 bs 42     "
+EMIT "4620697946441395802	61900	87982	19871	330 bs 43     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441648014	61900	88241	19871	270 jw 42     "
+EMIT "4620697946441648174	61900	88241	19871	270 jw 43     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:356 hide lamp
+apply ZZCraftoriumLayout_Script.txt:357 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:357 station
+apply ZZCraftoriumLayout_Script.txt:358 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:358 hide lamp
+apply ZZCraftoriumLayout_Script.txt:359 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:359 station
+apply ZZCraftoriumLayout_Script.txt:360 station
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:360 omit lamp
+apply ZZCraftoriumLayout_Script.txt:361 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:361 X8 Z2 Y19868
+apply ZZCraftoriumLayout_Script.txt:362 X8 Z2 Y19868
 Emit queue: hide lamp jw bs cl ww hide lamp ww cl bs jw omit lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width jw         =   200
@@ -1688,39 +1715,39 @@ emit_queue start_coord: x: 61900 z: 88515 y: 19871
 emit_queue end_coord:   x: 61900 z: 90440 y: 19868
 emit_queue delta_total: x:     0 z:  1925 y:    -3
 emit_queue cume_width=160/total_item_width=1640 ratio=0.10
-EMIT "4620697946441648174	61900	88702	19870	270 jw 43     "
+EMIT "4620697946441648031	61900	88702	19870	270 jw 44     "
 emit_queue cume_width=360/total_item_width=1640 ratio=0.22
-EMIT "4620697946441395802	61900	88897	19870	330 bs 43     "
+EMIT "4620697946441335533	61900	88897	19870	330 bs 44     "
 emit_queue cume_width=520/total_item_width=1640 ratio=0.32
-EMIT "4620697946441395804	61900	89145	19870	270 cl 43     "
+EMIT "4620697946441335534	61900	89145	19870	270 cl 44     "
 emit_queue cume_width=720/total_item_width=1640 ratio=0.44
-EMIT "4620697946441395806	61900	89360	19869	270 ww 43     "
+EMIT "4620697946441335535	61900	89360	19869	270 ww 44     "
 emit_queue cume_width=920/total_item_width=1640 ratio=0.56
 emit_queue cume_width=1080/total_item_width=1640 ratio=0.66
-EMIT "4620697946441335535	61900	89782	19869	270 ww 44     "
+EMIT "4620697946441395822	61900	89782	19869	270 ww 45     "
 emit_queue cume_width=1280/total_item_width=1640 ratio=0.78
-EMIT "4620697946441335534	61900	90037	19868	270 cl 44     "
+EMIT "4620697946441395820	61900	90037	19868	270 cl 45     "
 emit_queue cume_width=1480/total_item_width=1640 ratio=0.90
-EMIT "4620697946441335533	61900	90212	19868	330 bs 44     "
+EMIT "4620697946441395818	61900	90212	19868	330 bs 45     "
 emit_queue cume_width=1640/total_item_width=1640 ratio=1.00
-EMIT "4620697946441648031	61900	90440	19868	270 jw 44     "
+EMIT "4620697946441648270	61900	90440	19868	270 jw 45     "
 emit_queue cume_width=1840/total_item_width=1640 ratio=1.12
 emit_queue cume_width=1840/total_item_width=1640 ratio=1.12
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:362 
-apply ZZCraftoriumLayout_Script.txt:363 #
-apply ZZCraftoriumLayout_Script.txt:364 # front patio east, outer wall
-apply ZZCraftoriumLayout_Script.txt:365 #
-apply ZZCraftoriumLayout_Script.txt:366 south
-apply ZZCraftoriumLayout_Script.txt:367 X61611 Z4 Y19871
-apply ZZCraftoriumLayout_Script.txt:368 omit lamp
+apply ZZCraftoriumLayout_Script.txt:363 
+apply ZZCraftoriumLayout_Script.txt:364 #
+apply ZZCraftoriumLayout_Script.txt:365 # front patio east, outer wall
+apply ZZCraftoriumLayout_Script.txt:366 #
+apply ZZCraftoriumLayout_Script.txt:367 south
+apply ZZCraftoriumLayout_Script.txt:368 X61611 Z4 Y19871
+apply ZZCraftoriumLayout_Script.txt:369 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:369 station
+apply ZZCraftoriumLayout_Script.txt:370 station
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:370 omit lamp
+apply ZZCraftoriumLayout_Script.txt:371 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:371 X61611 Z5 Y19871
+apply ZZCraftoriumLayout_Script.txt:372 X61611 Z5 Y19871
 Emit queue: omit lamp jw bs cl ww omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width jw         =   200
@@ -1733,35 +1760,35 @@ emit_queue start_coord: x: 61611 z: 90730 y: 19871
 emit_queue end_coord:   x: 61611 z: 91384 y: 19871
 emit_queue delta_total: x:     0 z:   654 y:     0
 emit_queue cume_width=0/total_item_width=560 ratio=0.00
-EMIT "4620697946441648270	61611	90730	19871	270 jw 45     "
+EMIT "4620697946441648016	61611	90730	19871	270 jw 46     "
 emit_queue cume_width=200/total_item_width=560 ratio=0.36
-EMIT "4620697946441395818	61611	90923	19871	330 bs 45     "
+EMIT "4620697946441335168	61611	90923	19871	330 bs 46     "
 emit_queue cume_width=360/total_item_width=560 ratio=0.64
-EMIT "4620697946441395820	61611	91170	19871	270 cl 45     "
+EMIT "4620697946441335169	61611	91170	19871	270 cl 46     "
 emit_queue cume_width=560/total_item_width=560 ratio=1.00
-EMIT "4620697946441395822	61611	91384	19871	270 ww 45     "
+EMIT "4620697946441335170	61611	91384	19871	270 ww 46     "
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 emit_queue cume_width=760/total_item_width=560 ratio=1.36
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:372 west
-apply ZZCraftoriumLayout_Script.txt:373 X61300 Z91700 Y19871
-apply ZZCraftoriumLayout_Script.txt:374 omit lamp
+apply ZZCraftoriumLayout_Script.txt:373 west
+apply ZZCraftoriumLayout_Script.txt:374 X61300 Z91700 Y19871
+apply ZZCraftoriumLayout_Script.txt:375 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:375 ww              X61300 Z91700 Y19871 rotation
+apply ZZCraftoriumLayout_Script.txt:376 ww              X61300 Z91700 Y19871 rotation
 Emit station ww
-EMIT "4620697946441335170	61300	91700	19871	180 ww 46     "
-apply ZZCraftoriumLayout_Script.txt:376 cl              X61051 Z91700 Y19865 rotation
+EMIT "4620697946441422484	61300	91700	19871	180 ww 47     "
+apply ZZCraftoriumLayout_Script.txt:377 cl              X61051 Z91700 Y19865 rotation
 Emit station cl
-EMIT "4620697946441335169	61051	91700	19865	180 cl 46     "
-apply ZZCraftoriumLayout_Script.txt:377 bs              X60882 Z91700 Y19841 rotation240 	# TWEAK bs Twice-Born Star
+EMIT "4620697946441422482	61051	91700	19865	180 cl 47     "
+apply ZZCraftoriumLayout_Script.txt:378 bs              X60882 Z91700 Y19841 rotation240 	# TWEAK bs Twice-Born Star
 Emit station bs
-EMIT "4620697946441335168	60882	91700	19841	240 bs 46     "
-apply ZZCraftoriumLayout_Script.txt:378 jw              X60660 Z91700 Y19841 rotation
+EMIT "4620697946441422480	60882	91700	19841	240 bs 47     "
+apply ZZCraftoriumLayout_Script.txt:379 jw              X60660 Z91700 Y19841 rotation
 Emit station jw
-EMIT "4620697946441648016	60660	91700	19841	180 jw 46     "
-apply ZZCraftoriumLayout_Script.txt:379 omit lamp
+EMIT "4620697946441648053	60660	91700	19841	180 jw 47     "
+apply ZZCraftoriumLayout_Script.txt:380 omit lamp
 item_queue += lamp: omit lamp
-apply ZZCraftoriumLayout_Script.txt:380 X60660 Z91700 Y19871
+apply ZZCraftoriumLayout_Script.txt:381 X60660 Z91700 Y19871
 Emit queue: omit lamp omit lamp
 emit_queue item width omit lamp  =     0
 emit_queue item width omit lamp  =     0
@@ -1772,26 +1799,26 @@ emit_queue delta_total: x:  -640 z:     0 y:     0
 emit_queue cume_width=0/total_item_width=1 ratio=0.00
 emit_queue cume_width=0/total_item_width=1 ratio=0.00
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:381 #
-apply ZZCraftoriumLayout_Script.txt:382 # long hall east, outer
-apply ZZCraftoriumLayout_Script.txt:383 #
-apply ZZCraftoriumLayout_Script.txt:384 # hedge		   X60750   	Y19124   		Hedge, Dense High Wall   X = X+250 Y=Y-420
-apply ZZCraftoriumLayout_Script.txt:385 # topiary 	   X60850   	Y19505 			Topiary, Strong Cypress  X = X+350
-apply ZZCraftoriumLayout_Script.txt:386 south
-apply ZZCraftoriumLayout_Script.txt:387 X60500 Z9 Y19544
-apply ZZCraftoriumLayout_Script.txt:388 lamp
+apply ZZCraftoriumLayout_Script.txt:382 #
+apply ZZCraftoriumLayout_Script.txt:383 # long hall east, outer
+apply ZZCraftoriumLayout_Script.txt:384 #
+apply ZZCraftoriumLayout_Script.txt:385 # hedge		   X60750   	Y19124   		Hedge, Dense High Wall   X = X+250 Y=Y-420
+apply ZZCraftoriumLayout_Script.txt:386 # topiary 	   X60850   	Y19505 			Topiary, Strong Cypress  X = X+350
+apply ZZCraftoriumLayout_Script.txt:387 south
+apply ZZCraftoriumLayout_Script.txt:388 X60500 Z9 Y19544
+apply ZZCraftoriumLayout_Script.txt:389 lamp
 item_queue += lamp: lamp
-apply ZZCraftoriumLayout_Script.txt:389 station 								# Twilight's Embrace
+apply ZZCraftoriumLayout_Script.txt:390 station 								# Twilight's Embrace
 station_ct:1
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:390 lamp
+apply ZZCraftoriumLayout_Script.txt:391 lamp
 item_queue += lamp: lamp
-apply ZZCraftoriumLayout_Script.txt:391 station 								# Vampire's Kiss
+apply ZZCraftoriumLayout_Script.txt:392 station 								# Vampire's Kiss
 station_ct:1
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:392 hide lamp
+apply ZZCraftoriumLayout_Script.txt:393 hide lamp
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:393 X60500 Z94636 Y19544
+apply ZZCraftoriumLayout_Script.txt:394 X60500 Z94636 Y19544
 Emit queue: lamp jw bs cl ww lamp ww cl bs jw hide lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1809,40 +1836,40 @@ emit_queue start_coord: x: 60500 z: 92400 y: 19544
 emit_queue end_coord:   x: 60500 z: 94636 y: 19544
 emit_queue delta_total: x:     0 z:  2236 y:     0
 EMIT "4620697946441619099	60700	92400	19544	180 lamp 30   "
-EMIT "4620697946441619114	60538	92400	20035	205 lantern 30"
+EMIT "4620697946441619114	60538	92400	20035	285 lantern 30"
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441648053	60500	92594	19544	270 jw 47     "
+EMIT "4620697946441648110	60500	92594	19544	270 jw 48     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441422480	60500	92797	19544	330 bs 47     "
+EMIT "4620697946441423459	60500	92797	19544	330 bs 48     "
 emit_queue cume_width=520/total_item_width=1840 ratio=0.28
-EMIT "4620697946441422482	60500	93051	19544	270 cl 47     "
+EMIT "4620697946441423461	60500	93051	19544	270 cl 48     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441422484	60500	93274	19544	270 ww 47     "
+EMIT "4620697946441423463	60500	93274	19544	270 ww 48     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441619100	60700	93518	19544	180 lamp 31   "
-EMIT "4620697946441619115	60538	93518	20035	235 lantern 31"
+EMIT "4620697946441619115	60538	93518	20035	177 lantern 31"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441423463	60500	93712	19544	270 ww 48     "
+EMIT "4620697946441395800	60500	93712	19544	270 ww 49     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441423461	60500	93975	19544	270 cl 48     "
+EMIT "4620697946441395798	60500	93975	19544	270 cl 49     "
 emit_queue cume_width=1480/total_item_width=1840 ratio=0.80
-EMIT "4620697946441423459	60500	94158	19544	330 bs 48     "
+EMIT "4620697946441395796	60500	94158	19544	330 bs 49     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441648110	60500	94392	19544	270 jw 48     "
+EMIT "4620697946441648073	60500	94392	19544	270 jw 49     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:394 
-apply ZZCraftoriumLayout_Script.txt:395 #
-apply ZZCraftoriumLayout_Script.txt:396 # Grove Entrance
-apply ZZCraftoriumLayout_Script.txt:397 #
-apply ZZCraftoriumLayout_Script.txt:398 
-apply ZZCraftoriumLayout_Script.txt:399 X60500 Z11    Y19544
-apply ZZCraftoriumLayout_Script.txt:400 station 								# Varen's
+apply ZZCraftoriumLayout_Script.txt:395 
+apply ZZCraftoriumLayout_Script.txt:396 #
+apply ZZCraftoriumLayout_Script.txt:397 # Grove Entrance
+apply ZZCraftoriumLayout_Script.txt:398 #
+apply ZZCraftoriumLayout_Script.txt:399 
+apply ZZCraftoriumLayout_Script.txt:400 X60500 Z11    Y19544
+apply ZZCraftoriumLayout_Script.txt:401 station 								# Varen's
 station_ct:1
 item_queue += lamp
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:401 X60510 Z12    Y19544
+apply ZZCraftoriumLayout_Script.txt:402 X60510 Z12    Y19544
 Emit queue: lamp jw bs cl ww lamp
 emit_queue item width lamp       =   160
 emit_queue item width jw         =   200
@@ -1855,28 +1882,28 @@ emit_queue start_coord: x: 60500 z: 95755 y: 19544
 emit_queue end_coord:   x: 60510 z: 96800 y: 19544
 emit_queue delta_total: x:    10 z:  1045 y:     0
 EMIT "4620697946441619101	60700	95755	19544	180 lamp 32   "
-EMIT "4620697946441619119	60538	95755	20035	333 lantern 32"
+EMIT "4620697946441619119	60538	95755	20035	 83 lantern 32"
 emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441648073	60501	95936	19544	270 jw 49     "
+EMIT "4620697946441898634	60501	95936	19544	270 jw 50     "
 emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441395796	60503	96123	19544	330 bs 49     "
+EMIT "4620697946441898630	60503	96123	19544	330 bs 50     "
 emit_queue cume_width=520/total_item_width=920 ratio=0.57
-EMIT "4620697946441395798	60505	96365	19544	270 cl 49     "
+EMIT "4620697946441898632	60505	96365	19544	270 cl 50     "
 emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441395800	60507	96572	19544	270 ww 49     "
+EMIT "4620697946441898636	60507	96572	19544	270 ww 50     "
 emit_queue cume_width=920/total_item_width=920 ratio=1.00
 EMIT "4620697946441619102	60710	96800	19544	180 lamp 33   "
-EMIT "4620697946441619120	60548	96800	20035	116 lantern 33"
+EMIT "4620697946441619120	60548	96800	20035	166 lantern 33"
 emit_queue cume_width=1080/total_item_width=920 ratio=1.17
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:402 hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
+apply ZZCraftoriumLayout_Script.txt:403 hide lamp 									# WHY ARE TWO LAMPS APPEARING HERE
 item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:403 2 stations 									# TWEAK 1 bs Way of the Arena
+apply ZZCraftoriumLayout_Script.txt:404 2 stations 									# TWEAK 1 bs Way of the Arena
 station_ct:2
 item_queue += station set: ['ww', 'cl', 'bs', 'jw']
 item_queue += station set: ['jw', 'bs', 'cl', 'ww']
-apply ZZCraftoriumLayout_Script.txt:404 # TWEAK 2 bs Whitestrake's
-apply ZZCraftoriumLayout_Script.txt:405 X60510 Z13    Y19544
+apply ZZCraftoriumLayout_Script.txt:405 # TWEAK 2 bs Whitestrake's
+apply ZZCraftoriumLayout_Script.txt:406 X60510 Z13    Y19544
 Emit queue: hide lamp ww cl bs jw lamp jw bs cl ww lamp
 emit_queue item width hide lamp  =   160
 emit_queue item width ww         =   200
@@ -1894,70 +1921,40 @@ emit_queue start_coord: x: 60510 z: 96800 y: 19544
 emit_queue end_coord:   x: 60510 z: 98900 y: 19544
 emit_queue delta_total: x:     0 z:  2100 y:     0
 emit_queue cume_width=160/total_item_width=1840 ratio=0.09
-EMIT "4620697946441898636	60510	96982	19544	270 ww 50     "
+EMIT "4620697946441422502	60510	96982	19544	270 ww 51     "
 emit_queue cume_width=360/total_item_width=1840 ratio=0.20
-EMIT "4620697946441898632	60510	97230	19544	270 cl 50     "
+EMIT "4620697946441422500	60510	97230	19544	270 cl 51     "
 emit_queue cume_width=560/total_item_width=1840 ratio=0.30
-EMIT "4620697946441898630	60510	97399	19544	330 bs 50     "
+EMIT "4620697946441422498	60510	97399	19544	330 bs 51     "
 emit_queue cume_width=720/total_item_width=1840 ratio=0.39
-EMIT "4620697946441898634	60510	97621	19544	270 jw 50     "
+EMIT "4620697946441648027	60510	97621	19544	270 jw 51     "
 emit_queue cume_width=920/total_item_width=1840 ratio=0.50
 EMIT "4620697946441619103	60710	97850	19544	180 lamp 34   "
-EMIT "4620697946441619121	60548	97850	20035	 34 lantern 34"
+EMIT "4620697946441619121	60548	97850	20035	167 lantern 34"
 emit_queue cume_width=1080/total_item_width=1840 ratio=0.59
-EMIT "4620697946441648027	60510	98032	19544	270 jw 51     "
+EMIT "4620697946441648125	60510	98032	19544	270 jw 52     "
 emit_queue cume_width=1280/total_item_width=1840 ratio=0.70
-EMIT "4620697946441422498	60510	98220	19544	330 bs 51     "
+EMIT "4620697946441423489	60510	98220	19544	330 bs 52     "
 emit_queue cume_width=1440/total_item_width=1840 ratio=0.78
-EMIT "4620697946441422500	60510	98463	19544	270 cl 51     "
+EMIT "4620697946441423491	60510	98463	19544	270 cl 52     "
 emit_queue cume_width=1640/total_item_width=1840 ratio=0.89
-EMIT "4620697946441422502	60510	98671	19544	270 ww 51     "
+EMIT "4620697946441423493	60510	98671	19544	270 ww 52     "
 emit_queue cume_width=1840/total_item_width=1840 ratio=1.00
 EMIT "4620697946441619104	60710	98900	19544	180 lamp 35   "
-EMIT "4620697946441619122	60548	98900	20035	328 lantern 35"
+EMIT "4620697946441619122	60548	98900	20035	318 lantern 35"
 emit_queue cume_width=2000/total_item_width=1840 ratio=1.09
 item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:406 hide lamp 									# AND HERE
-item_queue += lamp: hide lamp
-apply ZZCraftoriumLayout_Script.txt:407 station 									# TWEAK bs Willow's Path
-station_ct:1
-item_queue += station set: ['ww', 'cl', 'bs', 'jw']
-apply ZZCraftoriumLayout_Script.txt:408 X60510 Z14    Y19544
-Emit queue: hide lamp ww cl bs jw lamp
-emit_queue item width hide lamp  =   160
-emit_queue item width ww         =   200
-emit_queue item width cl         =   200
-emit_queue item width bs         =   160
-emit_queue item width jw         =   200
-emit_queue item width lamp       =   160
-emit_queue item width total          920
-emit_queue start_coord: x: 60510 z: 98900 y: 19544
-emit_queue end_coord:   x: 60510 z: 99945 y: 19544
-emit_queue delta_total: x:     0 z:  1045 y:     0
-emit_queue cume_width=160/total_item_width=920 ratio=0.17
-EMIT "4620697946441423493	60510	99081	19544	270 ww 52     "
-emit_queue cume_width=360/total_item_width=920 ratio=0.39
-EMIT "4620697946441423491	60510	99328	19544	270 cl 52     "
-emit_queue cume_width=560/total_item_width=920 ratio=0.61
-EMIT "4620697946441423489	60510	99496	19544	330 bs 52     "
-emit_queue cume_width=720/total_item_width=920 ratio=0.78
-EMIT "4620697946441648125	60510	99717	19544	270 jw 52     "
-emit_queue cume_width=920/total_item_width=920 ratio=1.00
-EMIT "4620697946441619105	60710	99945	19544	180 lamp 36   "
-EMIT "4620697946441813360	60548	99945	20035	 12 lantern 36"
-emit_queue cume_width=1080/total_item_width=920 ratio=1.17
-item_queue cleared
-apply ZZCraftoriumLayout_Script.txt:409 
+apply ZZCraftoriumLayout_Script.txt:407 
+apply ZZCraftoriumLayout_Script.txt:408 #
+apply ZZCraftoriumLayout_Script.txt:409 # in front of outfitter station, requires platform
 apply ZZCraftoriumLayout_Script.txt:410 #
-apply ZZCraftoriumLayout_Script.txt:411 # in front of outfitter station, requires platform
+apply ZZCraftoriumLayout_Script.txt:411 # Commented out as room for future expansion
 apply ZZCraftoriumLayout_Script.txt:412 #
-apply ZZCraftoriumLayout_Script.txt:413 # Commented out as room for future expansion
-apply ZZCraftoriumLayout_Script.txt:414 #
-apply ZZCraftoriumLayout_Script.txt:415 # west
-apply ZZCraftoriumLayout_Script.txt:416 # 				X59682 Z99800 Y19548
+apply ZZCraftoriumLayout_Script.txt:413 # west
+apply ZZCraftoriumLayout_Script.txt:414 # 				X59682 Z99800 Y19548
+apply ZZCraftoriumLayout_Script.txt:415 # omit lamp
+apply ZZCraftoriumLayout_Script.txt:416 # station
 apply ZZCraftoriumLayout_Script.txt:417 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:418 # station
-apply ZZCraftoriumLayout_Script.txt:419 # omit lamp
-apply ZZCraftoriumLayout_Script.txt:420 # 				X58855 Z99800 Y19548
-apply ZZCraftoriumLayout_Script.txt:421 
-writing file:ZZCraftoriumLayout_Data.lua  data line_ct:276
+apply ZZCraftoriumLayout_Script.txt:418 # 				X58855 Z99800 Y19548
+apply ZZCraftoriumLayout_Script.txt:419 
+writing file:ZZCraftoriumLayout_Data.lua  data line_ct:274
