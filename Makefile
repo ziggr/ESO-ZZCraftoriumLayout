@@ -22,3 +22,6 @@ ZZCraftoriumLayout_Data.lua: ZZCraftoriumLayout_Parser.py furn.txt ZZCraftoriumL
 spiral:
 	lua Spiral.lua > ZZCraftoriumLayout_Data.lua
 
+furn:
+	lua gen_furn.lua > furn.txt
+
