@@ -294,4 +294,5 @@ furn    lantern  4620697946441813360 Common Lantern, Hanging
 furn    lantern  4620697946441813361 Common Lantern, Hanging
 furn    lantern  4620697946441898682 Common Lantern, Hanging
 furn    lantern  4620697946441898683 Common Lantern, Hanging
+furn    lantern  4620697946441946129 Common Lantern, Hanging
 
